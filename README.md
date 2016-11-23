@@ -1,4 +1,6 @@
-![](_assets/images/documentation/chalk-intro@2x.png)
+Dool Notes:
+- installed Ruby from https://gorails.com/setup/osx/10.12-sierra
+- then followed steps given below
 
 Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll.
 
