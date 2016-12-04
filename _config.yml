@@ -1,7 +1,7 @@
 # Mandatory settings
 
-name: Chalk
-paginate: 25
+name: Ng-ninja
+paginate: 20
 paginate_path: "/posts/page/:num/"
 url: # add site url http://example.com/
 blog_theme: light # Or use dark
@@ -13,10 +13,10 @@ ga_analytics: # Add your GA Tracking Id
 rss_enabled: true # Change to false if not
 social:
   dribbble: # Add your Dribbble handle
-  facebook: # Add your Facebook handle
+  facebook: Ng-ninja-330109027371324 # Add your Facebook handle
   github: # Add your GitHub handle
   linkedin: # Add your LinkedIn handle
-  twitter: # Add your Twitter handle
+  twitter: ng_real_ninja # Add your Twitter handle
   email: # Add your Email address
   bitcoin: # Add your Bitcoin link or address
 
