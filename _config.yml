@@ -4,7 +4,7 @@ name: Ng-ninja
 paginate: 20
 paginate_path: "/posts/page/:num/"
 url: # add site url http://example.com/
-blog_theme: light # Or use dark
+blog_theme: dark # Or use light
 
 # Optional settings
 
