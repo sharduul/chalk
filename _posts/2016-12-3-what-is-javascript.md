@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is JavaScript"
+title: "What is JavaScript?"
 description: "JavaScript programming language analysed, explaining why do you want to use it for your next project."
 tags: [javascript, the-what-series]
 ---
