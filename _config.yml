@@ -11,6 +11,7 @@ blog_theme: dark # Or use light
 discus_identifier: ng-ninja # Add your Disqus identifier
 ga_analytics: # Add your GA Tracking Id
 rss_enabled: true # Change to false if not
+google_analytics: UA-88588900-1 # google analytics tracking ID
 social:
   dribbble: # Add your Dribbble handle
   facebook: Ng-ninja-330109027371324 # Add your Facebook handle
