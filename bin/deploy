@@ -16,7 +16,11 @@ git checkout -b gh-pages
 
 # Build site.
 bower install
-bundle exec jekyll build
+
+#bundle exec jekyll build
+#set git-pages environment to production.. for google analytics
+JEKYLL_ENV=production jekyll build
+
 
 # Delete and move files.
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name '.gitignore' -exec rm -rf {} \;
