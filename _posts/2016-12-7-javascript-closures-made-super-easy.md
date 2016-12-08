@@ -79,9 +79,12 @@ Yes! That's it. That's the definition of JavaScript closures.
 
 So, what's so cool about Closures you might ask. A variable declared in higher scope being accessible in current scope is nothing unusual, isn't it?
 
-### *Well, the beauty of Closures (and thus, of JavaScript) lies in the fact that "innerFoo" function remembers the value of "a" even after the call to "outerFoo" function is returned. The example below demonstrates the same.*   
+### *Well, the beauty of Closures (and thus, of JavaScript) lies in the fact that "innerFoo" function remembers the value of "a" even after the call to "outerFoo" function is returned.* 
 
 <br>
+
+The example below demonstrates the same.
+
 Note, that I have slightly modified the 2nd example as below-
 
 3.
