@@ -2,7 +2,7 @@
 layout: post
 title: "Why should you use AngularJS?"
 description: "AngularJS framework analysed and explained why do you want to use it for your next project."
-tags: [AngularJS, the-what-series]
+tags: [angularjs, the-what-series]
 ---
 
 {% include image.html path="posts/angularjs.jpg" path-detail="posts/angularjs.jpg" alt="AngularJS Framework" %}
