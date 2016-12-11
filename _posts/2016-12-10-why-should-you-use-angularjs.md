@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is AngularJS?"
+title: "Why should you use AngularJS?"
 description: "AngularJS framework analysed and explained why do you want to use it for your next project."
 tags: [AngularJS, the-what-series]
 ---
