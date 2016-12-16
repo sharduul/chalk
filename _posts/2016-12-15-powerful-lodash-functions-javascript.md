@@ -1,24 +1,28 @@
 ---
 layout: post
 title: "5 Very powerful Lodash functions you should know"
-description: "JavaScript programming language analysed, explaining why do you want to use it for your next project."
+description: "Lets see in action how you can streamline your JavaScript code using some of the best Lodash functions."
 tags: [javascript, lodash, listicles]
 ---
 
 {% include image.html path="posts/tools.jpg" path-detail="posts/tools.jpg" alt="Lodash" %}
 
 
-JavaScript, being an awesome programming language, can also sometimes be frustrating. For example, if you search a  solution on how to clone a JavaScript object using vanilla JavaScript, you might end up with couple of conditional statements and a loop through each property. And if the object is nested- then God help you!
+JavaScript, being an awesome programming language, can also sometimes be frustrating. 
 
-But, the good news is you don't have to use vanilla JavaScript when you are coding for real world applications. There are various utility libraries available which makes writing such utility functions, a piece of cake. Lodash is one such toolkit available which helps us write clean and well performing JavaScript functions for manipulating JavaScript objects and collections.
+For example, if you search a  solution on how to clone a JavaScript object using vanilla JavaScript, you might end up with couple of conditional statements and a loop through each property. And if the object is nested- then God help you!
+
+But, the good news is you don't have to use vanilla JavaScript in such cases. There are various utility libraries available which makes writing such utility functions, a piece of cake. Lodash is one such toolkit available which helps us write clean and well performing JavaScript functions for manipulating JavaScript objects and collections.
 
 This post is targeting 5 very powerful Lodash functions that I use very often and you should start using it too. It will make your code base a lot cleaner and save you a ton of time.
 
 
-### 1. Generate random number
-Often when working on projects, we come across use cases where we need to generate a random number. Example: shuffle in music app or shuffle in a poker game.
+### 1. Generate a random number:
+Often when working on projects, we come across use cases where we need to generate a random number. 
 
-Lodash has a very simple utility function to generate random number.
+Example: shuffle in a music app or shuffle in a poker game.
+
+Lodash has a very simple utility function to generate random numbers.
 
 
 {% highlight javascript %}
@@ -34,13 +38,13 @@ _.random(1.2, 5.2);
 If you need a floating point number, lodash has a provision for that as well. The above line of code will generate a floating point number between 1.2 and 5.2.
 
 
-### 2. Filter collection
+### 2. Filter a collection:
 I have lost the count of number of times I have used this utility function by lodash. Many times we need to filter a collection based on some specific properties of the object. 
 
 For example: filter library members who are active. Using lodash, this can be simply written like:
 
 {% highlight javascript %}
-_.filter(members, { active': true });
+_.filter(members, { active: true });
 {% endhighlight %}
 
 You can also provide a function as the second parameter instead of an object. This comes very handy when you have multiple clauses or a complex filter logic. 
@@ -55,22 +59,22 @@ _.filter(memberList, function(member) {
 
 
 ### 3. Deep clone JavaScript object
-If you have ever searched for a solutions of cloning a JavaScript object using vanilla JavaScript you might know how messy and unintuitive they are. But, lodash makes it super easy, pretty looking and of course optimally performant. 
+If you have ever searched for solutions to clone a JavaScript object using vanilla JavaScript you might know how messy and unintuitive they are. But, lodash makes it super easy, pretty looking and of course optimally performant. 
 
-The documentation on [Lodash web page](https://lodash.com/docs/4.16.4#clone) says that this function is loosely based on an algorithm called as [The structured clone algorithm] (https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm).
+The documentation on [Lodash web page](https://lodash.com/docs/4.16.4#clone) says that this function is loosely based on an algorithm called as [The structured clone algorithm](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm).
 
 Allow me to demonstrate the utility function with an example:
 
 {% highlight javascript %}
-var objectArray = [
-	{ 
-		'a': 1 
-	}, 
-	{ 
-		'b': { 
-				'c': 3 
-		} 
-	}];
+var objectArray=
+[{
+    'a':1
+},
+{
+    'b':{
+        'c': 3 
+    }
+}];
 
 
 var clonedObjectArray = _.clone(objectArray);
