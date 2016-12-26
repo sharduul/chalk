@@ -14,19 +14,19 @@ You may have come across various definitions of Closures like:
 
 ### *Closures are functions that remember the environment in which they were created.*
 
-*(What is the environment they are talking about?)*
+(What is the environment they are talking about?)
 
 OR
 
 ### *An inner function having access to the outer function's variables is called a closure.*
 
-*(What are inner and outer functions?)*
+(What are inner and outer functions?)
 
 OR.. (the most notorious one)
 
 ### *Closures are objects that contain a function and a reference to the environment in which the function was created.*
 
-*(...the what?)*
+(...the what?)
 
 
 Well, there's nothing wrong with the above definitions- except, they are too technical for an amateur like me to understand. Developers like me are very visual kinds. We need examples to understand any concept.

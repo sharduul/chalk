@@ -10,11 +10,11 @@ tags: [javascript, design-patterns, listicles]
 
 If you want to make your application maintainable and scalable, following right coding practices is very important. In order to write such a code- using well tested, proven and reusable software solutions can come quite handy. And that is what design patterns are all about-
 
-*1. they are proven and well-tested solutions for frequently occurring software development problems.*
+#### *1. they are proven and well-tested solutions for frequently occurring software development problems.*
 
-*2. they make your code scalable by structuring your code-base the correct way.*
+#### *2. they make your code scalable by structuring your code-base the correct way.*
 
-*3. they are reusable for similar occurring problems.*
+#### *3. they are reusable for similar occurring problems.*
 
 This post is all about discussing how the two "must know" design patterns- Singleton and Module, can be implemented in JavaScript. We shall also discuss why the pattern in question is important and when is it appropriate to use them.
 
