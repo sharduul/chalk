@@ -138,6 +138,7 @@
   }
   a {
     text-decoration: none;
+    border-bottom: none;
   }
 }
 
@@ -162,6 +163,10 @@
   blockquote p {
     margin-bottom: 0;
   }
+
+  em{
+    background-color: $theme-color-yellow-light;
+  }
 }
 
 .article-comments {
@@ -180,6 +185,7 @@
     font-size: 18px;
     color: $gray-light;
     vertical-align: middle;
+    border-bottom: none;
     &:hover {
       color: $gray-dark;
     }

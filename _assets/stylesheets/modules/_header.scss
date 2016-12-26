@@ -32,6 +32,7 @@
     a {
       font-size: 18px;
       color: $header-link-color;
+      border-bottom: none;
       &:hover {
         color: $header-link-color-hover;
       }

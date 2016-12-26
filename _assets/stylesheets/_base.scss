@@ -94,7 +94,9 @@ h6 {
 
 a {
   color: $base-accent-color;
-  text-decoration: underline;
+  //text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid $theme-color-yellow;
   transition: color $base-transition-speed linear;
   &:hover,
   &:active {
