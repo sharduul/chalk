@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Steps on how to setup a simple AngularJS app?"
-description: "Setup AngularJS and get running following these simple steps. Develop your first "Hello World" app in AngularJS."
+description: "Setup AngularJS and get running following these simple steps. Develop your first 'Hello World' app in AngularJS."
 tags: [angularjs, the-how-series]
 ---
 
