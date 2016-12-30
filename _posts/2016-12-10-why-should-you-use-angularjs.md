@@ -83,7 +83,7 @@ Below, you will see a code written in AngularJS which achieves the same goal by 
 AngularJS code:
 
 {% highlight javascript %}
-
+{% raw %}
 <div ng-controller="MyController">
 	<h1 id="msg">Hello {{ message }}</h1>
 	<button id="btn" ng-click="setMessage()">Click Me</button>
@@ -94,7 +94,7 @@ myModule.controller('MyController', function($scope, dep1, dep2) {
   $scope.setMessage = function(arg1) {
     $scope.message = "World";
   };
-
+{% endraw %}
 });
 
 {% endhighlight %}

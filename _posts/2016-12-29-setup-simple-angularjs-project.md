@@ -103,7 +103,9 @@ function myController($scope){
 Now, let's bind this "displayMessage" property to our view:
 
 {% highlight html %}
-<h1>{{ displayMessage }}</label>
+{% raw %}
+<h1>{{ displayMessage }}</h1>
+{% endraw %}
 {% endhighlight %}
 
 Angular uses interpolation to bind objects to view. The curly braces "{{" and "}}" tells Angular that some JavaScript expression has to be evaluated.
