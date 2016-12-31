@@ -13,7 +13,7 @@ A new year is around the corner. Everyone is excited about their new year eve's 
 Below are some options you can choose from:
 
 ### 1 Big Project for the year
-If you follow Mark on Facebook, you might be aware of his awesome AI project called [Javis](https://techcrunch.com/2016/12/20/watch-mark-zuckerbergs-morgan-freeman-voiced-jarvis-ai-in-action/). It is really huge what he has accomplished in one year.
+If you follow Mark on Facebook, you might be aware of his awesome AI project called [Jarvis](https://techcrunch.com/2016/12/20/watch-mark-zuckerbergs-morgan-freeman-voiced-jarvis-ai-in-action/). It is really huge what he has accomplished in one year.
 
 You can also choose to focus on a single thing and build something cool. Something huge.
 
@@ -23,7 +23,7 @@ The trick here is to come up with such an idea which drives you crazy. Something
 ### 12M-12P
 You can choose another option which I call the 12M-12P. Or 12 months - 12 projects challenge. 
 
-You simply have to build one cool things each month. And at the end of the year, your portfolio will be the most wanted one in your field.
+You simply have to build one cool thing each month. And at the end of the year, your portfolio will be the most wanted one in your field.
 
 The best thing about this challenge is that you don't have to come up with fancy project ideas. You can select any super simple idea and build on that. The project can be as simple as creating a twitter bot, or a chrome extension, or a 2D game.
 
@@ -61,7 +61,7 @@ Implementing something that you learn is important. One, it makes sure you have 
 
 Follow inspiring people and form groups. This helps a lot especially during days when you feel a little low and want to give up.
 
-Above challenges can be overwhelming for some of us. So, break it down and focus on smaller goals. If needed, reward yourself for achieving each smaller goals.
+Above challenges can be overwhelming for some of us. So, break it down and focus on smaller goals. If needed, reward yourself for achieving each smaller goal.
 
 <br>
 
