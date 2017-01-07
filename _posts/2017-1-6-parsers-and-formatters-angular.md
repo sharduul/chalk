@@ -130,7 +130,7 @@ When you run the code, you will see that value of "$scope.data" is cleaned up by
 That is the magic of $formatters and $parsers.
 
 
-Conclusions:
+### Summary:
 So, $formatters and $parsers are really cool tools for manipulating data to display it in a certain way on the UI. They also come really handy to validate user input and allow values only that are legal as per the preset rules. Plus, you can use them to cleanup garbage database values too!
 
 
