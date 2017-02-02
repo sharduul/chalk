@@ -1,77 +1,11 @@
-![](_assets/images/documentation/chalk-intro@2x.png)
+![](_assets/images/posts/favicon.png)
 
-Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll.
+About me
 
-## Overview
+I am in love with JavaScript and passionate about web applications development. Currently, I am on a mission to share anything and everything I have learned related to web dev technologies and make them super fun to use for my developer-mates.
 
-Features:
-  - Dark and Light theme.
-  - Filter on tags.
-  - customizable pagination.
-  - Beautified link sharing in Facebook and other social media.
-  - Automatic time to read post indicator.
-  - Automatic RSS feed.
-  - About page.
-  - 404 page.
-  - SEO optimized.
-  - PageSpeed optimized.
-  - Cross browser support (supports all modern browsers).
-  - Media embed for videos.
-  - Enlarge images on click (like Medium).
+Along with vanilla JavaScript, technologies that excites me are AngularJS, AngularJS 2.0, ReactJS, Ionic, NodeJS, HTML5, CSS. I shall update this list as I experiment with the new ones.
 
-Integrations
-  - [Google Analytics](https://analytics.google.com/analytics/web/)
-  - [Google Fonts](https://fonts.google.com/)
-  - [Disqus](https://disqus.com/)
-  - [Ionicons](http://ionicons.com/)
-  - Social media links
+A word of warning: There are some really excellent Web developers and JavaScript ninjas out there. I am not one of them. I am just a curious mind, who is passionate about JavaScript and knows a thing or two about web and mobile development.
 
-Used tools
-  - [Autoprefixer](https://github.com/postcss/autoprefixer)
-  - [Bower](http://bower.io/)
-  - [Circle CI](https://circleci.com/)
-  - [Html-proofer](https://github.com/gjtorikian/html-proofer)
-  - [Jekyll](http://jekyllrb.com/)
-  - [Jekyll assets](https://github.com/jekyll/jekyll-assets)
-  - [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap)
-  - [HTML5 Boilerplate](https://html5boilerplate.com/) (Influenced by)
-  - [Kickster](http://kickster.nielsenramon.com/)
-  - [Retina.js](http://imulus.github.io/retinajs/)
-  - [STACSS](http://stacss.nielsenramon.com/)
-
-## Usage
-
-### Installation
-
-If you haven't installed Ruby then go ahead and install it with: `brew install Ruby`.
-Next setup your environment:
-
-    bin/setup
-
-### Development
-
-Run Jekyll:
-
-    bundle exec jekyll serve
-
-### Deploy to GitHub Pages
-
-Run this in the root project folder in your console:
-
-    bin/deploy
-
-You can find more info on how to use the gh-pages branch and a custom domain [here](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
-
-[View this](https://github.com/nielsenramon/kickster#automated-deployment-with-circle-ci) for more info about automated deployment with Circle CI.
-
-## License
-
-MIT License
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/chalk/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+I believe in the notion that to completely understand any concept you should be able to explain it to others in simplest possible way. And that is the whole purpose of this blog. My aim is to share all the lessons, concepts and techniques I have learned in simplest possible way with everyone who is just as passionate about web technologies as I am. Each article on this blog will be short and crisp, explaining single concept in depth.
