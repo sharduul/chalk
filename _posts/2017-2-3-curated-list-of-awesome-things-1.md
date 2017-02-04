@@ -3,6 +3,7 @@ layout: post
 title: "Curated list of awesome things around the world - 1"
 description: "A curated list of all the inspiring things I discovered in this week. It includes great people I met, cool Startups I came across and incredible solutions to tech problems I solved. "
 tags: [curated-list, tech]
+og_image: "posts/curatedlists/santa-list.jpg"
 ---
 
 {% include image.html path="posts/curatedlists/santa-list.jpg" path-detail="posts/curatedlists/santa-list.jpg" alt="Curated List" %}
