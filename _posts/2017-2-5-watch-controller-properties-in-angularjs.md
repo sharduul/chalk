@@ -2,7 +2,7 @@
 layout: post
 title: "How to $watch controller variables in AngularJS?"
 description: "Everyone knows how to keep $watch on $scope variables. But, many people don't know that they can use the same technique to watch their controller properties as well."
-tags: [angularjs, the-what-series]
+tags: [angularjs, the-how-series]
 og_image: "posts/camera.jpg"
 ---
 
