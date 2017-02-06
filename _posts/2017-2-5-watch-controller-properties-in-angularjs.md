@@ -88,8 +88,8 @@ Notice, the "true" flag we pass to the $watch service. This flag tells Angular t
 So, in this case, changes made to any of the controller properties will fire this watcher and the function will be executed. This is also the reason, you might want to avoid doing such thing. Because any little change made to the controller will fire this watcher whether you intend it or not. And that is not a very performance-friendly idea.
 
 
-Summary:
-In this article, we learned about controller-as syntax and a simple trick using which you can watch any changes made to the controller properties.
+### Summary:
+In this article, we learned about the "controller-as" syntax and a simple trick using which you can watch any changes made to the controller properties.
 
 Oh, and a final note- whenever you create a watch, don't forget to destroy it at the end.
 
