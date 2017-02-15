@@ -12,7 +12,7 @@ This week I have been busy with a lot of office work. Our app was about to go li
 
 So, while I was at it I came across couple of really cool things I wanted to share with you guys.
 
-### 1. [Trying to fix bugs in production]
+### 1. Trying to fix bugs in production
 This one cracks me up every single time.
 
 {% include image.html path="posts/curatedlists/fix-bug-in-production.gif" path-detail="posts/curatedlists/fix-bug-in-production.gif" alt="Trying to fix a bug in production" %}
@@ -28,7 +28,7 @@ Basically, it happens when you try to show off like an expert to someone who is 
 If you are a web developer, there's a lot of good news for you guys. New Chrome updates will make your life real easy. It's all about HTML5, new CSS properties, Web Bluetooth API, and much more.
 
 
-### 4. (Angular Bootstrap)[https://angular-ui.github.io/bootstrap/]
+### 4. [Angular Bootstrap](https://angular-ui.github.io/bootstrap/)
 If you come from the days when Bootstrap was a real hot concept, you might find this one awesome too. We all know that, these days, everyone is talking about Angular, Angular2 and other cool UI frameworks. If you are using Angular in your project you can check out this official Bootstrap library which can be integrated with Angular out-of-the-box.
 
 
