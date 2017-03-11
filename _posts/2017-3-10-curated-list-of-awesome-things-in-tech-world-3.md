@@ -17,8 +17,7 @@ If you are JavaScript fanatic like me, then here's a list of JavaScript conferen
 My resolution for the year 2017 is to explore Raspberry Pi and build something cool with it. Well, they just announced a new version of Wifi and Bluetooth inbuilt in it. Check it out and let me know what cool things you are planning to build using it.
 
 
-### 3. [First SHA1 Collision](https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html?utm_source=hackernewsletter&utm_medium=email&utm_term=fav
-)
+### 3. [First SHA1 Collision](https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html?utm_source=hackernewsletter&utm_medium=email&utm_term=fav)
 They are right when they say nothing is truly secure. SHA-1 algorithm which was considered so fool proof has recently been compromised. Google just announced a practical technique for generating a collision in SHA-1 hash function.
 
 
