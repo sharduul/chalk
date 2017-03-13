@@ -2,6 +2,12 @@ Dool Notes:
 - installed Ruby from https://gorails.com/setup/osx/10.12-sierra
 - then followed steps given below
 
+### To setup on windows
+- from root run command: powershell -file "bin/windows/setup.ps1"
+
+### To serve local serve on windows
+- from root run command: powershell -file "bin/windows/serve.ps1"
+
 Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll.
 
 ## Overview
