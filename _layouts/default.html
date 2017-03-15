@@ -6,6 +6,14 @@
     <div class="grid grid-centered">
       <div class="grid-cell">
         {% include navigation.html %}
+        
+        <!-- Html Elements for Search -->
+        <div id="search-container" class="search-container">
+          <input type="text" class="search-input" id="search-input" placeholder="Search Posts...">
+          <ul id="results-container" class="results-container"></ul>
+        </div>
+
+
         {{ content }}
         {% include footer.html %}
       </div>
