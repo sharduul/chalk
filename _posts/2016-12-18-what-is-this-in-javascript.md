@@ -3,6 +3,7 @@ layout: post
 title: "Super simplified explanation of 'this' keyword in JavaScript"
 description: "One of the most powerful and misunderstood keyword in JavaScript- this made simpler to understand."
 tags: [javascript, the-what-series]
+og_image: "posts/this.jpg"
 ---
 
 {% include image.html path="posts/this.jpg" path-detail="posts/this.jpg" alt="this" %}

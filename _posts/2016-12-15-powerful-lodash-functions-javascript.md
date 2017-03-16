@@ -3,6 +3,7 @@ layout: post
 title: "5 Very powerful Lodash functions you should know"
 description: "Lets see in action how you can streamline your JavaScript code using some of the best Lodash functions."
 tags: [javascript, lodash, listicles]
+og_image: "posts/tools.jpg"
 ---
 
 {% include image.html path="posts/tools.jpg" path-detail="posts/tools.jpg" alt="Lodash" %}

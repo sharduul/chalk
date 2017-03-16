@@ -3,6 +3,7 @@ layout: post
 title: "Is JavaScript really an Object Oriented Language?"
 description: "Let's analyse whether JavaScript is really an object oriented language or not. What do you think?"
 tags: [javascript, object-oriented-programming]
+og_image: "posts/analyse.jpg"
 ---
 
 {% include image.html path="posts/analyse.jpg" path-detail="posts/analyse.jpg" alt="OOPs" %}

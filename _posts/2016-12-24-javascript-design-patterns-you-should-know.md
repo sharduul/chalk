@@ -3,6 +3,7 @@ layout: post
 title: "2 JavaScript Design Patterns that every developer should know"
 description: "Two super important design patterns in JavaScript made easy to learn and implement."
 tags: [javascript, design-patterns, listicles]
+og_image: "posts/design-patterns.jpg"
 ---
 
 {% include image.html path="posts/design-patterns.jpg" path-detail="posts/design-patterns.jpg" alt="design-patterns" %}
