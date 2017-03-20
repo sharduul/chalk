@@ -2,7 +2,7 @@
 layout: post
 title: "Quickstart: Steps to setup a simple Angular 2 app"
 description: "A Quickstart guide to setup your first Angular 2 app easily. Setup your development environment using AngularCLI."
-tags: [angular2, the-how-series]
+tags: [angularjs, angular2, the-how-series]
 og_image: "posts/angular2.jpg"
 ---
 
