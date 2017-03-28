@@ -12,7 +12,7 @@ I'll be honest here. There are [so many good articles](https://www.google.com/we
 
 So, why do we need yet another post?
 
-Well, the only problem with many of those articles is that they are too long and descriptive for the problem we are trying to solve. We don't need to know most of the redundant information in order to use a directive correctly. So, this post will just contain the important points you need to know about a directive's lifecycle. Let's dive in.
+Well, the only problem with many of those articles is that they are too long and descriptive for the problem we are trying to solve. We don't need to know most of the redundant information in order to use and understand directives correctly. So, this post will just contain the important points you need to know about a directive's lifecycle. Let's dive in.
 
 In short, each declared directive executes following four functions(if they are declared):
 1. compile

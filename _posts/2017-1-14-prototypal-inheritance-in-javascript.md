@@ -3,6 +3,7 @@ layout: post
 title: "Prototypal inheritance in JavaScript super simplified!"
 description: "Super simple explanation of what prototypal inheritance in JavaScript is, and how does it work."
 tags: [javascript, the-what-series]
+og_image: "posts/chain.jpg"
 ---
 
 {% include image.html path="posts/chain.jpg" path-detail="posts/chain.jpg" alt="Prototypal Inheritance" %}
@@ -22,7 +23,7 @@ But, how?
 
 There is a very special concept in JavaScript called as Prototype. A prototype is nothing but a template object which is linked to another object. Each object can be used as a prototype to link to another object. 
 
-But, why would do that?
+But, why would you do that?
 
 Because in JavaScript, objects define their own structure unlike classes in Java or C++. Therefore, the structure of a given object can be used to create another new object.
 

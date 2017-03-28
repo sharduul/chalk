@@ -3,6 +3,7 @@ layout: post
 title: "5 Common mistakes JavaScript developers make"
 description: "List of common mistakes you would want to avoid to become a JavaScript ninja."
 tags: [javascript, listicles]
+og_image: "posts/mistakes.jpg"
 ---
 
 {% include image.html path="posts/mistakes.jpg" path-detail="posts/mistakes.jpg" alt="Mistakes" %}
@@ -159,7 +160,7 @@ var sum = 10 + +"5"; 	// 15
 Yes, you read it right. Use "+" in front of the operand. This tells JavaScript to convert it to a number before adding the two operands.
 
 
-Summary:
+### Summary:
 Above mistakes may seem silly and trivial, but when you are working on a complex application it becomes tough to track them down.
 
 Someone has well said, to become a perfectionist you need to practice more. That is true in this case as well. To understand JavaScript at its core, we have to practice it thoroughly. Checkout my post on [this year's programming challenges](http://ngninja.com/posts/new-year-programming-challenge) if you need to practice your coding skills.
