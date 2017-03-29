@@ -114,8 +114,7 @@ To understand this, let's see the following snippet of our user form:
 
 The above "p" tag is the validation error I want to display when the field it invalid. But, notice the "ngIf" expression.
 
-// highlight this //
-I am displaying the error only when the field is dirty, it is invalid and most importantly when the using is NOT "touching" it. That is when the user is not still typing.
+*I am displaying the error only when the field is dirty, it is invalid and most importantly when the using is NOT "touching" it. That is when the user is not still typing.*
 
 I am handling the "touching" part in my "validateOnBlur" directive. I am setting the field to "untouched" when the user is still typing which hides the error message. And when the user has left the field I am setting that field to "touched". So now, if there are any validation errors those will be displayed on the field.
 
