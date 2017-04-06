@@ -76,7 +76,7 @@ npm install --save <package-name>
 {% endhighlight %}
 
 
-* --save includes the installed package in the packages.json file, is not mandatory but is better to have it *
+*--save includes the installed package in the packages.json file, is not mandatory but is better to have it*
 
 We are going to install them all at the same time with a single script(notice that each package is separated with a blank space): 
 
