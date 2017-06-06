@@ -15,9 +15,9 @@ This article is more on simple tricks and hacks that can save you time and make 
 So, let's dive in.
 
 ### 1. +str
-Save yourself from using inbuilt functions like <pre>Number()</pre> or <pre>parseInt()</pre> when you want to convert string to an integer. Simple append <pre>+</pre> in front of the string and you will get the value as a number type. 
+Save yourself from using inbuilt functions like `Number()` or `parseInt()` when you want to convert string to an integer. Simple append `+` in front of the string and you will get the value as a number type. 
 
-Of course, if the string is not a number it will return <pre>NaN</pre>.
+Of course, if the string is not a number it will return `NaN`.
 
 But, you get point, right?!
 
@@ -33,10 +33,10 @@ if(some_variable) {
 }
 {% endhighlight %}
 
-This simple trick saves you from writing long paragraph on the conditions to satisfy to execute certain block of code. Above <pre>if block</pre> simply checks whether the object has any falsy values or not.
+This simple trick saves you from writing long paragraph on the conditions to satisfy to execute certain block of code. Above `if block` simply checks whether the object has any falsy values or not.
 
 ### 3. Get max and min from an array
-You can use the usual <pre>Math.max</pre> and <pre>Math.min</pre> even on the arrays to get the max and min values, respectively.
+You can use the usual `Math.max` and `Math.min` even on the arrays to get the max and min values, respectively.
 
 Here's how its done:
 
@@ -65,18 +65,18 @@ But, true JavaScript ninja's follow smarter ways. We would write the above snipp
 foo == "abc" && doSomething();
 {% endhighlight %}
 
-The above statement will execute <pre>doSomething()</pre> only when <pre>foo == "abc"</pre> condition is met.
+The above statement will execute `doSomething()` only when `foo == "abc"` condition is met.
 
 Let's see what is happening here.
 
-To understand why above statement works, you need to understand that when you use the <pre>logical AND</pre> operator it checks the second operand only if first operand returns <pre>true</pre>. 
+To understand why above statement works, you need to understand that when you use the `logical AND` operator it checks the second operand only if first operand returns `true`. 
 
-If the first operand returns <pre>false</pre> the whole expression is going to be <pre>false</pre>. Hence, the second operand is not evaluated at all.
+If the first operand returns `false` the whole expression is going to be `false`. Hence, the second operand is not evaluated at all.
 
-Therefore in the above example, to execute <pre>doSomething()</pre>, first <pre>foo == "abc"</pre> condition should be met. 
+Therefore in the above example, to execute `doSomething()`, first `foo == "abc"` condition should be met. 
 
 ### 5. Logical OR operator's awesomeness
-Similar to the above example, we can check the inverse using <pre>logical OR</pre> operator.
+Similar to the above example, we can check the inverse using `logical OR` operator.
 
 So, if you want to write something like this:
 
@@ -92,11 +92,11 @@ You can display your ninja skills by writing:
 foo == "abc" || doSomething();
 {% endhighlight %}
 
-The reason why above statement works is because in <pre>logical OR</pre> operator, to evaluate the second operand the first operand should return <pre>false</pre>.
+The reason why above statement works is because in `logical OR` operator, to evaluate the second operand the first operand should return `false`.
 
-Which means to execute <pre>doSomething()</pre>, <pre>foo == "abc"</pre> should return <pre>false</pre>. Meaning, <pre>foo != "abc"</pre> should return <pre>true</pre>.
+Which means to execute `doSomething()`, `foo == "abc"` should return `false`. Meaning, `foo != "abc"` should return `true`.
 
-###Summary:
+### Summary:
 Above mentioned hacks are some of my favorites, which I use regularly in my projects. There are a ton of other tricks in JavaScript which make our lives easy. I will share them in my future post. 
 
 Till then, do let me know what you think about these tips. Also, please let me know if you have some better one's.

@@ -62,3 +62,5 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
 permalink: posts/:slug
+redcarpet:
+  extensions: []
