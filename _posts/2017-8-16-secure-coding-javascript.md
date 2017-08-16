@@ -8,7 +8,9 @@ og_image: "posts/secure.jpg"
 
 {% include image.html path="posts/secure.jpg" path-detail="posts/secure.jpg" alt="Service vs Factory vs Providers" %}
 
-[Studies](http://www.hackmageddon.com/category/security/cyber-attacks-statistics/) have shown that cyber crimes are at all time high, and they are increasing as you are reading this. 
+[Studies](http://www.hackmageddon.com/category/security/cyber-attacks-statistics/) have shown that cyber crimes are at all time high, and they are increasing as you are reading this.
+
+And if you are a Game of Throne's fan, you might be more aware of this lately. If [HBO can be hacked](http://gizmodo.com/what-the-heck-is-going-on-with-the-hbo-game-of-thrones-1797765779), your and my applications are no exceptions to them.  
 
 As software programmers, it is our duty to take the things in our hand and do something about it. Not everyone might be a pro in security and know how hackers work. But, at the very least, we can follow some of the best practices to mitigate such attacks and avoid them as much as possible. And trust me, they work.
 
