@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "JavaScript closures made super easy"
-description: "Super simplified and a fun explanation of the most notorious concept in JavaScript- Closures."
+description: "How does JavaScript Closures work? Super simplified and a fun explanation of JavaScript Closures. JavaScript scopes and closure explained."
 tags: [javascript, the-what-series]
 ---
 

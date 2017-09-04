@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Common mistakes JavaScript developers make"
-description: "List of common mistakes you would want to avoid to become a JavaScript ninja."
+description: "List of common mistakes you would want to avoid to become a JavaScript ninja. JavaScript Callback functions. JavaScript scopes. Strings in JavaScript."
 tags: [javascript, listicles]
 og_image: "posts/mistakes.jpg"
 ---

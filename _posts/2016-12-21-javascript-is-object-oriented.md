@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Is JavaScript really an Object Oriented Language?"
-description: "Let's analyse whether JavaScript is really an object oriented language or not. What do you think?"
+description: "Let's analyse whether JavaScript is really an object oriented language or not. What is Object Oriented Language. How is JavaScript an Object oriented language."
 tags: [javascript, object-oriented-programming]
 og_image: "posts/analyse.jpg"
 ---

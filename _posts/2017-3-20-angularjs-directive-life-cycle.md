@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is Directive's life-cycle in AngularJS"
-description: "Let's understand Compile, Pre-link, Post-link and Controller functions in AngularJS directives. Directive lifehooks. This article explains importance of each function and when to use which function in AngularJS directives."
+description: "Let's understand Compile, Pre-link, Post-link and Controller functions in AngularJS directives. AngularJS Directive lifehooks. This article explains importance of each function and when to use which function in AngularJS directives."
 tags: [angularjs, the-what-series]
 og_image: "posts/directive.jpg"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Which famous companies are using your favorite technologies?"
-description: "Checkout which famous companies use your favorite stack. Or get inspired to learn some new technology."
+description: "Checkout which famous companies use your favorite technology stack. Want to know what technologies companies like Facebook, Youtube, Netflix use?"
 tags: [tech, listicles]
 og_image: "posts/fun/netflix.jpg"
 ---

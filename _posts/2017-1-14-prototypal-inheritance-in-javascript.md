@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prototypal inheritance in JavaScript super simplified!"
-description: "Super simple explanation of what prototypal inheritance in JavaScript is, and how does it work."
+description: "How does Prototypal inheritance work in JavaScript. Super simple explanation of what prototypal inheritance in JavaScript. What is dynamic inheritance. Nuances of Prototypal inheritance."
 tags: [javascript, the-what-series]
 og_image: "posts/chain.jpg"
 ---

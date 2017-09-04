@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Angular 2 Authentication: How to Restrict Access to Pages?"
-description: "Learn how to restrict anonymous users from accessing restricted pages in your application using Angular 2 Authentication."
+description: "What is Angular AuthGuard and how to use it. Learn how to restrict anonymous users from accessing restricted pages in your application using Angular 2 Authentication."
 tags: [angularjs, angular2, the-how-series]
 og_image: "posts/secure.jpg"
 ---

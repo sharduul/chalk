@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3 Advanced lodash functions you should have up your sleeve"
-description: "Lets become a Lodash-ninja and streamline your JavaScript code using some cool Lodash functions."
+description: "Lets become a Lodash-ninja and streamline your JavaScript code using some cool Lodash functions. How to use Lodash with JavaScript. Flatten JavaScript arrays. Chaining methods in JavaScript. Currying in JavaScript."
 tags: [javascript, lodash, listicles]
 ---
 

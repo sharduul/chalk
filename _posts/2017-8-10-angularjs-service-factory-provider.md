@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AngularJS: Service vs Factory vs Providers made super simple"
-description: "Understand the difference between Service vs Factory vs Providers in AngularJS in a super simple terms. And more importantly learn when to use which design pattern."
+description: "Understand the difference between Service vs Factory vs Providers in AngularJS in a super simple terms. And more importantly learn when to use which design pattern in AngularJS."
 tags: [angularjs, design-patterns, the-what-series]
 og_image: "posts/directive.jpg"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 JavaScript tricks every developer should know"
-description: "Useful tips, tricks and hacks in JavaScript every developer should know about. Some shortcuts to make developers' lives easy."
+description: "Useful tips, tricks and hacks in JavaScript every developer should know about. Truthy values in JavaScript. Logical operators in JavaScript."
 tags: [javascript, listicles]
 og_image: "posts/tools.jpg"
 ---

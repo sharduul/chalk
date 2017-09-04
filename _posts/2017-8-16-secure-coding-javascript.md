@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Practices to write a secure JavaScript web application"
-description: "Actionable items to make your JavaScript based Web application more secure. Security principles to make your JavaScript code hack-secure."
+description: "Most important Security principles in JavaScript. Actionable items to make your JavaScript based Web application more secure."
 tags: [javascript, the-how-series, security]
 og_image: "posts/secure.jpg"
 ---

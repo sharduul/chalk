@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Super simplified explanation of 'this' keyword in JavaScript"
-description: "One of the most powerful and misunderstood keyword in JavaScript- this made simpler to understand."
+description: "JavaScript "this" keyword made super simple to understand. How does "this" work in JavaScript. 
 tags: [javascript, the-what-series]
 og_image: "posts/this.jpg"
 ---
