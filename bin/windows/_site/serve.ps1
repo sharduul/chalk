@@ -1,0 +1,2 @@
+iex "jekyll serve"
+
