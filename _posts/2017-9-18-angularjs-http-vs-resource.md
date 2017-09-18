@@ -115,7 +115,7 @@ Both allow you to update headers.
 
 ### Summary
 
-To summarize, `$http` and `$resource` very similar functionality. But, it is recommended to use `$resource when you are dealing with RESTful APIs, because of the powerful programming interface provided by the `$resource` service. And then, you can use `$http` when you are dealing with non-RESTful APIs and services which respond with non-conventionals data types like strings.
+To summarize, `$http` and `$resource` have a very similar functionality. But, it is recommended to use `$resource when you are dealing with RESTful APIs, because of the powerful programming interface provided by the `$resource` service. And then, you can use `$http` when you are dealing with non-RESTful APIs and services which respond with non-conventionals data types like strings.
 
 If you are a beginner, I would recommend using `$http` just to get a better understanding of how asynchronous programming is done in AngularJS. And then, when you start working on complex applications consider switching to the `$resource` service.
 
