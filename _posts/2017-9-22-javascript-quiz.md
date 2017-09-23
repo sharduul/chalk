@@ -17,7 +17,7 @@ What is the difference between `typeof` and `instanceof` operators?
 
 #### Answer:
 
-`typeof` operator simply returns the type of value. The basic primitive type of the value. So, you can use the `typeof` operator to check if it belongs to the basic types supported by JavaScript - number", "string", "boolean", "object", "function" or "undefined".
+`typeof` operator simply returns the type of value. The basic primitive type of the value. So, you can use the `typeof` operator to check if it belongs to the basic types supported by JavaScript - `number`, `string`, `boolean`, `object`, `function` or `undefined`.
 
 {% highlight javascript %}
 typeof true === "boolean"
@@ -123,7 +123,7 @@ So, you know `0` is a `falsy` value in JavaScript. But, if you do something like
 0 === false // false
 {% endhighlight %}
 
-It will return false. But now, try this.
+It will return `false`. But now, try this.
 
 {% highlight javascript %}
 !!0 === fales // true
