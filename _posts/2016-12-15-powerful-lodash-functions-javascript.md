@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Very powerful Lodash functions you should know"
-description: "Lets see in action how you can streamline your JavaScript code using some of the best Lodash functions."
+description: "Lets see in action how you can streamline your JavaScript code using some of the best Lodash functions. Super important Lodash functions with examples."
 tags: [javascript, lodash, listicles]
 og_image: "posts/tools.jpg"
 ---

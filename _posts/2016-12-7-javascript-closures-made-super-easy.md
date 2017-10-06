@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "JavaScript closures made super easy"
-description: "How does JavaScript Closures work? Super simplified and a fun explanation of JavaScript Closures. JavaScript scopes and closure explained."
+description: "How does JavaScript Closures work? Super simplified and a fun explanation of JavaScript Closures with examples. JavaScript scopes and closure explained."
 tags: [javascript, the-what-series]
 ---
 
 {% include image.html path="closure.jpg" path-detail="closure.jpg" alt="closures" %}
 
 
-This post is aimed towards explaining the most misunderstood concept in JavaScript- Closures. In the simplest way possible!
+This post is aimed towards explaining the most misunderstood concept in JavaScript- Closures using super simple examples. In the simplest way possible!
 
 You may have come across various definitions of Closures like:
 
