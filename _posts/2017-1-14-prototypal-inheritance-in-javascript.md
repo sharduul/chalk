@@ -29,6 +29,8 @@ Because in JavaScript, objects define their own structure unlike classes in Java
 
 When an object A is used as the prototype to create another object B, all the functions and members of object A auto-magically descends to object B.
 
+By the way, don't forget to check out the [difference between JavaScript inheritance vs Java inheritance](http://ngninja.com/posts/prototypal-vs-classical-inheritance).
+
 To see the above statement in practice, let's see an example:
 
 A function object (JavaScript version of "class") "Person" is created with a member called "name" and a method called "printName" which prints the name of the Person.
@@ -70,6 +72,8 @@ bob.printName(); // My name is Bob
 The above magic is what is called as the Prototypal inheritance!
 
 "bob" was linked to the "Person" object as its prototype. This linking of objects is called prototype chaining in JavaScript. Objects are linked together is this chain and the last piece of this chain is "null".
+
+If you want to know more on how Prototypal inheritance is different and better than Classical inheritance- check out [this post](http://ngninja.com/posts/prototypal-vs-classical-inheritance).
 
 
 ### Summary:
