@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Prototypal vs Classical inheritance -  which one better?"
-description: "Comparison between prototypal inheritance and classical inheritance on multiple parameters. Is classical inheritance obselete. How does JavaScript inherit objects."
+description: "Comparison between prototypal inheritance and classical inheritance on multiple parameters. Is classical inheritance obselete. How does JavaScript inherit objects. Battle between Java and JavaScript."
 tags: [javascript, interview]
-og_image: "posts/focus.jpg"
+og_image: "posts/js-vs-java.jpg"
 ---
 
-{% include image.html path="posts/focus.jpg" path-detail="posts/focus.jpg" alt="AngularJS Focus Input" %}
+{% include image.html path="posts/js-vs-java.jpg" path-detail="posts/js-vs-java.jpg" alt="AngularJS Focus Input" %}
 
 
 These questions have always bothered me. What is the difference between prototypal and classical inheritance? Is prototypal inheritance better than classical? If yes, then why?
