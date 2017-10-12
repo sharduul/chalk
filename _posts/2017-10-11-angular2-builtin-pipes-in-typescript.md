@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to use Angular 2 built-in Pipes in your components? Simple Trick."
+title: "How to use Angular 2 built-in Pipes in your TypeScript? Simple Trick."
 description: "Built-in Angular 2 pipes can easily be used in templates using interpolation. How to easily use the same pipes in your typescript components."
 tags: [angularjs, angular2, the-how-series]
 og_image: "posts/tools.jpg"
@@ -69,6 +69,8 @@ They are in a form of:
 {% highlight javascript %}
 {minIntegerDigits}.{minFractionDigits}-{maxFractionDigits}
 {% endhighlight %}
+
+Again, you can find the [full demo here](http://plnkr.co/edit/P2SzhTj2jIHbQITXBa6W?p=preview).
 
 ### Summary:
 I hope this short and simple post comes handy when you come across any similar situation. Now, that you have learned how to use built-in pipes in your components, extending them to create your custom pipes is as much easy. Shoot me with any questions or concerns you have.
