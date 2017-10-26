@@ -82,3 +82,5 @@ So, always follow the best coding practices and style guides. For starters, this
 ### Summary:
 These are some of the simplest yet effective action items you can follow to understand more about the technology you are working on and make your app less vulnerable to any kind of breach.
 
+If you are curious about security read about more details on Secure Socket Layer SSL, (here)[http://ngninja.com/posts/how-secure-socket-layer-works].
+

@@ -50,3 +50,6 @@ By the way, HTTPS supported websites are potentially ranked higher in search eng
 
 ### Summary:
 Above article was a primer on SSL certificates in simple language. It is basically a secret code shared between browser and web server for their secret communication.
+
+If you want to learn how to secure your JavaScript applications- [click here](http://ngninja.com/posts/secure-coding-javascript).
+
