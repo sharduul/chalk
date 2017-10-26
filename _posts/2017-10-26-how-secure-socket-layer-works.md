@@ -10,6 +10,8 @@ og_image: "posts/secure.jpg"
 
 Let's learn what is SSL? How does it really work?
 
+If you want to learn how to secure your JavaScript applications- [click here](http://ngninja.com/posts/secure-coding-javascript).
+
 SSL stands for Secure Socket Layer.
 
 In simple English, SSL encrypts the communication between your browser and the web server of the website you are visiting.
