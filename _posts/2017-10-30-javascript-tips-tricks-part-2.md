@@ -146,7 +146,7 @@ Here's how you can load files just for the Internet Explorer.
 <![endif]-->
 {% endhighlight %}
 
-Well, it's not only limited to IE. You can target any platform and write code specific to that platform. Isn't that neat?!
+Well, it's not limited to only IE. You can target any platform and write code specific to that platform. Isn't that neat?!
 
 ### Summary
 These were more of my favorite JavaScript tricks I use regularly. It has made my life easy.
