@@ -10,8 +10,8 @@ og_image: "posts/tricks.jpg"
 
 This article is the Part 2 of the JavaScript tricks series. Below is the list of all the parts of the series-
 
-1. [Part 1](http://ngninja.com/posts/javascript-tricks)
-2. [Part 2](http://ngninja.com/posts/javascript-tips-tricks-part-2)
+1. [JavaScript tips and tricks - Part 1](http://ngninja.com/posts/javascript-tricks)
+2. [JavaScript tips and tricks - Part 2](http://ngninja.com/posts/javascript-tips-tricks-part-2)
 
 I will be adding tricks to this series as I learn them. Keep in mind these tricks and tips are specifically for [ES5](https://en.wikipedia.org/wiki/ECMAScript).
 
@@ -155,5 +155,6 @@ Let me know if you have come across similar situations. And what are your person
 
 Again, this article is the Part 2 of the JavaScript tricks series. Below is the list of all the parts of the series-
 
-1. [Part 1](http://ngninja.com/posts/javascript-tricks)
-2. [Part 2](http://ngninja.com/posts/javascript-tips-tricks-part-2)
+
+1. [JavaScript tips and tricks - Part 1](http://ngninja.com/posts/javascript-tricks)
+2. [JavaScript tips and tricks - Part 2](http://ngninja.com/posts/javascript-tips-tricks-part-2)
