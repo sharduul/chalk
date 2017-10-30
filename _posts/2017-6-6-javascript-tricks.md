@@ -13,7 +13,7 @@ There are tons of articles on the internet on the best practices you should foll
 This article is more on simple tricks and hacks that can save you time and make your code look beautiful. This is the Part 1 of the JavaScript tips and tricks series. Below is the list of all the parts in the series-
 
 1. [Part 1](http://ngninja.com/posts/javascript-tricks)
-1. [Part 2](http://ngninja.com/posts/javascript-tips-tricks-part-2)
+2. [Part 2](http://ngninja.com/posts/javascript-tips-tricks-part-2)
 
 So, let's dive in.
 
@@ -103,3 +103,8 @@ Which means to execute `doSomething()`, `foo == "abc"` should return `false`. Me
 Above mentioned hacks are some of my favorites, which I use regularly in my projects. There are a ton of other tricks in JavaScript which make our lives easy. I will share them in my future post. 
 
 Till then, do let me know what you think about these tips. Also, please let me know if you have some better one's.
+
+Again, this article is the Part 2 of the JavaScript tricks series. Below is the list of all the parts of the series-
+
+1. [Part 1](http://ngninja.com/posts/javascript-tricks)
+2. [Part 2](http://ngninja.com/posts/javascript-tips-tricks-part-2)

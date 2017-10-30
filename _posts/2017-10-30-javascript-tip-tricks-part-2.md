@@ -8,18 +8,18 @@ og_image: "posts/tricks.jpg"
 
 {% include image.html path="posts/tricks.jpg" path-detail="posts/tricks.jpg" alt="JavaScript tips & tricks" %}
 
-This article is the Part 2 of the JavaScript tricks series. Below is the list of all the parts in the series-
+This article is the Part 2 of the JavaScript tricks series. Below is the list of all the parts of the series-
 
 1. [Part 1](http://ngninja.com/posts/javascript-tricks)
-1. [Part 2](http://ngninja.com/posts/javascript-tips-tricks-part-2)
+2. [Part 2](http://ngninja.com/posts/javascript-tips-tricks-part-2)
 
-I will be adding tricks to this series as I learn them. Keep in mind these tricks and tips are for [ES5](https://en.wikipedia.org/wiki/ECMAScript).
+I will be adding tricks to this series as I learn them. Keep in mind these tricks and tips are specifically for [ES5](https://en.wikipedia.org/wiki/ECMAScript).
 
-Let's directly dive into the tricks.
+Let's directly dive in.
 
-1. Contructor like thingy in JavaScript
+### 1. Constructor like thingy in JavaScript
 
-Developers coming from class based languages are too much used to using constructors for initializing their class variables. But, we don't have constructors in JavaScript.
+Developers coming from class-based languages are too much used to implementing constructors for initializing their class members. But, we don't have constructors in JavaScript.
 
 What you can do instead, is use [IIFE pattern](https://codeburst.io/javascript-what-the-heck-is-an-immediately-invoked-function-expression-a0ed32b66c18) to initialize your members when the object is first created. 
 
@@ -47,10 +47,10 @@ var foo = new Foo();
 console.log(foo.getName()); // FooName
 {% endhighlight %}
 
-Although, you don't have to use the [IIFE pattern](https://codeburst.io/javascript-what-the-heck-is-an-immediately-invoked-function-expression-a0ed32b66c18) if you don't want to. Because, in JavaScript, when you say `new Foo()` it executes all the expression in the function `Foo`. But, adding IIFE to your code makes it more structured and is more readable.
+Although, you don't have to use the [IIFE pattern](https://codeburst.io/javascript-what-the-heck-is-an-immediately-invoked-function-expression-a0ed32b66c18) if you don't want to. Because, in JavaScript, when you say `new Foo()` it executes all the expressions in the function `Foo`. But, adding IIFE to your code makes it more structured and is more readable.
 
 
-2. Check if the argument is a Number
+### 2. Check if the argument is a Number
 
 Below is a correct way to validate Number types in JavaScript.
 
@@ -63,16 +63,16 @@ function isNumber(n){
 Let me know if you guys know any better way to do that.
 
 
-3. Default Value
+### 3. Default Value
 
 How do amateurs set default values?
 
 {% highlight javascript %}
 if(bar){
-	foo = bar;
+    foo = bar;
 }
 else {
-	foo = default;
+    foo = default;
 }
 {% endhighlight %}
 
@@ -88,9 +88,9 @@ How do legends set default values?
 foo = bar || default;
 {% endhighlight %}
 
-4. TRUE sort your arrays
+### 4. TRUE sort your arrays
 
-Have you ever had a face palm moment when using the JavaScript sort function out-of-the-box?
+Have you ever had a facepalm moment when using the JavaScript sort function out-of-the-box?
 
 If not, this is that moment.
 
@@ -98,9 +98,9 @@ If not, this is that moment.
 [3,2,1,10,4].sort(); // 1, 10, 2, 3, 4
 {% endhighlight %}
 
-Isn't JavaScript funny?
+Notice how JavaScript placed `10` between `1` and `2` when you sorted the array of numbers. Isn't JavaScript funny?
 
-[Here](https://stackoverflow.com/a/7000924/1902831) is the reason behind it. In short, JavaScript converts objects to strings and performs lexicographical sort on it by default.
+[Here](https://stackoverflow.com/a/7000924/1902831) is the reason behind it. In short, JavaScript converts objects to strings and performs a lexicographical sort on it by default.
 
 To fix this below is the correct way to sort your numbers-
 
@@ -108,13 +108,13 @@ To fix this below is the correct way to sort your numbers-
 [3,2,1,10,4].sort(function(a, b){ return a - b; }); // [1, 2, 3, 4, 10]
 {% endhighlight %}
 
-In [ES6](http://es6-features.org/), it becomes more sexy-
+In [ES6](http://es6-features.org/), it becomes sexier-
 
 {% highlight javascript %}
 [3,2,1,10,4].sort((a,b) => a-b); // [1, 2, 3, 4, 10]
 {% endhighlight %}
 
-5. Disable Right click
+### 5. Disable Right click
 
 Ever wanted to hide your implementation details from users? 
 
@@ -122,21 +122,21 @@ Here is one super important blog post on [how to make your JavaScript secure](ht
 
 Another simple hack to add to it is to disable right click on the page so that users are not able to inspect your web app.
 
-Of course, there are other work arounds to get away this. But, for most of the naive users- this should do the trick.
+Of course, there are other workarounds to get away this. But, for most of the naive users- this should do the trick.
 
 {% highlight javascript %}
 <body oncontextmenu="return false">
-	<div></div>
+    <div></div>
 </body>
 {% endhighlight %}
 
-The attribute `oncontextmenu="return false"` disables the right click menu on your web page.
+The attribute `oncontextmenu="return false"` disables the right-click menu on your web page.
 
-6. Load IE specific script or CSS sheet
+### 6. Load IE specific script or CSS sheet
 
 I am sure your customer, at some point, has changed requirements on you to support the Internet Explorer browser. No one is so lucky not to. :(
 
-Well, you don't have to update your existing JavaScript or CSS code. You just have to write IE specific functionality and load those files if the browser is Internet Explorer.
+Well, you don't have to update your existing JavaScript or CSS code. You just can write IE specific functionality in a separate file and load that file if the browser is Internet Explorer.
 
 Here's how you can load files just for the Internet Explorer. 
 
@@ -146,9 +146,14 @@ Here's how you can load files just for the Internet Explorer.
 <![endif]-->
 {% endhighlight %}
 
-Well, it's it not only for IE. You can target any platform and write code specific to that platform. Isn't that neat?!
+Well, it's not only limited to IE. You can target any platform and write code specific to that platform. Isn't that neat?!
 
 ### Summary
 These were more of my favorite JavaScript tricks I use regularly. It has made my life easy.
 
-Let me know if you have come across similar situations. And what are you personal favorite JavaScript tricks that your like to use?
+Let me know if you have come across similar situations. And what are your personal favorite JavaScript tricks that you're like to use?
+
+Again, this article is the Part 2 of the JavaScript tricks series. Below is the list of all the parts of the series-
+
+1. [Part 1](http://ngninja.com/posts/javascript-tricks)
+2. [Part 2](http://ngninja.com/posts/javascript-tips-tricks-part-2)
