@@ -10,7 +10,10 @@ og_image: "posts/tools.jpg"
 
 There are tons of articles on the internet on the best practices you should follow when coding in JavaScript. This is not one of them.
 
-This article is more on simple tricks and hacks that can save you time and make your code look beautiful.
+This article is more on simple tricks and hacks that can save you time and make your code look beautiful. This is the Part 1 of the JavaScript tips and tricks series. Below is the list of all the parts in the series-
+
+1. [Part 1](http://ngninja.com/posts/javascript-tricks)
+1. [Part 2](http://ngninja.com/posts/javascript-tips-tricks-part-2)
 
 So, let's dive in.
 
