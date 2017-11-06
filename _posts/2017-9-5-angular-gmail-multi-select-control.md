@@ -22,6 +22,8 @@ That tool has always come handy to me. It's one of those moments when you realiz
 
 So, let's see how can we build a simple control like it, using AngularJS and [Bootstrap Angular UI](https://angular-ui.github.io/bootstrap/). For [full demo please visit this codepen](https://codepen.io/sharduul/pen/wqqGXy).
 
+If you use Kendo widgets- check out [how to customize your Kendo multi-select control with ease](http://ngninja.com/posts/kendo-multi-select-widget) in AngularJS.
+
 Our aim is to build a reusable component which lets us perform an action on a batch of items together. Let's call it `multi-checker`. 
 
 As we need to be able to plop it anywhere in the app, we have to make sure that the interface of our component is simple enough and that we don't tightly couple our `multi-checker` component with any of the views.
@@ -174,5 +176,7 @@ So, you can leverage this directive to perform any task you desire. Just like Go
 This was a super simple implementation of Gmail-like multi-checker/multi-select control in AngularJS and UI-Bootstrap. 
 
 We learned how to create a wrapper component. You can leverage that component to perform any task you that might like. You can select all, some or none of of the items using the dropdown or the list itself.
+
+If you want to get started with Kendo UI or want to learn how to customize them, [here is something interesting for you](http://ngninja.com/posts/kendo-multi-select-widget).
 
 Please let me know if you need more clarification on any part of the implementation. Also, do suggest how we can improve this control to do some awesome things.

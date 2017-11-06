@@ -16,6 +16,8 @@ Below is an image from Kendo's official website of how the control actually look
 
 Multiselect controls are necessarily useful in scenarios where you need to select multiple data items. Like selecting your favorite pizza toppings. Or assigning multiple people to some job. The possibilities are infinite.
 
+If you are interested to build a multi-select checkbox control like Gmail- [here is the link](http://ngninja.com/posts/angular-gmail-multi-select-control) for it.
+
 In this article, we will look at some simple code to not only use but also extend and customize the Kendo's Multiselect widget as per your needs.
 
 Let's start with the HTML which uses the Kendo Multiselect directive:
@@ -107,4 +109,9 @@ Check out this [Kendo Multiselect link](https://docs.telerik.com/kendo-ui/api/ja
 Above article shows how easy it is to use Kendo's multi-select widget in your AngularJS application. Kendo gives a lot of control to extend and customize the widget as per your needs. Visit the [Kendo Multiselect widget](http://demos.telerik.com/kendo-ui/multiselect/angular) for playing around with the control.
 
 Let us know if the article was helpful to get started. Also, please leave a comment if you think we can improve our articles in any way.
+
+Also, don't forget to check out [how to create Gmail like multi-select control in AngularJS](http://ngninja.com/posts/angular-gmail-multi-select-control).
+
+
+
 
