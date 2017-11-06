@@ -14,7 +14,9 @@ There are tons of examples online on how to use pipes in your templates. They ar
 For example, if you want to format a value as currency it can be done as follows:
 
 {% highlight javascript %}
+{% raw  %}
 <p>A: {{a | currency:'USD':true:'1.0-0'}}</p>
+{% endraw %}
 {% endhighlight %}
 
 So, if the value of `a` is 2345. It will be displayed as "$2,345". That simple.
