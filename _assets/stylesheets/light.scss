@@ -19,8 +19,8 @@ $white: #fff;
 
 // Font colors
 
-$base-font-color: $gray-dark;
-$base-accent-color: $gray-dark;
+$base-font-color: $gray-darker;
+$base-accent-color: $gray-darker;
 $base-accent-highlighted-color: darken($base-accent-color, 15);
 
 // Border color
@@ -40,6 +40,7 @@ $article-footer-color: $gray-light;
 $article-footer-link-color: $gray-dark;
 $article-footer-link-color-hover: $gray-darkest;
 $article-paginator-color-hover: $gray-darkest;
+
 
 // Imports
 // =============================================================================
