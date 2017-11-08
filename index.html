@@ -8,10 +8,10 @@ description: "We are passionate about JavaScript and Web technologies. We write 
   {% for post in paginator.posts %}
     <li class="article-list-item reveal">
       <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-        <h5>
+        <h4>
           {{ post.title }}
           <span class="icon icon-ios-arrow-thin-right"></span>
-        </h5>
+        </h4>
       </a>
       <p>{{ post.description }}</p>
       <div class="article-list-footer">
