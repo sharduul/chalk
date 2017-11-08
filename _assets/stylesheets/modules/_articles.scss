@@ -4,7 +4,7 @@
 
 .article {
   display: block;
-  margin: 100px 0;
+  margin: 80px 0;
 }
 
 .article-list {
@@ -185,11 +185,11 @@
     display: inline-block;
     margin-right: 10px;
     font-size: 18px;
-    color: $gray-light;
+    //color: $gray-light;
     vertical-align: middle;
     border-bottom: none;
     &:hover {
-      color: $gray-dark;
+      //color: $gray-dark;
     }
   }
 }
