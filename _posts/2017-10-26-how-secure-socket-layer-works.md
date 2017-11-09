@@ -8,7 +8,7 @@ og_image: "posts/secure.jpg"
 
 {% include image.html path="posts/secure.jpg" path-detail="posts/secure.jpg" alt="SSL certificate" %}
 
-I am sure you must have heard about HTTPS. Ever wondered what does the "S" in HTTPS stands for? And, how does it really work? 
+I am sure you must have heard about HTTPS. Ever wondered what does the "S" in HTTPS stand for? And, how does it really work? 
 
 This article dives into the details of Security Socket Layer certificates and why you should care about it.
 
