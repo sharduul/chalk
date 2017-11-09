@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kendo-AngularJS: How to customize Kendo multi select directive?"
+title: "AngularJS: How to customize Kendo multi-select dropdown widget?"
 description: "Kendo support for Multi select control. How to use Kendo multi-select control in your AngularJS app."
 tags: [angularjs, kendo, the-how-series]
 og_image: "posts/puzzle.jpg"
