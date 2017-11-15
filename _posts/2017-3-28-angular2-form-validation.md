@@ -11,7 +11,13 @@ og_image: "posts/secure.jpg"
 
 Every came across a situation where validation error is fired when a user is still typing on the form? Yeah. It is frustrating.
 
-Although I think there should be an out of the box solution for this, currently there is none for Angular 2. But there is a workaround you could use. The solution is to fire validation error when use focus-out from the current field.
+Although I think there should be an out of the box solution for this, currently there is none for Angular 2. 
+
+## Update - November 11, 2017
+
+Angular 5 has now added this functionality out of the box. You can [check out this link](https://blog.angular.io/version-5-0-0-of-angular-now-available-37e414935ced) to use the out of the box solution of validation and model update on blur.
+
+But for people still working on Angular 2 projects- there is a workaround you could use. The solution is to fire validation error when use focus-out from the current field.
 
 I know. It might not be the best solution. But it is at least a better user experience than getting interrupted by error messages when I am still on the field typing something.
 
@@ -20,6 +26,8 @@ So, let's see how we can fire validation errors on-blur in Angular 2. Basically,
 Follow the [complete demo here](https://embed.plnkr.co/04anApG7LpPz6pTfCOHD/), for better understanding.
 
 The first step is to create a directive which will handle "focus" and "focusout" event on a particular input field.
+
+## Validation On Blur directive
 
 
 {% highlight javascript %}
@@ -31,6 +39,7 @@ export class MyDirective {
   @Input('validateFormControl') validateFormControl;
 
   constructor() { }
+
   @HostListener('focus', ['$event.target'])
     onFocus(target) {
     console.log("Focus called");
@@ -39,11 +48,13 @@ export class MyDirective {
     
     console.log(this.validateFormControl.touched);
     }
+
   @HostListener('focusout', ['$event.target'])
   onFocusout(target) {
     console.log("Focus out called");
     this.validateFormControl.markAsTouched();
   }
+
 }
 {% endhighlight %}
 
@@ -60,6 +71,8 @@ Next, we want to listen to the "focus" and "focusout" events on the "input" elem
 So, that's the overview of our directive. Simple, isn't it?
 
 Now, let's move on to our user form which I have implemented in "AppComponent" component.
+
+## Usage of Validation on Blur directive
 
 
 {% highlight html %}
@@ -94,6 +107,7 @@ onFocus(target) {
   console.log("Focus called");
   this.validateFormControl.markAsUntouched();
 }
+
 @HostListener('focusout', ['$event.target'])
 onFocusout(target) {
   console.log("Focus out called");
@@ -119,8 +133,10 @@ The above "p" tag is the validation error I want to display when the field it in
 I am handling the "touching" part in my "validateOnBlur" directive. I am setting the field to "untouched" when the user is still typing which hides the error message. And when the user has left the field I am setting that field to "touched". So now, if there are any validation errors those will be displayed on the field.
 
 
-### Summary:
+## Summary:
 Above is the extensive explanation of a super simple directive to fire validation messages on-blur event. This should definitely make your users feel more comfortable while filling up the forms.
+
+Please not that if you are using Angular 5 the same above functionality is now available inbuilt. [Check out this link](https://blog.angular.io/version-5-0-0-of-angular-now-available-37e414935ced) to see how you can use it.
 
 Please let me know what you think about the solution. Also, shoot a reply if you have a better one.
 
