@@ -21,11 +21,11 @@ But for people still working on Angular 2 projects- there is a workaround you co
 
 I know. It might not be the best solution. But it is at least a better user experience than getting interrupted by error messages when I am still on the field typing something.
 
-So, let's see how we can fire validation errors on-blur in Angular 2. Basically, we want to leverage the "touch" property of form controls and use to decide whether or not to show the error message. 
+So, let's see how we can fire validation errors on-blur in Angular 2. Basically, we want to leverage the `touch` property of form controls and use to decide whether or not to show the error message. 
 
 Follow the [complete demo here](https://embed.plnkr.co/04anApG7LpPz6pTfCOHD/), for better understanding.
 
-The first step is to create a directive which will handle "focus" and "focusout" event on a particular input field.
+The first step is to create a directive which will handle `focus` and `focusout` event on a particular input field.
 
 ## Validation On Blur directive
 
@@ -59,18 +59,18 @@ export class MyDirective {
 {% endhighlight %}
 
   
-In the above code snippet, we are creating a directive called "MyDirective" with "[validateOnBlur]" as the selector. Which means, to use this directive declare "validateOnBlur" as an attribute on that element. Like this:
+In the above code snippet, we are creating a directive called `MyDirective` with `[validateOnBlur]` as the selector. Which means, to use this directive declare `validateOnBlur` as an attribute on that element. Like this:
 
 {% highlight html %}
 <input name="date" type="text" validateOnBlur />
 {% endhighlight %}
 
 
-Next, we want to listen to the "focus" and "focusout" events on the "input" element. For this, we use ["@HostListener"](https://angular.io/docs/ts/latest/guide/attribute-directives.html) decorator. We will get into the implementation of these event handlers later.
+Next, we want to listen to the `focus` and `focusout` events on the `input` element. For this, we use [`@HostListener`](https://angular.io/docs/ts/latest/guide/attribute-directives.html) decorator. We will get into the implementation of these event handlers later.
 
 So, that's the overview of our directive. Simple, isn't it?
 
-Now, let's move on to our user form which I have implemented in "AppComponent" component.
+Now, let's move on to our user form which I have implemented in `AppComponent` component.
 
 ## Usage of Validation on Blur directive
 
@@ -84,9 +84,9 @@ Now, let's move on to our user form which I have implemented in "AppComponent" c
 {% endhighlight %}
 
 
-I am using "ReactiveFormsModule" module in this example. Please read this article on [Model Drive Forms](https://scotch.io/tutorials/using-angular-2s-model-driven-forms-with-formgroup-and-formcontrol) for better understanding.
+I am using `ReactiveFormsModule` module in this example. Please read this article on [Model Drive Forms](https://scotch.io/tutorials/using-angular-2s-model-driven-forms-with-formgroup-and-formcontrol) for better understanding.
 
-The only element we want to focus here on is the "input" element:
+The only element we want to focus here on is the `input` element:
 
 {% highlight html %}
 <input name="date" type="text" formControlName="username" 
@@ -94,9 +94,9 @@ The only element we want to focus here on is the "input" element:
 {% endhighlight %}
 
     
-You can see how I am using the "validateOnBlur" directive that I implemented above. The next attribute is "[validateFormControl]". It is actually a parameter I am passing to "validateOnBlur" directive. And the value of that parameter is the form-control object.
+You can see how I am using the `validateOnBlur` directive that I implemented above. The next attribute is `[validateFormControl]`. It is actually a parameter I am passing to `validateOnBlur` directive. And the value of that parameter is the form-control object.
 
-Doing this will let me use all the nice properties of that particular control. In this case, we are only interested in the "touched" property of that "input" control.
+Doing this will let me use all the nice properties of that particular control. In this case, we are only interested in the `touched` property of that `input` control.
 
 Now, going back to our directive, let's see how we can toggle this property.
 
@@ -116,7 +116,7 @@ onFocusout(target) {
 {% endhighlight %}
 
 
-As you can see above, I am using "markAsTouched" and "markAsUntouched" functions on the form-control to toggle the "touched" property of that control. I am just marking it as "untouched" when I focus on the input control and then mark it as "touched" when I am leaving the control.
+As you can see above, I am using `markAsTouched` and `markAsUntouched` functions on the form-control to toggle the `touched` property of that control. I am just marking it as `untouched` when I focus on the input control and then mark it as `touched` when I am leaving the control.
 
 Now, why I am doing this?
 
@@ -126,11 +126,11 @@ To understand this, let's see the following snippet of our user form:
 <p *ngIf="loginForm.controls['username'].touched && loginForm.controls['username'].dirty && loginForm.controls['username'].invalid">Invalid</p>
 {% endhighlight %}
 
-The above "p" tag is the validation error I want to display when the field it invalid. But, notice the "ngIf" expression.
+The above `p` tag is the validation error I want to display when the field it invalid. But, notice the `ngIf` expression.
 
-*I am displaying the error only when the field is dirty, it is invalid and most importantly when the using is NOT "touching" it. That is when the user is not still typing.*
+*I am displaying the error only when the field is dirty, it is invalid and most importantly when the using is NOT `touching` it. That is when the user is not still typing.*
 
-I am handling the "touching" part in my "validateOnBlur" directive. I am setting the field to "untouched" when the user is still typing which hides the error message. And when the user has left the field I am setting that field to "touched". So now, if there are any validation errors those will be displayed on the field.
+I am handling the `touching` part in my `validateOnBlur` directive. I am setting the field to `untouched` when the user is still typing which hides the error message. And when the user has left the field I am setting that field to `touched`. So now, if there are any validation errors those will be displayed on the field.
 
 
 ## Summary:
