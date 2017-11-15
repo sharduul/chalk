@@ -68,7 +68,7 @@ In the above code snippet, we are creating a directive called `MyDirective` with
 
 Next, we want to listen to the `focus` and `focusout` events on the `input` element. For this, we use [`@HostListener`](https://angular.io/docs/ts/latest/guide/attribute-directives.html) decorator. We will get into the implementation of these event handlers later.
 
-If you want to get better understanding of what's happening under the hood- [do read this gem](http://amzn.to/2zMIQO2) which provides practical recipies for using Angular 2 in real world applications.
+If you want to get better understanding of what's happening under the hood- [do read this gem](http://amzn.to/2zMIQO2) which provides practical recipes for using Angular 2 in real world applications.
 
 So, that's the overview of our directive. Simple, isn't it?
 
