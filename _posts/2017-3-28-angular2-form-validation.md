@@ -68,6 +68,8 @@ In the above code snippet, we are creating a directive called `MyDirective` with
 
 Next, we want to listen to the `focus` and `focusout` events on the `input` element. For this, we use [`@HostListener`](https://angular.io/docs/ts/latest/guide/attribute-directives.html) decorator. We will get into the implementation of these event handlers later.
 
+If you want to get better understanding of what's happening under the hood- [do read this gem](http://amzn.to/2zMIQO2) which provides practical recipies for using Angular 2 in real world applications.
+
 So, that's the overview of our directive. Simple, isn't it?
 
 Now, let's move on to our user form which I have implemented in `AppComponent` component.
@@ -131,6 +133,8 @@ The above `p` tag is the validation error I want to display when the field it in
 *I am displaying the error only when the field is dirty, it is invalid and most importantly when the using is NOT `touching` it. That is when the user is not still typing.*
 
 I am handling the `touching` part in my `validateOnBlur` directive. I am setting the field to `untouched` when the user is still typing which hides the error message. And when the user has left the field I am setting that field to `touched`. So now, if there are any validation errors those will be displayed on the field.
+
+If you are new to the world of TypeScript [this book](http://amzn.to/2A1RPxM) will make your life easy when working on Angular 2 applications.
 
 
 ## Summary:
