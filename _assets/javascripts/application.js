@@ -1,20 +1,19 @@
 //= require_self
 
-// Initialize fluidbox
+$(document).ready(function() {
+  // ScrollAppear
+  if (typeof $.fn.scrollAppear === "function") {
+    $(".scrollappear").scrollAppear();
+  }
 
-$(function () {
-  $('.fluidbox-trigger').fluidbox();
-})
+  // Zooming
+  new Zooming({ customSize: "100%", scaleBase: 0.9, scaleExtra: 0 }).listen(
+    ".zooming"
+  );
 
-// Initialize scrollreveal
-
-window.sr = ScrollReveal({ reset: true });
-sr.reveal('.reveal', {
-  distance: '0',
-  duration: 500,
-  easing: 'ease-in-out',
-  origin: 'top',
-  scale: 1,
-  reset: false,
-  viewFactor: 0
+  // Share buttons
+  $(".article-share a").on("click", function() {
+    window.open($(this).attr("href"), "Share", "width=200,height=200,noopener");
+    return false;
+  });
 });

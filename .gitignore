@@ -1,6 +1,16 @@
-!.keep
+# Global
 *.DS_Store
+Desktop.ini
+Thumbs.db
+node_modules/
+
+# Project
+!.keep
 *.sass-cache
-/.asset-cache/*
-/_site/*
-/_assets/bower/*
+/_assets/yarn/
+/_site/
+/.jekyll-cache/
+Gemfile.lock
+package-lock.json
+yarn.lock
+.idea
