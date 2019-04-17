@@ -3,10 +3,10 @@ layout: post
 title: "Acorns Review | 2019"
 description: "Acorns is the leading spare change investment app today. Perfect online platform for beginners to start investing at low fees."
 tags: [personal-finance, acorns]
-og_image: "posts/acorns-reviews.jpg"
+og_image: "posts/acorns-reviews.png"
 ---
 
-{% include image.html path="posts/acorns-reviews.jpg" path-detail="posts/acorns-reviews.jpg" alt="Acorns Reviews 2019" %}
+{% include image.html path="posts/acorns-reviews.png" path-detail="posts/acorns-reviews.png" alt="Acorns Reviews 2019" %}
 
 
 Acorns is a micro-investing app which puts saving your hard earned money on auto-pilot. It is made with a modern perspective in mind - by merging robo-advisor and automate saving tool. 
