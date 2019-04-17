@@ -6,7 +6,7 @@ tags: [web, http2, the-what-series]
 og_image: "posts/specific/http2.jpg"
 ---
 
-{% include image.html path="posts/specific/http2.jpg" path-detail="posts/specific/puzzle.jpg" alt="Kendo UI multi-select widget" %}
+{% include image.html path="posts/specific/http2.jpg" path-detail="posts/specific/puzzle.jpg" alt="HTTP2" %}
 
 
 One of every five people I meet is talking about this sizzling new topic- The [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2). But, I am not really sure how many of us really know what we are talking about exactly.
