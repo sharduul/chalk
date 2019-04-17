@@ -7,15 +7,15 @@ set -e
 
 echo "Started deploying"
 
-# Checkout gh-pages branch.
-if [ `git branch | grep gh-pages` ]
-then
-  git branch -D gh-pages
-fi
-git checkout -b gh-pages
+# # Checkout gh-pages branch.
+# if [ `git branch | grep gh-pages` ]
+# then
+#   git branch -D gh-pages
+# fi
+# git checkout -b gh-pages
 
 # Build site.
-bower install
+bower --allow-root install
 
 #bundle exec jekyll build
 #set git-pages environment to production.. for google analytics
