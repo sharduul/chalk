@@ -15,6 +15,8 @@ The platform invests spare change whenever you make any purchase using your link
 
 Let me tell you how!
 
+### How does it work?
+
 Acorns is a computer managed investment account. All you have to do is link your credit card and debit cards which you normally use for your day to day purchases. You just have to link these cards to your Acorns account and simply continue living your life. Paying for gas, the food, your morning coffee, and so on.
 
 Acorns will then kick in and round up your purchases to the nearest dollar and invest it for you. And don't worry you don't have to be a stock broker or a hedge fund manager to be doing it. The app is made for layman people who are just beginners and wants to discipline their spending and invest their money. And it is fully automated.
@@ -22,7 +24,7 @@ Acorns will then kick in and round up your purchases to the nearest dollar and i
 Acorns is an app which you just turn on and you forget it. And few months down the lane you see your pennies turned into huge bucks!
 
 
-So, where do Acorns invest your money?
+### So, where do Acorns invest your money?
 
 Acorns invest your money in low-cost ETFs (Exchange Traded Funds.). They have a number of prebuilt ETF portfolios. You just have to choose how aggressive or moderate you want your investments to be.
 
@@ -36,14 +38,7 @@ And you know the best part? You don't have to anything at all!
 
 Just keep making your regular purchases. Once you link up your credit cards and debit cards - Acorns will handle your investment portfolio all by itself.
 
-How does it look?
-
-The user interface of the Acorns app is super slick and easy to use. It is the perfect friendly app for beginners.
-
-<explain some of the main screens>
-
-
-What is the catch?
+### What is the catch?
 
 Well, I can understand. Everything I explained sounds super nice and dandy. But, nothing is as beautiful you might say. So, what is the catch? 
 
@@ -55,38 +50,44 @@ If you are a college student you are in luck!. The fee of $1/month is waived for
 
 But, you can trust me when I say this-this fee is almost negligible considering the service the Acorns platform is offering you. And considering how much other platforms or advisors charge for such services.
 
-Pros and Cons
+### Pros and Cons
 
 Let's see some pros and cons of using Acorns app.
 
-Pros:
-Start with as little as $5. (Ssh! You can get it from me. Keep reading.) 📖
-It is completely automated.
-Prebuilt ETF portfolios. You just have to choose how aggressive your portfolio should be.
-Shows you your investment projections. It will show what your portfolio value would be in 5 years, 10 years, or 50 years.
-Found money program. It is like a builtin cash-back program. More details below.
-Educational portal right within the app. It has some great articles on managing your personal finances, getting out of debt and so much more.
-The fee is as less as $1 per month.
-You can save for retirement using their Acorns Later plan for $2/month.
+#### Pros:
+- Start with as little as $5. (Ssh! You can get it from me. Keep reading.) 📖
+- It is completely automated.
+- Prebuilt ETF portfolios. You just have to choose how aggressive your portfolio should be.
+- Shows you your investment projections. 
+  - It will show what your portfolio value would be in 5 years, 10 years, or 50 years.
+- Found money program. 
+  - It is like a builtin cash-back program.
+- Educational portal right within the app. 
+  - It has some great articles on managing your personal finances, getting out of debt and so much more.
+- The fee is as less as $1 per month.
+- You can save for retirement using their Acorns Later plan for $2/month.
 
-Cons:
-It has limited investment options to choose from. This won't be a problem for beginners but if you are a seasoned investor you might feel this limitation.
-No individual stocks to pick from.
-Is Acorns safe?
+#### Cons:
+- It has limited investment options to choose from. 
+  - This won't be a problem for beginners but if you are a seasoned investor you might feel this limitation.
+- No individual stocks to pick from.
+
+
+### Is Acorns safe?
 
 Yes! It is completely safe. All the data is encrypted with the 256-bit encryption algorithm. So, you can be sure that no one can read your data over the network.
 
 Acorns is also SIPC insured up to $500,000. Which mean, if acorns go out of business you will get up to $500,000 amount back.
 
 
-Who is it for?
+### Who is it for?
 
 Like every other app, this app might be or might not be for you. Here's a checklist to see if you should really get into investing using Acorns.
 
-Are you a newbie investor who wants to get started with investments? Get this app now!
-Are you someone thinking of starting another stream of passive income? Get this app now!
-Do you spend a lot more than you save your money? Get this app now!
-Are you Warren Buffet? You can skip using this app sir.
+- Are you a newbie investor who wants to get started with investments? Get this app now!
+- Are you someone thinking of starting another stream of passive income? Get this app now!
+- Do you spend a lot more than you save your money? Get this app now!
+- Are you Warren Buffet? You can skip using this app sir.
 
 
 Wanna sign up for Acorns?
