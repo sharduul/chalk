@@ -91,3 +91,7 @@ Like every other app, this app might be or might not be for you. Here's a checkl
 
 
 Wanna sign up for Acorns?
+
+### [Sign Up and Get $5 completely FREE!](http://bit.ly/acornFree)
+
+Use this link and get $5 completely FREE!
