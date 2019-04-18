@@ -15,6 +15,7 @@ echo "Started deploying"
 # git checkout -b gh-pages
 
 # Build site.
+yarn install --modules-folder ./_assets/yarn
 bower --allow-root install
 
 #bundle exec jekyll build
