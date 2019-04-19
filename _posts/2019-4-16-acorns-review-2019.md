@@ -57,17 +57,17 @@ But, you can trust me when I say this-this fee is almost negligible considering 
 Let's see some pros and cons of using Acorns app.
 
 #### Pros:
-- Start with as little as $5. (Ssh! You can get it from me. Keep reading.) 📖
-- It is completely automated.
-- Prebuilt ETF portfolios. You just have to choose how aggressive your portfolio should be.
+- **Start with as little as $5.** (Ssh! You can get it from me. Keep reading.) 📖
+- It is **completely automated.**
+- **Prebuilt ETF portfolios.** You just have to choose how aggressive your portfolio should be.
 - Shows you your investment projections. 
-  - It will show what your portfolio value would be in 5 years, 10 years, or 50 years.
+  - It will show what your **portfolio value** would be **in 5 years, 10 years, or 50 years**.
 - Found money program. 
-  - It is like a builtin cash-back program.
-- Educational portal right within the app. 
+  - It is like a **builtin cash-back program.**
+- **Educational portal** right within the app. 
   - It has some great articles on managing your personal finances, getting out of debt and so much more.
-- The fee is as less as $1 per month.
-- You can save for retirement using their Acorns Later plan for $2/month.
+- The fee is as less as **$1 per month**.
+- You can **save for retirement** using their Acorns Later plan for $2/month.
 
 #### Cons:
 - It has limited investment options to choose from. 
