@@ -1,4 +1,9 @@
-Dool Notes:
+## Dool Notes:
+
+### EACCES: permission denied in VS Code MAC
+sudo chown -R sbagade `pwd`
+
+### Setup
 - installed Ruby from https://gorails.com/setup/osx/10.12-sierra
 - then followed steps given below
 
