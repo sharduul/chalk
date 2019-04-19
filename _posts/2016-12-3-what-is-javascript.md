@@ -55,4 +55,4 @@ There are also other online tools available where you can experiment with this l
 1. [JS Bin](http://jsbin.com/?js,console)
 2. [JSFiddle](https://jsfiddle.net/)
 
-For the first post on my new blog I just wanted start with giving a high level explanation of the programming language I am immensely passionate about- JavaScript. Get ready, for things are going to get pretty serious at [Ng-ninja](http://ngninja.com/)!
+For the first post on my new blog I just wanted start with giving a high level explanation of the programming language I am immensely passionate about- JavaScript. Get ready, for things are going to get pretty serious at [Ninja Academy](http://ngninja.com/)!
