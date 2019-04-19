@@ -172,6 +172,10 @@
     width: -webkit-fill-available;
     margin: 0 auto;
   }
+
+  .small {
+    font-size: $sm-font-size;
+  }
 }
 
 .article-comments {
