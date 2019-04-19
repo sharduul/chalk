@@ -29,7 +29,7 @@
         display: inline-block;
         font-size: 11px;
         font-weight: 600;
-        letter-spacing: .1em;
+        letter-spacing: 0.1em;
         color: $gray;
         text-transform: uppercase;
         transition: color $base-transition-speed linear;
@@ -115,7 +115,6 @@
   text-align: center;
 }
 
-
 // Paginator
 // =============================================================================
 
@@ -165,10 +164,14 @@
     margin-bottom: 0;
   }
 
-  em{
+  em {
     background-color: $theme-color-yellow-light;
   }
 
+  img {
+    width: -webkit-fill-available;
+    margin: 0 auto;
+  }
 }
 
 .article-comments {
@@ -207,37 +210,34 @@
   }
 }
 
-
-
 .search-container {
-    max-width: 800px;
+  max-width: 800px;
 
-    .search-input {
-      width: 100%;
-      padding: 8px 15px;
-      margin-top: 10px;
+  .search-input {
+    width: 100%;
+    padding: 8px 15px;
+    margin-top: 10px;
+  }
+
+  .results-container {
+    position: absolute;
+    z-index: 999;
+    max-height: 200px;
+    overflow-y: auto;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: $max-width - 40px;
+    list-style-type: none;
+    padding: 10px;
+
+    li {
+      padding: 5px 15px;
     }
+  }
 
-    .results-container {
-      position: absolute;
-      z-index: 999;
-      max-height: 200px;
-      overflow-y: auto;
-      background: #fff;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-      width: 100%;
-      max-width: $max-width - 40px;
-      list-style-type: none;
-      padding: 10px;
-
-      li {
-        padding: 5px 15px;
-      }
-    }
-
-    // hide ul if there are no results
-    .results-container:empty {
-      display:none;
-    }
-
+  // hide ul if there are no results
+  .results-container:empty {
+    display: none;
+  }
 }
