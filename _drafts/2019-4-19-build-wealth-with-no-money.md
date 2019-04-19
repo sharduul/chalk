@@ -2,7 +2,7 @@
 layout: post
 title: "How To Build Wealth Even If Your Pockets Are Empty?"
 description: "This articles sheds light on some creative ways to build wealth super quickly even if you have no money. Building wealth and becoming financially independent is easier than you think."
-tags: [personal-finance]
+tags: [personal-finance, passive-income]
 og_image: "posts/acorns-reviews.png"
 ---
 
