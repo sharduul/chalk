@@ -75,61 +75,74 @@ We are here to help you guys build wealth. Create multiple streams of income. An
 
 And, don't be afraid to fail. Just be consistent at what you are trying to solve - one day will come when you will be amazed at what you have created. And in the process you will surely learn some invaluable lessons.
 
+### Invest In Yourself
+
+After you complete the above steps - don't just stop there. Keep doing things. Learn new things everyday.
+
+One sure way to do it is - keep following our blog for constantly adding value to your life.
+
+But, don't stop there. Follow more resources online. Don't be afraid to buy courses if you have to. It doesn't have to be expensive. Start with free courses at first. But whatever you do, don't ever stop learning.
+
+And keep in your mind - YouTube is your best buddy!
+
+### Saving Money
+
+After you have learned new skills, started your business, switched multiple jobs you might still be the one struggling with having money in your account at the end of the month. 
+
+And that is because we are not taught how to save money very well. Not in schools, not by our parents. But, trust me this one habit has made people Millionaires.
+
+> > Each dollar saved is a dollar earned.
+
+Keep that quote in your mind forever. And follow the below actionable steps to get good at saving your hard earned money.
+
+#### Do not buy a new car
+- Buying new car is the main money-drainer these days.
+- You don't have to buy a new car to show off your promotion.
+- Buy a 2-5 year car. It works the same as the new one but has undergone its depreciation period.
+- Drive that car until it does not drive anymore.
+
+#### Housing and Renting
+- Don't waste your money on buying new house or renting a luxurious apartment.
+- Live below your means. 
+- Live in a cheap house. Should be decent though.
+- Find a house which has gym in its community so that you don't have to spend extra.
+
+#### Sleep before you buy
+- It lets your subconscious mind make up its mind on whether you really want it.
+- Do this especially for bugger purchases.
+- It gives you time to think if it really adds value to your life.
+- Some people in fact go on for a month thinking about it.
+- If after a month you still think it is beneficial - go buy it!
 
 
+### Automate Saving
+
+First law of building wealth is paying yourself first. And, to do it you need to be diligent about it. Your paycheck should automatically go into your investments account.
+
+And, there are some super useful tools you could use to do it. The best tools I recommend is [Acorns](http://bit.ly/acornFree) and [M1 Finance](http://bit.ly/investM1Finance).
+
+[Acorns](http://bit.ly/acornFree) is a micro-investing app which puts saving your hard earned money on auto-pilot. The platform invests spare change whenever you make any purchase using your linked credit card or debit card. Read our entire in-depth [review of Acorns here](http://ngninja.com/posts/acorns-review-2019).
+
+[M1 Finance](http://bit.ly/investM1Finance) is an online investment platform which lets you invest in partial shares of individual stocks and ETFs. It is a completely free investment platform with ZERO investment and trading fees.
+
+You don't have to use these link. But, please trust us and automate your savings. You will be amazed how after certain point you just don't realize how much money you have saved without actually affecting your life.
+
+#### Track your spending
+
+Next up is tracking your spending. See where you spend the most. Realize what you can cut back on. You don't have to manually do it either.
+
+My favorite tools to tracking your spending are [Mint](https://www.mint.com/) and [Personal Capital](https://www.personalcapital.com). They are completely free.
+
+We all use the above tools at Ninja Academy. All of them have been super helpful in helping us bringing our finances on track and be mindful about them.
+
+### Conclusion
+
+In conclusion, to build wealth keep on learning new things each day. Start a business as soon as possible. And, start investing right now!
+
+And think long term. There are no shortcuts in becoming wealthy. You have to be patient and consistent at it. Living on the minimum expenses possible and saving the rest.
+
+Do this for a while and boom! Financial Independence is just a piece of cake. I know many people have done it. We all have done it at Ninja Academy.
+
+So take risks, level up, and hustle hard. Don't ever give up!
 
 
-- invest in yourself
-- do something, learn something
-- keep following our blog for learning new regularly
-- buy courses... doesn't have to be expensie
-- could be FREE too... but don't stop learning
-- youtube is your best buddy!
-
-
-- saving money
-- dollar saved is dollar earned
-- housing, renting
-  - find cheap house.. decent one.. not fancy
-  - gym in the community
-  - pool in community
-  - don't have to go out to spend money to enjoy
-- don't buy new car
-  - 3-6 year car
-  - it has done its depreciation
-  - drive it until it does not drive anymore
-- sleep before you buy
-  - especially bigger purchases
-  - it lets your subconscious mind decides whether you really want it
-  - does it add value
-  - some people go on for a month like this
-  - if after a month you still think its beneficial... go buy it
-- automate saving
-  - pay yourself first
-  - your paycheck should automatically go into investments account
-  - best tools I recommend is Acorns and M1 finance
-    - my reviews on both these tools are here
-  - automate this part 
-    - you will be amazed how after certain point you just don't realize how much money you saved without actually affecting your life
-- track your spending
-  - see where you spend the most
-  - see what can you cut back on
-  - you don't have to manually do it
-  - my favorite tool
-    - mint, personal capital
-    - (add your ref links)
-  - we all use it at ninja academy
-  - helps us a lot to track our expenses
-
-
-- invest your money
-- think long term
-- focus on passive income
-- live on min possible
-- do it for a while and boom! financial independence is just a piece of cake.. starting without having any money
-- i know so many people who have done it
-
-- conclusion
-- take risk, level up, save money, invest money
-- hustle, then hustle again
-- don't give up
