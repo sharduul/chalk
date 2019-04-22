@@ -16,7 +16,7 @@ Today we are going to teach how to build wealth faster. This article is a full-p
 
 ### The Mind-shift
 
-> >"Time is more valuable than money. You can get more money, but you cannot get more time."
+> "Time is more valuable than money. You can get more money, but you cannot get more time."
 Jim Rohn
 
 The above quote is super powerful if you think about it. The trick is to do what others are not doing. The key is to get out of your comfort zone. And, follow the people who have achieved something great in their life.
@@ -52,7 +52,7 @@ Whatever you choose - achieve ultra level knowledge in the field of your interes
 
 If you think your current job is not paying you as much as you would imagine - you are right. There are studies proving how bad not switching job is really.
 
-> > "Employees who stay in companies longer than 2 years get paid 50% less."
+> "Employees who stay in companies longer than 2 years get paid 50% less."
 
 This is so true. You need to be switching job faster than you think. Move on to the new adventure quicker. The salary bump you get by switching job is so much higher than you would super excited about your career and make your life financial stable earlier than you would think.
 
@@ -91,7 +91,7 @@ After you have learned new skills, started your business, switched multiple jobs
 
 And that is because we are not taught how to save money very well. Not in schools, not by our parents. But, trust me this one habit has made people Millionaires.
 
-> > Each dollar saved is a dollar earned.
+> Each dollar saved is a dollar earned.
 
 Keep that quote in your mind forever. And follow the below actionable steps to get good at saving your hard earned money.
 
