@@ -152,9 +152,8 @@ Do this for a while and boom! Financial Independence is just a piece of cake. I 
 So take risks, level up, and hustle hard. **Don't ever give up!**
 
 <br/>
-<br/>
 
 ## Read Next
 
-[Acorns Review - Is it really for you](http://ngninja.com/posts/acorns-review-2019)
+[Acorns Review - Is it really for you](http://ngninja.com/posts/acorns-review-2019)<br/>
 [M1 Finance - Comprehensive Review](http://ngninja.com/posts/m1-finance-review-2019)
