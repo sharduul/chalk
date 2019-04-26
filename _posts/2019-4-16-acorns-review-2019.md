@@ -96,7 +96,6 @@ Wanna sign up for Acorns?
 Use this link and get \$5 completely FREE!
 
 <br/>
-<br/>
 
 ## Other Reviews
 

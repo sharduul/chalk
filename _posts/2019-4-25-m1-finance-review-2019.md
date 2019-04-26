@@ -3,10 +3,10 @@ layout: post
 title: "M1 Finance Review 2019 | Top ZERO FEE Investing Platform"
 description: "M1 Finance is a 100% free investing platform. M1 Finance is the only free investing platform that allows you to open a retirement account."
 tags: [personal-finance, m1-finance]
-og_image: "posts/acorns-reviews.png"
+og_image: "posts/finance/m1-finance.png"
 ---
 
-{% include image.html path="posts/acorns-reviews.png" path-detail="posts/acorns-reviews.png" alt="Acorns Reviews 2019" %}
+{% include image.html path="posts/finance/m1-finance.png" path-detail="posts/finance/m1-finance.png" alt="M1 Finance Review 2019" %}
 
 This post is dedicated to the best free investing app out there - M1 Finance. I will provide a **super comprehensive review** on the platform and help you decide whether or not this app is for you.
 
@@ -28,7 +28,7 @@ M1 Finance is a **completely Free to use platform**. They charge no commission t
 
 _They just require a minimum deposit of \$100 to start investing - to open an account._
 
-Well, if you don't have even a \$100 I would recommend starting a savings goal right now. If you need help, I have gone in details on **[how to create wealth and save yourself to be a Millionaire](http://ngninja.com/posts/build-wealth-with-no-money)** I highly recommend you to read.
+Well, if you don't have even a \$100 I would recommend starting a savings goal right now. If you need help, I have gone in details on **[how to create wealth and save yourself to be a Millionaire](http://ngninja.com/posts/build-wealth-with-no-money)**. I highly recommend you to read.
 
 ### Idealogy
 
