@@ -156,5 +156,5 @@ So take risks, level up, and hustle hard. **Don't ever give up!**
 
 ## Read Next
 
-[Acorns Review | Is it really for you?](http://ngninja.com/posts/acorns-review-2019)
-[M1 Finance | Comprehensive Review](http://ngninja.com/posts/m1-finance-review-2019)
+[Acorns Review - Is it really for you](http://ngninja.com/posts/acorns-review-2019)
+[M1 Finance - Comprehensive Review](http://ngninja.com/posts/m1-finance-review-2019)

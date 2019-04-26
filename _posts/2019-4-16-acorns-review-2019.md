@@ -99,4 +99,4 @@ Use this link and get \$5 completely FREE!
 
 ## Other Reviews
 
-[M1 Finance | Comprehensive Review](http://ngninja.com/posts/m1-finance-review-2019)
+[M1 Finance - Comprehensive Review](http://ngninja.com/posts/m1-finance-review-2019)
