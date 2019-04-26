@@ -74,13 +74,33 @@ og_image: "posts/acorns-reviews.png"
   - learn from a mentor
 - now a days even google and microsoft are hiring without a degree
   - you just need to be good at something
-- so many online resources\
+- so many online resources
 
 
-4. find something!!!
+4. over spending just to show off
+- you don't have to buy everything you desire of
+- its a mindset shift
+- don't go into debt
+- pay off your credit cards
+- don't buy iphones every year
+- don't dip into retirement savings just to fulfill your short term desires
+- no need of flashy clothes, glasses
+- learn from bill, warren, mark... embrace minimalism
+  
 
 
-5. find something!!!
+5. ignoring health
+- wait! don't skip this one
+- you won't even realize how big of a mistake this is until it catches up on you
+- don't just focus on earning money
+- you need to take of your health... it needs to last 60 years if you plan to live happy life post-retirement
+- what is the use of hard earned money if you don't have a good health at the end of it
+- go to doctor regularly so that you don't have to dip into your savings to pay for that major surgery
+- go to gym every single day!
+- eat green veggies, fruits, smoothies, protein
+- be mindful about your health
+- it will save you a lot of money and pain
+
 
 
 6. avoiding risks - #myStory
