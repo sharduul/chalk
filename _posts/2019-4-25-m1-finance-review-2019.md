@@ -164,6 +164,6 @@ Wanna sign up for M1 Finance?
 <br/>
 <br/>
 
-### Other Reviews
+## Other Reviews
 
 [Acorns Review | Is it really for you?](http://ngninja.com/posts/acorns-review-2019)
