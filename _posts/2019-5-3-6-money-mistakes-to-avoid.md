@@ -12,35 +12,33 @@ This post is dedicated to the biggest and the worst mistakes one should avoid in
 
 Let's dive in.
 
-## 1. Avoiding 401K
+## Avoiding 401K
 
 The biggest mistake people make is not saving for their retirement. And, the best investment vehicle out there for the beginners is 401K.
 
 Many people don't even have any idea what it is. Or how it works. Schools do not teach it either.
 
-> Mind-blowing fact: 51% millennials not contributing!!!
+> Mind-blowing fact: 51% millennials are not contributing to the 401K!!!
 
-Going into the details of 401K is out of the scope for this blog. But, this [great article](https://www.investopedia.com/terms/1/401kplan.asp) should get you started.
+Going into the details of 401K is out of the scope for this article. But, this [great article](https://www.investopedia.com/terms/1/401kplan.asp) should get you started.
 
-But, the actionable takeaway is that start investing in 401K today! Start with a small amount at the start.
-
-If you are not investing for your retirement there is no way you can stop working till the end of your life. You will forever wonder - why you don't have money?
+If you are not investing for your retirement there is no way you can stop working till the end of your life. You will forever wonder - why you don't have any money?
 
 Do you want to be in that situation at the age of 70? When your body almost gives up on you.
 
 Trust me, compound interest is the eighth wonder of this world. Make money work in your favor. Give money some time to grow.
 
-### Let's take an example:
+#### Let's take an example:
 
-Imagine investing just $100 per month in your 401K plan. 
-Starting at age 20.
-At the age 60, the amount in your portfolio will be approximately $350,000.
-This is considering 8% per year - which is very achievable.
+Imagine investing just $100 per month in your 401K plan. <br>
+Starting at age 20.  <br>
+At the age 60, the amount in <b>your portfolio will be approximately $350000</b>. <br>
+This is considering 8% per year - which is very achievable. <br>
 
 This is great, isn't it!
 
-But, let's say you start 10 years late. You start investing at 30.
-Your portfolio value than would be \$150,000 at the age of 60.
+But, _let's say you start 10 years late_. You start investing at 30. <br>
+Your **portfolio value than would be \$150,000** at the age of 60.
 
 Do you see the difference?
 
@@ -58,7 +56,7 @@ Check out our in-depth reviews on [M1 Finance](http://ngninja.com/posts/m1-finan
 
 This one is the most common one. I have done this mistake myself. My friends still do it.
 
-I had bought a flashy Dodge Charger a few years back. I had no need of buying it in the first place. Just because I thought it would look cool on me and I can impress my then boyfriend - I had bought it.
+I had bought a flashy Dodge Charger a few years back. I had no need of buying it in the first place. _Just because I thought it would look cool on me and I can impress my then boyfriend_ - I had bought it.
 
 On top of that - I had overpaid the price. I was paying hefty interest on the car loan and insurance. Some of my friends are still paying off their Mercedes and BMW's.
 
@@ -68,18 +66,19 @@ You can in fact go further and invest the same amount in a low-cost index fund a
 
 And, if you need help with starting your investment career - check out these in-depth reviews on the best investment platforms out there:
 
-[Acorns Review - Is it really for you](http://ngninja.com/posts/acorns-review-2019)<br/>
-[M1 Finance - Comprehensive Review](http://ngninja.com/posts/m1-finance-review-2019)<br/>
+#### [Acorns Review - Is it really for you](http://ngninja.com/posts/acorns-review-2019)<br/>
+
+#### [M1 Finance - Comprehensive Review](http://ngninja.com/posts/m1-finance-review-2019)<br/>
 
 Coming back to the cars - they are a liability.
 
 > Cars are a liability. They are depreciating assets. You don't need them!
 
-The trick is to invest in appreciating assets in fact. I learned this lesson early in my life. I sold my Dodge Charger and bought used Toyota 2010. It works amazing! It is already paid off.
+The trick to becoming a millionaire is to invest in appreciating assets in fact. I learned this lesson early in my life. I sold my Dodge Charger and bought used Toyota 2010. It works amazing! It is already paid off.
 
 I would recommend you to do the same. Consider a car as just a means to take you from point A to point B. Nothing more.
 
-Do not spend more than 6%-8% of your monthly income. And, definitely, don't spend above 10% of your monthly income on cars.
+**Do not spend more than 6%-8% of your monthly income. And, definitely, don't spend above 10% of your monthly income on cars.**
 
 ## Student Loans
 
@@ -89,11 +88,11 @@ Annual fees of college and schools are increasing exponentially each year.
 
 It is not that bad though. You just need to be mindful about it. It is not to say that you should not study or get a degree.
 
-I did it - I am a Masters student in Computer Science. You don't necessarily have to go to the top college in the country. Average colleges are as great as the top ones. Even community colleges are surprisingly good. I know so many friends who had attended community college and they are well settled in their careers with high paying jobs.
+I did it - I have a Masters degree in Computer Science. You don't necessarily have to go to the top college in the country. Average colleges are as great as the top ones. **Even community colleges are surprisingly good.** I know so many friends who had attended community college and they are well settled in their careers with high paying jobs.
 
 My advice is - be mindful about the fees of your college.
 
-Going further I have also seen many students pursuing degrees that do not have scope to create wealth. And if your goal is to be financially independent as soon as possible you will have to be smart about which field of interest you choose.
+I have also seen many students pursuing degrees that do not have scope to create wealth. And if your goal is to be financially independent as soon as possible you will have to be smart about which field of interest you choose.
 
 Getting into debt just to get a degree - which does not even pay off well at the end is the biggest mistake one can commit in their life. Some skills don't even require a degree. Just take an online course. Or learn from a mentor.
 
@@ -119,7 +118,7 @@ Please! Please, do not do this.
 
 I see so many people ignore their health for short term pleasures. You won't even realize how big of a mistake this is until it catches up on you.
 
-Don't just focus on earning money. Earning and maintaining your health is probably more important than that.
+Don't just focus on earning money. Maintaining your health is probably more important than that.
 
 > If you want your body to last 60 more years - you need to take your health seriously.
 
@@ -131,7 +130,7 @@ Go to the doctor and get yourself checked up regularly. Do this so that you don'
 
 Eat green veggies, lot of fruits, smoothies, and enough protein.
 
-## Avoiding Risks - #myStory
+## Avoiding Risks - _#myStory_
 
 This might sound philosophical at first. But, hear me out - this one might be the most interesting one of all.
 
@@ -141,7 +140,7 @@ Here's how did the same, and how I overcame it to land my dream job.
 
 This is a few years back. I was very comfy with my then job. Earning around the average salary of \$70K. Living nicely with ok-ish company benefits.
 
-But, I always dreamt of earning 6-digit figure salary. But was too lazy to do anything about it.
+_But, I always dreamt of earning 6-digit figure salary. But was too lazy to do anything about it._
 
 All my friends had great jobs. They were well settled. Paid off their debts, going on fancy vacations.
 
@@ -149,15 +148,16 @@ And here I was, struggling to pay my monthly rent.
 
 One day I had enough of it. And I quit my job. Frustrated.
 
-I wanted to get out of my comfort zone. I knew I had to burn my bridges if I really want to get somewhere.
+I wanted to get out of my comfort zone. I knew I had to burn my bridges if I really wanted to get somewhere.
 
 > So, I went all in. I took the leap of faith.
 
-I took 3 months off. Completely shut me in my room. Cutting off my social like completely.
+I took 3 months off. Completely shut myself in my room. Cutting off my social like completely.
 
 And, I worked my ass off. I prepared hard for the interviews. Studying algorithms, solving all the problems I could possibly find. Taking down notes for the interview.
 
-[Leetcode](https://leetcode.com/) - Learn competitive programming
+These are the resources I used, if you are curious - <br>
+[Leetcode](https://leetcode.com/) - Learn competitive programming <br/>
 [A-Z Guide To Interview Success](https://mx84n.weblium.site/) - Blueprint to your next \$200K salary job
 
 And mind you I was not earning a single penny at that point. I was living with my friends, borrowing money from home.
@@ -174,14 +174,16 @@ My point is. Do not be afraid to take the risk. If you believe in something - yo
 
 By the way, if you are also an aspiring job applicant and someone who wants to get a super-high salary in your dream company. I definitely recommend these two resources, which helped me immensely.
 
-### [Leetcode](https://leetcode.com/) - Learn competitive programming
+#### [Leetcode](https://leetcode.com/) - Learn competitive programming
 
-### [A-Z Guide To Interview Success](https://mx84n.weblium.site/) - Blueprint to your next \$200K salary job
+#### [A-Z Guide To Interview Success](https://mx84n.weblium.site/) - Blueprint to your next \$200K salary job
+
+<br/>
 
 ### Conclusion
 
-That are all the mistakes one should avoid in their life. Especially for the ones early in their careers.
+Those are all the mistakes one should avoid in their life. Especially for the ones early in their careers.
 
 Tell me what you think about the above-mentioned mistakes. What mistakes did you make that we might learn from? How do you avoid making such mistakes?
 
-And, after you have realized and rectified your mistakes - read our other article on [how to create wealth with no money in hands](http://ngninja.com/posts/build-wealth-with-no-money).
+And, after you have realized and rectified your mistakes - read our other article on **[how to create wealth with no money in hands](http://ngninja.com/posts/build-wealth-with-no-money)**.
