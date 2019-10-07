@@ -8,29 +8,35 @@ og_image: "posts/acorns-reviews.png"
 
 {% include image.html path="posts/acorns-reviews.png" path-detail="posts/acorns-reviews.png" alt="Acorns Reviews 2019" %}
 
-- i will talk about passive income, why is it imp, and how to start making
-- make money no matter what you do 365 days a year
+Let's talk about passive income! And get you start making another stream of income.
 
-- first why
-- if reading this chances are you are trading something in exchange of money
-  - time, knowledge, expertise, energy...anything
-- this is active income
-- this is not bad
-- but problem is -
-  - if you stop putting in time, energy you won't make any money
-  - if tomorrow you stop going to job
-- there is limitation
+This post was comprehensively help you make money no matter what you do 365 days a year. Just read every line with utmost attention.
 
-* you have to move above it
-* be able to sit at home on wednesday after watching TV and still be sure that money will come to your bank account
-* be taking a trip for a month and still not worry
+But, first, do you know why do you need passive income in the first place?
 
-- make money for you instead of trading time for it
-- let's see how
+If you are reading this chances are you are trading "something" in exchange of money. That something can be time, knowledge, energy for most of us. That makes it an active income.
 
-* i make \$5450 every month passively... on top of my day job
-* that is \$180 per day for doing almost nothing!
-* main sources are
+Don't get me wrong, it is not bad at all. In face, most us start from that point.
+
+But the problem is if you start dedicating that "something" - you won't make any money at all. If tomorrow you stop going to your 9-5 job you will have absolutely zero income from that point.
+
+Basically, there is a limitation on how much you invest that "something". For instance, there is only so much time in a day that you could work.
+
+This post is my attempt to inspire you to move above it. Motivate you to reach to a point where you ca sit at home on a Wednesday afternoon - watching TV, play with your kids and still be sure that money will make it to your bank that day.
+
+Or take a month long vacation and still not worry about money. Because you know it is being generated passively.
+
+If I have got you to this point, I am sure you would like to see how could you get started.
+
+Let's dive into that, shall we?
+
+> I make $5450 every month passively. On top of my day job. That is $180 per day for doing almost nothing.
+
+My main sources of this passive income are as follows.
+
+### Dividends
+
+- main sources are
 
   - dividends - \$800
     - invested in stocks, bonds and etfs
@@ -76,35 +82,35 @@ og_image: "posts/acorns-reviews.png"
       <!-- - https://www.shopify.com/guides/dropshipping/understanding-dropshipping -->
     - comment below if you want to know how you can start with it... I can create in details step by step guide on that for you
 
-- imagine what you can do with that saved time
-- take trip, take a break,
-- still make \$180 per day
+* imagine what you can do with that saved time
+* take trip, take a break,
+* still make \$180 per day
 
-- this needs an investor mindset rather than a spending mindset
-- every penny you get from your active job... you should be investing it
-- invest in outsourcing your job, gaining new skills that will be useful for your side-gig
-- or investing in your business if you already have one
-- don't go out and spend that money on drink... instead invest that money
+* this needs an investor mindset rather than a spending mindset
+* every penny you get from your active job... you should be investing it
+* invest in outsourcing your job, gaining new skills that will be useful for your side-gig
+* or investing in your business if you already have one
+* don't go out and spend that money on drink... instead invest that money
 
-- other great thing?
-- you get to live for free!
-- you save all the money that you make
-- it pays for all your expenses
+* other great thing?
+* you get to live for free!
+* you save all the money that you make
+* it pays for all your expenses
 
-- you don't have to worry going out of job
-- don't have to worry about emergency expenses
-- your pockets will never be empty
+* you don't have to worry going out of job
+* don't have to worry about emergency expenses
+* your pockets will never be empty
 
-* you will start working because you enjoy it
-* not because you need money so you have to work
+- you will start working because you enjoy it
+- not because you need money so you have to work
 
-- the post is not about bragging about my income
-- it is to inspire you
-- to get you started
-- to show you what is possible
+* the post is not about bragging about my income
+* it is to inspire you
+* to get you started
+* to show you what is possible
 
-* if you are just starting
-* best options for you are
+- if you are just starting
+- best options for you are
   - invest and earn free dividends
     - i recommend these platforms if you are just starting with investment
     - [Acorns Review](http://ngninja.com/posts/acorns-review-2019)<br/>
@@ -133,10 +139,10 @@ og_image: "posts/acorns-reviews.png"
     - then go to aliexpress and start selling the products you think people would wanna buy
     - in the process you will get to learn invaluable lessons of marketing, copyrighting, and leadership
 
-- the methods mentioned are going to be here for decades.. so don't worry
-- the key is just to put some time upfront... then just reap the benefits potentially forever
-- these are just a few ideas.. but there are hundreds of thousand other ideas out there
-- that is the power of passive income
+* the methods mentioned are going to be here for decades.. so don't worry
+* the key is just to put some time upfront... then just reap the benefits potentially forever
+* these are just a few ideas.. but there are hundreds of thousand other ideas out there
+* that is the power of passive income
 
 conclusion
 
