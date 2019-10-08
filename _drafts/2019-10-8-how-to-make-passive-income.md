@@ -34,83 +34,101 @@ Let's dive into that, shall we?
 
 My main sources of this passive income are as follows.
 
-### Dividends
+## Dividends
+
+Every month, I earn about \$800 through dividends alone.
+
+I have invested in sticks, bonds, and ETFs. And, the amount is the average monthly I make from dividends that I earn just by holding those investments.
+
+Not all of them are dividend stocks. Some of them are growth stocks, whose value is expected to grow exponentially over the decade. So, image the compound interest that I get on them.
+
+And the dividends I earn gets re-invested in the stocks. Giving additional boost to the compound interest that I earn on my investments.
+
+If you want to start investing today, I recommend these two platforms:
+
+#### [Acorns Review - Is it really for you](http://ngninja.com/posts/acorns-review-2019)<br/>
+
+#### [M1 Finance - Comprehensive Review](http://ngninja.com/posts/m1-finance-review-2019)<br/>
+
+Even if you have a brokerage account and want to move to a no-fees broker, [M1 Finance - Comprehensive Review](http://ngninja.com/posts/m1-finance-review-2019) is the best investment platform out there.
+
+## Rental Property
+
+Every month, I earn about \$1500 through my rental properties.
+
+I recently started investing in real estate. And, I own one rental property at the time of writing this article. The \$1500 is the profit I earn after cutting the parts which goes to mortgage, home insurance, and maintenance. I will do an in-depth review if you guys need more information on how to start with real estate investments.
+
+## Affiliate Marketing
+
+Every month, I earn about \$450 through my rental properties.
+
+I am an affiliate to various products. Both physical and digital. Do note, that I promote only those products which I use and I am a genuine fan of. These consists of tech products, digital products, and financial platforms.
+
+Best ones I can recommend you to check our are:
+
+#### [Acorns](http://bit.ly/acornFree)<br/> - invest your spare change and create another stream of passive income.
+
+#### [M1 Finance](http://bit.ly/investM1Finance)<br/> - free investment platform which lets you buy partial shares of your favorite companies.
+
+#### [Nord VPN](http://bit.ly/privyVpn)<br/> - secure internet, private browsing, access to geo-restricted content.
+
+If you are not sure what affiliate marketing is, this is your best resource - [What is Affiliate Marketing](https://neilpatel.com/what-is-affiliate-marketing/).
+
+Comment below if you want to know how you can start with Affiliate Marketing. I can create a in-details step-by-step guide on that for you.
+
+## Selling online courses
+
+Every month, I earn about \$650 through selling online courses.
+
+This is rapidly becoming the main stream of income at Ninja Academy. This is the amount we make through passive income from all the sells that we make.
+
+We have created online notes for Software Engineers to help them land their dream jobs. If you are one of those, I'd recommend checking our the testimonials on how we have helped so many students get humongous salaries at their dream jobs.
+
+Check out the testimonials [here](https://mx84n.weblium.site).
 
 - main sources are
 
-  - dividends - \$800
-    - invested in stocks, bonds and etfs
-    - this is average monthly i make from dividends i earn on them
-    - some are growth stocks which I have invested in they are expected to grow exponentially over the decade
-    - imagine the compound interest that I get on them!
-    - if you want to start investing I recommend these 2 platforms
-    - [Acorns Review](http://ngninja.com/posts/acorns-review-2019)<br/>
-    - [M1 Finance](http://ngninja.com/posts/m1-finance-review-2019) <br/>
-  - rental property - \$1500
-    - i own 1 rental property
-    - start 2 years back
-    - this is profit after cutting part which goes to mortgage
-  - affiliate marketing - \$450
-    - i am affiliate to various products
-    - only products that i use
-    - on amazon and individual platforms
-    - consists of tech and financial platforms
-    - best ones i recommend you to check out are
-      - [Acorns Review](http://ngninja.com/posts/acorns-review-2019)<br/>
-      - [M1 Finance](http://ngninja.com/posts/m1-finance-review-2019) <br/>
-      - nord vpn
-    - if you are not sure what it is
-      <!-- - https://neilpatel.com/what-is-affiliate-marketing/ -->
-    - comment below if you want to know how you can start with it... I can create in details step by step guide on that for you
-  - selling online courses - \$650
+* graphic designing - \$350
+  - this is again what we all do at ninja academy... my share
+  - we have systems in place where we get graphic designing gigs and we outsource to the best freelancers out there
+  - its a win-win business model
+* drop-shipping - \$2500
+  - i have partnered with few of my friends on this
+  - started few months back
+  - we created a drop-shipping business which sells viral trendy stuff online
+  - if you are not sure what drop-shipping is read this
+    <!-- - https://www.shopify.com/guides/dropshipping/understanding-dropshipping -->
+  - comment below if you want to know how you can start with it... I can create in details step by step guide on that for you
 
-    - this is what we all do at ninja academy
-    - this is my share of passive income from all the sells that we make
-    - we have created online notes for aspiring software engineers to land their dream job
-    - you should checkout the testimonials on how have helped so many students to get humongous salaries and dream jobs
-      <!-- - https://mx84n.weblium.site -->
+- imagine what you can do with that saved time
+- take trip, take a break,
+- still make \$180 per day
 
-  - graphic designing - \$350
-    - this is again what we all do at ninja academy... my share
-    - we have systems in place where we get graphic designing gigs and we outsource to the best freelancers out there
-    - its a win-win business model
-  - drop-shipping - \$2500
-    - i have partnered with few of my friends on this
-    - started few months back
-    - we created a drop-shipping business which sells viral trendy stuff online
-    - if you are not sure what drop-shipping is read this
-      <!-- - https://www.shopify.com/guides/dropshipping/understanding-dropshipping -->
-    - comment below if you want to know how you can start with it... I can create in details step by step guide on that for you
+- this needs an investor mindset rather than a spending mindset
+- every penny you get from your active job... you should be investing it
+- invest in outsourcing your job, gaining new skills that will be useful for your side-gig
+- or investing in your business if you already have one
+- don't go out and spend that money on drink... instead invest that money
 
-* imagine what you can do with that saved time
-* take trip, take a break,
-* still make \$180 per day
+- other great thing?
+- you get to live for free!
+- you save all the money that you make
+- it pays for all your expenses
 
-* this needs an investor mindset rather than a spending mindset
-* every penny you get from your active job... you should be investing it
-* invest in outsourcing your job, gaining new skills that will be useful for your side-gig
-* or investing in your business if you already have one
-* don't go out and spend that money on drink... instead invest that money
+- you don't have to worry going out of job
+- don't have to worry about emergency expenses
+- your pockets will never be empty
 
-* other great thing?
-* you get to live for free!
-* you save all the money that you make
-* it pays for all your expenses
+* you will start working because you enjoy it
+* not because you need money so you have to work
 
-* you don't have to worry going out of job
-* don't have to worry about emergency expenses
-* your pockets will never be empty
+- the post is not about bragging about my income
+- it is to inspire you
+- to get you started
+- to show you what is possible
 
-- you will start working because you enjoy it
-- not because you need money so you have to work
-
-* the post is not about bragging about my income
-* it is to inspire you
-* to get you started
-* to show you what is possible
-
-- if you are just starting
-- best options for you are
+* if you are just starting
+* best options for you are
   - invest and earn free dividends
     - i recommend these platforms if you are just starting with investment
     - [Acorns Review](http://ngninja.com/posts/acorns-review-2019)<br/>
@@ -139,10 +157,10 @@ My main sources of this passive income are as follows.
     - then go to aliexpress and start selling the products you think people would wanna buy
     - in the process you will get to learn invaluable lessons of marketing, copyrighting, and leadership
 
-* the methods mentioned are going to be here for decades.. so don't worry
-* the key is just to put some time upfront... then just reap the benefits potentially forever
-* these are just a few ideas.. but there are hundreds of thousand other ideas out there
-* that is the power of passive income
+- the methods mentioned are going to be here for decades.. so don't worry
+- the key is just to put some time upfront... then just reap the benefits potentially forever
+- these are just a few ideas.. but there are hundreds of thousand other ideas out there
+- that is the power of passive income
 
 conclusion
 
