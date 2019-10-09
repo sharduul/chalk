@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to make passive income? More importantly - WHY?"
-description: "Comprehensive guide on how to start making passive income. All the passive income strategies will be relevant in year 2020 too."
+description: "Comprehensive guide on how to start making passive income. All the passive income strategies will be relevant in the year 2020 too."
 tags: [personal-finance, passive-income]
 # og_image: "posts/acorns-reviews.png"
 ---
@@ -86,46 +86,71 @@ We have created online notes for Software Engineers to help them land their drea
 
 Check out the testimonials [here](https://mx84n.weblium.site).
 
-- main sources are
+## Graphic Designing
 
-* graphic designing - \$350
-  - this is again what we all do at ninja academy... my share
-  - we have systems in place where we get graphic designing gigs and we outsource to the best freelancers out there
-  - its a win-win business model
-* drop-shipping - \$2500
-  - i have partnered with few of my friends on this
-  - started few months back
-  - we created a drop-shipping business which sells viral trendy stuff online
-  - if you are not sure what drop-shipping is read this
-    <!-- - https://www.shopify.com/guides/dropshipping/understanding-dropshipping -->
-  - comment below if you want to know how you can start with it... I can create in details step by step guide on that for you
+Every month, I earn about $350 through graphic design projects.
 
-- imagine what you can do with that saved time
-- take trip, take a break,
-- still make \$180 per day
+We are slowly ramping up with design gigs. We very recently started accepting design gigs after continuos requests from our existing clients.
 
-- this needs an investor mindset rather than a spending mindset
-- every penny you get from your active job... you should be investing it
-- invest in outsourcing your job, gaining new skills that will be useful for your side-gig
-- or investing in your business if you already have one
-- don't go out and spend that money on drink... instead invest that money
+Main point to note here is, we also outsource some of the gigs to our trusted partners. Its a win-win situation!
 
-- other great thing?
-- you get to live for free!
-- you save all the money that you make
-- it pays for all your expenses
+## Dropshipping
 
-- you don't have to worry going out of job
-- don't have to worry about emergency expenses
-- your pockets will never be empty
+My monthly **profits** through the dropshipping business is around $2500.
 
-* you will start working because you enjoy it
-* not because you need money so you have to work
+I have partnered with one of my friend on this. So, we split the profits between us. 
 
-- the post is not about bragging about my income
-- it is to inspire you
-- to get you started
-- to show you what is possible
+Dropshipping is an amazing and a legit business model you guys should look into if you are looking for a new business idea.  If you are not sure what dropshipping is, [read this awesome article on what is dropshipping](https://www.shopify.com/guides/dropshipping/understanding-dropshipping).
+
+Drop me a comment if you need help on setting up your dropshipping store. I can create in depth step by step guide on that for you.
+
+## Take a lon...nng break
+
+The above mentioned sources are just a tip of an infinitely sized ice-burg of passive income streams. Trust me, sky is the limit.
+
+Imagine what you could do with all that saved time. Take a break. Go on a vacation. And, still make $180 per day for doing nothing at all!
+
+That is the freedom that gives me high. Keeps me going.
+
+## Investor mindset 
+
+This doesn't happen overnight. It takes time and super hard work to build multiple streams of income.
+
+But, more importantly this needs an investor mindset rather than a spending mindset.
+
+Every penny you get from your active job - you should invest it. Invest it on outsourcing jobs that sucks most of your time unnecessarily. Invest on gaining skills that will be useful for your side-gig. Don't be afraid to learn, or spend money on learning. Every lesson that you learn will be useful and payoff in the long run.
+
+But, don't go wasting money on drinks multiple time a week, or something that does not really add any value to your life. Always think how could you invest that money in something that will give back to you multiples of it.
+
+
+## Live life stress-free
+
+And, you know what other great thing about this mindset is?
+
+You get to live your life free. That too stress-free.
+
+Let me explain.
+
+You have all these passive income streams that make you a ton of money. With the mindset shift I proposed earlier - that money will pay for all your expenses. 
+
+Now you don't have to worry going out of job. You don't have to worry about any emergency expenses. Your pockets will never be empty!
+
+> You will start working because you enjoy it. Not because you need money to support your family.
+
+And, don't get me wrong. This post is not about bragging about my passive income streams. Nor am I telling you to quit job because it sucks - no it does not! You need your active income job if you are just getting started. 
+
+This article is more to inspire you. To get you started. To show you what is possible if you truly want to level up your life.
+
+
+
+
+
+
+
+
+
+
+
 
 * if you are just starting
 * best options for you are
