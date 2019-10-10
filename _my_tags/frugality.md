@@ -1,0 +1,4 @@
+---
+slug: frugality
+name: Frugality
+---
