@@ -6,7 +6,7 @@ tags: [personal-finance, passive-income]
 og_image: "posts/finance/money.jpg"
 ---
 
-<!-- {% include image.html path="posts/finance/money.jpg" path-detail="posts/finance/money.jpg" alt="Make Passive Income" %} -->
+{% include image.html path="posts/finance/money.jpg" path-detail="posts/finance/money.jpg" alt="Make Passive Income" %}
 
 Let's talk about passive income! And get you to start making another stream of income.
 
