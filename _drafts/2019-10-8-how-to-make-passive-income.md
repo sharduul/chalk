@@ -3,10 +3,10 @@ layout: post
 title: "How to make passive income? More importantly - WHY?"
 description: "Comprehensive guide on how to start making passive income. All the passive income strategies will be relevant in the year 2020 too."
 tags: [personal-finance, passive-income]
-# og_image: "posts/acorns-reviews.png"
+og_image: "posts/finance/money.jpg"
 ---
 
-<!-- {% include image.html path="posts/acorns-reviews.png" path-detail="posts/acorns-reviews.png" alt="Acorns Reviews 2019" %} -->
+<!-- {% include image.html path="posts/finance/money.jpg" path-detail="posts/finance/money.jpg" alt="Make Passive Income" %} -->
 
 Let's talk about passive income! And get you to start making another stream of income.
 
