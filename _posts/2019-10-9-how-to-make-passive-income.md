@@ -12,13 +12,15 @@ Let's talk about passive income! And get you to start making another stream of i
 
 This post is intended to help you make money no matter what you do 365 days a year. Just read every line with the utmost attention.
 
-But, first, do you know why do you need passive income in the first place?
+### First things first
+
+Do you know why do you need passive income in the first place?
 
 If you are reading this chances are you are trading "something" in exchange for money. That something can be time, knowledge, energy for most of us. That makes it an active income.
 
-Don't get me wrong, it is not bad at all. In fact, most of us start from that point.
+**Don't get me wrong, it is not bad at all. In fact, most of us start from that point.**
 
-But the problem is if you start dedicating that "something" - you won't make any money at all. If tomorrow you stop going to your 9-5 job you will have absolutely zero income from that point.
+But the problem is if you start dedicating that "something" - you won't be able to scale it at all. And if tomorrow you stop going to your 9-5 job you will have absolutely zero income from that point.
 
 Basically, there is a limitation on how much you invest that "something". For instance, there is only so much time in a day that you could work.
 
@@ -26,7 +28,7 @@ This post is my attempt to inspire you to move above it. Motivate you to reach a
 
 Or take a month-long vacation and still not worry about money. Because you know it is being generated passively.
 
-If I have got you to this point, I am sure you would like to see how could you get started.
+If I have got you to this point, I am sure you would like to see how you could get started.
 
 Let's dive into that, shall we?
 
@@ -40,17 +42,17 @@ Every month, I earn about \$800 through dividends alone.
 
 I have invested in stocks, bonds, and ETFs. And, the amount is the average monthly I make from dividends that I earn just by holding those investments.
 
-Not all of them are dividend stocks. Some of them are growth stocks, whose value is expected to grow exponentially over the decade. So, image the compound interest that I get on them.
+Not all of them are dividend stocks. Some of them are growth stocks, whose value is expected to grow exponentially over the decade. So, imagine the compound interest that I get on them.
 
 And the dividends I earn gets re-invested in the stocks. Giving an additional boost to the compound interest that I earn on my investments.
 
-If you want to start investing today, I recommend these two platforms:
+If you want to start investing today, I would encourage you to read my in-depth analysis on these two platforms:
 
 #### [Acorns Review - Is it really for you](http://ngninja.com/posts/acorns-review-2019)<br/>
 
 #### [M1 Finance - Comprehensive Review](http://ngninja.com/posts/m1-finance-review-2019)<br/>
 
-Even if you have a brokerage account and want to move to a no-fees broker, [M1 Finance - Comprehensive Review](http://ngninja.com/posts/m1-finance-review-2019) is the best investment platform out there.
+Even if you have a brokerage account and want to move to a no-fees broker, [M1 Finance](http://ngninja.com/posts/m1-finance-review-2019) is the best investment platform out there.
 
 ## Rental Property
 
@@ -60,17 +62,17 @@ I recently started investing in real estate. And, I own one rental property at t
 
 ## Affiliate Marketing
 
-Every month, I earn about \$450 through my rental properties.
+Every month, I earn about \$450 through Affiliate Marketing.
 
 I am an affiliate of various products. Both physical and digital. Do note, that I promote only those products which I use and I am a genuine fan of. These consist of tech products, digital products, and financial platforms.
 
 Best ones I can recommend you to check out are:
 
-#### [Acorns](http://bit.ly/acornFree)<br/> - invest your spare change and create another stream of passive income.
+- ##### [Acorns](http://bit.ly/acornFree) - invest your spare change and create another stream of passive income.
 
-#### [M1 Finance](http://bit.ly/investM1Finance)<br/> - free investment platform which lets you buy partial shares of your favorite companies.
+- ##### [M1 Finance](http://bit.ly/investM1Finance) - free investment platform which lets you buy partial shares of your favorite companies.
 
-#### [Nord VPN](http://bit.ly/privyVpn)<br/> - secure internet, private browsing, access to geo-restricted content.
+- ##### [Nord VPN](http://bit.ly/privyVpn) - secure internet, private browsing, access to geo-restricted content.
 
 If you are not sure what affiliate marketing is, this is your best resource - [What is Affiliate Marketing](https://neilpatel.com/what-is-affiliate-marketing/).
 
@@ -80,7 +82,7 @@ Comment below if you want to know how you can start with Affiliate Marketing. I 
 
 Every month, I earn about \$650 by selling online courses.
 
-This is rapidly becoming the mainstream of income at Ninja Academy. This is the amount we make through passive income from all the sells that we make.
+This is rapidly becoming the mainstream of income at our Ninja Academy. This is the amount we make through passive income from all the sells that we make.
 
 We have created online notes for Software Engineers to help them land their dream jobs. If you are one of those, I'd recommend checking out the testimonials on how we have helped so many students get humongous salaries at their dream jobs.
 
@@ -90,9 +92,9 @@ Check out the testimonials [here](https://mx84n.weblium.site).
 
 Every month, I earn about $350 through graphic design projects.
 
-We are slowly ramping up with design gigs. We very recently started accepting design gigs after continuous requests from our existing clients.
+We are slowly ramping up with the design gigs. We very recently started accepting design gigs after continuous requests from our existing clients.
 
-The main point to note here is, we also outsource some of the gigs to our trusted partners. It's a win-win situation!
+The main point to note here is, we also outsource some of the gigs to our trusted partners. So, we don't have to invest our time on it and create opportunities for other people. It's a win-win situation!
 
 ## Dropshipping
 
@@ -104,11 +106,10 @@ Dropshipping is an amazing and a legit business model you guys should look into 
 
 Drop me a comment if you need help with setting up your dropshipping store. I can create an in-depth step by step guide on that for you.
 
-## Take a lon...nng break
 
 The above-mentioned sources are just the tip of an infinitely sized ice-burg of passive income streams. Trust me, sky is the limit.
 
-Imagine what you could do with all that saved time. Take a break. Go on a vacation. And, still, make $180 per day for doing nothing at all!
+> Imagine what you could do with all that saved time. Take a break. Go on a vacation. And, still, make $180 per day for doing nothing at all!
 
 That is the freedom that gives me high. Keeps me going.
 
@@ -118,7 +119,7 @@ This doesn't happen overnight. It takes time and super hard work to build multip
 
 But, more importantly, this needs an investor mindset rather than a spending mindset.
 
-Every penny you get from your active job - you should invest it. Invest it in outsourcing jobs that suck most of your time unnecessarily. Invest in gaining skills that will be useful for your side-gig. Don't be afraid to learn, or spend money on learning. Every lesson that you learn will be useful and payoff in the long run.
+Every penny you get from your active job - you should invest it. Invest it in outsourcing jobs that suck most of your time unnecessarily. Invest it in gaining skills that will be useful for your side-gig. Don't be afraid to learn, or spend money on learning. Every lesson that you learn will be useful and payoff in the long run.
 
 But, don't go wasting money on drinks multiple times a week, or something that does not really add any value to your life. Always think about how could you invest that money in something that will give back to you multiples of it.
 
@@ -149,9 +150,11 @@ These are my best recommendations for all the beginners who want to start anothe
 
 ### Invest and earn free dividends
 
-I love every month when I see dividends earned in my portfolio. This is absolutely passive for just owning the best businesses you trust the most. Just drop me a comment if you want me to write another article on what are my favorite business I invest in.
+I love every month when I see dividends earned in my portfolio. This is absolutely passive. You get paid for just owning the best businesses you trust the most. It is very easy to start and requires minimum knowledge to get going.
 
-But as far as how to invest in stocks, ETFs - I recommend these platforms if you are just starting - 
+Just drop me a comment if you want me to write another article on what are my favorite businesses I invest in.
+
+But as far as how to invest - I recommend these platforms if you are just starting: 
 
 #### [Acorns Review](http://ngninja.com/posts/acorns-review-2019)<br/>
 #### [M1 Finance Review](http://ngninja.com/posts/m1-finance-review-2019) <br/>
@@ -162,15 +165,15 @@ If you want total control over your investment - I would recommend [M1 Finance](
 
 ### Affiliate Marketing
 
-This is the best option if you are just starting with your hustle-journey. You don't need to create or manufacture any product. Just choose from the best ones out there, market them and earn a commission. You can start with [Clickbank](https://www.clickbank.com/) which has a huge market place you can select a product to market.
+This is the best option if you are just starting with your hustle-journey. You don't need to create or manufacture any product. Just choose from the best ones out there, market them and earn a commission. You can start with [Clickbank](https://www.clickbank.com/) which has a huge market place to select a product to market.
 
-You can literally start now. Just sign-up on [Clickbank](https://www.clickbank.com/). Choose your favorite product. Create a value-based content around it to convince people how will the product benefit them. And BOOM! You have just earned your first commission.
+You can literally start now. Just sign-up on [Clickbank](https://www.clickbank.com/). Choose your favorite product. Create a value-based content around it to convince people how will the product benefit them. And BOOM! You will earn your first commission in no time.
 
-But do note, create valuable content around the product is the key here. Please do not scam people. You can start your blog around it. Or an Instagram page. Or a YouTube channel. The possibilities are endless.
+But do note, creating valuable content around the product is the key here. Please do not scam people. You can start your blog around it. Or an Instagram page. Or a YouTube channel. The possibilities are endless.
 
 ### Dropshipping
 
-This is my new favorite source of income. This gives me immense joy and ample opportunities to learn different facets of the business. Starting from marketing to customer support - I have learned a lot along the journey. 
+This is my new favorite source of income. It gives me immense joy and ample opportunities to learn different facets of the business. Starting from marketing to customer support - I have learned a lot along the journey. 
 
 The best part is - this is something you can convert into a full-fledged business. I know many people that are earning a 7-figure revenue just by doing dropshipping!
 
@@ -180,9 +183,8 @@ To start, just create your own online shop on [Shopify](https://www.shopify.com/
 
 I know this is easier said than done. But, trust me if I can do it - anyone can. Just drop me a comment about this if you want me to make an in-depth tutorial on how to get started with dropshipping.
 
-<br/>
 
-The methods mentioned above are going to be here for decades. So, don't worry if you read this article a few months or years late - I am sure you can pick one side hustle from the above list and start another passive income stream for yourself.
+The methods mentioned above are going to be here for decades. So, don't worry if you read this article a few months late - I am sure you can pick any one side hustle from the above list and start another passive income stream for yourself.
 
 The key I want to highlight here is - you will have to put in some time upfront. Hustle religiously for a while. Then just reap the benefits - potentially forever!
 
