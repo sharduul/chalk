@@ -41,7 +41,8 @@ Best way to start your week is to jot down the things to-do on a Sunday before. 
 
 ## Bonus App
 
-### Acorns 
+### Acorns  
+<!-- af link here -->
 
 Put your finances on steroids. Acorns is a micro-investing app which puts saving your hard earned money on auto-pilot. Basically, become a millionaire just by saving spare change using Acorns! [Read our Acorns Review here.](http://ngninja.com/posts/acorns-review-2019)
 
