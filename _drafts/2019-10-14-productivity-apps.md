@@ -1,14 +1,16 @@
 ---
 layout: post
 title: "6 Apps to conquer your day like a boss"
-# description: ""
+description: "Discover the Best Productivity Apps for You. Get more done with these productivity apps for iOS, and Android."
 tags: [productivity, curated-list, listicles]
 og_image: "posts/tricks.jpg"
 ---
 
 {% include image.html path="posts/tricks.jpg" path-detail="posts/tricks.jpg" alt="Productivity Apps" %}
 
-I am listing all the apps that I use to make my day super productive. These apps have helped me achieve the greatest successes in my life.
+I am listing all the apps that I use to make my day super productive. These apps have helped me achieve the greatest successes in my life. 
+
+The best productivity apps for iOS and Android devices.
 
 These are the best apps recommended by some of the super successful entrepreneurs, programmers, and leaders. In today's world of fast internet you need to be using your smart phones more smartly to stay ahead in the game.
 
