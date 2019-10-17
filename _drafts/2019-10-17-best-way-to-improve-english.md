@@ -6,7 +6,7 @@ tags: [life-hack, productivity]
 # og_image: "posts/finance/money.jpg"
 ---
 
-{% include image.html path="posts/finance/money.jpg" path-detail="posts/finance/money.jpg" alt="Make Passive Income" %}
+<!-- {% include image.html path="posts/finance/money.jpg" path-detail="posts/finance/money.jpg" alt="Make Passive Income" %} -->
 
 People ask me about this all the time - how do I improve my English? Especially, the non-native English speakers. It is a very common problem.
 
