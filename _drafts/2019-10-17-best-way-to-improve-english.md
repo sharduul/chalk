@@ -2,7 +2,7 @@
 layout: post
 title: "How To Instantly Improve Your English?"
 description: ""
-# tags: [personal-finance, frugality]
+tags: [life-hack, productivity]
 # og_image: "posts/finance/money.jpg"
 ---
 
