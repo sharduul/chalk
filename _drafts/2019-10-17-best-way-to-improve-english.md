@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "How To Instantly Improve Your English?"
-description: ""
+description: "The only one advice you would need to instantly improve your English Speaking."
 tags: [life-hack, productivity]
-# og_image: "posts/finance/money.jpg"
+og_image: "posts/love-reading.jpg"
 ---
 
-<!-- {% include image.html path="posts/finance/money.jpg" path-detail="posts/finance/money.jpg" alt="Make Passive Income" %} -->
+{% include image.html path="posts/love-reading.jpg" path-detail="posts/love-reading.jpg" alt="Learn English Speaking" %}
 
 People ask me about this all the time - how do I improve my English? Especially, the non-native English speakers. It is a very common problem.
 
@@ -26,7 +26,11 @@ My english teacher, when I went to her for an advice to improve my english, told
 
 According to her that it helps to improve the grammar, vocabulary, sentence formation, the way you express yourselves in certain situations, and much more. There are so many things you could actually learn from the English movies.
 
+> The more English you hear, the easier it will be for you to copy what you hear.
+
 I couldn't do that at that time because I was small. Too young to watch English movies according to the Indian standards! But, that advice had stuck in my mind.
+
+> You don't need to live in an English-speaking country to become fluent in English.
 
 When I went to the college I got more freedom. So, I started watching english movies more religiously. Slowly, things were improved. And, then I came to a point where my english was just perfect. 
 
@@ -41,6 +45,8 @@ There is only so much that you could improve by just watching the english movies
 This step is so obvious, yet so blatantly ignored. You have to get comfortable of getting into uncomfortable situations. 
 
 Grab every opportunity of speaking in front of the audience. However big or small. Just do it!
+
+> Don't be afraid to make mistakes. Surround yourself in English.
 
 Talk to a stranger everyday - on bus, in elevator. Give presentations in school, office. Speak in english at home, with friends. 
 
