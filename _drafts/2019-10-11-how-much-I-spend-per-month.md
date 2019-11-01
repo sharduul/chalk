@@ -8,46 +8,61 @@ og_image: "posts/finance/money.jpg"
 
 {% include image.html path="posts/finance/money.jpg" path-detail="posts/finance/money.jpg" alt="Make Passive Income" %}
 
+This is not usual to me. I am the most shy person in any room that you see me in. But, this is slowly becoming one of those topics I am slowly opening up on. Mostly, because a lot of you have been asking me about it.
 
-- one of those person topics I am slowly opening up on.. coz a lot of you asked
-- i created my passive income strategy <link here>... so everyone wants to know how much of that I spend
-- it's not only that... this is packed with a lot of tips and tricks on budgeting, managing finances, frugality... what should you do what should you avoid
+<!-- <internal link here> -->
+Very recently, I declared my passive income strategy - you can read about it here.  And now, everyone wants to kow how much of that I actually spend.
+
+This post is going to reveal my darkest secrets and guilty pleasures. More importantly, this post is much more than that - it is packed with a lot of tips and tricks on budgeting, managing finances, and frugality. So don't miss a single line below this one.
+
+### Tip # Zero
+
+First things first. How much money I spend does not depend on how much money I make. It has been and will be fixed for years. And, I strive really hard to keep it that way.
+
+So, any salary hike I get or any passive income stream I create does not affect my spending habits. All the extra income that I get is invested. 
+
+> The extra money I make is not spent. It is in fact used to make me more money.
+
+### The Mentality Shift
+
+I have talked about this a lot in the past. 
+
+You really need to be mentally strong to be able to control your mind to not spend money that you have. And invest it instead.
+
+Strive hard to not buy fancy stuff just to show-off. So, no branded clothes, watches, or iPhones. 
+
+> I love saving money... I am crazy passionate about that hobby of mine 
+
+Let's dive into the nitty gritty of my expenses.
+
+### Rent/Mortgage - $0
+
+Yes, I spend $0 on my mortgage.
+
+In my [How to make passive income?](http://ngninja.com/posts/how-to-make-passive-income) post I mentioned about the rental property. That rental property covers up for my mortgage completely.
+
+So no mortgage, no home insurance, and no home maintenance cost.
+
+<!-- external link -->
+This is called house hacking. I can make a new post if you are interested to learn more about it.
+
+### Internet and Utilities - $200
+
+This is pretty basic. I spend $40 and internet and $160 on average on utilities. This covers water, sewage, trash, and electricity.
+
+### Auto - $350
+
+I spend a total of $350 on my auto expenses. This includes my car insurance, gas, and any miscellaneous expenses.
+
+My car is completely paid off. My insurance has a decent coverage. Almost the minimum required in Washington state.
+
+#### Tip #445 - that is the perk fof owning an old car.
+
+I commute to work via public transport which my company pays for. So, my gas expenses are close to bare minimum. My car is 10 years old - so yes, she needs regular maintenance. But, she's still strong like a lady-hulk!
 
 
-- first thing or let's say a tip
-  - how much money I spend does not depend on how much I make
-  - it is fixed... fixed for years
-  - any salary hike I got, any passive income I created did not affect this at all
-  - all the extra income I got is invested... not spent
-  - it is in fact used to make more money for me
-- it is a mentality shift  
-  - yeah I talk about that a lot... but its true    
-  - you really need to be mentally strong to not spend money that you have... and invest it instead 
-  - no fancy stuff, no show-off
-  - no branded clothes, shoes or watches
-  - minimalist attitude
 
-- > I love saving money... I am crazy passionate about that hobby of mine 
 
-- let's dive in into the nitty gritty of my expenses
-- everything... personal, business, donations
-  - rent/mortgage
-    - $0
-    - in my [How to make passive income?](http://ngninja.com/posts/how-to-make-passive-income) post I mentioned about my rental property 
-    - that rental property covers up for my mortgage completely
-    - so no mortgage, no home insurace, and no home maintainence cost
-    - this is called house hacking <link>
-  - internet and utilities
-    - 50 on internet
-    - 150 on utilites... light, water, trash 
-  - auto
-    - $350
-    - the amount is total of my car insurance, gas, and misc. expenses on maintenance
-    - my car is completely paid off
-    - my car insurance has a decent coverage... almost minimum required in Washington state..
-      - tip#445 - that is the perk of owning a old car
-    - i commute to work via public transport which my company pays for
-    - car is old so she needs regular maintenance... but she's still strong like a hulk
   - health insurace
     - $0
     - my company covers my health insurace 100%... I don't have to pay anything
