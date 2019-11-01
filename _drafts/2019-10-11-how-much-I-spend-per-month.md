@@ -60,83 +60,95 @@ My car is completely paid off. My insurance has a decent coverage. Almost the mi
 
 I commute to work via public transport which my company pays for. So, my gas expenses are close to bare minimum. My car is 10 years old - so yes, she needs regular maintenance. But, she's still strong like a lady-hulk!
 
+### Health Insurance - $0
 
+My company covers my 100% health insurance. I literally have to pay nothing and I am truly grateful for that. It also covers my dental and vision insurance.
 
+Plus there's life insurance provided for me and my family. So, if anything ever happens to me while I work there my family will get $150K.
 
-  - health insurace
-    - $0
-    - my company covers my health insurace 100%... I don't have to pay anything
-    - it also covers dental and vision insurance
-    - plus there's life insurance as a benefit... so if anything ever happens to me while I work there my family will get $100K
-  - gym and health
-    - $150
-    - 100 - gym
-    - yeah I know this is a bit expensive
-    - but it is worth it
-    - this is through the gympass membership... my company pays for it
-    - you know the best part? I can go to ANY gym around the world that is registered on the app... there are thousands of those
-    - so I regularly do yogas, pilates, HIIT, crossfit, and so much more... you name it - I am sure I do it regularly
-    - this expense is the reason I am amazingly fit amongst my group
-    - 50 - protein and supplements
-    - it is part of my health routine
-    - keeps me fit 
-  - phone
-    - $35
-    - and everything is unlimited
-    - calls, data, hotspot
-    - its a family plan 
-  - groceries
-    - 150
-    - yeah I know you are shocked
-    - but no - I don't just eat rice and beans
-    - although nothing fancy, but I eat a healthy diet
-    - i do meal prep... so shop in bulk
-  - restaurants
-    - 100
-    - as mentioned I do cook in bulk
-    - I don't like to eat outside much
-    - that cuts down eat out expenses a looot
-    - this also keeps me health and fit
-  - vacation
-    - 300
-    - budgeted that much each month
-    - that doesn't mean I go on vacation each month
-    - it just gets added up that I use for the big vacations
-    - I usually do 2-4 such big vacations each year
-    - I am planning to visit Maldives <trip advisor link> next year 
-    - any recommendations for me?
-  - misc
-    - 200
-    - movies, parlor, fun shopping, tech gadgets
-    - big fan of tech gadgets - apple fan, google fan
-    - planning to buy the new apple watch
-    - but I am still using my iphone 6s which I bought 4 years back
-    - so I know how to maintain a balance of saving and spending on my passion for tech gadgets
-    - i need to go to parlor because I am a tech entrepreneur so I have to meet clients so I need to look decent :)
+### Gym and Health - $80
 
+I consider myself lucky enough for finding an amazing gym just downstairs at my work location. It is super reasonable - I pay $40, plus it gets me to workout more than ever because it is so close. 
 
-- spend approx only $1500 each month
-- i understand that is super low for some of you
-- but the trick is to cut down on personal expenses and go all in on expenses that will make you more money
+My gym has all the fun goodies. I regularly do yoga, pilates, HIIT, crossfit, and so much more. I will be doing bungee-workout for the first time this weekend. I am super excited!
 
-- this is not constant each month
-- I am a human being too
-- I feeling like going on a extra vacation... eat in a fancy restaurant once in a while... 
-- but I am allowed to do that because I deserve to pamper myself sometimes..
-- this is the whole idea about a FI-life... financial independent life
-- you cut down on unnecessary expenses... and go all in on things that you value the most...
+Rest of the $40 goes towards protein and supplements. It is a part of my health routine and keeps me fit. Currently, I take 2 scoops of protein, one tablet of D-3, B-12, and fish oil each day.
 
+I would recommend you to get your blood test done before trying out any supplemental tablets. They are toxic if taken unnecessarily.
 
-- this also means stress free life
-- I have less expenses... so less things to worry about and enjoy the little things to the fullest
-- this is the minimalist mindset I preach about all the time
- 
-- conclusion
-  - so this is how much I spend and what I spent money on
-  - keep in mind your expenses should not depend on how much money you make... it should only depend on what things you value the most in your life
-  - just invest the remainder
-  - put your finances on auto pilot
-  - read our blog -  [how to create wealth with no money in hands](http://ngninja.com/posts/build-wealth-with-no-money)
+### Phone - $35
+
+I have a pretty amazing phone plan. Basically, everything is unlimited - calls, data, hotspots. I can also use data for free when flying internationally. Very convenient when I visit my hometown in India.
+
+Do note that I am in a family plan. That is why the cost is so cheap.
+
+### Groceries - $150
+
+Pretty basic stuff here. Yeah, I know most of you are shocked looking at that low price. But no - I don't just eat rice and beans.
+
+> Although nothing fancy, but I eat a healthy diet for the most days of the week.
+
+I do meal prep each weekend. So, I ship in bulk and prep in bulk. To be honest, I rarely eat outside - in fact I just don't like to eat outside that much.
+
+### Restaurants - $100
+
+Like mentioned above I don't really like to eat out that much. I do love to cook so I cook in bulk every Sunday - almost for the entire week.
+
+> Not eating outside is an amazing life-hack if you want to save money and stay healthy at the same time. Trust me!
+
+Try it out for a month you will totally love this process.
+
+### Vacation - $300
+
+This is the amount I budget out each month. That doesn't mean I go on a vacation and spend all $300 every month. I just keep saving it so that I can use it for the big vacations - like the Maldives trip I am planning next year.
+<!-- trip advisor link -->
+
+I use M1 Finance to save up for my big vacations. I have created a short-term goals pie on M1 Finance that I fund every week. The pie is made up of super safe stocks and some bonds. Basically, it is designed to give me a return of at least 3-4% before I take out the money.
+
+<!-- internal link here -->
+If you are just getting started with investing and savings - you should definitely read my reviews on M1 Finance here.
+
+Getting back to my vacations - I usually do 2-4 such big vacations each year.
+
+### Miscellaneous - $200
+
+Well, I am a human being and naturally I like to pamper myself. So, I have set aside a small budget to enjoy life.
+
+I use it for movies, parlor, fun shopping, and buying a lot of tech gadgets.
+
+I am a big fan of tech gadgets and I like to try out all the latest and the greatest apple, and google tech. My next big purchase is going to be Apple Watch Series 5. 
+<!-- external link here -->
+
+> You should be mindful about spending on buying fun things. I am still using my iPhone 6s which I bought 4 years back.
+
+So, you should know how to maintain a balance of saving and spending on your passion. And, when it comes to parlors - I just do it out of a necessity because I have to meet clients and I need to look decent. :)
+<!-- smiley -->
+
+<br>
+
+All in all, I spend about $1500 each month. I do understand that is super low for some of you and most of it is because I don't have any rent to pay.
+
+But, moving along the trick is to cut down on personal expenses as much as you can and go all in on those expenses that will make you more money. Like buying course, booking a seminar to attend, getting 1:1 mentorship from someone you adore.
+
+Plus, this is not constant every single month. I am a human being too. Even I feel like going on an extra vacation, or eat out in a fancy diner restaurant once in a while. 
+
+> But, you should gauge yourself at every step and pamper yourself for every deserving accomplishment of yours.
+
+This is the whole idea about a FI-Life. A Financially Independent life.
+
+> You cut down on unnecessary expenses. And go all in on the things that you value the most.
+
+### Stress Free Life
+
+Having less expenses also means a stress free life. There are less things to worry about, and enjoy the little things that you have to the fullest. Perfect minimalist lifestyle that I preach about all the time.
+
+### Conclusion
+
+I hope you got an in-depth understanding on how much I spend and what I really spend my money on. The main takeaway from this is that your expenses should not depend on how much money you make. It should only depend on that things you value the most in your life. Stop buying things to just show them off.
+
+If money remains after all your expenses - pat your back. That is the best situation to be in. Now go ahead and invest the remainder. That is the only trick you will need to build your wealth quickly.
+
+And, if you want to put this money making machine on auto-pilot do read our blog article on [How to create wealth with no money in hands](http://ngninja.com/posts/build-wealth-with-no-money).
 
 
 ## Read Next
