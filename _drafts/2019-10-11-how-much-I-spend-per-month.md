@@ -8,10 +8,10 @@ og_image: "posts/finance/money.jpg"
 
 {% include image.html path="posts/finance/money.jpg" path-detail="posts/finance/money.jpg" alt="Make Passive Income" %}
 
-This is not usual to me. I am the most shy person in any room that you see me in. But, this is slowly becoming one of those topics I am slowly opening up on. Mostly, because a lot of you have been asking me about it.
+This is not usual to me. I am the shyest person in any room that you see me in. But, this is slowly becoming one of those topics I am slowly opening upon. Mostly, because a lot of you have been asking me about it.
 
 <!-- <internal link here> -->
-Very recently, I declared my passive income strategy - you can read about it here.  And now, everyone wants to kow how much of that I actually spend.
+Very recently, I declared my passive income strategy - you can read about it here.  And now, everyone wants to know how much of that I actually spend.
 
 This post is going to reveal my darkest secrets and guilty pleasures. More importantly, this post is much more than that - it is packed with a lot of tips and tricks on budgeting, managing finances, and frugality. So don't miss a single line below this one.
 
@@ -33,7 +33,7 @@ Strive hard to not buy fancy stuff just to show-off. So, no branded clothes, wat
 
 > I love saving money... I am crazy passionate about that hobby of mine 
 
-Let's dive into the nitty gritty of my expenses.
+Let's dive into the nitty-gritty of my expenses.
 
 ### Rent/Mortgage - $0
 
@@ -54,11 +54,11 @@ This is pretty basic. I spend $40 and internet and $160 on average on utilities.
 
 I spend a total of $350 on my auto expenses. This includes my car insurance, gas, and any miscellaneous expenses.
 
-My car is completely paid off. My insurance has a decent coverage. Almost the minimum required in Washington state.
+My car is completely paid off. My insurance has decent coverage. Almost the minimum required in Washington state.
 
-#### Tip #445 - that is the perk fof owning an old car.
+#### Tip #445 - that is the perk of owning an old car.
 
-I commute to work via public transport which my company pays for. So, my gas expenses are close to bare minimum. My car is 10 years old - so yes, she needs regular maintenance. But, she's still strong like a lady-hulk!
+I commute to work via public transport which my company pays for. So, my gas expenses are close to the bare minimum. My car is 10 years old - so yes, she needs regular maintenance. But, she's still strong like a lady-hulk!
 
 ### Health Insurance - $0
 
@@ -68,11 +68,11 @@ Plus there's life insurance provided for me and my family. So, if anything ever 
 
 ### Gym and Health - $80
 
-I consider myself lucky enough for finding an amazing gym just downstairs at my work location. It is super reasonable - I pay $40, plus it gets me to workout more than ever because it is so close. 
+I consider myself lucky enough for finding an amazing gym just downstairs at my work location. It is super reasonable - I pay $40, plus it gets me to work out more than ever because it is so close. 
 
-My gym has all the fun goodies. I regularly do yoga, pilates, HIIT, crossfit, and so much more. I will be doing bungee-workout for the first time this weekend. I am super excited!
+My gym has all the fun goodies. I regularly do yoga, pilates, HIIT, Crossfit, and so much more. I will be doing bungee-workout for the first time this weekend. I am super excited!
 
-Rest of the $40 goes towards protein and supplements. It is a part of my health routine and keeps me fit. Currently, I take 2 scoops of protein, one tablet of D-3, B-12, and fish oil each day.
+Rest of the $40 goes towards protein and supplements. It is a part of my healthy routine and keeps me fit. Currently, I take 2 scoops of protein, one tablet of D-3, B-12, and fish oil each day.
 
 I would recommend you to get your blood test done before trying out any supplemental tablets. They are toxic if taken unnecessarily.
 
@@ -112,43 +112,43 @@ Getting back to my vacations - I usually do 2-4 such big vacations each year.
 
 ### Miscellaneous - $200
 
-Well, I am a human being and naturally I like to pamper myself. So, I have set aside a small budget to enjoy life.
+Well, I am a human being and naturally, I like to pamper myself. So, I have set aside a small budget to enjoy life.
 
-I use it for movies, parlor, fun shopping, and buying a lot of tech gadgets.
+I use it for movies, parlour, fun shopping, and buying a lot of tech gadgets.
 
-I am a big fan of tech gadgets and I like to try out all the latest and the greatest apple, and google tech. My next big purchase is going to be Apple Watch Series 5. 
+I am a big fan of tech gadgets and I like to try out all the latest and the greatest apple and google tech. My next big purchase is going to be Apple Watch Series 5. 
 <!-- external link here -->
 
 > You should be mindful about spending on buying fun things. I am still using my iPhone 6s which I bought 4 years back.
 
-So, you should know how to maintain a balance of saving and spending on your passion. And, when it comes to parlors - I just do it out of a necessity because I have to meet clients and I need to look decent. :)
+So, you should know how to maintain a balance of saving and spending on your passion. And, when it comes to parlours - I just do it out of necessity because I have to meet clients and I need to look decent. :)
 <!-- smiley -->
 
 <br>
 
 All in all, I spend about $1500 each month. I do understand that is super low for some of you and most of it is because I don't have any rent to pay.
 
-But, moving along the trick is to cut down on personal expenses as much as you can and go all in on those expenses that will make you more money. Like buying course, booking a seminar to attend, getting 1:1 mentorship from someone you adore.
+But, moving along the trick is to cut down on personal expenses as much as you can and go all-in on those expenses that will make you more money. Like buying a course, booking a seminar to attend, getting 1:1 mentorship from someone you adore.
 
-Plus, this is not constant every single month. I am a human being too. Even I feel like going on an extra vacation, or eat out in a fancy diner restaurant once in a while. 
+Plus, this is not constant every single month. I am a human being too. Even I feel like going on an extra vacation or eat out in a fine-dine restaurant once in a while. 
 
 > But, you should gauge yourself at every step and pamper yourself for every deserving accomplishment of yours.
 
-This is the whole idea about a FI-Life. A Financially Independent life.
+This is the whole idea of an FI-Life. A Financially Independent Life.
 
-> You cut down on unnecessary expenses. And go all in on the things that you value the most.
+> You cut down on unnecessary expenses. And go all-in on the things that you value the most.
 
-### Stress Free Life
+### Stress-Free Life
 
-Having less expenses also means a stress free life. There are less things to worry about, and enjoy the little things that you have to the fullest. Perfect minimalist lifestyle that I preach about all the time.
+Having fewer expenses also means a stress-free life. There are fewer things to worry about and enjoy the little things that you have to the fullest. The perfect minimalist lifestyle that I preach about all the time.
 
 ### Conclusion
 
-I hope you got an in-depth understanding on how much I spend and what I really spend my money on. The main takeaway from this is that your expenses should not depend on how much money you make. It should only depend on that things you value the most in your life. Stop buying things to just show them off.
+I hope you got an in-depth understanding of how much I spend and what I really spend my money on. The main takeaway from this is that your expenses should not depend on how much money you make. It should only depend on those things you value the most in your life. Stop buying things to just show them off.
 
 If money remains after all your expenses - pat your back. That is the best situation to be in. Now go ahead and invest the remainder. That is the only trick you will need to build your wealth quickly.
 
-And, if you want to put this money making machine on auto-pilot do read our blog article on [How to create wealth with no money in hands](http://ngninja.com/posts/build-wealth-with-no-money).
+And, if you want to put this money-making machine on auto-pilot do read our blog article on [How to create wealth with no money in hands](http://ngninja.com/posts/build-wealth-with-no-money).
 
 
 ## Read Next
