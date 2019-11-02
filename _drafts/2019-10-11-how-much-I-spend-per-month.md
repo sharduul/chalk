@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How much I spend per month as a Tech Entrepreneur."
-description: ""
+description: "Do you ever wonder where does all your money go? An itemization of my living expenses to help you budget better."
 tags: [personal-finance, frugality]
 og_image: "posts/finance/money.jpg"
 ---
@@ -10,8 +10,7 @@ og_image: "posts/finance/money.jpg"
 
 Sharing my personal expenses is not usual to me. I am the shyest person in any room that you see me in. But, this is slowly becoming one of those topics I am slowly opening upon. Mostly, because a lot of you have been asking me about it.
 
-<!-- <internal link here> -->
-Very recently, I declared my passive income strategy - you can read about it here.  And now, everyone wants to know how much of that I actually spend.
+Very recently, I declared my [passive income strategy](http://ngninja.com/posts/how-to-make-passive-income) - you can read about it here.  And now, everyone wants to know how much of that I actually spend.
 
 This post is going to reveal my darkest secrets and guilty pleasures. More importantly, this post is much more than that - it is packed with a lot of tips and tricks on budgeting, managing finances, and frugality. So don't miss a single line below this one.
 
@@ -43,8 +42,7 @@ In my [How to make passive income?](http://ngninja.com/posts/how-to-make-passive
 
 So no mortgage, no home insurance, and no home maintenance cost.
 
-<!-- external link -->
-This is called house hacking. I can make a new post if you are interested to learn more about it.
+This is called [house hacking](https://www.choosefi.com/what-is-house-hacking/). I can make a new post if you are interested to learn more about it.
 
 ### Internet and Utilities - $200
 
@@ -70,7 +68,7 @@ Plus there's life insurance provided for my family and me. So, if anything ever 
 
 I consider myself lucky enough for finding a fantastic gym just downstairs at my work location. It is super reasonable - I pay $40, plus it gets me to work out more than ever because it is so close. 
 
-My gym has all the fun goodies. I regularly do yoga, pilates, HIIT, Crossfit, and so much more. I will be doing bungee-workout for the first time this weekend. I am super excited!
+My gym has all the fun goodies. I regularly do Yoga, Pilates, HIIT, CrossFit, and so much more. I will be doing bungee-workout for the first time this weekend. I am super excited!
 
 Rest of the $40 goes towards protein and supplements. It is a part of my healthy routine and keeps me fit. Currently, I take two scoops of protein, one tablet of D-3, B-12, and fish oil each day.
 
@@ -100,13 +98,11 @@ Try it out for a month; you will genuinely love this process.
 
 ### Vacation - $300
 
-This is the amount I budget out each month. That doesn't mean I go on a vacation and spend all $300 every month. I keep saving it so that I can use it for the big vacations - like the Maldives trip I am planning next year.
-<!-- trip advisor link -->
+This is the amount I budget out each month. That doesn't mean I go on a vacation and spend all $300 every month. I keep saving it so that I can use it for the big vacations - like the [Maldives](https://www.tripadvisor.com/Tourism-g293953-Maldives-Vacations.html) trip I am planning next year.
 
 I use M1 Finance to save up for my big vacations. I have created a short-term goals pie on M1 Finance that I fund every week. The cake is made up of super safe stocks and some bonds. Basically, it is designed to give me a return of at least 3-4% before I take out the money.
 
-<!-- internal link here -->
-If you are just getting started with investing and savings - you should definitely read my reviews on M1 Finance here.
+If you are just getting started with investing and savings - you should definitely read my [reviews on M1 Finance here](http://ngninja.com/posts/m1-finance-review-2019).
 
 Getting back to my vacations - I usually do 2-4 such big holidays each year.
 
@@ -116,13 +112,11 @@ Well, I am a human being, and naturally, I like to pamper myself. So, I have set
 
 I use it for movies, parlour, fun shopping, and buying a lot of tech gadgets.
 
-I am a big fan of tech gadgets, and I like to try out all the latest and the greatest apple and google tech. My next big purchase is going to be Apple Watch Series 5. 
-<!-- external link here -->
+I am a big fan of tech gadgets, and I like to try out all the latest and the greatest apple and google tech. My next big purchase is going to be [Apple Watch Series 5](https://www.bloomberg.com/news/articles/2019-10-31/apple-watch-series-5-review-a-revolutionary-edition-in-titanium). 
 
 > You should be mindful about spending on buying fun things. I am still using my iPhone 6s, which I purchased four years back.
 
-So, you should know how to maintain a balance of saving and spending on your passion. And, when it comes to parlours - I do it out of necessity because I have to meet clients and I need to look decent. :)
-<!-- smiley -->
+So, you should know how to maintain a balance of saving and spending on your passion. And, when it comes to parlours - I do it out of necessity because I have to meet clients and I need to look decent. 😎
 
 <br>
 
