@@ -64,7 +64,6 @@ Internet is free, so use it to your advantage. Blog. Create Instagram account, o
 
 
 ### Generate Passive Income With NO Money Required
-- this is very much doable... 
 - internet is your friend... 
 - study the field you love the most... 
 - get real experience in it... and just blog your self doing it...
@@ -73,6 +72,9 @@ Internet is free, so use it to your advantage. Blog. Create Instagram account, o
 - don't worry about the money ... 
 - it is a marathon... 
 - for first 6 months just create great content...
+
+
+
 
 > Generating passive income is a marathon. For the first 6 months just create valuable content and help your audience. Money will start rolling.
 
@@ -109,3 +111,6 @@ One thing I have learned in my journey is to never give up. For many years initi
 ## Read Next
 
 <!-- [How to make passive income? More importantly - WHY?](http://ngninja.com/posts/how-to-make-passive-income) -->
+
+
+
