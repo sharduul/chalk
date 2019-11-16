@@ -40,7 +40,7 @@ og_image: "posts/finance/piggy.jpg"
 - meanwhile I created the Instagram account 
 - giving away tips and tricks
 - sharing FREE courses
-- Ranjana Banerjee is becoming a brand slowly
+- Ranjana Banerjee is becoming a brand slowly!
 
 
 
