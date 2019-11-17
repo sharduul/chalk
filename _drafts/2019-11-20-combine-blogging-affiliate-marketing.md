@@ -11,37 +11,38 @@ og_image: "posts/finance/piggy.jpg"
 
 
 ### My Affiliate Marketing Strategy
+- what is it - in short.....
+- can start with zero investment
 - find your niche, passion 
 - search the affiliate partners/products to promote
 - study their products, use them if you can 
+  - better understanding of how to promote them, connect to your users
+  - speak your audience language
 - create amazing blog around it 
+  - use wordpress.org, or jekyll-github if you are good with programming
 - write 10-20 highly keyword focussed articles 
+  - it has to be natural tho
 - provide amazing value to your users in your niche
 - once you start generating traffic, pitch in your affiliate links through your blog
 - tell them how that product will change their life for good
+- some ever green niches are health, personal finance, relationship, home decor
+  - others work too.. but you have to work hard to get good customers
 
 
 
 ### Which is better vs Affiliate marketing?
+- frequent question
 - why not both?
+  - in fact the combination works wonderful
 - start with blogging 
-- create good content 
-- and then pitch your affiliate links There 
+  - pick your passion, study it, gain immense experience in it 
+  - fail often to get the experience
+- create 10-20 good valuable posts in the niche
+- then slowly pitch your affiliate links there 
 - best bloggers in the world do the same 
-
-
-
-
-### My Journey - Generating Passive Income
-- I am a software engineer by profession 
-- but I always wanted to do more than that 
-- I originally started with blogging about tech
-- now I blog on personal finance management too (ngninja.com) 
-- meanwhile I created the Instagram account 
-- giving away tips and tricks
-- sharing FREE courses
-- Ranjana Banerjee is becoming a brand slowly!
-
+- this way you can create your own digital products too
+  - and promote them... earn 100% of the profit for yourself! imagine that
+- keep in mind you deserve to financially independent... you deserve a successful life!
 
 
 
@@ -56,39 +57,9 @@ og_image: "posts/finance/piggy.jpg"
  - my top 3 pick - ATTnT, Walmart, Exxon Mobil
 
 
-
-> First step is to JUST Start. And not worry about anything else. Just start something!
-
-Internet is free, so use it to your advantage. Blog. Create Instagram account, or a Facebook group. Create YouTube videos if you are good in front of camera. Pick your favorite platform and just start creating content on regular basis.
-
-
-
-### Generate Passive Income With NO Money Required
-- internet is your friend... 
-- study the field you love the most... 
-- get real experience in it... and just blog your self doing it...
-- blog about your experiences, your learnings... 
-- keep creating content and give a personal touch to it ... 
-- don't worry about the money ... 
-- it is a marathon... 
-- for first 6 months just create great content...
-
-
-
-
 > Generating passive income is a marathon. For the first 6 months just create valuable content and help your audience. Money will start rolling.
 
 One thing I have learned in my journey is to never give up. For many years initially I had nothing. I wasn't making any money. But, eventually everything just fell into place - because of my hard work. 
-
-
-
-### Is instagram great source of income?
-- oh yes! I do it 
-- that is a great source of income 
-- but please note - there is no organic growth
-- Instagram has become stricter now
-- so, if you are not afraid to show your face, I would suggest give a shot to TikTok!
-
 
 
 
