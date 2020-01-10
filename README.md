@@ -1,5 +1,31 @@
 ## Dool Notes:
 
+## Usage
+
+### Installation
+
+If you haven't installed Ruby then go ahead and install it with: `brew install Ruby`.
+Next setup your environment:
+
+    bin/setup
+
+### Development
+
+Run Jekyll:
+
+    bundle exec jekyll serve
+
+### Deploy to GitHub Pages
+
+Run this in the root project folder in your console:
+
+    bin/deploy
+
+You can find more info on how to use the gh-pages branch and a custom domain [here](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
+
+[View this](https://github.com/nielsenramon/kickster#automated-deployment-with-circle-ci) for more info about automated deployment with Circle CI.
+
+
 ### EACCES: permission denied in VS Code MAC
 sudo chown -R sbagade `pwd`
 
@@ -52,30 +78,6 @@ Used tools
   - [Retina.js](http://imulus.github.io/retinajs/)
   - [STACSS](http://stacss.nielsenramon.com/)
 
-## Usage
-
-### Installation
-
-If you haven't installed Ruby then go ahead and install it with: `brew install Ruby`.
-Next setup your environment:
-
-    bin/setup
-
-### Development
-
-Run Jekyll:
-
-    bundle exec jekyll serve
-
-### Deploy to GitHub Pages
-
-Run this in the root project folder in your console:
-
-    bin/deploy
-
-You can find more info on how to use the gh-pages branch and a custom domain [here](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
-
-[View this](https://github.com/nielsenramon/kickster#automated-deployment-with-circle-ci) for more info about automated deployment with Circle CI.
 
 ## License
 
