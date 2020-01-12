@@ -8,9 +8,11 @@
   border-top: 1px solid $base-border-color;
   p {
     font-size: 15px;
-    color: $gray-light;
   }
   a {
     text-decoration: none;
+  }
+  i.small {
+    color: $gray-light;
   }
 }

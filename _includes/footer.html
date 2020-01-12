@@ -1,8 +1,12 @@
 <footer class="footer reveal">
   {% include subscribe.html %}
-
   <p>
     Know more about
-    <a href="{{ 'about' | relative_url }}" title="About me">Ninja Academy</a>
+    <a href="{{ 'about' | relative_url }}" title="About me">{{ site.name }}</a>
   </p>
+  <i class="small">
+    <!-- <p> -->
+    Copyright @ 2020, {{ site.name }}
+    <!-- </p> -->
+  </i>
 </footer>
