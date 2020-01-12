@@ -5,7 +5,12 @@
     <main role="main">
       <div class="grid grid-centered">
         <div class="grid-cell">
-          {% include navigation.html %}
+          <div>
+            {% include navigation.html %}
+          </div>
+          <div>
+            {% include secondaryNavigation.html %}
+          </div>
 
           <!-- Html Elements for Search -->
           <div id="search-container" class="search-container">
@@ -18,8 +23,7 @@
             <ul id="results-container" class="results-container"></ul>
           </div>
 
-          {{ content }}
-          {% include footer.html %}
+          {{ content }} {% include footer.html %}
         </div>
       </div>
     </main>
