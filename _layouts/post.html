@@ -29,13 +29,14 @@
                 </div>
               </div>
             </header>
-            {% include advertisementsTop.html %}
+            {% include advertisementsShort.html %}
 
             <div class="article-content">
               {{ content }}
             </div>
 
-            {% include advertisements.html %}
+            <!-- 1/11/2020 Test with advertisementsShort for some week. If any bad performance revert back to advertisements.html -->
+            {% include advertisementsShort.html %}
             <br />
             {% include recommended.html %}
             <br />
