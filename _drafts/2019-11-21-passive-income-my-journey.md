@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "18 Easiest Ways To Earn Extra Income For Beginners"
-description: ""
-tags: [personal-finance, passive-income, listicles]
-og_image: "posts/finance/piggy.jpg"
+title: "My Journey Of Making The Passive Income Empire"
+description: "There are tons of ways to make passive income. Today I share my journey on how I started generating passive income."
+tags: [personal-finance, passive-income]
+og_image: "posts/challenges.jpg"
 ---
 
-<!-- {% include image.html path="posts/finance/piggy.jpg" path-detail="posts/finance/piggy.jpg" alt="Make Passive Income" %} -->
+{% include image.html path="posts/challenges.jpg" path-detail="posts/challenges.jpg" alt="My Passive Income Journey" %}
 
 I am a Software Engineer by profession. So obviously I code for 8-10 hours out of my 24 hours every day.
 
