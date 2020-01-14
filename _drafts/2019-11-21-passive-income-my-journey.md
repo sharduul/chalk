@@ -8,94 +8,121 @@ og_image: "posts/finance/piggy.jpg"
 
 <!-- {% include image.html path="posts/finance/piggy.jpg" path-detail="posts/finance/piggy.jpg" alt="Make Passive Income" %} -->
 
+I am a Software Engineer by profession. So obviously I code for 8-10 hours out of my 24 hours every day.
 
-### My Journey - Generating Passive Income
-- I am a software engineer by profession 
-- but I always wanted to do more than that 
-- I originally started with blogging about tech
-  - angularjs, javascript, web apps development
-  - getting 4000 organic views each month
-- got into bitcoin and crypto currency just before the boom in 2017
-  - just about the perfect time!
-  - portfolio is doing good but I don't invest in it as regularly now
-- started watching videos on generating passive income, affiliate marketing, managing personal finance
-- slowly I started getting knowledge and experience in each of them
-- meanwhile we created the Instagram account 
-- now I blog on personal finance management too (ngninja.com) 
-- I do affiliate marketing on Instagram, and my blog
-- giving away tips and tricks
-  - for managing personal finances
-  - aspiring software engineers
-- sharing FREE courses
-  - udemy, coursera, just all over the internet
-- ninja academy is becoming a brand slowly!
-  - it the name of venture that we manage
-  - me, ranjana and few other friends
-  - to learn all the stuff about the passive income lifestyle
-- Ranjana Banerjee is becoming a brand slowly!
-- answer your questions... provide value
-  - diving deep into each topic that will generate you consistent flow of passive income
-- also please send me your feedback, your critiq @ ngninja@gmail.com
-  - that will help me make this show better
-- stay tuned!
+But, I always wanted to do more than that. Almost all my friends are happy just coding to earn their bread. But no me. I always had that drive to do something extra and  master the skills in other fields.
+
+### Blogging
+
+I was always a fan of writing. It started with my diary when I was a kid. Then I started writing for my school magzines. It slowly grew on my and I started my personal blog (which was quite embarassing and is no longer active.)
+
+My passion for writing only aggravated since then. I slowly realized the passion was really my drive to help others and share my learnings with all of those who are following the same path and are struggling at some points.
+
+That's how me and some of my friends started this blog - Ninja Academy.
+
+We originally started with blogging about tech - writing tutorials on AngularJS, JavaScript, tips and tricks on Web App Development. The blog has around 4000 organic views per month. Without any ads or any kind of promotions.
+
+Now we are entering into sharing our passive income generation strategies.
 
 
+### Love For Personal Finance
+
+I was doing quite well in my Software Engineering career. I had bagged my dream job which was paying me a six-digit figure salary - thanks to my hard work and my systematic method of studying just the right things needed for the job.
+
+> Side note: My personal study guide which helped me get into my dream company has become quite popular among my friends and students. So, if you are curious about it I'd encourage you to [go check it out here](https://cutt.ly/web-development-bootcamp).
+
+But, I was spending too much. I was very careless about my emotional spendings on food, clothes, and tech gadgets. It had come to a point where I was in a lot of depth. 
+
+I had some long chats with my friends and family members about it. I also researched a lot on the internet for getting my personal finance right. During these days I was spending a lot of hours on YouTube and other blogs and sucking in all the knowledge on this topic.
+
+Thanks to all of them and my efforts I slowly started improving on my spending and my savings rate.
+
+I opened High Yielding Savings account with [Discover Bank](https://www.discover.com/online-banking/). I got some of the best credit cards which gave nice cash backs on the purchases I made.
+
+> If you are looking for opening a credit card account I'd recommend [Chase Sapphire Preferred](https://www.referyourchasecard.com/6a/Y0U4LV90Y5) which will earn you 60,000 bonus points which you can redeem for general purchases and travel tickets.
+
+But, keep in mind if you are using credit cards you have to make sure you pay them off every month to avoid any interest charges.
+
+Please read [6 Money Mistakes To Avoid At Any Cost](http://ngninja.com/posts/6-money-mistakes-to-avoid) to know more about this.
+
+Some of the best YouTube channels I follow to learn about personal finance.
+[The Dave Ramsey Show](https://www.youtube.com/user/DaveRamseyShow)
+[Ryan Scribner](https://www.youtube.com/channel/UC3mjMoJuFnjYRBLon_6njbQ)
+
+### Bitcoin
+
+In the midst of creating softwares, writing blogs, and learning about managing my personal finances I jumped on the Bitcoin train in 2017. I call myself lucky to have done it just at the right time.
+
+My portfolio is in the positives but I don't invest in it anymore. Well, this is a discussion for another blog post. So, comment below if you want me to go in the details on this.
+
+### Instagram Boom
+
+Like I said I don't like to limit myself in one area. I like to experiment and play with different apps, different platforms, and even different ways that will earn me some money.
+
+Following that trend I opened my [Instagram account - The Coder](https://www.instagram.com/ranjana.ban/) Girl that focussed on sharing my programming experiences, tips and ticks, the resources I use, and also the programming memes - because who doesn't like to make fun of us programmers, eh!
+
+The account grew up to 30K followers in just one year. I was amazed by the growth it had, the people I met, and just the overall experience I got from it.
+
+### Is instagram great source of income?
+
+Oh yes! I did it and I still do it.
+
+Instagram is a great source of income. There are so many ways to go about it. Doing influencer marketing, promoting products for others, linking to your affiliate links, creating your own product and promoting that. And a ton of other ways.
+
+But, keep in mind at the time of writing this article - the organic growth on Instagram has been limited. Their algorithm has changed a lot and the platform has become crowded.
+
+So, if you are new to the platform I'd suggest you to be patient and be providing a ton of value to your audience. But, if you are a little impatient and want to get some instant gratification - I'd suggest you to join Tiktok which is still a relatively new platform with a lot of organic reach.
+
+Comment below if you want me to write an in-depth article on how to go viral on Tiktok. 
 
 
-> First step is to JUST Start. And not worry about anything else. Just start something!
+### Affiliate Marketing
 
-Internet is free, so use it to your advantage. Blog. Create Instagram account, or a Facebook group. Create YouTube videos if you are good in front of camera. Pick your favorite platform and just start creating content on regular basis.
+This is another source of income that I acquired very recently. Basically, you just leverage content created by others and promoted them using your channels and make a small commission on each sale made via that.
 
+This is the most passive way of income you could ever generate in my opinion. My strategy here is simple - to provide all the information revolving around a certain product, give all the benefits of that product, inform my audience how will that product make their lives better. And just include my affiliate links while doing so.
+
+I have been affiliate with some personal finance platforms and some programming courses. I plan to add more affiliate products under my belt. 
+
+The most important point to note here is that I promote ONLY those products that I have personally used and benefitted from. And, I would encourage you to do the same.
+
+If you are interested, [here's the list of resources](http://ngninja.com/resources) that me and my team at Ninja Academy use very religiously.
 
 
 ### Generate Passive Income With NO Money Required
-- internet is your friend... 
-- study the field you love the most... 
-- get real experience in it... and just blog your self doing it...
-- blog about your experiences, your learnings... 
-- keep creating content and give a personal touch to it ... 
-- don't worry about the money ... 
-- it is a marathon... 
-- for first 6 months just create great content...
 
+I get this question a lot - I have no money how do I go about earning passive income?
 
+My answer although a bit cliched is very simple - Internet is free, so use it to your advantage. Blog. Create Instagram account, or a Facebook group. Create YouTube videos if you are good in front of camera. Pick your favorite platform and just start creating content on regular basis.
 
+> First step is to JUST Start. And not worry about anything else. Just start something!
+
+Just keep in mind the Internet is your friend. So, study in depth about the field you love the most.
+
+My strategy here is to consume content 1/3rd of my time that I am awake. And product content and execute on the knowledge for the remaining 2/3rd of the time. Sleep less initially if required! Do whatever you'd have to to get there. But, be consistent in what you do.
+
+> Don't worry about the money. It will come to you.
+
+Trick here is to provide as much value as you can to your audience and just be patient. For the first 6 months, or a year if required - just create the best possible content. The dollars will eventually flow in.
 
 > Generating passive income is a marathon. For the first 6 months just create valuable content and help your audience. Money will start rolling.
 
 One thing I have learned in my journey is to never give up. For many years initially I had nothing. I wasn't making any money. But, eventually everything just fell into place - because of my hard work. 
 
+Please read this blog where I go in-depth about [how to build wealth with no money](http://ngninja.com/posts/build-wealth-with-no-money).
 
+### Conclusion
 
-### Is instagram great source of income?
-- oh yes! I do it 
-- that is a great source of income 
-- but please note - there is no organic growth
-- Instagram has become stricter now
-- so, if you are not afraid to show your face, I would suggest give a shot to TikTok!
+I hope you enjoyed reading about my journey on how I got started making passive income and that I was able to inspire you to take the first step.
 
+Side income is a game. You just have to mix and match multiple things together until your produce something that you love doing. All creative things happen when you mix multiple things together. Start a blog or a YouTube channel and promote it on your TikTok account. Or start a TikTok account and start promoting others' products. The Internet is your canvas.
 
-
-
-### Don't Fear Competition
-- competition is good dear 
-- it means there is a lot of demand
-- embrace it, use it to your advantage
-- create something unique, stand apart from the crowd
-
-
-
-
-- side income is a game 
-- you mix and match multiple things together 
-- you re-purpose your content 
-- all creative things happen when you mix multiple things together 
-
+And lastly, don't fear the competition. Competition is good! It means there is a lot of demand for it. So, embrace it and use it to your advantage.
 
 
 ## Read Next
 
-<!-- [How to make passive income? More importantly - WHY?](http://ngninja.com/posts/how-to-make-passive-income) -->
+[How to make passive income? More importantly - WHY?](http://ngninja.com/posts/how-to-make-passive-income)
 
 
 
