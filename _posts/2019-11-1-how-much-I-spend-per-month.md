@@ -102,7 +102,7 @@ This is the amount I budget out each month. That doesn't mean I go on a vacation
 
 I use M1 Finance to save up for my big vacations. I have created a short-term goals pie on M1 Finance that I fund every week. The cake is made up of super safe stocks and some bonds. Basically, it is designed to give me a return of at least 3-4% before I take out the money.
 
-If you are just getting started with investing and savings - you should definitely read my [reviews on M1 Finance here](http://ngninja.com/posts/m1-finance-review-2019).
+**If you are just getting started with investing and savings - you should definitely read my [reviews on M1 Finance here](http://ngninja.com/posts/m1-finance-review-2019).**
 
 Getting back to my vacations - I usually do 2-4 such big holidays each year.
 

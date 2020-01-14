@@ -41,7 +41,7 @@ I opened a High Yielding Savings account with [Discover Bank](https://www.discov
 
 But, keep in mind if you are using credit cards you have to make sure you pay them off every month to avoid any interest charges.
 
-Please read [6 Money Mistakes To Avoid At Any Cost](http://ngninja.com/posts/6-money-mistakes-to-avoid) to know more about this.
+**Please read [6 Money Mistakes To Avoid At Any Cost](http://ngninja.com/posts/6-money-mistakes-to-avoid) to know more about this.**
 
 Some of the best YouTube channels I follow to learn about personal finance: <br>
 [The Dave Ramsey Show](https://www.youtube.com/user/DaveRamseyShow) <br>
@@ -84,7 +84,7 @@ I have been an affiliate with some personal finance platforms and some programmi
 
 The most important point to note here is that I promote ONLY those products that I have personally used and benefitted from. And, I would encourage you to do the same.
 
-If you are interested, [here's the list of resources](http://ngninja.com/resources) that I and my team at Ninja Academy use very religiously.
+**If you are interested, [here's the list of resources](http://ngninja.com/resources) that I and my team at Ninja Academy use very religiously.**
 
 
 ### Generate Passive Income With NO Money Required
