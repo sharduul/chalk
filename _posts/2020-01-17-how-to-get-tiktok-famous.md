@@ -3,10 +3,10 @@ layout: post
 title: "How To Get TikTok Famous"
 description: "Step by step guide for going viral on TikTok organically. The secrets of TikTok algorithms are revealed in this post."
 tags: [tiktok, the-how-series, passive-income]
-og_image: "posts/finance/piggy.jpg"
+og_image: "posts/specific/tiktok.png"
 ---
 
-{% include image.html path="posts/finance/piggy.jpg" path-detail="posts/finance/piggy.jpg" alt="Make Passive Income" %}
+{% include image.html path="posts/specific/tiktok.png" path-detail="posts/specific/tiktok.png" alt="Go Viral On TikTok" %}
 
 I am sure you know what [TikTok](https://www.tiktok.com/) is unless you are living under the rock until now. 
 
