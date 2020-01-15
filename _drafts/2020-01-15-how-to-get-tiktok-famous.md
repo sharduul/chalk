@@ -1,108 +1,110 @@
 ---
 layout: post
 title: "How To Get TikTok Famous"
-description: "In depth guide for going viral on TikTok organically. The secrets of TikTok algorithms are revealed in this post."
+description: "Step by step guide for going viral on TikTok organically. The secrets of TikTok algorithms are revealed in this post."
 tags: [tiktok, the-how-series, passive-income]
 # og_image: "posts/finance/piggy.jpg"
 ---
 
 <!-- {% include image.html path="posts/finance/piggy.jpg" path-detail="posts/finance/piggy.jpg" alt="Make Passive Income" %} -->
 
-I am sure you know what [TikTok](https://www.tiktok.com/) is, unless you are living under the rock until now. 
+I am sure you know what [TikTok](https://www.tiktok.com/) is unless you are living under the rock until now. 
 
-If you are 
+If you are really not aware of it - just ask any kid around you and you'll know.
 
+### Era Of The Internet "Entrepreneurs"
 
+We have all seen what it is. Hesitated to open an account at first. But, some of us finally just gave in. For many people, it starts with watching those non-sensical TikTok mashup videos on YouTube when you are doing night outs with your friends.
 
-- we all know what it is ... seen it.. used it 
-- seen the mashup videos on youtube of viral tiktok videos 
-- it was musically before
+Here are some of the viral mashups to get you acquinted:
 
-- many "entrepreneur" started their internet career by going viral on tiktok
-- here are some of the viral mashups 
-  - https://www.youtube.com/watch?v=0J4sxXhYDmU
-  - https://www.youtube.com/watch?v=ImJAjpl9it0
-  
-- slowly becoming mainstream platform
-- celebrities are using it
-  - Cardi B - https://www.tiktok.com/@iamcardib
-  - Jonas Brothers - https://www.tiktok.com/@jonasbrothers
+#### [Mashup 1](https://www.youtube.com/watch?v=0J4sxXhYDmU)
+#### [Mashup 2](https://www.youtube.com/watch?v=ImJAjpl9it0)
 
-- more people are coming daily
-- a lot of them are getting tiktok famouse overnight 
-- it's a lot easier
-  - although you need to be consistent
-- so get on the train before it's too late 
+But that very app which was known as Musically before and now TikTok has taken everyone by the storm. People are getting on the platform and going viral literally overnight.
 
-- you don't even have to be real funny..
+In fact, many interview "entrepreneurs" have started their online-careers by going viral on TikTok. Now they have YouTube channels where they are literally printing money.
 
-> just put out the first the that comes to your mind
+It is slowly becoming a mainstream platform which might soon take over Instagram. 
 
-- you want to lose all your inhibitions
-- don't overthink
-- just see what sticks... you ll get better 
+Well, if you are still not convince - a lot of celebrities are also using it:
+
+#### [Cardi B](https://www.tiktok.com/@iamcardib)
+#### [Jonas Brothers](https://www.tiktok.com/@jonasbrothers)
 
 
-### 2 proven ways to go viral
-- you can be dumb
-- you can be cute
-  - do lip syncs  
-- these are proven to go viral 
-- 
-> you don't have to understand why things go viral... tiktok just works that way
+### The Exponential Growth
 
-- initially pu 5-6 videos per day.. as much as possible
-- they you will understand what sticks 
-- people will start noticing you... liking you
-- tiktok algorithm then pushes such videos exponentially
+TikTok now has over 500 Million active users. And the number is just growing every day.
 
+Here are some [super interesting statistics on TikTok](https://www.oberlo.com/blog/tiktok-statistics). According to Oberlo's stats, TikTok was the most downloaded app on Apple Store in Q1 of 2019. 
 
-### follow trends
-- keep your eyes open when you are consuming internet 
-- see what's trending on youtube, insta, twitter...
-- make videos for that
-- also see the for you page on tiktok..
-- that gave me the most ideas 
-- just add your twist to it
+The growth is almost exponential. And that's not even the best part. 
 
+> The best part is that people are going viral overnight.
 
-### the secret to go viral
-- don't try!
-- don't over do anything
-- people might say you are the funniest guy alive... but deep down you know it's not true!!!
-- dumbest videos have gotten 1m views 
+If you are someone who likes instant gratification - TikTok is for you. But, although this sounds easy you need to be consistent with the content. You might not be the funniest person in the room but you have to try out different things on TikTok to see what sticks.
 
-- here's what I did and I suggest you
-- find the hours in the day when you are most delusional... when you have just lost it
-- make the first video that comes to your mind at that very moment
-- you come to your senses.. and you have gone viral
+> Just put out the first thing that comes to your mind.
 
+If you are thinking of hopping on the TikTok-train, only keep one thing mind - don't overthink. Lose all your inhibitions and pour your heart out.
+  
+### Two Proven Ways To Go Viral
 
-### the sound
-- things are just different in tiktok
-- people ask me how to go viral... how to be on the for you page
-- let me tell you... it's not just the video... it's the sound
-- sound should stick.. should be catchy 
-- try it.. pick a sound that is trending ... create some video for it... and see how tiktok does 
-  
+From my experience, I have seen two trends that have proven to go viral.
 
-### conclusion
-- put as many videos as you can
-- saturate tiktok
-- you don't know which will blow up
-- ride trending videos
-- use trending sounds
-- more importantly... don't overthink!
+#### 1. Be Dumb
+#### 2. Be Cute
+
+Yes, just be dumb as you can. People love to see other people acting dumb. Right now, if you can go to the for-you page on TikTok, just take a look at the first few videos. Most of them would be people acting dumb but getting a ton of likes for it.
+
+By the way, for-you page on TikTok is like discover page on Instagram. You get new recommendations there to follow.
+
+The second way is to act cute. This works really well for the ladies (no offence to guys, but we are just cute that way :)). Although, I don't want to dishearten the guys here - I have so many guy friends that collaborate with their friends to create cute content. And they are getting a lot many views too. You can try lip-syncing as well. Maybe try combining it with being cute.
+
+> You don't have to understand WHY things go viral. TikTok just works that way.
+
+But, as I said before - nothing will work unless you are consistent. Initially start by putting five to six videos every day. Experiment as much as possible and see what sticks with TikTok.
+
+Slowly, people will start noticing you and liking you. TikTok pushes such videos exponentially after it has gotten that initial traction.
 
 
+### Follow Trends
+
+Trends are the biggest thing on TikTok. Always keep an eye out on what's trending not only on TikTok but overall on the Internet. I like to keep tabs on YouTube, Instagram, and Twitter. Follow the trending topics and hashtags and make videos on it. 
+
+If you are too lazy to do the research at least keep looking at the for-you page on TikTok. I have gotten some of my best ideas from that page itself. Just book add the videos you like to your favourites for future reference. After you have gotten some nice backlog to keep churning out amazing videos based off of that. But don't keep sitting on those favourite videos. Act soon or else you'll miss the trend-train.
+
+### My Secret Sauce To Go Viral
+
+Well, here's my secret sauce. The proven formula. The ultimate magical potion.
+
+> Don't Try!
+
+That's it. There it is.
+
+Just don't overthink on it and don't ever overdo anything. Go ahead and make the video based on the first thought you get when you are most delusional. By the time you come back to your senses - you might have just gotten viral over the internet.
+
+But, seriously. Try it out and do it consistently. From my experience, I have realized TikTok very different from other social platforms out there like Instagram and YouTube.
 
 
+### Sound Check
+
+After you've realized and experienced the above-mentioned tricks I'd encourage you to experiment with the sound too.
+
+Music is another thing TikTok values the most. It is that secret weapon which can get you features on the for-you page. So, next time when you are creating videos picks up the trending music. 
+
+Go to create Videos. Click on music icon. Select from what's currently trending and make a video around that. You can also favourite the sounds from other videos when you are casually browsing and make your own library. Then next time you could just select one from your own library and make a video on it.
 
 
+### Conclusion
 
+To reiterate I'd encourage you to make as many videos as you can. Let TikTok decide which one to push - you focus on smart-quality at the initial stage. 
 
+And don't forget to ride on the trend. Make videos on what's currently trending and give it your twist.
 
-
+Finally, the sound is super important in TikTok. So, select something catchy, something funny, or something cute. Just keep on experimenting.
+  
 
 
 ## Read Next
