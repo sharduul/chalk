@@ -3,10 +3,10 @@ layout: post
 title: "Best Of Quora Questions"
 description: "Curated list of some interesting questions and answers on Quora. Bookmark this list as it might come handy at various stages of your life."
 tags: [quora, listicles, curated-list]
-# og_image: "posts/finance/piggy.jpg"
+og_image: "posts/analyse.jpg"
 ---
 
-<!-- {% include image.html path="posts/finance/piggy.jpg" path-detail="posts/finance/piggy.jpg" alt="Make Passive Income" %} -->
+{% include image.html path="posts/analyse.jpg" path-detail="posts/analyse.jpg" alt="Best Of Quora" %}
 
 
 I love to read question and answers a lot on Quora. I spend half my time perusing content on that platform - sometimes for fun, a lot of times to get better insights on my life.
