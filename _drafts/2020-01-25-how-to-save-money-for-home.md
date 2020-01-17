@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To Save For A House - With A Plan"
+title: "How To Save For A House - Step By Step Plan"
 description: "Steps you should follow if you are saving for your house. This post will explain money saving tips and a plan for low income household."
 tags: [home-buying, personal-finance, saving, frugality]
 og_image: "posts/finance/piggy.jpg"
