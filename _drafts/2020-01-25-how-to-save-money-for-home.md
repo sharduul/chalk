@@ -2,12 +2,11 @@
 layout: post
 title: "How To Save For A House - With A Plan"
 description: "Steps your should follow if you are saving for your house. This post will explain money saving tips and a plan for low income household."
-tags: [home-buying, personal-finance, saving]
-# og_image: "posts/finance/piggy.jpg"
+tags: [home-buying, personal-finance, saving, frugality]
+og_image: "posts/finance/piggy.jpg"
 ---
 
-<!-- {% include image.html path="posts/finance/piggy.jpg" path-detail="posts/finance/piggy.jpg" alt="Make Passive Income" %} -->
-
+{% include image.html path="posts/finance/piggy.jpg" path-detail="posts/finance/piggy.jpg" alt="Make Passive Income" %}
 
 So many readers ask me about this - give me tips for saving for a house. How do I save cash? How do I get the best mortgage rate? Should I stop investing for my retirement till I save for my house?
 
