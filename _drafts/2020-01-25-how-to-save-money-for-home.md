@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How To Save For A House - With A Plan"
-description: "Steps your should follow if you are saving for your house. This post will explain money saving tips and a plan for low income household."
+description: "Steps you should follow if you are saving for your house. This post will explain money saving tips and a plan for low income household."
 tags: [home-buying, personal-finance, saving, frugality]
 og_image: "posts/finance/piggy.jpg"
 ---
@@ -86,7 +86,7 @@ It's simple. Every month when salary hits your account, certain portion of it sh
 
 And, I recommend opening a high yielding savings account for this purpose. I have such account with [Discover bank](https://portal.discover.com/) - but you could do your own research and open an account with a bank which is good and offers a better rate of interest.
 
-If you think even the high yielding savings account isn't yielding a good interest, you could opt in for some low risk investment portfolios. Although, I should warn you that investing in stocks for a short term goal is not advisable because you never now how the market performs in the near future.
+If you think even the high yielding savings account isn't yielding a good interest, you could opt in for some low risk investment portfolios. Although, I should warn you that investing in stocks for a short term goal is not advisable because you never know how the market performs in the near future.
 
 I am just putting out all the options you have. So, if you feel lucky and want a greater interest I suggest opening an account with [M1 Finance](http://bit.ly/investM1Finance). It's a free trading platform which gives you a lot of flexibility on the stocks that you can invest in.
 
@@ -105,7 +105,7 @@ Push yourself (and your boss) hard for that promotion you'd wanted so badly. Put
 
 Or take up some side hustle and go all in on that. To start something on the side, check your interess. Ask yourself what can you do all day and not get tired? Turn that thing into a money print machine.
 
-Some ideas that are popular and proves to work are starting a blog or a vlog on YouTube. Or you could sell stuff at your home, or flip stuff on e-bay. Write an ebook and sale it on amazon. Or just start a consulting gig in the area of your expertise. Or maybe become an social media influencer on Instagram or TikTok. That is becoming the new norm these days.
+Some ideas that are popular and proves to work are starting a blog or a vlog on YouTube. Or you could sell stuff at your home, or flip stuff on e-bay. Write an ebook and sell it on amazon. Or just start a consulting gig in the area of your expertise. Or maybe become an social media influencer on Instagram or TikTok. That is becoming the new norm these days.
 
 If you are looking into becoming a social media influencer do read my post on [how to go viral on TikTok](http://ngninja.com/posts/how-to-get-tiktok-famous)
 
