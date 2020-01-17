@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Journey Of Making The Passive Income Empire"
+title: "My Journey Of Creating The Passive Income Empire"
 description: "There are tons of ways to make passive income. Today I share my journey on how I started generating passive income."
 tags: [personal-finance, passive-income]
 og_image: "posts/challenges.jpg"
