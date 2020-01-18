@@ -44,6 +44,7 @@ include in post
   - travel hacks
   - bank bonuses
 - give a plan/roadmap
+- add some good quotes here n there
 
 
 
