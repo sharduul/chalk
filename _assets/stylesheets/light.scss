@@ -1,3 +1,6 @@
+@import "variables";
+
+
 // =============================================================================
 // Light theme
 // =============================================================================
@@ -32,8 +35,8 @@ $base-border-color-light: $gray-lighter;
 
 $body-background: $white;
 $header-logo-color: $black;
-$header-link-color: $gray-darker;
-$header-link-color-hover: $gray-darkest;
+$header-link-color: $brand-warning;
+$header-link-color-hover: darken($brand-warning, 10);
 $article-header-title-color: $gray-darkest;
 $article-header-description-color: $gray-dark;
 $article-post-titles-color: $gray-darkest;
@@ -51,7 +54,7 @@ $article-paginator-color-hover: $gray-darkest;
 
 // Settings
 
-@import "variables";
+// @import "variables";
 @import "mixins";
 @import "base";
 
