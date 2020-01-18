@@ -12,7 +12,8 @@
     font-size: larger;
 
     &:hover {
-        color: blue;
+        color: black;
+        background-image: linear-gradient(135deg, #f7ff00 10%, $brand-warning 100%);
     }
 }
 
