@@ -1,15 +1,18 @@
-<footer class="recommended reveal">	
-	<h3>Recommended Reading</h3>
-	<p>
-		If you have enjoyed learning from this article, below is a list of some recommended articles for you-
-	</p>
-	<ul>
-		{% assign startIndex = site.time | date: "%s%N" | modulo: site.posts.size | minus: 5 %}
-		{% assign endIndex = startIndex | plus: 4 %}
-
-  		{% for i in (startIndex..endIndex) %}
-  			{% assign post = site.posts[i] %}
-      		<li><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-    	{% endfor %}
-	</ul>
+<footer class="recommended reveal">
+  <h3>You might also like</h3>
+  <p>
+    If you have enjoyed learning from this article, below is a list of some
+    recommended articles for you-
+  </p>
+  <ul>
+    {% assign startIndex = site.time | date: "%s%N" | modulo: site.posts.size |
+    minus: 5 %} {% assign endIndex = startIndex | plus: 4 %} {% for i in
+    (startIndex..endIndex) %} {% assign post = site.posts[i] %}
+    <li>
+      <a href="{{ post.url | relative_url }}" title="{{ post.title }}"
+        >{{ post.title }}</a
+      >
+    </li>
+    {% endfor %}
+  </ul>
 </footer>
