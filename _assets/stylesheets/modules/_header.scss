@@ -8,22 +8,6 @@
   border-bottom: 1px solid $base-border-color;
 }
 
-.header-subnav {
-  display: flex;
-  border-bottom: 1px solid $base-border-color;
-  font-size: x-small;
-
-  .subnav-item {
-    margin-right: .5rem;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-  }
-
-  .last {
-    margin-left: auto;
-  }
-}
-
 .header-logo {
   display: inline-block;
   font-family: $serif;
@@ -73,6 +57,10 @@
   }
 }
 
+
+// =============================================================================
+// Sub nav styles
+// =============================================================================
 
 .subnav {
   display: flex;
