@@ -1,7 +1,11 @@
 <nav class="header-nav reveal">
   <a href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}"
-    >{{ site.name }}</a
-  >
+    ><img
+      src="{% asset logo.png @path %}"
+      alt="HTML tutorial"
+      style="height: 50px;"
+  /></a>
+
   <ul class="header-links">
     {% if site.social.twitter %}
     <li>
