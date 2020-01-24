@@ -9,7 +9,7 @@ og_image: "posts/curatedlists/santa-list.jpg"
 {% include image.html path="posts/curatedlists/santa-list.jpg" path-detail="posts/curatedlists/santa-list.jpg" alt="Curated List" %}
 
 
-This marks the beginning of an awesome era in our Ninja Academy. Starting today, on every Friday we are going to publish a curated list of awesome people we have discovered, cool startups we came across and things we learned in this week.
+This marks the beginning of an awesome era in our NgNinja Academy. Starting today, on every Friday we are going to publish a curated list of awesome people we have discovered, cool startups we came across and things we learned in this week.
 
 These curated lists, although will focus on technology, will not be limited to it. This will be more of a platform to share with you guys about the things and people that inspired us. The lessons which helped us keep moving forward in our journey.
 

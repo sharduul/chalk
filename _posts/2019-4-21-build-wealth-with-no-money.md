@@ -73,7 +73,7 @@ The above methods will surely get you started and put you on the right track. Bu
 
 And the best way to go about it is - to find some gap, find some problem out there. And then create a solution to fix it. **Build an app, start a blog, start a YouTube channel and provide knowledge.** Choose your favorite platform - but add value to people and solve their problems. People are then willing to pay you a handsome amount if you are genuinely helping them out.
 
-This is exactly what we found out - at the Ninja Academy. This blog started out as a tech blog but now it has grown so much more than that. We realized Software Engineers are not so good at managing their personal finances. And that's the gap we are trying to fill in.
+This is exactly what we found out - at the NgNinja Academy. This blog started out as a tech blog but now it has grown so much more than that. We realized Software Engineers are not so good at managing their personal finances. And that's the gap we are trying to fill in.
 
 **We are here to help you guys build wealth. Create multiple streams of income.** And we are sure you guys will enjoy and learn from our mistakes and the value bombs that we drop regularly.
 
@@ -139,7 +139,7 @@ Next up is tracking your spending. See where you spend the most. Realize what yo
 
 My favorite tools for tracking your spending are **[Mint](https://www.mint.com/) and [Personal Capital](https://www.personalcapital.com).** They are completely free.
 
-We all use the above tools at Ninja Academy. All of them have been super helpful in helping us bringing our finances on track and be mindful about them.
+We all use the above tools at NgNinja Academy. All of them have been super helpful in helping us bringing our finances on track and be mindful about them.
 
 ### Conclusion
 
@@ -147,7 +147,7 @@ In conclusion, **to build wealth keep on learning new things each day.** Start a
 
 And think long term. **There are no shortcuts in becoming wealthy.** You have to be patient and consistent at it. Living on the minimum expenses possible and saving the rest.
 
-Do this for a while and boom! Financial Independence is just a piece of cake. I know many people have done it. We all have done it at Ninja Academy.
+Do this for a while and boom! Financial Independence is just a piece of cake. I know many people have done it. We all have done it at NgNinja Academy.
 
 So take risks, level up, and hustle hard. **Don't ever give up!**
 

@@ -82,7 +82,7 @@ Comment below if you want to know how you can start with Affiliate Marketing. I 
 
 Every month, I earn about \$650 by selling online courses.
 
-This is rapidly becoming the mainstream of income at our Ninja Academy. This is the amount we make through passive income from all the sells that we make.
+This is rapidly becoming the mainstream of income at our NgNinja Academy. This is the amount we make through passive income from all the sells that we make.
 
 We have created online notes for Software Engineers to help them land their dream jobs. If you are one of those, I'd recommend checking out the testimonials on how we have helped so many students get humongous salaries at their dream jobs.
 

@@ -18,7 +18,7 @@ I was always a fan of writing. It started with my diary when I was a kid. Then I
 
 My passion for writing only aggravated since then. I slowly realized the passion was really my drive to help others and share my learnings with all of those who are following the same path as me but are struggling at some points.
 
-That's how I and some of my friends started this blog - [Ninja Academy](www.ngninja.com).
+That's how I and some of my friends started this blog - [NgNinja Academy](www.ngninja.com).
 
 We originally started with blogging about tech - writing tutorials on AngularJS, JavaScript, tips and tricks on Web App Development. Now we are entering into sharing our passive income generation strategies. The blog has around 4000 organic views per month. Without any ads or any kind of promotions.
 
@@ -84,7 +84,7 @@ I have been an affiliate with some personal finance platforms and some programmi
 
 The most important point to note here is that I promote ONLY those products that I have personally used and benefitted from. And, I would encourage you to do the same.
 
-**If you are interested, [here's the list of resources](http://ngninja.com/resources) that I and my team at Ninja Academy use very religiously.**
+**If you are interested, [here's the list of resources](http://ngninja.com/resources) that I and my team at NgNinja Academy use very religiously.**
 
 
 ### Generate Passive Income With NO Money Required
