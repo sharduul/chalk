@@ -227,9 +227,8 @@ If you are interested to learn more about React and build beautiful applications
 <br>
 
 #### Author: B.K. Sai Kalyan
-Gmail: *saikalyan1729@gmail.com*  
-To know more about the author: *[website](https://sites.google.com/view/sai-kalyan-bhagavathula/home?authuser=1)*  
-
+Gmail: saikalyan1729@gmail.com  
+To know more about the author: [website](https://sites.google.com/view/sai-kalyan-bhagavathula/home?authuser=1) 
 ---
 <br>
 
