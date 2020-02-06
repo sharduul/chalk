@@ -43,15 +43,15 @@ If you have `NPM` and `Node.js` installed, you can create a React application by
 Install `create-react-app` by running this command in your terminal
 (in the folder where you want to save react app)
 
-```
+{% highlight javascript %}
 C:\Users\the folder you wish>npm install -g create-react-app
-```
+{% endhighlight %}
 
 Then you are able to create a React application, let's create one called `firstreact`
 
-```
+{% highlight javascript %}
 C:\Users\the folder you wish>npx create-react-app firstreact
-```
+{% endhighlight %}
 
 The `create-react-app` will set up everything you need to run a React application.
  
@@ -59,15 +59,15 @@ The `create-react-app` will set up everything you need to run a React applicatio
 
 Run this command to move to the `firstreact` directory:
 
-```
+{% highlight javascript %}
 C:\Users\the folder you wish>cd firstreact
-```
+{% endhighlight %}
 
 Run this command to run the React application `firstreact`
 
-```
+{% highlight javascript %}
 C:\Users\the folder you wish\firstreact>npm start
-```
+{% endhighlight %}
 
 A new default browser window will pop up with your newly created React App! 
 (If not, open your browser and type localhost:3000 in the address bar)
@@ -78,11 +78,11 @@ Let’s learn about how to customize our react app.
 
 Look in the `firstreact` directory, and you will find an `src` folder. Inside the `src` folder there is a file called `App.js`, open it and it will code like this:
 
-```
+{% highlight javascript %}
 /firstreact/src/App.js:
-```
+{% endhighlight %}
 
-```
+{% highlight javascript %}
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -111,7 +111,7 @@ class App extends Component {
 }
 
 export default App;
-```
+{% endhighlight %}
 
 Now, try changing the HTML content and save the file.
 
@@ -120,7 +120,7 @@ Changes are automatically reloaded into the browser.
 Replace all the content inside the `<div className="App">` with a `<h1>` element. Like below.
 
 
-```
+{% highlight javascript %}
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -134,7 +134,7 @@ class App extends Component {
 }
 
 export default App;
-```
+{% endhighlight %}
 
 As soon as you replace this code and save it open your browser to see the changes.
 
@@ -155,13 +155,13 @@ The component also requires a `render()` method, this method returns HTML.
 
 Create a Class component called `Ninja`
 
-```
+{% highlight javascript %}
 class Ninja extends React.Component {
   render() {
     return <h2>Hi, We learning React</h2>;
   }
 }
-```
+{% endhighlight %}
 
 ## Creating a Function Component
 
@@ -171,11 +171,11 @@ A Function component also returns HTML and behaves pretty much the same way as a
 
 Create a Function component called `Ninja`
 
-```
+{% highlight javascript %}
 function Ninja() {
   return <h2>Hi, We are learning react</h2>;
 }
-```
+{% endhighlight %}
 
 As you can see - writing Function components is much simpler and easier. It involves writing lesser code. So, it is recommended to use Function components whenever you can.
 
@@ -195,17 +195,17 @@ Let us demonstrate with two examples, the first uses JSX and the second does not
 
 ### Example 1 (Using JSX)
 
-```
+{% highlight javascript %}
 const myelement = <h1>We are learning React!</h1>;
 ReactDOM.render(myelement, document.getElementById('root'));
-```
+{% endhighlight %}
 
 ### Example 2 (Without Using JSX)
 
-```
+{% highlight javascript %}
 const myelement = React.createElement('h1', {}, 'We are learning react');
 ReactDOM.render(myelement, document.getElementById('root'));
-```
+{% endhighlight %}
 
 In both the examples the output is same i.e **We are learning react**.
 
@@ -224,13 +224,15 @@ Remember it is a very fast growing JavasScript framework. It let's you write com
 If you are interested to learn more about React and build beautiful applications using it I highly recommend you to checkout [our bootcamp](https://cutt.ly/web-development-bootcamp).
 
 ---
+<br>
 
-### Author: B.K. Sai Kalyan
-*Gmail: saikalyan1729@gmail.com*  
-*To know more about the author:*  
-*https://sites.google.com/view/sai-kalyan-bhagavathula/home?authuser=1*  
+#### Author: B.K. Sai Kalyan
+Gmail: *saikalyan1729@gmail.com*  
+To know more about the author: *[website](https://sites.google.com/view/sai-kalyan-bhagavathula/home?authuser=1)*  
 
 ---
+<br>
+
 
 ## Read Next
 
