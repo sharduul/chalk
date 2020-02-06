@@ -3,11 +3,10 @@ layout: post
 title: "React Crash Course - Learn React JS in 5 Minutes"
 description: "This articles teaches your the fundamentals of React JS and how to create your first React JS application. You will learn the building blocks of ReactJS like Components, JSX, Virtual DOM, etc."
 tags: [reactjs, the-how-series]
-# og_image: "posts/finance/piggy.jpg"
+og_image: "posts/reactjs.png"
 ---
 
-<!-- {% include image.html path="posts/finance/piggy.jpg" path-detail="posts/finance/piggy.jpg" alt="Make Passive Income" %} -->
-
+{% include image.html path="posts/reactjs.png" path-detail="posts/reactjs.png" alt="ReactJS Getting Started" %}
 
 Let's dive into the topic directly.
 
@@ -227,9 +226,9 @@ If you are interested to learn more about React and build beautiful applications
 ---
 
 ### Author: B.K. Sai Kalyan
-*Gmail: saikalyan1729@gmail.com* 
-*To know more about the author:* 
-*https://sites.google.com/view/sai-kalyan-bhagavathula/home?authuser=1* 
+*Gmail: saikalyan1729@gmail.com*  
+*To know more about the author:*  
+*https://sites.google.com/view/sai-kalyan-bhagavathula/home?authuser=1*  
 
 ---
 
