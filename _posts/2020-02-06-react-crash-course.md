@@ -83,34 +83,34 @@ Look in the `firstreact` directory, and you will find an `src` folder. Inside th
 {% endhighlight %}
 
 {% highlight javascript %}
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </header>
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
 {% endhighlight %}
 
 Now, try changing the HTML content and save the file.
@@ -121,19 +121,19 @@ Replace all the content inside the `<div className="App">` with a `<h1>` element
 
 
 {% highlight javascript %}
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <h1>Hello World!</h1>
-      </div>
-    );
-  }
+  render() {
+    return (
+      <div className="App">
+        <h1>Hello World!</h1>
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
 {% endhighlight %}
 
 As soon as you replace this code and save it open your browser to see the changes.
@@ -157,9 +157,9 @@ Create a Class component called `Ninja`
 
 {% highlight javascript %}
 class Ninja extends React.Component {
-  render() {
-    return <h2>Hi, We learning React</h2>;
-  }
+  render() {
+    return <h2>Hi, We learning React</h2>
+  }
 }
 {% endhighlight %}
 
@@ -173,7 +173,7 @@ Create a Function component called `Ninja`
 
 {% highlight javascript %}
 function Ninja() {
-  return <h2>Hi, We are learning react</h2>;
+  return <h2>Hi, We are learning react</h2>
 }
 {% endhighlight %}
 
