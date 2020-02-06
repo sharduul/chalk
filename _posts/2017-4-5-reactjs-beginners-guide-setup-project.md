@@ -203,7 +203,7 @@ Congratulations again if you made it this far into the post, and I hope is was h
 
 ## Read Next
 
-[5 Common mistakes JavaScript developers make](/mistakes-by-javascript-developers)
+[5 Common mistakes JavaScript developers make](/posts/mistakes-by-javascript-developers)
 
 
   

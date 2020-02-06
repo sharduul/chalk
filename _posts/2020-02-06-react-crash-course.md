@@ -235,4 +235,4 @@ To know more about the author: [website](https://sites.google.com/view/sai-kalya
 
 ## Read Next
 
-[5 Common mistakes JavaScript developers make](/steps-after-you-type-url-in-browser)
+[5 Common mistakes JavaScript developers make](/posts/steps-after-you-type-url-in-browser)
