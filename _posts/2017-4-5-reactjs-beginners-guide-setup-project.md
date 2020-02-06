@@ -201,6 +201,9 @@ The complete code for the above ReactJS project setup can be found [here](https:
 
 Congratulations again if you made it this far into the post, and I hope is was helpful to you!
 
+## Read Next
+
+[5 Common mistakes JavaScript developers make](posts/mistakes-by-javascript-developers)
 
 
   
