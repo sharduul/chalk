@@ -238,7 +238,7 @@ To know more about the author: [website](https://sites.google.com/view/sai-kalya
 [5 Common mistakes JavaScript developers make](/posts/steps-after-you-type-url-in-browser)
 
 
-## Further Resources We Recommend
+### Further Resources We Recommend
 
-### [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2RIqGYk)
-### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
+#### [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2RIqGYk)
+#### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)

@@ -119,7 +119,7 @@ That's it! By now, you might have realized that you have been using closures all
 
 Now go out there, and tell your interviewer that you know what JavaScript closures are!
 
-## Further Resources We Recommend
+### Further Resources We Recommend
 
-### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
-### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
+#### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
+#### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
