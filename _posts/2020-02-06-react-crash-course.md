@@ -229,16 +229,20 @@ If you are interested to learn more about React and build beautiful applications
 #### Author: B.K. Sai Kalyan
 Gmail: saikalyan1729@gmail.com  
 To know more about the author: [website](https://sites.google.com/view/sai-kalyan-bhagavathula/home?authuser=1) 
+
 ---
+
 <br>
 
+### Further Resources We Recommend
+
+#### [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2RIqGYk)
+#### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
+
+<br>
 
 ## Read Next
 
 [5 Common mistakes JavaScript developers make](/posts/steps-after-you-type-url-in-browser)
 
 
-### Further Resources We Recommend
-
-#### [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2RIqGYk)
-#### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
