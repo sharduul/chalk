@@ -163,4 +163,4 @@ Again, this article is the Part 2 of the JavaScript tricks series. Below is the 
 #### Further Resources We Recommend
 
 - [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
-### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
+- [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)

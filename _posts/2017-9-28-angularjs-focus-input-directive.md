@@ -135,4 +135,4 @@ Also, don't forget to checkout this trending post on Ngninja- [How to create Gma
 #### Further Resources We Recommend
 
 - [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
-### [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)
+- [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)

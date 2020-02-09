@@ -144,4 +144,4 @@ Based on above examples, we can definitely say that, although different from cla
 #### Further Resources We Recommend
 
 - [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)
-### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
+- [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
