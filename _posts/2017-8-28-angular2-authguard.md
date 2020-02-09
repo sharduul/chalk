@@ -121,5 +121,5 @@ Have fun with the demo and let me know what do you think of this solution for pr
 
 #### Further Resources We Recommend
 
-### [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
+- [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
 ### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)

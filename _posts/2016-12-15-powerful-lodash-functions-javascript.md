@@ -143,5 +143,5 @@ I am totally in love with Lodash- not only because it saves me a lot of time or 
 
 #### Further Resources We Recommend
 
-### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
+- [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
 ### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)

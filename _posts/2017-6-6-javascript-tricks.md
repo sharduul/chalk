@@ -113,6 +113,6 @@ Again, this article is the Part 2 of the JavaScript tricks series. Below is the 
 
 #### Further Resources We Recommend
 
-### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
+- [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
 ### [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)
 ### [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2RIqGYk)

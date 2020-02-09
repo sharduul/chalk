@@ -184,5 +184,5 @@ Please let me know if you need more clarification on any part of the implementat
 
 #### Further Resources We Recommend
 
-### [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
+- [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
 ### [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)

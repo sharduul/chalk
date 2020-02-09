@@ -147,5 +147,5 @@ Please let me know what you think about the solution. Also, shoot a reply if you
 
 #### Further Resources We Recommend
 
-### [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
+- [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
 ### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
