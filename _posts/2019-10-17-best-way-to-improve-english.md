@@ -58,6 +58,12 @@ You will feel awkward at first. But, trust me on that will make you fluent and a
 Don't wait. Start today. Watch English movies with subtitles on. Go out and speak in English with a stranger. Practice how much ever you can to improve your English. This is the only way you can get good at public speaking.
 
 
+#### Further Resources We Recommend
+
+- [The Total Money Makeover Workbook: Classic Edition: The Essential Companion for Applying the Book's Principles](https://amzn.to/36NkeUh)
+
+<br>
+
 ## Read Next
 
 [6 Apps to conquer your day like a boss](http://ngninja.com/posts/productivity-apps)

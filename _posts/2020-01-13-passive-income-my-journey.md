@@ -118,6 +118,13 @@ Side income is a game. You just have to mix and match different things together 
 And lastly, don't fear the competition. Competition is good! It means there is a lot of demand for it. So, embrace it and use it to your advantage.
 
 
+#### Further Resources We Recommend
+
+- [Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!](https://amzn.to/36IbVsP)
+- [The Total Money Makeover Workbook: Classic Edition: The Essential Companion for Applying the Book's Principles](https://amzn.to/36NkeUh)
+
+<br>
+
 ## Read Next
 
 [How to make passive income? More importantly - WHY?](http://ngninja.com/posts/how-to-make-passive-income)

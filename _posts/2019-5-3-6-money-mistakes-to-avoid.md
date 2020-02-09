@@ -187,3 +187,11 @@ Those are all the mistakes one should avoid in their life. Especially for the on
 Tell me what you think about the above-mentioned mistakes. What mistakes did you make that we might learn from? How do you avoid making such mistakes?
 
 And, after you have realized and rectified your mistakes - read our other article on **[how to create wealth with no money in hands](http://ngninja.com/posts/build-wealth-with-no-money)**.
+
+
+#### Further Resources We Recommend
+
+- [Think and Grow Rich](https://amzn.to/2UcepwY)
+- [The Total Money Makeover Workbook: Classic Edition: The Essential Companion for Applying the Book's Principles](https://amzn.to/36NkeUh)
+
+<br>

@@ -153,6 +153,12 @@ So take risks, level up, and hustle hard. **Don't ever give up!**
 
 <br/>
 
+#### Further Resources We Recommend
+
+- [The Total Money Makeover Workbook: Classic Edition: The Essential Companion for Applying the Book's Principles](https://amzn.to/36NkeUh)
+
+<br>
+
 ## Read Next
 
 [Acorns Review - Is it really for you](http://ngninja.com/posts/acorns-review-2019)<br/>

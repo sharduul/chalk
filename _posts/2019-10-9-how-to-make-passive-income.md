@@ -200,6 +200,12 @@ My final tip is - choose one side hustle, work on it super hard for a while. Eve
 
 <br/>
 
+#### Further Resources We Recommend
+
+- [Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!](https://amzn.to/36IbVsP)
+
+<br>
+
 ## Read Next
 
 [How To Build Wealth Even If Your Pockets Are Empty?](http://ngninja.com/posts/build-wealth-with-no-money)

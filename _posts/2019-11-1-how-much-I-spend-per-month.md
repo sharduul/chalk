@@ -145,6 +145,13 @@ If money remains after all your expenses - pat your back. That is the best situa
 And, if you want to put this money-making machine on auto-pilot do read our blog article on [How to create wealth with no money in hands](http://ngninja.com/posts/build-wealth-with-no-money).
 
 
+#### Further Resources We Recommend
+
+- [Think and Grow Rich](https://amzn.to/2UcepwY)
+- [The Total Money Makeover Workbook: Classic Edition: The Essential Companion for Applying the Book's Principles](https://amzn.to/36NkeUh)
+
+<br>
+
 ## Read Next
 
 [6 Money Mistakes To Avoid At Any Cost](http://ngninja.com/posts/money-mistakes-to-avoid)

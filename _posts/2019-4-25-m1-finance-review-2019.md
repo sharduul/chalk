@@ -166,3 +166,9 @@ Wanna sign up for M1 Finance?
 ## Other Reviews
 
 [Acorns Review - Is it really for you](http://ngninja.com/posts/acorns-review-2019)
+
+
+#### Further Resources We Recommend
+
+- [Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!](https://amzn.to/36IbVsP)
+- [The Total Money Makeover Workbook: Classic Edition: The Essential Companion for Applying the Book's Principles](https://amzn.to/36NkeUh)

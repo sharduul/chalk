@@ -139,6 +139,15 @@ Finally, I'd suggest you keep a tab on purchases - see what is really adding val
 More importantly, start investing early - start small if you want but don't delay. Because compound interest is more beautiful than you can imagine.
 
 
+#### Further Resources We Recommend
+
+- [Think and Grow Rich](https://amzn.to/2UcepwY)
+- [Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!](https://amzn.to/36IbVsP)
+
+<br>
+
+
+
 ## Read Next
 
 [How to make passive income? More importantly - WHY?](http://ngninja.com/posts/how-to-make-passive-income)

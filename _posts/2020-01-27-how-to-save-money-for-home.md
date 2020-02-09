@@ -127,6 +127,14 @@ More importantly, plan! Keep a target date in your mind and on your wall. And tr
 Finally, get okay with doing sacrifices. It will be totally worth it.
 
 
+#### Further Resources We Recommend
+
+- [Think and Grow Rich](https://amzn.to/2UcepwY)
+- [The Total Money Makeover Workbook: Classic Edition: The Essential Companion for Applying the Book's Principles](https://amzn.to/36NkeUh)
+
+<br>
+
+
 ## Read Next
 
 [My Journey Of Creating The Passive Income Empire](http://ngninja.com/posts/passive-income-my-journey)

@@ -112,6 +112,12 @@ And don't forget to ride on the trend. Make videos on what's currently trending 
 Finally, the sound is super important in TikTok. So, select something catchy, something funny, or something cute. Just keep on experimenting.
   
 
+#### Further Resources We Recommend
+
+- [Think and Grow Rich](https://amzn.to/2UcepwY)
+
+<br>
+
 
 ## Read Next
 
