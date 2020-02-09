@@ -132,3 +132,7 @@ By the way, if you want to learn how to watch controller variables you should ch
 Also, don't forget to checkout this trending post on Ngninja- [How to create Gmail like multi-select checkbox dropdown in AngularJS?](http://ngninja.com/posts/angular-gmail-multi-select-control)
 
 
+## Further Resources We Recommend
+
+### [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
+### [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)

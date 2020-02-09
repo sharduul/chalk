@@ -180,3 +180,9 @@ We learned how to create a wrapper component. You can leverage that component to
 If you want to get started with Kendo UI or want to learn how to customize them, [here is something interesting for you](http://ngninja.com/posts/kendo-multi-select-widget).
 
 Please let me know if you need more clarification on any part of the implementation. Also, do suggest how we can improve this control to do some awesome things.
+
+
+## Further Resources We Recommend
+
+### [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
+### [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)

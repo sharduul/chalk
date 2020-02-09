@@ -119,3 +119,7 @@ If you see the [complete demo](https://embed.plnkr.co/H8ogMZsZTjL0dGw8qdud/), I 
 Have fun with the demo and let me know what do you think of this solution for protecting the private routes of your application. Isn't it fool proof?
 
 
+## Further Resources We Recommend
+
+### [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
+### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)

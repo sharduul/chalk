@@ -128,3 +128,7 @@ In this post, we learned the basics of the life-cycle of a directive. We saw whi
 Please stay tuned for the future posts, where I will demonstrate the usage of each function with some advanced code examples.
 
 
+## Further Resources We Recommend
+
+### [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
+### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
