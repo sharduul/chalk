@@ -80,7 +80,7 @@ Have a great year 2017. Let's take a step closer to becoming programming ninjas!
 
 
 
-## Further Resources We Recommend
+#### Further Resources We Recommend
 
 ### [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
 ### [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)

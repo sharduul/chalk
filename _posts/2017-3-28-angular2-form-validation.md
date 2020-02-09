@@ -145,7 +145,7 @@ Please not that if you are using Angular 5 the same above functionality is now a
 Please let me know what you think about the solution. Also, shoot a reply if you have a better one.
 
 
-## Further Resources We Recommend
+#### Further Resources We Recommend
 
 ### [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
 ### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)

@@ -78,7 +78,7 @@ Again, you can find the [full demo here](http://plnkr.co/edit/P2SzhTj2jIHbQITXBa
 I hope this short and simple post comes handy when you come across any similar situation. Now, that you have learned how to use built-in pipes in your components, extending them to create your custom pipes is as much easy. Shoot me with any questions or concerns you have.
 
 
-## Further Resources We Recommend
+#### Further Resources We Recommend
 
 ### [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
 ### [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)

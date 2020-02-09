@@ -160,7 +160,7 @@ These were some fun and tricky questions in JavaScript you should be familiar wi
 Please let me know what do you think of these questions and how many of them you already knew?
 
 
-## Further Resources We Recommend
+#### Further Resources We Recommend
 
 ### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
 ### [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)

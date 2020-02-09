@@ -168,7 +168,7 @@ Long and short, Service or Factory or Provider- they all are the same. The only 
 In most cases, you will just need a Factory. But to become a true AngularJS ninja, try and experiment with all of them. And do let me know what do you think of the above-mentioned use cases.
 
 
-## Further Resources We Recommend
+#### Further Resources We Recommend
 
 ### [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
 ### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)

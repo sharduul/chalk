@@ -58,7 +58,7 @@ There are also other online tools available where you can experiment with this l
 For the first post on my new blog I just wanted start with giving a high level explanation of the programming language I am immensely passionate about- JavaScript. Get ready, for things are going to get pretty serious at [NgNinja Academy](http://ngninja.com/)!
 
 
-### Further Resources We Recommend
+#### Further Resources We Recommend
 
-#### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
-#### [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)
+- [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
+- [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)

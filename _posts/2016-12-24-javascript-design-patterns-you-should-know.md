@@ -123,7 +123,7 @@ Above is a simple explanation on two very popular design patterns. So now, you s
 
 
 
-## Further Resources We Recommend
+#### Further Resources We Recommend
 
 ### [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)
 ### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)

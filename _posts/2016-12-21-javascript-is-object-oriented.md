@@ -141,7 +141,7 @@ Based on above examples, we can definitely say that, although different from cla
  JavaScript is also an Object Oriented Programming language.
 
 
-## Further Resources We Recommend
+#### Further Resources We Recommend
 
 ### [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)
 ### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)

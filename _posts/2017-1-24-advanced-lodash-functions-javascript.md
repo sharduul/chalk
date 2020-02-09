@@ -167,7 +167,7 @@ I hope this long post was worth reading. I tried to make the explanations of som
 
 
 
-## Further Resources We Recommend
+#### Further Resources We Recommend
 
 ### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
 ### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)

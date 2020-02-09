@@ -141,7 +141,7 @@ In the above examples of my favorite utility functions, I have only covered the 
 I am totally in love with Lodash- not only because it saves me a lot of time or makes my code look prettier. But because it forces me to think of the problem in a more functional and an abstract manner. By doing this, I can break a bigger problem into multiple smaller ones and tackle each one of them individually.
 
 
-## Further Resources We Recommend
+#### Further Resources We Recommend
 
 ### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
 ### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
