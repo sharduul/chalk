@@ -118,3 +118,8 @@ Call to "foo" function logs value of "a" as 25 because "a" was kept in the closu
 That's it! By now, you might have realized that you have been using closures all this long and you didn't even realize it. That very fact makes it notorious.
 
 Now go out there, and tell your interviewer that you know what JavaScript closures are!
+
+## Further Resources We Recommend
+
+### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
+### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)

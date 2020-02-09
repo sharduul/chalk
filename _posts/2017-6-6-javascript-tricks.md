@@ -109,3 +109,9 @@ Again, this article is the Part 2 of the JavaScript tricks series. Below is the 
 
 1. [JavaScript tips and tricks - Part 1](http://ngninja.com/posts/javascript-tricks)
 2. [JavaScript tips and tricks - Part 2](http://ngninja.com/posts/javascript-tips-tricks-part-2)
+
+
+## Further Resources We Recommend
+
+### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
+### [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)

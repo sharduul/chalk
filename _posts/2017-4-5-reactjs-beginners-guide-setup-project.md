@@ -201,6 +201,13 @@ The complete code for the above ReactJS project setup can be found [here](https:
 
 Congratulations again if you made it this far into the post, and I hope is was helpful to you!
 
+
+## Further Resources We Recommend
+
+### [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2RIqGYk)
+### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
+
+
 ## Read Next
 
 [5 Common mistakes JavaScript developers make](/posts/mistakes-by-javascript-developers)

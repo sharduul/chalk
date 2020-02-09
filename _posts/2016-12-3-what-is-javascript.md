@@ -5,7 +5,7 @@ description: "JavaScript programming language analysed, explaining why do you wa
 tags: [javascript, the-what-series]
 ---
 
-### The What?
+## The What?
 
 Simply put, JavaScript is a language of the web browsers. It is an object-oriented programming language which makes your HTML pages dynamic.
 
@@ -13,7 +13,7 @@ So, the next time you vote for any online poll, attempt any fun quizzes, or simp
 
 No, JavaScript is not as same as Java. Many people often get confused between Java and JavaScript, but they are not the same. Even their use cases are different.
 
-### The Why?
+## The Why?
 
 Because who doesn't like free swag, right?!
 
@@ -31,13 +31,13 @@ In case, you are into [Internet of things](https://en.wikipedia.org/wiki/Interne
 
 And I have just scratched the surface of the awesomeness of JavaScript.
 
-### The How?
+## The How?
 
 Given tool is of no use unless you know how to use it!
 
 Simplest way to play with JavaScript is to open a console in developer tools of your favorite browser.
 
-#### In chrome:
+### In chrome:
 
 1. Open a tab
 2. Click on "Inspect Element"
@@ -56,3 +56,9 @@ There are also other online tools available where you can experiment with this l
 2. [JSFiddle](https://jsfiddle.net/)
 
 For the first post on my new blog I just wanted start with giving a high level explanation of the programming language I am immensely passionate about- JavaScript. Get ready, for things are going to get pretty serious at [NgNinja Academy](http://ngninja.com/)!
+
+
+## Further Resources We Recommend
+
+### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
+### [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)
