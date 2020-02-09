@@ -223,7 +223,7 @@ Remember it is a very fast growing JavasScript framework. It let's you write com
 
 If you are interested to learn more about React and build beautiful applications using it I highly recommend you to checkout [our bootcamp](https://cutt.ly/web-development-bootcamp).
 
----
+<br>
 
 #### Author: B.K. Sai Kalyan
 Gmail: saikalyan1729@gmail.com  
@@ -233,10 +233,10 @@ To know more about the author: [website](https://sites.google.com/view/sai-kalya
 
 <br>
 
-### Further Resources We Recommend
+#### Further Resources We Recommend
 
-#### [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2RIqGYk)
-#### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
+##### [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2RIqGYk)
+##### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
 
 <br>
 
