@@ -126,5 +126,9 @@ Let us know if the article was helpful to get started. Also, please leave a comm
 Also, don't forget to check out [how to create Gmail like multi-select control in AngularJS](http://ngninja.com/posts/angular-gmail-multi-select-control).
 
 
+#### Further Resources We Recommend
+
+- [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
+- [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)
 
 

@@ -135,6 +135,7 @@ So, $formatters and $parsers are really cool tools for manipulating data to disp
 
 
 
+#### Further Resources We Recommend
 
-
-
+- [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
+- [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)
