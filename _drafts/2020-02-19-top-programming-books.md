@@ -8,6 +8,8 @@ tags: [programming, curated-list, listicles]
 
 <!-- {% include image.html path="posts/finance/piggy.jpg" path-detail="posts/finance/piggy.jpg" alt="Make Passive Income" %} -->
 
+reference: https://dev.to/daolf/the-25-most-recommended-programming-books-of-all-time-5fel#25-most-recommended-programming-books-of-all-time
+
 Disclaimer: I spent countless hours on this article so I've decided to put Amazon affiliation links. If you choose to support me, you can use the links from this post to get the books with no additional cost to you.
 
 
