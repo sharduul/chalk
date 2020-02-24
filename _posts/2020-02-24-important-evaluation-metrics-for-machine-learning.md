@@ -70,7 +70,6 @@ It can be easily calculated with the help of a confusion matrix.
 > In simple terms, accuracy means the ratio of several correct predictions to
 the total number of predictions.
 
-<!-- ![](posts/specific/evaluation-metrics-machine-learning/952f631f3d9e2d5c41cc71ae668d147f.png) -->
 {% include image.html path="posts/specific/evaluation-metrics-machine-learning/952f631f3d9e2d5c41cc71ae668d147f.png" path-detail="posts/specific/evaluation-metrics-machine-learning/952f631f3d9e2d5c41cc71ae668d147f.png" alt="AngularJS multi-select component" %}
 
 ## Precision
@@ -86,7 +85,6 @@ one of them.
 classified positive examples by the total number of predicted positive
 examples.
 
-<!-- ![](posts/specific/evaluation-metrics-machine-learning/760735bd38ab835065a0d220d08bd941.png) -->
 {% include image.html path="posts/specific/evaluation-metrics-machine-learning/760735bd38ab835065a0d220d08bd941.png" path-detail="posts/specific/evaluation-metrics-machine-learning/760735bd38ab835065a0d220d08bd941.png" alt="AngularJS multi-select component" %}
 
 ## Recall
@@ -98,7 +96,6 @@ model.
 > Recall is defined as the number of positive samples returned by the custom
 trained model.
 
-<!-- ![](posts/specific/evaluation-metrics-machine-learning/3296948e14ff940a339d6061596cd049.png) -->
 {% include image.html path="posts/specific/evaluation-metrics-machine-learning/3296948e14ff940a339d6061596cd049.png" path-detail="posts/specific/evaluation-metrics-machine-learning/3296948e14ff940a339d6061596cd049.png" alt="AngularJS multi-select component" %}
 
 ### The relation between recall and precision
@@ -121,7 +118,6 @@ simple terms, it's a mathematical average of precision and recall.
 
 F1-Score has an equal and relative contribution of both precision and recall.
 
-<!-- ![](posts/specific/evaluation-metrics-machine-learning/86b61e08923d5497a7b830b27827fd5a.png) -->
 {% include image.html path="posts/specific/evaluation-metrics-machine-learning/86b61e08923d5497a7b830b27827fd5a.png" path-detail="posts/specific/evaluation-metrics-machine-learning/86b61e08923d5497a7b830b27827fd5a.png" alt="AngularJS multi-select component" %}
 
 ## Mean Absolute Error
@@ -133,13 +129,11 @@ more precisely to increase the accuracy of the model.
 
 *Absolute error is also called Absolute Accuracy Error.*
 
-<!-- ![](posts/specific/evaluation-metrics-machine-learning/3b4c59aab7f14f7ced3a097bdfda0734.png) -->
 {% include image.html path="posts/specific/evaluation-metrics-machine-learning/3b4c59aab7f14f7ced3a097bdfda0734.png" path-detail="posts/specific/evaluation-metrics-machine-learning/3b4c59aab7f14f7ced3a097bdfda0734.png" alt="AngularJS multi-select component" %}
 
 Mean absolute error is defined as the average of all absolute errors that are
 calculated based on values predicted by the machine learning model.
 
-<!-- ![](posts/specific/evaluation-metrics-machine-learning/dd12e3a127fc1af84040b3faac10eb80.png) -->
 {% include image.html path="posts/specific/evaluation-metrics-machine-learning/dd12e3a127fc1af84040b3faac10eb80.png" path-detail="posts/specific/evaluation-metrics-machine-learning/dd12e3a127fc1af84040b3faac10eb80.png" alt="AngularJS multi-select component" %}
 
 ## Root Mean Squared Error
