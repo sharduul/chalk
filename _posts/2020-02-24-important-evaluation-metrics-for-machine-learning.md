@@ -70,7 +70,7 @@ It can be easily calculated with the help of a confusion matrix.
 > In simple terms, accuracy means the ratio of several correct predictions to
 the total number of predictions.
 
-![](media/952f631f3d9e2d5c41cc71ae668d147f.png)
+![](evaluation-metrics-machine-learning/952f631f3d9e2d5c41cc71ae668d147f.png)
 
 ## Precision
 
@@ -85,7 +85,7 @@ one of them.
 classified positive examples by the total number of predicted positive
 examples.
 
-![](media/760735bd38ab835065a0d220d08bd941.png)
+![](evaluation-metrics-machine-learning/760735bd38ab835065a0d220d08bd941.png)
 
 ## Recall
 
@@ -96,7 +96,7 @@ model.
 > Recall is defined as the number of positive samples returned by the custom
 trained model.
 
-![](media/3296948e14ff940a339d6061596cd049.png)
+![](evaluation-metrics-machine-learning/3296948e14ff940a339d6061596cd049.png)
 
 ### The relation between recall and precision
 
@@ -118,7 +118,7 @@ simple terms, it's a mathematical average of precision and recall.
 
 F1-Score has an equal and relative contribution of both precision and recall.
 
-![](media/86b61e08923d5497a7b830b27827fd5a.png)
+![](evaluation-metrics-machine-learning/86b61e08923d5497a7b830b27827fd5a.png)
 
 ## Mean Absolute Error
 
@@ -129,12 +129,12 @@ more precisely to increase the accuracy of the model.
 
 *Absolute error is also called Absolute Accuracy Error.*
 
-![](media/3b4c59aab7f14f7ced3a097bdfda0734.png)
+![](evaluation-metrics-machine-learning/3b4c59aab7f14f7ced3a097bdfda0734.png)
 
 Mean absolute error is defined as the average of all absolute errors that are
 calculated based on values predicted by the machine learning model.
 
-![](media/dd12e3a127fc1af84040b3faac10eb80.png)
+![](evaluation-metrics-machine-learning/dd12e3a127fc1af84040b3faac10eb80.png)
 
 ## Root Mean Squared Error
 
@@ -148,7 +148,7 @@ average squared error between the predicted values.
 of the error. It’s the square root of the average of squared differences between
 prediction and actual observation.
 
-![](media/2ed0d79f5cae17deda2565dcba70f9c7.png)
+![](evaluation-metrics-machine-learning/2ed0d79f5cae17deda2565dcba70f9c7.png)
 
 ### Correlation between MAE and RMSE
 
@@ -174,7 +174,7 @@ model is capable of differentiating between the classes.
 ROC is a probability curve. It is a representation of the performance of the
 machine-learning model in a graphical manner.
 
-![](media/f33c77a47ba80863e9b94dbbc93a05de.png)
+![](evaluation-metrics-machine-learning/f33c77a47ba80863e9b94dbbc93a05de.png)
 
 ## Conclusion
 
