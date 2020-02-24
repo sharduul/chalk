@@ -24,7 +24,7 @@ classification model.
 
 This is a simple table to denote scores give to the predicted values.
 
-1 0
+**1 0**
 
 | True Positive  | True Negative  |
 |----------------|----------------|
