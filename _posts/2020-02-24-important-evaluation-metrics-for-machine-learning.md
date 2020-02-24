@@ -14,7 +14,7 @@ Let's dive into the topic directly.
 
 A confusion matrix is one of the important concepts in the field of machine
 learning, and so important when it comes to statistical classification problems.
-A confusion matrix is also known as *ERROR MATRIX*.
+A confusion matrix is also known as **ERROR MATRIX**.
 
 A confusion matrix is usually used to describe the *performance* of a
 classification model based on the true values known for a data set.
@@ -30,40 +30,40 @@ This is a simple table to denote scores give to the predicted values.
 |----------------|----------------|
 | False Negative | False Positive |
 
-*“The confusion matrix in itself is not a performance measure but all the
-performance metrics are dependent on the confusion matrix.”*
+> The confusion matrix in itself is not a performance measure but all the
+performance metrics are dependent on the confusion matrix.
 
 ### Terms Associated with Confusion Matrix
 
 1.  **True Positive (TP):** True positive means their actual class value is 1
     and the predicted class value is also 1.
 
-    *Ex: The case where the women are actually pregnant and the model also
-    classifies that she is pregnant.*
+    Ex: The case where the women are actually pregnant and the model also
+    classifies that she is pregnant.
 
 2.  **False Positive (FP):** False-positive means their actual class value is 0
     and the predicted class value is also 1.
 
-    *Ex: The case where the women are not pregnant and the model classifies that
-    she is pregnant.*
+    Ex: The case where the women are not pregnant and the model classifies that
+    she is pregnant.
 
 3.  **True Negative (TN):** True negative means their actual class value is 0
     and the predicted class value is also 0.
 
-    *Ex: The case where the women are actually not pregnant and the model also
-    classifies that she is not pregnant.*
+    Ex: The case where the women are actually not pregnant and the model also
+    classifies that she is not pregnant.
 
 4.  **False Negative (FN):** False-negative means their actual class value is 1
     and the predicted class value is also 0.
 
-    *Ex: The case where the women are actually pregnant and the model also
-    classifies that she is not pregnant.*
+    Ex: The case where the women are actually pregnant and the model also
+    classifies that she is not pregnant.
 
 ## Classification Accuracy
 
 Classification accuracy is the most common and simplest metrics that anyone can
-easily understand. *It is defined as the number of correct predictions made to
-be the developed model.*
+easily understand. It is defined as the number of correct predictions made to
+be the developed model.
 
 It can be easily calculated with the help of a confusion matrix.
 
@@ -100,11 +100,11 @@ trained model.
 
 ### The relation between recall and precision
 
-High recall, low precision: *This means that most of the positive examples
-are correctly recognized but there are a lot of false positives.*
+**High recall, low precision:** This means that most of the positive examples
+are correctly recognized but there are a lot of false positives.
 
-Low recall, high precision: *This means that we miss a lot of positive
-examples but those we predict as positive are indeed positive.*
+**Low recall, high precision:** This means that we miss a lot of positive
+examples but those we predict as positive are indeed positive.
 
 ## F1 Score
 
