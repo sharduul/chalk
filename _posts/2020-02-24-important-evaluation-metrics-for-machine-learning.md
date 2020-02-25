@@ -30,6 +30,8 @@ This is a simple table to denote scores give to the predicted values.
 |----------------|----------------|
 | False Negative | False Positive |
 
+<br>
+
 > The confusion matrix in itself is not a performance measure but all the
 performance metrics are dependent on the confusion matrix.
 
@@ -72,6 +74,8 @@ the total number of predictions.
 
 {% include image.html path="posts/specific/evaluation-metrics-machine-learning/952f631f3d9e2d5c41cc71ae668d147f.png" path-detail="posts/specific/evaluation-metrics-machine-learning/952f631f3d9e2d5c41cc71ae668d147f.png" alt="AngularJS multi-select component" %}
 
+<br>
+
 ## Precision
 
 Sometimes your classification model may classify based on the most frequent
@@ -87,6 +91,8 @@ examples.
 
 {% include image.html path="posts/specific/evaluation-metrics-machine-learning/760735bd38ab835065a0d220d08bd941.png" path-detail="posts/specific/evaluation-metrics-machine-learning/760735bd38ab835065a0d220d08bd941.png" alt="AngularJS multi-select component" %}
 
+<br>
+
 ## Recall
 
 A recall is also known as sensitivity. In simple words recall refers to the
@@ -97,6 +103,8 @@ model.
 trained model.
 
 {% include image.html path="posts/specific/evaluation-metrics-machine-learning/3296948e14ff940a339d6061596cd049.png" path-detail="posts/specific/evaluation-metrics-machine-learning/3296948e14ff940a339d6061596cd049.png" alt="AngularJS multi-select component" %}
+
+<br>
 
 ### The relation between recall and precision
 
@@ -120,6 +128,8 @@ F1-Score has an equal and relative contribution of both precision and recall.
 
 {% include image.html path="posts/specific/evaluation-metrics-machine-learning/86b61e08923d5497a7b830b27827fd5a.png" path-detail="posts/specific/evaluation-metrics-machine-learning/86b61e08923d5497a7b830b27827fd5a.png" alt="AngularJS multi-select component" %}
 
+<br>
+
 ## Mean Absolute Error
 
 Absolute error is the total amount of error in any type of measurement made.
@@ -136,6 +146,8 @@ calculated based on values predicted by the machine learning model.
 
 {% include image.html path="posts/specific/evaluation-metrics-machine-learning/dd12e3a127fc1af84040b3faac10eb80.png" path-detail="posts/specific/evaluation-metrics-machine-learning/dd12e3a127fc1af84040b3faac10eb80.png" alt="AngularJS multi-select component" %}
 
+<br>
+
 ## Root Mean Squared Error
 
 RMSE is one of the most popular metrics used for evaluating regression-based
@@ -149,6 +161,8 @@ of the error. It’s the square root of the average of squared differences betwe
 prediction and actual observation.
 
 {% include image.html path="posts/specific/evaluation-metrics-machine-learning/2ed0d79f5cae17deda2565dcba70f9c7.png" path-detail="posts/specific/evaluation-metrics-machine-learning/2ed0d79f5cae17deda2565dcba70f9c7.png" alt="AngularJS multi-select component" %}
+
+<br>
 
 ### Correlation between MAE and RMSE
 
@@ -175,6 +189,8 @@ ROC is a probability curve. It is a representation of the performance of the
 machine-learning model in a graphical manner.
 
 {% include image.html path="posts/specific/evaluation-metrics-machine-learning/f33c77a47ba80863e9b94dbbc93a05de.png" path-detail="posts/specific/evaluation-metrics-machine-learning/f33c77a47ba80863e9b94dbbc93a05de.png" alt="AngularJS multi-select component" %}
+
+<br>
 
 ## Conclusion
 
