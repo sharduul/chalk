@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "React Crash Course - Learn React JS in 5 Minutes"
-description: "This articles teaches your the fundamentals of React JS and how to create your first React JS application. You will learn the building blocks of ReactJS like Components, JSX, Virtual DOM, etc."
+description: "This article teaches you the fundamentals of React JS and how to create your first React JS application. You will learn the building blocks of ReactJS like Components, JSX, Virtual DOM, etc."
 tags: [reactjs, the-how-series]
 og_image: "posts/reactjs.png"
 ---
@@ -30,9 +30,9 @@ React is fast, scalable, flexible, and has a robust developer community which is
 
 React makes it simple to write your code because there no need of separate template files. Just one JSX file. More on this in the next sections.
 
-It implements the component based approach. Everything in React is a component - which helps you write scalable applications.
+It implements the component-based approach. Everything in React is a component - which helps you write scalable applications.
 
-In the following sections you will learn the various aspects of how React does this in the rest of this tutorial.
+In the following sections, you will learn the various aspects of how React does this in the rest of this tutorial.
 
 ## Setting up a React Environment
 
@@ -191,7 +191,7 @@ JSX allows us to write HTML elements in JavaScript and place them in the DOM wit
 
 JSX converts HTML tags into react elements.
 
-Let us demonstrate with two examples, the first uses JSX and the second does not have JSX anything to do:
+Let us demonstrate with two examples, the first use JSX and the second does not have JSX anything to do:
 
 ### Example 1 (Using JSX)
 
@@ -219,7 +219,7 @@ For more React examples please [check this out](https://react.rocks/).
 
 Kudos! You just created your first ReactJS application. I am sure you have started like React at least a little.
 
-Remember it is a very fast growing JavasScript framework. It let's you write component based UI for small and large applications.
+Remember it is a very fast growing JavasScript framework. It lets you write component-based UI for small and large applications.
 
 If you are interested to learn more about React and build beautiful applications using it I highly recommend you to checkout [our bootcamp](https://cutt.ly/web-development-bootcamp).
 

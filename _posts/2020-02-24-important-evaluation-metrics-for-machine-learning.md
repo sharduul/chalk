@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "8 Important Evaluation Metrics for Machine Learning"
-# description: "This articles teaches your the fundamentals of React JS and how to create your first React JS application. You will learn the building blocks of ReactJS like Components, JSX, Virtual DOM, etc."
+title: "8 Important Evaluation Metrics in Machine Learning"
+description: "This article gives you an introduction to the most important metrics to evaluate your machine learning algorithms. Evaluation metrics are used to measure the quality of the statistical or machine learning model."
 tags: [machine-learning, listicles]
-# og_image: "posts/reactjs.png"
+og_image: "posts/python.jpg"
 ---
 
-<!-- {% include image.html path="posts/reactjs.png" path-detail="posts/reactjs.png" alt="ReactJS Getting Started" %} -->
+{% include image.html path="posts/python.jpg" path-detail="posts/python.jpg" alt="Evaluation Metrics for Machine Learning" %}
 
-Let's dive into the topic directly.
+There are different kinds of metrics to evaluate machine learning models. Evaluation metrics are used to measure the quality of the statistical or machine learning model. Let's dive into the topic to learn about the most important metrics to evaluate your machine learning algorithm.
 
 ## Confusion Matrix
 
@@ -182,9 +182,9 @@ So, these are the 8 most important and needed metrics that are so helpful for
 model evaluation and are to be learned by a data scientist or a machine learning
 engineer.
 
-<!-- #### Author: B.K. Sai Kalyan
-Gmail: saikalyan1729@gmail.com  
-To know more about the author: [website](https://sites.google.com/view/sai-kalyan-bhagavathula/home?authuser=1)  -->
+#### Author: B. Vetrichelvan
+Email: vetrichelvaninovator@gmail.com
+Follow My Journey On [Instagram](https://www.instagram.com/pythonhub.py) 
 
 ---
 
