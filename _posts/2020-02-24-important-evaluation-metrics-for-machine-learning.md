@@ -182,11 +182,10 @@ So, these are the 8 most important and needed metrics that are so helpful for
 model evaluation and are to be learned by a data scientist or a machine learning
 engineer.
 
-#### Author: B. Vetrichelvan
-Email: vetrichelvaninovator@gmail.com
-Follow My Journey On [Instagram](https://www.instagram.com/pythonhub.py) 
+> Author: B. Vetrichelvan<br>
+> Email: vetrichelvaninovator@gmail.com<br>
+> Follow My Journey On [Instagram](https://www.instagram.com/pythonhub.py) 
 
----
 
 <br>
 

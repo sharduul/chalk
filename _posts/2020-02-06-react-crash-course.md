@@ -224,9 +224,9 @@ Remember it is a very fast growing JavasScript framework. It lets you write comp
 If you are interested to learn more about React and build beautiful applications using it I highly recommend you to checkout [our bootcamp](https://cutt.ly/web-development-bootcamp).
 
 
-#### Author: B.K. Sai Kalyan
-Gmail: saikalyan1729@gmail.com  
-To know more about the author: [website](https://sites.google.com/view/sai-kalyan-bhagavathula/home?authuser=1) 
+> Author: B.K. Sai Kalyan<br>
+> Gmail: saikalyan1729@gmail.com<br>
+> To know more about the author: [website](https://sites.google.com/view/sai-kalyan-bhagavathula/home?authuser=1) 
 
 ---
 
