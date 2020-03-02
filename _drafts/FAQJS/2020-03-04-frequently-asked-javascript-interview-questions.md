@@ -151,3 +151,24 @@ The next `onclick` is invoked after OK is clicked in the dialog box
 ![output](media/qna83.png)  
 The last `onclick` is invoked after OK is clicked in the dialog box
 
+
+<!-- ## Conclusion -->
+
+
+> Author: Jairam Bala<br>
+> I am Jairam, a Software Developer at Accenture. Software and Tech Enthusiast. Freelancer too.
+> Email: b.jairam0512@gmail.com<br>
+
+---
+
+<br>
+
+#### Further Resources We Recommend
+
+- [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
+
+<br>
+
+## Read Next
+
+[5 Common mistakes JavaScript developers make](/posts/steps-after-you-type-url-in-browser)
