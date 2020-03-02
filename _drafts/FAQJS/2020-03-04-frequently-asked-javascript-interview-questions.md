@@ -3,10 +3,10 @@ layout: post
 title: "Most Frequently Asked JavaScript Interview Questions"
 description: "Curated list of essential and most frequent JavaScript Interview Questions. Regular practice and some tips and tricks can get you to shine in the job interview."
 tags: [javascript, listicles]
-# og_image: "posts/python.jpg"
+og_image: "posts/mistakes.jpg"
 ---
 
-<!-- {% include image.html path="posts/python.jpg" path-detail="posts/python.jpg" alt="Evaluation Metrics for Machine Learning" %} -->
+{% include image.html path="posts/mistakes.jpg" path-detail="posts/mistakes.jpg" alt="Most Frequently Asked JavaScript Interview Questions" %}
 
 Javascript has been the backbone of many web development aspects. Getting a job in web development as a javascript(er) is not that hard. Regular practice and some tips and tricks can get you to shine in the job interview. Here are a few frequently asked questions in Javascript. 
 
