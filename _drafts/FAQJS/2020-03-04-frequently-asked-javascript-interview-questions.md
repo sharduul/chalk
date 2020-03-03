@@ -12,15 +12,11 @@ Javascript has been the backbone of many web development aspects. Getting a job 
 
 Pat yourself if you know them.
 
-
-![faqpic](media/f.png)![faqpic](media/js.png)
-
-
 ## Question 1 Difference between “==” and “===”?
 
 ”==” only compares values. “===” compare values and type both.
 
-![difference between "===" and "=="](media/qna1.png)  
+{% include image.html path="media/qna1.png" path-detail="media/qna1.png" alt="Question Answer" %}
 
 In the above code snippet, the value of true is 1, whereas the type of true is boolean. 
 
@@ -34,9 +30,9 @@ So `true === 1` will return `false` as its type is not 1.
 | document.write({});|[object Object]|
 | console.log({});|{}| -->  
 
-![console.log({}) and document.write({})](media/qna2.png)  
+{% include image.html path="media/qna2.png" path-detail="media/qna2.png" alt="Question Answer" %}
 
-![output](media/qna21.png)  
+{% include image.html path="media/qna21.png" path-detail="media/qna21.png" alt="Question Answer" %}
 
 Basically, the curly braces `{}` are another way for creating objects in javascript. This is equivalent to the "new Object()" syntax which creates new Object literal 
 
@@ -61,7 +57,7 @@ if (function F(){})
 console.log(Y);
 ```
 
-![console.log({}) and document.write({})](media/qna3.png)  
+{% include image.html path="media/qna3.png" path-detail="media/qna3.png" alt="Question Answer" %}
 
 The output would be `1undefined`. 
 
@@ -78,7 +74,7 @@ console.log(typeof ob1 === "object");
 console.log(typeof ob2 === "object");
 ```
 
-![output](media/qna5.png)  
+{% include image.html path="media/qna1.png" path-detail="media/qna1.png" alt="Question Answer" %}
 
 `null` is an object whereas a function isn't. The function can be stored in a variable. The type of that stored variable will be of type function only
 
@@ -92,7 +88,7 @@ It decodes the coded string.
 
 Also computes a new string in which hexadecimal escape sequences are replaced with the character that it represents
   
-![output](media/qna61.png)  
+{% include image.html path="media/qna61.png" path-detail="media/qna61.png" alt="Question Answer" %}
 
 ### Escape
 
@@ -100,14 +96,14 @@ It encodes the coded string.
 
 Also computes a new string in which certain characters have been replaced by a hexadecimal escape sequence
   
-![output](media/qna62.png)
+{% include image.html path="media/qna62.png" path-detail="media/qna62.png" alt="Question Answer" %}
 
 
 ## Question 7 What do you understand by Closures in JavaScript?
 
 A closure gives you access to an outer function's scope from an inner function. Even you can pass arguments to the inner function
 
-![output](media/qna7.png)  
+{% include image.html path="media/qna7.png" path-detail="media/qna7.png" alt="Question Answer" %}
 
 The function `sumMsg()` uses the variables `a and b` defined in the outer `function sum(a,b)`
 
@@ -119,7 +115,7 @@ Event propagation in HTML DOM API
 
 If you click on 'HI', the "I am the first" will be invoked, then followed by I am in between then I am last" as shown below
 
-![output](media/qna8img.png)  
+{% include image.html path="media/qna8img.png" path-detail="media/qna8img.png" alt="Question Answer" %}
 
 It's like the circular waves. It starts from the inside.
 
@@ -140,15 +136,16 @@ It's like the circular waves. It starts from the inside.
 </form>
 ```
 
-![output](media/qna81.png)  
+{% include image.html path="media/qna81.png" path-detail="media/qna81.png" alt="Question Answer" %}
 
 `onclick` is invoked when HI is clicked
 
-![output](media/qna82.png)  
+{% include image.html path="media/qna82.png" path-detail="media/qna82.png" alt="Question Answer" %}
 
 The next `onclick` is invoked after OK is clicked in the dialog box
 
-![output](media/qna83.png)  
+{% include image.html path="media/qna83.png" path-detail="media/qna83.png" alt="Question Answer" %}
+
 The last `onclick` is invoked after OK is clicked in the dialog box
 
 
