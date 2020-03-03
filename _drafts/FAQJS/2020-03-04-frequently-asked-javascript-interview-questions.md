@@ -165,7 +165,7 @@ The last `onclick` is invoked after OK is clicked in the dialog box
 
 #### Further Resources We Recommend
 
-- [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
+- [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/3cAwBHk)
 
 <br>
 

@@ -234,8 +234,8 @@ If you are interested to learn more about React and build beautiful applications
 
 #### Further Resources We Recommend
 
-- [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2RIqGYk)
-- [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
+- [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2PElkvt)
+- [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/3cAwBHk)
 
 <br>
 

@@ -99,8 +99,8 @@ Use this link and get \$5 completely FREE!
 
 #### Further Resources We Recommend
 
-- [Think and Grow Rich](https://amzn.to/2UcepwY)
-- [The Total Money Makeover Workbook: Classic Edition: The Essential Companion for Applying the Book's Principles](https://amzn.to/36NkeUh)
+- [Think and Grow Rich](https://amzn.to/2Ti9LMU)
+- [The Total Money Makeover Workbook: Classic Edition: The Essential Companion for Applying the Book's Principles](https://amzn.to/2TxnUof)
 
 <br>
 

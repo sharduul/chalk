@@ -125,9 +125,9 @@ Above is a simple explanation on two very popular design patterns. So now, you s
 
 #### Further Resources We Recommend
 
-- [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)
-- [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
-- [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2RIqGYk)
+- [You Don't Know JS: Up & Going](https://amzn.to/2uSZayI)
+- [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/3cAwBHk)
+- [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2PElkvt)
 
 
 

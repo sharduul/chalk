@@ -202,7 +202,7 @@ My final tip is - choose one side hustle, work on it super hard for a while. Eve
 
 #### Further Resources We Recommend
 
-- [Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!](https://amzn.to/36IbVsP)
+- [Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!](https://amzn.to/2TiChOz)
 
 <br>
 

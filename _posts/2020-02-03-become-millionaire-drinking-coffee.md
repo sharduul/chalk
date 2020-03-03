@@ -141,8 +141,8 @@ More importantly, start investing early - start small if you want but don't dela
 
 #### Further Resources We Recommend
 
-- [Think and Grow Rich](https://amzn.to/2UcepwY)
-- [Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!](https://amzn.to/36IbVsP)
+- [Think and Grow Rich](https://amzn.to/2Ti9LMU)
+- [Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!](https://amzn.to/2TiChOz)
 
 <br>
 

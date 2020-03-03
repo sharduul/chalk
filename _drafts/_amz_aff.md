@@ -4,7 +4,7 @@ https://affiliate-program.amazon.in/home
 ## tech
 
 <!-- // india	 -->
-### [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v) 
+### [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/3csc4EM) 
 <!-- // usa -->
 ### [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/3csc4EM) 
 
@@ -17,7 +17,7 @@ He then shows how you can use AngularJS's features within in your projects to pr
 
 
 <!-- // india	 -->
-### [You Don't Know JS: Scope & Closures](https://amzn.to/2UaT46V)
+### [You Don't Know JS: Scope & Closures](https://amzn.to/2Idk9iz)
 <!-- // usa -->
 ### [You Don't Know JS: Scope & Closures](https://amzn.to/2Idk9iz)
 
@@ -27,7 +27,7 @@ You'll learn how and why they work and how an understanding of closures can be a
 
 
 <!-- // india	 -->
-### [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)
+### [You Don't Know JS: Up & Going](https://amzn.to/2uSZayI)
 <!-- // usa -->
 ### [You Don't Know JS: Up & Going](https://amzn.to/2uSZayI)
 
@@ -38,7 +38,7 @@ With the "You Don't Know JS" book series, you'll get a more complete understandi
 
 
 <!-- // india	 -->
-### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/2GGox8Y)
+### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/3cAwBHk)
 <!-- // usa -->
 ### [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/3cAwBHk)
 
@@ -46,7 +46,7 @@ Learn new ES6 syntax that eases the pain points of common programming idioms. Or
 
 
 <!-- // india	 -->
-### [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2RIqGYk)
+### [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2PElkvt)
 <!-- // usa -->
 ### [The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2PElkvt)
 
@@ -64,7 +64,7 @@ The book comes with additional referenced reading material and exercises with ea
 ## personal finance
 
 <!-- // india	 -->
-### [The Total Money Makeover Workbook: Classic Edition: The Essential Companion for Applying the Book's Principles](https://amzn.to/36NkeUh)
+### [The Total Money Makeover Workbook: Classic Edition: The Essential Companion for Applying the Book's Principles](https://amzn.to/2TxnUof)
 <!-- // usa -->
 ### [The Total Money Makeover Workbook: Classic Edition: The Essential Companion for Applying the Book's Principles](https://amzn.to/2TxnUof)
 
@@ -75,7 +75,7 @@ Do you want to transform your sad and skinny little bank account into a bulked-u
 
 
 <!-- // india	 -->
-### [Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!](https://amzn.to/36IbVsP)
+### [Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!](https://amzn.to/2TiChOz)
 <!-- // usa -->
 ### [Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!](https://amzn.to/2TiChOz)
 
@@ -85,7 +85,7 @@ Rich Dad Poor Dad is Roberts story of growing up with two dads his real father a
 
 
 <!-- // india	 -->
-### [Think and Grow Rich](https://amzn.to/2UcepwY)
+### [Think and Grow Rich](https://amzn.to/2Ti9LMU)
 <!-- // usa -->
 ### [Think and Grow Rich](https://amzn.to/2Ti9LMU)
 

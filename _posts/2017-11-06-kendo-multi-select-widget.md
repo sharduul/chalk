@@ -128,7 +128,7 @@ Also, don't forget to check out [how to create Gmail like multi-select control i
 
 #### Further Resources We Recommend
 
-- [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
-- [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)
+- [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/3csc4EM)
+- [You Don't Know JS: Up & Going](https://amzn.to/2uSZayI)
 
 

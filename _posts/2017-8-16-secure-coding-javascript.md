@@ -86,5 +86,5 @@ If you are curious about security read about more details on Secure Socket Layer
 
 #### Further Resources We Recommend
 
-- [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/36F6N8v)
-- [You Don't Know JS: Up & Going](https://amzn.to/2u8YuVt)
+- [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/3csc4EM)
+- [You Don't Know JS: Up & Going](https://amzn.to/2uSZayI)

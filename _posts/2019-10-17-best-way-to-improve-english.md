@@ -60,7 +60,7 @@ Don't wait. Start today. Watch English movies with subtitles on. Go out and spea
 
 #### Further Resources We Recommend
 
-- [The Total Money Makeover Workbook: Classic Edition: The Essential Companion for Applying the Book's Principles](https://amzn.to/36NkeUh)
+- [The Total Money Makeover Workbook: Classic Edition: The Essential Companion for Applying the Book's Principles](https://amzn.to/2TxnUof)
 
 <br>
 

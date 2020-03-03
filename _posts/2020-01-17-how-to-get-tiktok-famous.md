@@ -114,7 +114,7 @@ Finally, the sound is super important in TikTok. So, select something catchy, so
 
 #### Further Resources We Recommend
 
-- [Think and Grow Rich](https://amzn.to/2UcepwY)
+- [Think and Grow Rich](https://amzn.to/2Ti9LMU)
 
 <br>
 
