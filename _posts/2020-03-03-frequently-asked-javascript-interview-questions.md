@@ -51,6 +51,11 @@ So, `document.write({});` will clear the webpage content and replace it with a n
 
 {% include image.html path="posts/specific/js-faq/qna21.png" path-detail="posts/specific/js-faq/qna21.png" alt="Question Answer" %}
 
+<br>
+<br>
+
+
+> [Awesome JavaScript Tricks](/posts/6-javascript-tricks)
 
 
 ## Question 3: What is the `strict` mode in JavaScript and how can it be enabled? 
@@ -125,6 +130,9 @@ A closure gives you access to an outer function's scope from an inner function. 
 {% include image.html path="posts/specific/js-faq/qna7.png" path-detail="posts/specific/js-faq/qna7.png" alt="Question Answer" %}
 
 The function `sumMsg()` uses the variables `a and b` defined in the outer `function sum(a,b)`
+
+
+> [JavaScript closures made super easy](/posts/javascript-closures-made-super-easy)
 
 
 ## Question 8: Event Bubbling in JavaScript
