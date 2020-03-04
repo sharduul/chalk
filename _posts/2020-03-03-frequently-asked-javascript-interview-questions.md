@@ -182,7 +182,7 @@ Please comment below other such interesting questions that you might have come a
 
 
 > Author: Jairam Bala<br>
-> I am Jairam, a Software Developer at Accenture. Software and Tech Enthusiast. Freelancer too.
+> I am Jairam, a Software Developer at Accenture. Software and Tech Enthusiast. Freelancer too.<br>
 > Email: b.jairam0512@gmail.com<br>
 
 ---
