@@ -38,15 +38,19 @@ B.
 console.log({});
 {% endhighlight %}
 
-{% include image.html path="posts/specific/js-faq/qna2.png" path-detail="posts/specific/js-faq/qna2.png" alt="Question Answer" %}
+<!-- {% include image.html path="posts/specific/js-faq/qna2.png" path-detail="posts/specific/js-faq/qna2.png" alt="Question Answer" %} -->
 
-{% include image.html path="posts/specific/js-faq/qna21.png" path-detail="posts/specific/js-faq/qna21.png" alt="Question Answer" %}
 
 `console.log` is used to log useful information on the console. It is more popularly used as a debugging strategy in JavaScript programs.
 
 `document.write` modifies the DOM with arguments passed to it.
 
-The curly braces `{}` are another way for creating objects in javascript. This is equivalent to the "new Object()" syntax which creates new Object literal 
+The curly braces `{}` are another way for creating objects in javascript. This is equivalent to the `new Object()` syntax which creates new Object literal.
+
+So, `document.write({});` will clear the webpage content and replace it with a new object. Like below:
+
+{% include image.html path="posts/specific/js-faq/qna21.png" path-detail="posts/specific/js-faq/qna21.png" alt="Question Answer" %}
+
 
 
 ## Question 3: What is the `strict` mode in JavaScript and how can it be enabled? 
@@ -61,12 +65,14 @@ You can enable strict mode by adding “use strict” at the beginning of a file
 ## Question 4: Compute the output.
 
 {% highlight javascript %}
+
 var Y = 1;
 if (function F(){})
 {
     Y += typeof(F);
 }
 console.log(Y);
+
 {% endhighlight %}
 
 {% include image.html path="posts/specific/js-faq/qna3.png" path-detail="posts/specific/js-faq/qna3.png" alt="Question Answer" %}
@@ -80,10 +86,12 @@ Therefore, inside the if statement, executing `typeof F` returns undefined becau
 ## Question 5: Compute the output.
 
 {% highlight javascript %}
+
 var ob1= null;
 var ob2= function a(){};
 console.log(typeof ob1 === "object");
 console.log(typeof ob2 === "object");
+
 {% endhighlight %}
 
 {% include image.html path="posts/specific/js-faq/qna1.png" path-detail="posts/specific/js-faq/qna1.png" alt="Question Answer" %}
@@ -157,7 +165,12 @@ The next `onclick` is invoked after OK is clicked in the dialog box
 The last `onclick` is invoked after OK is clicked in the dialog box
 
 
-<!-- ## Conclusion -->
+## Conclusion
+
+I hope these questions and answers got you more excited about JavaScript. If you are looking for a career in web development these JavaScript questions are very popular in the interviews.
+
+Please comment below other such interesting questions that you might have come across.
+
 
 
 > Author: Jairam Bala<br>
