@@ -6,13 +6,12 @@ layout: post
 # og_image: "posts/finance/piggy.jpg"
 ---
 
+<!-- {% include image.html path="posts/mistakes.jpg" path-detail="posts/mistakes.jpg" alt="Most Frequently Asked JavaScript Interview Questions" %} -->
 
-Beginning development in vscode? Switching to VScode? Save the nostalgia and the lost feeling. These extensions are here to save the day and possibly a lot more days before deadline
 
-
+Beginning development in VSCode? Switching to VSCode? Save the nostalgia and the lost feeling. These extensions are here to save the day and possibly a lot more days before deadline
 
 ## 1. Prettier
-
 
 It claims to be *opinionated code formatter*. Let me break it down ever had a team project where everything was fine but there was some problem reading the code after compiling all codes because of different formatting *haha next time please use formatting*. So how prettier help you? It does the task of formatting and it is completely automatic.
 
@@ -48,7 +47,7 @@ OR
 The most frequent thing done by a developer is opening a browser and reloading the webpages repeatedly to see the changes made by their code and a server to test their website. This extension covers both the problems. It has an auto-reload feature and a server to test your website. It also allows you to have a customizable port number, server root, default browse, preferable hostname, https support and a lot of extra features. You must be thinking an extension having all these features must be complicated to use? Not at all. All these happen just with the push of a button.
 
 Just press this button(if you have the Html file)
-![Logo](https://github.com/ritwickdey/vscode-live-server/raw/master/images/Screenshot/vscode-live-server-statusbar-3.jpg)
+![Logo](https://github.com/ritwickdey/VSCode-live-server/raw/master/images/Screenshot/vscode-live-server-statusbar-3.jpg)
 
 If you don't have the Html file then to start the server press-
 >ALT+L
@@ -71,7 +70,7 @@ Lets go to the team project again. To understand why and what someone did some c
 
 [**Install Gitlens from VS marketplace**](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-![Example](https://raw.githubusercontent.com/eamodio/vscode-gitlens/master/images/docs/gitlens-preview.gif)
+![Example](https://raw.githubusercontent.com/eamodio/VSCode-gitlens/master/images/docs/gitlens-preview.gif)
 
 ## 4. Debugger for Chrome
 
@@ -81,21 +80,21 @@ Debugging can be troublesome. This extension helps to debug your JavaScript code
 
 ![Example](https://code.visualstudio.com/assets/blogs/2017/12/20/sync_stepping.gif)
 
-## 5. ES Lint
+## 5. ESLint
 
 Worst nightmare? After finishing a big project just before submitting you find errors. I believe you must be wishing for something to control errors? Guess what Christmas came faster this year, ES Lint javascript developers this extension will lint out most of the errors in your code.
 
-[**Install ES Lint from VS marketplace**](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+[**Install ES Lint from VS marketplace**](https://marketplace.visualstudio.com/items?itemName=dbaeumer.VSCode-eslint)
 
 ![Example](https://i.github-camo.com/f01f35e97c771ac7bb2e3067cb99fb63c8038a37/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3133353937372f323335313230362f38306536366364322d613537392d313165332d396338302d6538336565646637356164632e676966)
 
 ## 6. Auto Rename Tag
 
-This extension is self explanatory. If you rename a tag this extension automatically renames the paired tag. Making life easier :).
+This extension is self-explanatory. If you rename a tag this extension automatically renames the paired tag. Making life easier :).
 
 [**Install Auto Rename Tag from VS marketplace**](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
-![Example](https://github.com/formulahendry/vscode-auto-rename-tag/raw/master/images/usage.gif)
+![Example](https://github.com/formulahendry/VSCode-auto-rename-tag/raw/master/images/usage.gif)
 
 ## Honorable mentions
 
@@ -117,5 +116,23 @@ When you need to share some code in an image format this apps do that. It has va
 
 That's it, folks.
 
-Author- Dibyajyoti Parida
-parida.dibya2002@gmail.com
+<!-- ## Conclusion -->
+
+
+
+> Author: Dibyajyoti Parida <br>
+> Email: parida.dibya2002@gmail.com <br>
+
+---
+
+<br>
+
+#### Further Resources We Recommend
+
+- [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/3cAwBHk)
+
+<br>
+
+## Read Next
+
+[5 Common mistakes JavaScript developers make](/posts/steps-after-you-type-url-in-browser)
