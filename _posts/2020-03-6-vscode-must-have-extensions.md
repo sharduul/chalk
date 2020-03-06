@@ -26,7 +26,7 @@ In VS code enter
 $ CTRL+P
 
 Then type-
-$ext install esbenp.prettier-vscode
+$ ext install esbenp.prettier-vscode
 
 {% endhighlight %}
 
@@ -43,7 +43,6 @@ OR
 {% highlight javascript %}
 
 // Set the default
-
 "editor.formatOnSave": false,
 
 // Enable per-language
@@ -67,23 +66,34 @@ Just press this button(if you have the Html file)
 
 ![Logo](https://github.com/ritwickdey/VSCode-live-server/raw/master/images/Screenshot/vscode-live-server-statusbar-3.jpg)
 
-{% highlight javascript %}
+
 
 If you don't have the Html file then to start the server press-
 
+{% highlight javascript %}
+
 $ ALT+L
+
+{% endhighlight %}
 
 To install Live Server
 
 Enter in VS code-
 
+{% highlight javascript %}
+
 $ CTRL+P
 
+{% endhighlight %}
+
 Then type the following-
+
+{% highlight javascript %}
 
 $ ext install ritwickdey.liveserver
 
 {% endhighlight %}
+
 
 [**OR install Live Server from VS marketplace**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
@@ -147,8 +157,11 @@ When you need to share some code in an image format these apps do that. It has v
 
 That's it, folks.
 
-<!-- ## Conclusion -->
+## Conclusion
 
+In this article we looked at some of the must-have VSCode extension that can make any developer's life easy. I'd encourage you to try them out yourself and see which ones you like the most.
+
+Also, if you have any other suggestions please comment below so that we can everyone benefit form it.
 
 
 > Author: Dibyajyoti Parida <br>
@@ -160,10 +173,11 @@ That's it, folks.
 
 #### Further Resources We Recommend
 
-- [You Don`t Know JS (ES6 & Beyond)](https://amzn.to/3cAwBHk)
+[The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js](https://amzn.to/2PElkvt)
 
 <br>
 
 ## Read Next
 
-[5 Common mistakes JavaScript developers make](/posts/steps-after-you-type-url-in-browser)
+- [How to make passive income? More importantly - WHY?](http://ngninja.com/posts/how-to-make-passive-income)
+- [5 Common mistakes JavaScript developers make](/posts/steps-after-you-type-url-in-browser)
