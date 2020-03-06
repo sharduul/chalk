@@ -160,7 +160,7 @@ That's it, folks.
 
 ## Conclusion
 
-In this article, we looked at some of the must-have VSCode extension that can make any developer's life easy. I'd encourage you to try them out yourself and see which ones you like the most.
+In this article, we looked at some of the must-have VSCode extensions that can make any developer's life easy. I'd encourage you to try them out yourself and see which ones you like the most.
 
 Also, if you have any other suggestions please comment below so that we can everyone benefit from it.
 
