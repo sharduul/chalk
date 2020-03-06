@@ -8,7 +8,7 @@ og_image: "posts/vscode.png"
 
 {% include image.html path="posts/vscode.png" path-detail="posts/vscode.png" alt="Must Have VSCode Extensions" %}
 
-Beginning development in VSCode? Switching to VSCode? Save the nostalgia and the lost feeling. These extensions are here to save the day and possibly a lot more days before deadline.
+Beginning development in VSCode? Switching to VSCode? Save the nostalgia and the lost feeling. These extensions are here to save the day and possibly a lot more days before dthe eadline.
 
 ## 1. Prettier
 
@@ -102,7 +102,7 @@ $ ext install ritwickdey.liveserver
 
 Let's go to the team project again. To understand why and what someone did some changes to code is a lot of hassle. 
 
-That is where gitlens comes into play. You must be having questions, *"why use gitlens while VS Code already has GIT capabilities built-in?"* . 
+That is where Gitlens comes into play. You must be having questions, *"why use Gitlens while VS Code already has GIT capabilities built-in?"* . 
 
 > GitLens improves the functionality of Git, which is integrated into Visual Studio code. 
 
@@ -132,7 +132,7 @@ Worst nightmare? After finishing a big project just before submitting you find e
 
 ## 6. Auto Rename Tag
 
-This extension is self-explanatory. If you rename a tag this extension automatically renames the paired tag. Making life easier :).
+This extension is self-explanatory. If you rename a tag this extension automatically renames the paired tag. Making life easier. :)
 
 [**Install Auto Rename Tag from VS marketplace**](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
@@ -160,9 +160,9 @@ That's it, folks.
 
 ## Conclusion
 
-In this article we looked at some of the must-have VSCode extension that can make any developer's life easy. I'd encourage you to try them out yourself and see which ones you like the most.
+In this article, we looked at some of the must-have VSCode extension that can make any developer's life easy. I'd encourage you to try them out yourself and see which ones you like the most.
 
-Also, if you have any other suggestions please comment below so that we can everyone benefit form it.
+Also, if you have any other suggestions please comment below so that we can everyone benefit from it.
 
 
 > Author: Dibyajyoti Parida <br>
