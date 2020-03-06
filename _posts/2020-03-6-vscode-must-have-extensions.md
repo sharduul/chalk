@@ -23,10 +23,12 @@ To install Prettier
 {% highlight javascript %}
 
 In VS code enter
->CTRL+P
+$ CTRL+P
 
 Then type-
->ext install esbenp.prettier-vscode
+$ext install esbenp.prettier-vscode
+
+{% endhighlight %}
 
 [**OR install Prettier from VS marketplace**](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
@@ -40,8 +42,10 @@ OR
 
 {% highlight javascript %}
 
-> // Set the default
+// Set the default
+
 "editor.formatOnSave": false,
+
 // Enable per-language
 "[javascript]": {
     "editor.formatOnSave": true
@@ -60,20 +64,24 @@ This extension covers both the problems. It has an auto-reload feature and a ser
 You must be thinking an extension having all these features must be complicated to use? Not at all. All these happen just with the push of a button.
 
 Just press this button(if you have the Html file)
+
 ![Logo](https://github.com/ritwickdey/VSCode-live-server/raw/master/images/Screenshot/vscode-live-server-statusbar-3.jpg)
 
 {% highlight javascript %}
 
 If you don't have the Html file then to start the server press-
->ALT+L
+
+$ ALT+L
 
 To install Live Server
 
 Enter in VS code-
->CTRL+P
+
+$ CTRL+P
 
 Then type the following-
->ext install ritwickdey.liveserver
+
+$ ext install ritwickdey.liveserver
 
 {% endhighlight %}
 
@@ -83,7 +91,11 @@ Then type the following-
 
 ## 3. Gitlens
 
-Lets go to the team project again. To understand why and what someone did some changes to code is a lot of hassle. That is where gitlens comes into play. You must be having questions, *" why use gitlens while VS Code already has GIT capabilities built-in?"* GitLens improves the functionality of Git, which is integrated into Visual Studio code. It helps you identify the authorship of the code at a glance through annotations and Git code targets, navigate smoothly and explore the Git repositories, and get valuable information thanks to powerful comparison commands.
+Let's go to the team project again. To understand why and what someone did some changes to code is a lot of hassle. 
+
+That is where gitlens comes into play. You must be having questions, *" why use gitlens while VS Code already has GIT capabilities built-in?"* GitLens improves the functionality of Git, which is integrated into Visual Studio code. 
+
+It helps you identify the authorship of the code at a glance through annotations and Git code targets, navigate smoothly and explore the Git repositories, and get valuable information thanks to powerful comparison commands.
 
 [**Install Gitlens from VS marketplace**](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
@@ -91,7 +103,9 @@ Lets go to the team project again. To understand why and what someone did some c
 
 ## 4. Debugger for Chrome
 
-Debugging can be troublesome. This extension helps to debug your JavaScript code in the Google Chrome browser, or other browsers that support the Chrome DevTools Protocol. Setting breakpoints, debugging eval scripts, script tags, and scripts that are added dynamically.
+Debugging can be troublesome. This extension helps to debug your JavaScript code in the Google Chrome browser, or other browsers that support the Chrome DevTools Protocol. 
+
+Setting breakpoints, debugging eval scripts, script tags, and scripts that are added dynamically.
 
 [**Install Debugger for chrome from VS marketplace**](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 
@@ -125,7 +139,7 @@ If you tend to work in different systems setting them up is a hectic task. Here 
 
 ## Polacode
 
-When you need to share some code in an image format this apps do that. It has various combinations of thems with fonts and creates beautiful code polaroids or cod-aroids.
+When you need to share some code in an image format these apps do that. It has various combinations of them with fonts and creates beautiful code polaroids or cod-aroids.
 
 [**Install Polacode from VS marketplace**](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 
