@@ -13,9 +13,14 @@ Beginning development in VSCode? Switching to VSCode? Save the nostalgia and the
 
 ## 1. Prettier
 
-It claims to be *opinionated code formatter*. Let me break it down ever had a team project where everything was fine but there was some problem reading the code after compiling all codes because of different formatting *haha next time please use formatting*. So how prettier help you? It does the task of formatting and it is completely automatic.
+It claims to be *opinionated code formatter*. Let me break it down ever had a team project where everything was fine but there was some problem reading the code after compiling all codes because of different formatting *haha next time please use formatting*. 
+
+So how prettier help you? It does the task of formatting and it is completely automatic.
 
 To install Prettier
+
+
+{% highlight javascript %}
 
 In VS code enter
 >CTRL+P
@@ -33,6 +38,8 @@ OR
 
 2. Open settings.json and add the following lines
 
+{% highlight javascript %}
+
 > // Set the default
 "editor.formatOnSave": false,
 // Enable per-language
@@ -40,14 +47,22 @@ OR
     "editor.formatOnSave": true
 }
 
+{% endhighlight %}
+
 ![Prettier in action](https://thumbs.gfycat.com/OblongIlliterateFattaileddunnart-size_restricted.gif)
 
 ## 2. Live Server
 
-The most frequent thing done by a developer is opening a browser and reloading the webpages repeatedly to see the changes made by their code and a server to test their website. This extension covers both the problems. It has an auto-reload feature and a server to test your website. It also allows you to have a customizable port number, server root, default browse, preferable hostname, https support and a lot of extra features. You must be thinking an extension having all these features must be complicated to use? Not at all. All these happen just with the push of a button.
+The most frequent thing done by a developer is opening a browser and reloading the webpages repeatedly to see the changes made by their code and a server to test their website. 
+
+This extension covers both the problems. It has an auto-reload feature and a server to test your website. It also allows you to have a customizable port number, server root, default browse, preferable hostname, https support and a lot of extra features. 
+
+You must be thinking an extension having all these features must be complicated to use? Not at all. All these happen just with the push of a button.
 
 Just press this button(if you have the Html file)
 ![Logo](https://github.com/ritwickdey/VSCode-live-server/raw/master/images/Screenshot/vscode-live-server-statusbar-3.jpg)
+
+{% highlight javascript %}
 
 If you don't have the Html file then to start the server press-
 >ALT+L
@@ -59,6 +74,8 @@ Enter in VS code-
 
 Then type the following-
 >ext install ritwickdey.liveserver
+
+{% endhighlight %}
 
 [**OR install Live Server from VS marketplace**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
