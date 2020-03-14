@@ -8,7 +8,7 @@ og_image: "posts/vscode.png"
 
 {% include image.html path="posts/vscode.png" path-detail="posts/vscode.png" alt="Must Have VSCode Extensions" %}
 
-Beginning development in VSCode? Switching to VSCode? Save the nostalgia and the lost feeling. These extensions are here to save the day and possibly a lot more days before dthe eadline.
+Beginning development in VSCode? Switching to VSCode? Save the nostalgia and the lost feeling. These extensions are here to save the day and possibly a lot more days before the deadline.
 
 ## 1. Prettier
 
