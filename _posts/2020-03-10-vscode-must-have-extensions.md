@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Must Have VSCode Extensions"
+title: "Must Have Best VSCode Extensions To Increase Your Productivity"
 description: "Essential VSCode extensions that will improve your productivity as Web Developers. This article contains a list of VSCode plugins that will make every JavaScript developer's life easy."
 tags: [programming, vscode, listicles, web]
 og_image: "posts/vscode.png"
