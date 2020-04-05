@@ -101,6 +101,7 @@ While the title implies that this book deals only with how to achieve monetary w
 Stability Yoga Ball Ergonomic Chair
 https://amzn.to/33goawE
 
+
 Swivel Chair for Back Pain
 https://amzn.to/33djh7r
 
@@ -111,3 +112,7 @@ https://amzn.to/38QD0L7
 
 Smart Light Bulb 
 https://amzn.to/2U6vCGa
+
+
+Adjustable Stand-up desk
+https://amzn.to/2WS0hdv

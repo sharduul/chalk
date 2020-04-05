@@ -21,28 +21,26 @@ tags: [curated-list, listicles, programming]
 
 ## Algorithms and Data Structures
 
-Algorithms by Robert Sedgewick & Kevin Wayne
+[Algorithms by Robert Sedgewick & Kevin Wayne](https://amzn.to/3aEAObv)
 
-Introduction to Algorithms by Thomas H. Cormen
+[Introduction to Algorithms by Thomas H. Cormen](https://amzn.to/3e58ots)
 
-Cracking the Coding Interview by Gayle Laakmann
+[Cracking the Coding Interview by Gayle Laakmann](https://amzn.to/3bSytdk)
 
 
 ## Programming Misc.
 
-The Self-Taught Programmer by Cory Althoff 
+[The Self-Taught Programmer by Cory Althoff ](https://amzn.to/3bJISYG)
 
-Coders at Work by Peter Seibel
+[Coders at Work by Peter Seibel](https://amzn.to/3aKzh3I)
 
-The Art of Computer Programming by Donald E. Knuth
+[The Art of Computer Programming by Donald E. Knuth](https://amzn.to/2JFkNWR)
 
-Programming Pearls by Jon Bentley
+[The Clean Coder by Robert Martin](https://amzn.to/34bB3rY)
 
-The Clean Coder by Robert Martin
+[Code Complete by Steve McConnell](https://amzn.to/349oy0l)
 
-Code Complete by Steve McConnell
-
-The Pragmatic Programmer by David Thomas & Andrew Hunt
+[The Pragmatic Programmer by David Thomas & Andrew Hunt](https://amzn.to/39EaX1X)
 
 
 
