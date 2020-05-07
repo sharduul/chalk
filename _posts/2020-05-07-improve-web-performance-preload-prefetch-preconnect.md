@@ -51,6 +51,8 @@ For everyone's clarity prefetch is not similar to preload. Both are different di
 
 Prefetch downloads require resources and store them in browsers cache for later use.
 
+{% include image.html path="posts/specific/web-perf/prefetch.png" path-detail="posts/specific/web-perf/prefetch.png" alt="Prefetch" %}
+
 ### There are two types of prefetching:
 
 1. Link Prefetching
@@ -88,6 +90,8 @@ Again, the name implies what function preconnect does. Preconnect allows the bro
 This includes various things such as DNS Lookups, TLS Negotiation, etc.,
 
 For a clear explanation let us consider that the web page we are going to make contains fonts from google and it also uses some API. Instead of making a request when the page loads the connection can be made before and the data can be retrieved.
+
+{% include image.html path="posts/specific/web-perf/preconnect.png" path-detail="posts/specific/web-perf/preconnect.png" alt="Preconnect" %}
 
 Preconnect can be added directly to the link tag used on a webpage.
 
