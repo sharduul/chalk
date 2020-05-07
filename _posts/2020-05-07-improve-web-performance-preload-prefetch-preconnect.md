@@ -3,7 +3,7 @@ layout: post
 title: "How to improve web performance by using Preload, Preconnect, Prefetch"
 description: "Techniques of Website Speed Optimization. Tips to increase your app performance on the front end on modern browsers. There is a direct relation between your app's performance and user retention."
 tags: [programming, the-how-series, web, web-performance]
-og_image: "posts/vscode.png"
+og_image: "posts/tricks.jpg"
 ---
 
 {% include image.html path="posts/tricks.jpg" path-detail="posts/tricks.jpg" alt="How to improve web performance" %}
