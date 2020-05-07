@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "How to improve web performance by using Preload, Preconnect, Prefetch"
-description: "Essential VSCode extensions that will improve your productivity as Web Developers. This article contains a list of VSCode plugins that will make every JavaScript developer's life easy."
-tags: [programming, vscode, listicles, web]
+description: "Techniques of Website Speed Optimization. Tips to increase your app performance on the front end on modern browsers. There is a direct relation between your app's performance and user retention."
+tags: [programming, the-how-series, web, web-performance]
 og_image: "posts/vscode.png"
 ---
 
