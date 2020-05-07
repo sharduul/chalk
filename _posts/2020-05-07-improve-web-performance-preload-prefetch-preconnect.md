@@ -20,13 +20,13 @@ The preload tag does not preload only the resources that are declared in HTML it
 
 ### Syntax
 
-```
+{% highlight javascript %}
 
 <link rel= "preload" href = "/style.css" as= "style"/>
 
 <link rel= "preload" href = "/script.js" as= "script"/>
 
-```
+{% endhighlight %}
 
 ### Other types that can be used
 
@@ -65,23 +65,23 @@ This will download the resources needed and store them in the browser's cache fo
 
 This technique can speed up many interactive sites but does not work everywhere.
 
-```
+{% highlight javascript %}
 
 <link rel="prefetch" href="/uploads/images/pic.png"/>
 
-```
+{% endhighlight %}
 
 ### 2. DNS Prefetching
 
 DNS prefetching allows the browser to perform DNS lookups in the background while the browser is being used. This will reduce the latency since the DNS lookup has been made earlier.
 
-```
+{% highlight javascript %}
 
 <link rel="dns-prefetch" href="//fonts.googleapis.com"/>
 
 <link rel="dns-prefetch" href="//www.google-analytics.com"/>
 
-```
+{% endhighlight %}
 
 ## Preconnect
 
@@ -97,11 +97,11 @@ Preconnect can be added directly to the link tag used on a webpage.
 
 ### Syntax
 
-```
+{% highlight javascript %}
 
 <link href="https://cdn.domain.com" rel="preconnect" crossorigin/>
 
-```
+{% endhighlight %}
 
 
 ## Conclusion
