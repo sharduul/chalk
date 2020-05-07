@@ -6,7 +6,7 @@ tags: [programming, vscode, listicles, web]
 og_image: "posts/vscode.png"
 ---
 
-{% include image.html path="posts/vscode.png" path-detail="posts/vscode.png" alt="Must Have VSCode Extensions" %}
+{% include image.html path="posts/tricks.jpg" path-detail="posts/tricks.jpg" alt="How to improve web performance" %}
 
 There are various ways through which we can improve the performance of our webpage.
 
