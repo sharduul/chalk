@@ -8,6 +8,8 @@ tags: [curated-list, listicles, programming]
 
 <!-- {% include image.html path="posts/finance/piggy.jpg" path-detail="posts/finance/piggy.jpg" alt="Make Passive Income" %} -->
 
+<!-- write summary on these books -->
+
 ## Web Development
 
 [Pro AngularJS (Expert's Voice in Web Development)](https://amzn.to/3csc4EM) 
