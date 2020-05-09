@@ -3,7 +3,7 @@ layout: post
 title: "Ask NgNinja #1"
 description: "In this segment, we answer all the frequently asked questions our students are facing in their career."
 tags: [ask-ngninja, programming]
-og_image: "posts/tricks.jpg"
+og_image: "posts/this.jpg"
 ---
 
 {% include image.html path="posts/this.jpg" path-detail="posts/this.jpg" alt="Ask NgNinja" %}
