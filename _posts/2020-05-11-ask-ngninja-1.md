@@ -29,9 +29,9 @@ Once you know the fundamentals of vanilla javascript, then I would encourage you
 
 And, then when you have enough understanding about all the above - you should take up a JS framework and start building applications. You can start with React, Angular, Vue - these all are really good.
 
-In today's world I believe being a full-stack developer pays of a lot more. I can go into the details about this in the future. But, don't stop working on backend technologies while you are learning JavaScript.
+In today's world, I believe being a full-stack developer pays off a lot more. I can go into the details about this in the future. But, don't stop working on backend technologies while you are learning JavaScript.
 
-## I am a student. I need a job and earn some money.
+## I am a student. I need a job and earn some money. Where do I start?
 
 I am so glad you are thinking about your future at this young age. Kudos to you! I would do this. 
 
@@ -45,7 +45,7 @@ If you think are you are doing more than enough for your college degree start le
 
 If you are a programmer you are already in a good place to start any side hustle you'd like.
 
-And example path for you in today's market - I would encourage you to start blogging about your favorite programming language. Start a twitter account and just give out amazing tips and tricks and lessons on coding. Then create a 7-day or 14-day FREE course for beginners to level up their programming skills. And at the end of the course sell an eBook that goes into much details and more actionable steps that your students can benefit from.
+An example path for you in today's market - I would encourage you to start blogging about your favorite programming language. Start a twitter account and just give out amazing tips and tricks and lessons on coding. Then create a 7-day or 14-day FREE course for beginners to level up their programming skills. And at the end of the course sell an eBook that goes into much details and more actionable steps that your students can benefit from.
 
 To be honest, the options are limitless. It all depends on your creativity.
 

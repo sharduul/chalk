@@ -1,25 +1,22 @@
 ---
 layout: post
-title: "Ask NgNinja #2"
+title: "Ask NgNinja #3"
 description: "In this segment, we answer all the frequently asked questions our students are facing in their career."
-tags: [ask-ngninja, programming, passive-income]
+tags: [ask-ngninja, passive-income, frugality, personal-finance]
 og_image: "posts/this.jpg"
 ---
 
 {% include image.html path="posts/this.jpg" path-detail="posts/this.jpg" alt="Ask NgNinja" %}
 
 
-## Planning to start learning new programming language. Please suggest which one to choose?
+# I am a programmer but I want to start earning on the sides. How do I start investing in stocks?
 
 
 
-## I'm starting my Instagram page where I will be posting what I learned coding in my favorite programming language XYZ. Any advice?
 
 
 
-## I want to go freelance and work for myself, as that is something I’ve wanted to do for a long time but have never had the courage or push to do it. What advise could you give to someone thinking of going down this path?
-
-
+# I am trying very hard to learn coding but i cant😭😭😭 can u suggest me
 
 
 <!-- 
