@@ -56,7 +56,6 @@ Ex: I like to tweet. It is fast and efficient. So, I tweet all day. And, then I 
 
 This tweet went “viral” (for my account). So, I took this and posted it on Instagram too. This is called re-purposing the content.
 
-Follow me: Instagram | Twitter
 
 🥊 Follow this strategy consistently:
 
