@@ -54,9 +54,6 @@ And, I would also suggest you target one other social media platform. Ex: Twitte
 
 Ex: I like to tweet. It is fast and efficient. So, I tweet all day. And, then I choose few of my best tweets and I screenshot them to post it on my Instagram.
 
-This tweet went “viral” (for my account). So, I took this and posted it on Instagram too. This is called re-purposing the content.
-
-
 🥊 Follow this strategy consistently:
 
 - Tell stories 
