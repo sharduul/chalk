@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ask NgNinja #1"
+title: "Ask NgNinja #1 - Learn vanilla JavaScript as backend developer + Earn extra cash as a student"
 description: "In this segment, we answer all the frequently asked questions our students are facing in their career."
 tags: [ask-ngninja, programming]
 og_image: "posts/this.jpg"
