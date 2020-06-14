@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "7 TIPS AND TRICKS ON HTML"
+title: "7 HTML Tips and Tricks"
 description: "This articles teaches you 7 HTML tips and tricks that will save your time and make you more efficient."
-tags: [reactjs, the-how-series]
+tags: [programming, html, productivity]
 og_image: "responsive.png"
 ---
 
