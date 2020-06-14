@@ -163,6 +163,10 @@ Let's change the dimension of the browser and check again.
 
 In the above picture you can observe that the dimension of the browser is **800 X 1280**.The content is adjusted to size of the browser.
 
+## Conclusion
+
+That's it. I hope you understood why responsive web designs are important and how you can accomplish them using media queries. With the help of this article you can also design a basic responsive web templates.
+
 
 > Author: B.K.Sai Kalyan <br>
 > Gmail: saikalyan1729@gmail.com <br>
