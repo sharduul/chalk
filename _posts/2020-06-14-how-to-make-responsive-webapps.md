@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "How To Make Your HTML Responsive"
-description: "This articles teaches you How To Make Your HTML Responsive."
+title: "How To Make Responsive Web Apps"
+description: "This articles teaches you how to make your HTML responsive using media queries. Make a responsive website in easy steps."
 tags: [programming, javascript, the-how-series]
-og_image: "responsive.png"
+og_image: "posts/specific/responsive.png"
 ---
 
 Responsive Web Design means using HTML and CSS to automatically resize, hide, shrink, or
@@ -161,9 +161,18 @@ Let's change the dimension of the browser and check again.
 {% include image.html path="posts/specific/800 * 1280.png" path-detail="posts/specific/800 * 1280.png" alt="800 * 1280.png" %}
 
 
-In the above picture ou can observe that the dimension of the browser is **800 X 1280**.The content is adjusted to size of the browser.
-## ##  Author: B.K.Sai Kalyan
-Gmail: saikalyan1729@gmail.com
-To know more about the author: [website](https://sites.google.com/view/sai-kalyan-bhagavathula/home?authuser=1)
+In the above picture you can observe that the dimension of the browser is **800 X 1280**.The content is adjusted to size of the browser.
 
 
+> Author: B.K.Sai Kalyan <br>
+> Gmail: saikalyan1729@gmail.com <br>
+> To know more about the author: [website](https://sites.google.com/view/sai-kalyan-bhagavathula/home?authuser=1) <br>
+
+---
+
+<br>
+
+## Read Next
+
+- [Most Frequently Asked JavaScript Interview Questions](/posts/frequently-asked-javascript-interview-questions)
+- [5 Common mistakes JavaScript developers make](/posts/steps-after-you-type-url-in-browser)
