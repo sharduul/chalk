@@ -2,7 +2,7 @@
 layout: post
 title: "How To Make Responsive Web Apps"
 description: "This articles teaches you how to make your HTML responsive using media queries. Make a responsive website in easy steps."
-tags: [programming, javascript, the-how-series]
+tags: [programming, html, the-how-series]
 og_image: "posts/specific/responsive-html/responsive.png"
 ---
 
