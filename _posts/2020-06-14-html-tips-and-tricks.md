@@ -3,8 +3,10 @@ layout: post
 title: "7 HTML Tips and Tricks"
 description: "This articles teaches you 7 HTML tips and tricks that will save your time and make you more efficient."
 tags: [programming, html, productivity]
-og_image: "responsive.png"
+og_image: "posts/tricks.jpg"
 ---
+
+{% include image.html path="posts/tricks.jpg" path-detail="posts/tricks.jpg" alt="7 HTML Tips and Tricks" %}
 
 In this article you will find some useful tips and tricks on html which save your time while developing web applications.
 
