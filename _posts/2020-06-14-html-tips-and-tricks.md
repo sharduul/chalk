@@ -24,8 +24,8 @@ But now in HTML5 this problem solved with a small keyword. We can solve it by si
   <body>
     <form class="" action="" method="post">
 
-      Enter your Email address : <input type="email" value="" placeholder="Enter your email id">   </input>
-      <input type="submit" name="" value="submit"></input>
+      Enter your Email address : <input type="email" value="" placeholder="Enter your email id" />
+      <input type="submit" name="" value="submit" />
       
     </form>
   </body>
@@ -52,8 +52,8 @@ But now in HTML5 this problem solved with a small keyword. We can solve it by si
 <body>
   <form class="" action="" method="post">
 
-    Enter your Email address : <input type="email" value="" placeholder="Enter your email id" required>   </input>
-    <input type="submit" name="" value="submit"></input>
+    Enter your Email address : <input type="email" value="" placeholder="Enter your email id" required />
+    <input type="submit" name="" value="submit" />
   </form>
 </body>
 </html>
@@ -96,8 +96,8 @@ By assigning type as **password** in that text field.
 <body>
   <form class="" action="" method="post">
 
-    Enter your password : <input type="password" value="" placeholder="Enter your password" required>   </input>
-    <input type="submit" name="" value="submit"></input>
+    Enter your password : <input type="password" value="" placeholder="Enter your password" required />
+    <input type="submit" name="" value="submit" />
   </form>
 </body>
 </html>
@@ -120,8 +120,8 @@ But now in HTML5 this problem solved with a small keyword. We can solve it by si
 <body>
   <form class="" action="" method="post">
 
-    Enter a number : <input type="number" value="" placeholder="Enter a number">   </input>
-    <input type="submit" name="" value="submit"></input>
+    Enter a number : <input type="number" value="" placeholder="Enter a number" />
+    <input type="submit" name="" value="submit" />
   </form>
 </body>
 </html>
@@ -143,8 +143,8 @@ In HTML5 this problem solved with a small keyword. We can solve it by simply giv
 <body>
   <form class="" action="" method="post">
 
-    Enter your Name : <input type="email" value="" placeholder="Enter your name">   </input>
-    <input type="submit" name="" value="submit"></input>
+    Enter your Name : <input type="email" value="" placeholder="Enter your name" />
+    <input type="submit" name="" value="submit" />
   </form>
 </body>
 </html>
@@ -182,3 +182,19 @@ The text between the ```<video>``` and ```</video>``` tags will only be displaye
 
 The video placed in **src** attribute will play the video.
 Controls attribute will display the pause, play, next, full screen and volume etc.., controls on the video.
+
+
+
+> Author: B.K.Sai Kalyan <br>
+> Gmail: saikalyan1729@gmail.com <br>
+> To know more about the author: [website](https://sites.google.com/view/sai-kalyan-bhagavathula/home?authuser=1) <br>
+
+
+---
+
+<br>
+
+## Read Next
+
+- [5 Common mistakes JavaScript developers make](/posts/how-to-make-responsive-webapps)
+- [Most Frequently Asked JavaScript Interview Questions](/posts/frequently-asked-javascript-interview-questions)
