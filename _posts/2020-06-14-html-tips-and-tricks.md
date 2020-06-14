@@ -185,6 +185,10 @@ The text between the ```<video>``` and ```</video>``` tags will only be displaye
 The video placed in **src** attribute will play the video.
 Controls attribute will display the pause, play, next, full screen and volume etc.., controls on the video.
 
+## Conclusion
+
+Hopefully you’ve enjoyed these HTML tips and found them useful. Be sure to use them in your next project and remember practice will make you perfect and more efficient.
+
 
 
 > Author: B.K.Sai Kalyan <br>
