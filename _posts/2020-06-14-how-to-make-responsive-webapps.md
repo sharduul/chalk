@@ -152,13 +152,13 @@ In the above code you can see how we used the media queries to display 3 content
 
 It's time to see the output of that content. Here you go.
 
-{% include image.html path="posts/specific/responsive-html/360 X 740.png" path-detail="posts/specific/responsive-html/360 X 740.png" alt="360 X 740.png" %}
+{% include image.html path="posts/specific/responsive-html/mobile.png" path-detail="posts/specific/responsive-html/mobile.png" alt="mobile.png" %}
 
 In the above picture you can observe that the dimension of the browser is **360 X 740**.The content is adjusted to size of the browser.
 
 Let's change the dimension of the browser and check again.
 
-{% include image.html path="posts/specific/responsive-html/800 * 1280.png" path-detail="posts/specific/responsive-html/800 * 1280.png" alt="800 * 1280.png" %}
+{% include image.html path="posts/specific/responsive-html/desktop.png" path-detail="posts/specific/responsive-html/desktop.png" alt="desktop.png" %}
 
 
 In the above picture you can observe that the dimension of the browser is **800 X 1280**.The content is adjusted to size of the browser.
