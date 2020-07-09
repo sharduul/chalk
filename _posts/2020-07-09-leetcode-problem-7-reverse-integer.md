@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "LeetCode 7. Reverse Integer"
+title: "LeetCode Problem 7. Reverse Integer"
 description: "In this segment, I go through solving leetcode problems for my own practice. I walk through my thinking process so that we can all learn together."
 tags: [algorithms, leetcode, programming, problem-solving]
-# og_image: "posts/this.jpg"
+og_image: "posts/leetcode.jpg"
 ---
 
-<!-- {% include image.html path="posts/this.jpg" path-detail="posts/this.jpg" alt="Ask NgNinja" %} -->
+{% include image.html path="posts/leetcode.jpg" path-detail="posts/leetcode.jpg" alt="LeetCode Problem" %}
 
 ## Problem
 
@@ -103,11 +103,11 @@ Memory Usage: 37.7 MB, less than 14.63% of JavaScript online submissions for Rev
 
 
 ### Disclaimer
-This may not be the optimal solution. But, the purpose here is to practice problem solving and have fun with algorithms. I am constantly learning new optimized solutions for these problems.
+This may not be the optimal solution. And that's okay. The purpose here is to practice problem solving and have fun with algorithms. I am constantly learning new optimized solutions for these problems.
 
 Please comment below if you have a better solution. Let's learn algorithms and data structures together.
 
-<!-- 
+
 ---
 
 <br>
@@ -121,4 +121,4 @@ Please comment below if you have a better solution. Let's learn algorithms and d
 ## Read Next
 
 - [Most Frequently Asked JavaScript Interview Questions](/posts/frequently-asked-javascript-interview-questions)
-- [5 Common mistakes JavaScript developers make](/posts/steps-after-you-type-url-in-browser) -->
+- [5 Common mistakes JavaScript developers make](/posts/steps-after-you-type-url-in-browser)
