@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 7. Reverse Integer"
 description: "In this segment, I go through solving leetcode problems for my own practice. I walk through my thinking process so that we can all learn together."
-# tags: [ask-ngninja, passive-income, frugality, personal-finance]
+tags: [algorithms, leetcode, programming, problem-solving]
 # og_image: "posts/this.jpg"
 ---
 
