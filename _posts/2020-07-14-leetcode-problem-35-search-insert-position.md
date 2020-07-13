@@ -99,6 +99,10 @@ I use this logic to get the `mid`
 
 `const mid = Math.floor((high-low)/2 + low)`
 
+I have used recursion here 
+But, you can use simple `while` loop for the binary search
+I believe that should give you a better runtime
+
 ### Ask questions like
 
 Will the array contain negative numbers
