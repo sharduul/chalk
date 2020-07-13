@@ -112,7 +112,8 @@ Will it fit in memory
 
 ## Sample test cases
 
-```
+{% highlight javascript %}
+
 [2,4,5,8,9]
 3
 
@@ -128,7 +129,7 @@ Will it fit in memory
 [1,3,5,7]
 6
 
-```
+{% endhighlight %}
 
 
 ## Highlights
