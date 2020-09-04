@@ -3,8 +3,10 @@ layout: post
 title: "Difference between Flutter and React"
 description: "This articles teaches you difference between Flutter and React."
 tags: [reactjs, flutter, the-how-series]
-og_image: "f vs r.png"
+og_image: "flutter-vs-react.jpg"
 ---
+
+{% include image.html path="flutter-vs-react.jpg" path-detail="flutter-vs-react.jpg" alt="Difference between Flutter and React" %}
 
 This article describes the difference between leading market pro-players Flutter & React.
 
