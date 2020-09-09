@@ -158,4 +158,4 @@ Please comment below if you have a better solution. Let's learn algorithms and d
 ## Read Next
 
 - [Most Frequently Asked JavaScript Interview Questions](/posts/frequently-asked-javascript-interview-questions)
-- [5 Common mistakes JavaScript developers make](/posts/steps-after-you-type-url-in-browser)
+- [LeetCode Problem 35. Search Insert Position](/posts/leetcode-problem-35-search-insert-position)

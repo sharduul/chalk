@@ -120,5 +120,5 @@ Please comment below if you have a better solution. Let's learn algorithms and d
 
 ## Read Next
 
-- [Most Frequently Asked JavaScript Interview Questions](/posts/frequently-asked-javascript-interview-questions)
+- [LeetCode Problem 80. Remove Duplicates from Sorted Array II](/posts/leetcode-problem-80-remove-duplicate-sorted-array-ii)
 - [5 Common mistakes JavaScript developers make](/posts/steps-after-you-type-url-in-browser)
