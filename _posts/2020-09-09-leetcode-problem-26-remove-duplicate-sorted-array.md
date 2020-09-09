@@ -79,8 +79,8 @@ You have to return `length` of the new array. But, because the array itself is p
 Because we have to sort the array - time complexity would at least be `O(n)`
 
 We can maintain two pointers
-p -> pointing to the last unique element
-i -> pointing to the current element being inspected
+- p -> pointing to the last unique element
+- i -> pointing to the current element being inspected
 
 And finally return `p+1`
 

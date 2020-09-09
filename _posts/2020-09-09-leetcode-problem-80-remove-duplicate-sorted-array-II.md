@@ -93,9 +93,9 @@ You have to return `length` of the new array. But, because the array itself is p
 Because we have to sort the array - time complexity would at least be `O(n)`
 
 We can maintain three pointers
-i -> pointing to the first instance of the unique element
-j -> pointing to the second instance of the unique element
-k -> pointing to the current element being inspected
+- i -> pointing to the first instance of the unique element
+- j -> pointing to the second instance of the unique element
+- k -> pointing to the current element being inspected
 
 And finally return `j+1`
 
