@@ -29,6 +29,13 @@ You can find more info on how to use the gh-pages branch and a custom domain [he
 ### EACCES: permission denied in VS Code MAC
 sudo chown -R sbagade `pwd`
 
+
+### Error on `bundle install`
+sudo chown -R sbagade: ~/.bundle
+
+> more details https://github.com/rubygems/bundler/issues/5211
+
+
 ### Setup
 - installed Ruby from https://gorails.com/setup/osx/10.12-sierra
 - then followed steps given below
