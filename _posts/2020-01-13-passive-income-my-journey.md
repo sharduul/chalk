@@ -57,7 +57,7 @@ My portfolio is in the positives but I don't invest in it anymore. Well, this is
 
 Like I said I don't like to limit myself in one area. I like to experiment and play with different apps, different platforms, and even different ways that will earn me some money.
 
-Following that trend, I opened my [Instagram account - The Coder Girl](https://www.instagram.com/ranjana.ban/) that focusses on sharing my programming experiences, tips and ticks, the resources I use, and a lot of programming memes - because who doesn't like to make fun of us programmers, eh!
+Following that trend, I opened my [Instagram account - Sleepless Yogi](https://www.instagram.com/sleeplessyogi/) that focusses on sharing my programming experiences, tips and ticks, the resources I use, and a lot of programming memes - because who doesn't like to make fun of us programmers, eh!
 
 The account grew up to 30K followers in just one year. I was amazed by the growth it had, the people I met, and just the overall experience I got from it.
 
