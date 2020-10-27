@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Learn Web Development"
-description: "This article teaches you difference between Flutter and React."
+description: "Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript. Use this curated list to learn web development."
 tags: [reactjs, javascript, web, listicles]
 og_image: "posts/laptop-hand.jpg"
 ---
