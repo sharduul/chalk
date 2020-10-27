@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prototypal vs Classical inheritance -  which one better?"
-description: "Comparison between prototypal inheritance and classical inheritance on multiple parameters. Is classical inheritance obselete. How does JavaScript inherit objects. Battle between Java and JavaScript."
+description: "Comparison between prototypal inheritance and classical inheritance on multiple parameters. Is classical inheritance obsolete. How does JavaScript inherit objects. Battle between Java and JavaScript."
 tags: [javascript, interview]
 og_image: "posts/js-vs-java.jpg"
 ---
