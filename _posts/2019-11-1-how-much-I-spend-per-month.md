@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How much I spend per month as a Tech Entrepreneur."
+title: "How much I spend per month as a Tech Entrepreneur"
 description: "Do you ever wonder where does all your money go? An itemization of my living expenses to help you budget better."
 tags: [personal-finance, frugality]
 og_image: "posts/finance/money.jpg"
