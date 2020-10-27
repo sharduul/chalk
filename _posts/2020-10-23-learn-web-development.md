@@ -10,6 +10,10 @@ og_image: "posts/laptop-hand.jpg"
 
 Feeling lost trying to learn web development? This is a curated list of articles that will teach you web development. Make sure you read them all diligently.
 
+## [7 HTML Tips and Tricks](/posts/html-tips-and-tricks)
+
+In this article you will find some useful tips and tricks on html which save your time while developing web applications.
+
 ## [What is JavaScript?](/posts/what-is-javascript)
 
 JavaScript programming language analysed, explaining why do you want to use it for your next project.
