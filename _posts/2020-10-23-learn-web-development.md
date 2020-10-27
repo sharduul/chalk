@@ -82,7 +82,7 @@ I hope you enjoyed the articles. If your end goal is to become a web developer -
 
 Most importantly, don't get overwhelmed.
 
-Struggling to understand web development concepts? Let me teach you the right way. Check out my ebook [HTML to React: The Ultimate Guide](https://gumroad.com/l/html2react/blog)
+**Struggling to understand web development concepts? Let me teach you the right way. Check out my ebook [HTML to React: The Ultimate Guide](https://gumroad.com/l/html2react/blog)**
 
 
 <br>
