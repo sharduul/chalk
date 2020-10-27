@@ -80,7 +80,9 @@ Grab these interesting project ideas for FREE and upgrade your portfolio. Start 
 
 I hope you enjoyed the articles. If your end goal is to become a web developer - start with mastering JavaScript. Spend time building apps - start with small apps, keep adding new technologies that you learn.
 
-Most importantly, don't get overwhelmed. Only practice can make you a strong web developer.
+Most importantly, don't get overwhelmed.
+
+Struggling to understand web development concepts? Let me teach you the right way. Check out my ebook [HTML to React: The Ultimate Guide](https://gumroad.com/l/html2react/blog)
 
 
 <br>
