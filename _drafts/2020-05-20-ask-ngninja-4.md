@@ -8,7 +8,21 @@ og_image: "posts/this.jpg"
 
 {% include image.html path="posts/this.jpg" path-detail="posts/this.jpg" alt="Ask NgNinja" %}
 
-These are the most FAQ I get all the time
+
+## How to get job at Google without a degree?
+
+Is it possible to get a job at top tier company without a degree?
+
+Yes and no - the thing is you should have done something worth while to be considered for the job interview
+
+If not a degree - something equivalent to it... like some awesome open source project contribution, or some startup of your own, or some research paper published
+
+You can also go the Bootcamp route - they are pretty famous for getting hired in top tier tech companies!
+
+
+
+## Top FAQs from my students
+
 
 “How do I become a successful programmer?”
 “How do I earn extra income?”
@@ -17,7 +31,6 @@ These are the most FAQ I get all the time
 
 Everyone is looking for the magical answer... 🧙‍♀️
 
-🔥🔥🔥
 The real answer: Keep coding, build awesome things, reach to people every single day
 
 It’s not the popular answer but it’s the most proven way to make money as a programmer
@@ -30,17 +43,12 @@ Binge read what they are talking about 📚
 
 
 Ask yourself, what are they doing right that has made them this influential
-
-
 Are they charming? creative? smart? 🤓
 
 
 They are not! 🚫
 
-
 They are just more disciplined with greater courage to put themselves out there. 💪
-
-
 They are willing to go that extra mile to get things done.
 
 Ask yourself - are you?

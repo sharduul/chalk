@@ -18,14 +18,12 @@ og_image: "posts/specific/flutter-vs-react.jpg"
   - theoritical knowledge, nothing practical
   - 
 
-
 Only theoretical knowledge nothing back to go
-Nothing back tickle
 Nothing practical
 
 Assignment
-Racing reference books
-5 year question paper
+Reference books
+Last 5 year question paper
 
 Build websites
 Inspired from friends
@@ -38,21 +36,28 @@ Great mentorship
 got job from 4 companies
 
 1 year job
+- C#, .Net, SQL
+
+
 
 Highest ratings USA
 
-Practical knowledge
-A lot of projects
-Languages learn in USA
+- MS in Comp Sci.
+- Practical knowledge
+- A lot of projects
 
 Internship
 Full-time job
 
 Earning in dollars
+
+
+# 🚀 The Downfall
+- things started to go down
 Shopping travel wake Nation credit card new car
 A lot of explaining expenses
 
-Finance classes Finance crisis
+
 Realization
 When broke
 
@@ -70,6 +75,7 @@ just for fun
 
 
 Career growth
+- things started to improve
 New job
 payment hike
 
@@ -120,11 +126,10 @@ Twitter
 Blog
 
 
-
-
 first few months
 Made a few hundred dollars
 Excited
+
 
 Constantly learning
 People making a ton of money
