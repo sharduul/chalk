@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Acorns Review 2020 | Is it really for you? - UPDATED"
+title: "Acorns Review 2021 | Is it really for you? - [UPDATED]"
 description: "Acorns is the leading spare change investment app today. Perfect online platform for beginners to start investing at low fees."
 tags: [personal-finance, acorns]
 og_image: "posts/acorns-reviews.png"

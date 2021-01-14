@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "M1 Finance Review 2020 | Top ZERO FEE Investing Platform - UPDATED"
+title: "M1 Finance Review 2021 | Top ZERO FEE Investing Platform - [UPDATED]"
 description: "M1 Finance is a 100% free investing platform. M1 Finance is the only free investing platform that allows you to open a retirement account."
 tags: [personal-finance, m1-finance]
 og_image: "posts/finance/m1-finance.png"
