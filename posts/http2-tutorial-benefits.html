@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Ninja Academy | HTTP2 tutorial - Pros, Cons and other most frequently asked questions.</title>
+  <meta name="description" content="What is HTTP/2? What do you need to know about it? Introduction to HTTP/2 in pure simple english. Pros and Congs and other popular questions." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:title" content="HTTP2 tutorial - Pros, Cons and other most frequently asked questions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ngninja.com//posts/http2-tutorial-benefits" />
+  <meta property="og:description" content="What is HTTP/2? What do you need to know about it? Introduction to HTTP/2 in pure simple english. Pros and Congs and other popular questions." />
+  <meta property="og:site_name" content="Ninja Academy" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://ngninja.com//posts/http2-tutorial-benefits" />
+  <meta name="twitter:title" content="HTTP2 tutorial - Pros, Cons and other most frequently asked questions." />
+  <meta name="twitter:description" content="What is HTTP/2? What do you need to know about it? Introduction to HTTP/2 in pure simple english. Pros and Congs and other popular questions." />
+
+  
+  <meta
+    property="og:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  <meta
+    name="twitter:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  
+
+  <link
+    href="https://ngninja.com//feed.xml"
+    type="application/rss+xml"
+    rel="alternate"
+    title="Ninja Academy Last 10 blog posts"
+  />
+
+    
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="/assets/favicon-dark-209194b9ff10035bbcfba5f7425921015d49314ba7c6e6e41d2cb85e9b9bbb2a.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png"
+  />
+  <link rel="stylesheet" type="text/css" href="/assets/light-6ff58e5b26e9f5b7f2aa12b86a834d74c87d22e89335a1efcb79606403cc8481.css">  
+</head>
+
+  <body>
+    <main role="main">
+      <div class="grid grid-centered">
+        <div class="grid-cell">
+          <nav class="header-nav reveal">
+  <a href="/" class="header-logo" title="Ninja Academy"
+    ><img
+      src="/assets/logo-0a85d68f5106feb94b40117f598fec1ea476834afe17746b026cd1b441b7a9ad.png"
+      alt="HTML tutorial"
+      style="height: 60px;"
+  /></a>
+
+  <ul class="header-links">
+    
+    <li>
+      <a
+        href="https://twitter.com/sleeplessyogi"
+        target="_blank"
+        title="Twitter"
+      >
+        <span class="icon icon-social-twitter"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.facebook.com/ngrealninja"
+        target="_blank"
+        title="Facebook"
+      >
+        <span class="icon icon-social-facebook"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.instagram.com/sleeplessyogi"
+        target="_blank"
+        title="Instagram"
+      >
+        <span class="icon icon-social-instagram"></span>
+      </a>
+    </li>
+         
+    <li>
+      <a href="mailto:sleeplessyogi@gmail.com" target="_blank" title="Email">
+        <span class="icon icon-at"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a href="/feed.xml" target="_blank" title="RSS">
+        <span class="icon icon-social-rss"></span>
+      </a>
+    </li>
+    
+  </ul>
+</nav>
+
+          <div>
+            <div class="subnav" id="mysubnav">
+  <a href="/tag/the-how-series" target="_self" title="How To Programming">
+    Programming
+  </a>
+  <a href="/tag/personal-finance" target="_self" title="Passive Income">
+    Passive Income
+  </a>
+  <a href="/resources" target="_self" title="Resources">
+    Resources
+  </a>
+  <!-- <a
+    href="https://mx84n.weblium.site/"
+    title="Make $200K"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Make $200K
+  </a> -->
+  <a
+    href="https://gumroad.com/l/html2react/blog"
+    title="Our Courses"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Courses
+  </a>
+  <a href="javascript:void(0);" class="icon-container" onclick="toggleMenu()">
+    <span class="icon icon-android-menu"></span>
+  </a>
+</div>
+
+<script>
+  function toggleMenu() {
+    var x = document.getElementById("mysubnav");
+    if (x.className === "subnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "subnav";
+    }
+  }
+</script>
+
+          </div>
+          <article class="article reveal">
+            <header class="article-header">
+              <h1>HTTP2 tutorial - Pros, Cons and other most frequently asked questions.</h1>
+              <p>What is HTTP/2? What do you need to know about it? Introduction to HTTP/2 in pure simple english. Pros and Congs and other popular questions.</p>
+              <div class="article-list-footer">
+                <span class="article-list-date">
+                  November 17, 2017
+                </span>
+                <span class="article-list-divider">-</span>
+                <span class="article-list-minutes">
+                    5 minute read 
+                </span>
+                <span class="article-list-divider">-</span>
+                <div class="article-list-tags">
+                  
+                  <a href="/tag/web">web</a>
+                  
+                  <a href="/tag/http2">http2</a>
+                  
+                  <a href="/tag/the-what-series">the-what-series</a>
+                  
+                </div>
+              </div>
+            </header>
+            <script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<!-- hz-post-top -->
+<ins
+  class="adsbygoogle"
+  style="display:inline-block;width:100%;height:90px"
+  data-ad-client="ca-pub-2179620018216283"
+  data-ad-slot="1244135380"
+></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            <div class="article-content">
+              <p><a href="/assets/posts/specific/http2-f1fbfc270fa46353d3122355fa5cf9124a9ab61a66baa34ebfcb8777c215c693.jpg">
+  <img src="/assets/posts/specific/http2-f1fbfc270fa46353d3122355fa5cf9124a9ab61a66baa34ebfcb8777c215c693.jpg" alt="HTTP2" class="zooming" data-rjs="/assets/posts/specific/http2-f1fbfc270fa46353d3122355fa5cf9124a9ab61a66baa34ebfcb8777c215c693.jpg" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p>One of every five people I meet is talking about this sizzling new topic- The <a href="https://en.wikipedia.org/wiki/HTTP/2">HTTP/2</a>. But, I am not really sure how many of us really know what we are talking about exactly.</p>
+
+<p>Some say it optimize our applications. Some clever heads talk about the speed improvements. And there are few, who actually care about security, talk about <a href="https://thehackernews.com/2016/08/http2-protocol-security.html">how HTTP/2 affects the security</a>.</p>
+
+<p>This post dives into each of those aspects. And then, we will try to spice up the conversation by answering few of the popular questions around this topic which will help you decide is it time to switch your application to HTTP/2 yet or not.</p>
+
+<h2 id="what-is-http">What is HTTP?</h2>
+
+<p>It stands for Hypertext Transfer Protocol.</p>
+
+<p>In simple terms, it is a language that browsers use to talk to the Web servers.</p>
+
+<p>For any website or a web application, its content is actually hosted on a remote machine- called the Web server. When you visit that website, your browser then makes use of this HTTP protocol to communicate with that machine. Get the contents. And display it on the screen for you.</p>
+
+<h2 id="what-is-http2">What is HTTP/2?</h2>
+
+<p>As the name suggests it is the 2nd version of the HTTP protocol.</p>
+
+<p>Ok, bye. (…just kidding)</p>
+
+<p>Yes, it is a replacement of the previous version of HTTP protocol that browsers used. But, there’s more to it.</p>
+
+<p>HTTP/2 project was undertaken for two main purposes. Improving the performance and mitigating the cost of latency. It basically focusses on <a href="http://vanseodesign.com/web-design/http2-performance/">improving the shortcomings of HTTP/1</a>.</p>
+
+<h2 id="what-are-the-key-features-of-http2">What are the key features of HTTP/2?</h2>
+
+<h3 id="binary-data">Binary data</h3>
+
+<p>HTTP/1 did all the communication using textual language. But, we all know that computers do not understand our language. They need the 0’s and 1’s. The binary language.</p>
+
+<p>HTTP/2 to the rescue!</p>
+
+<p>The new protocol does most of the heavy lifting here. It transfers the data in binary format instead of textual format. This saves a ton of time of the computers which would normally perform this conversion.</p>
+
+<p><em>It is like you are served a pre-chewed burger at the McDonald’s.</em></p>
+
+<h3 id="data-compression">Data compression</h3>
+
+<p>HTTP/2 improves compression by shrinking the average size of an HTTP header.</p>
+
+<p>This is really important. We know that every request and response contains HTTP headers. These headers can cause up to 1kb of overhead per transfer. This actually adds extra round trips just to get the headers out. Therefore, even a mild compression in the headers will help to complete the entire transfer in just one round trip. Which is a huge win. And, HTTP/2 enables us to achieve this.</p>
+
+<h3 id="server-push">Server Push</h3>
+
+<p>Servers can now guess the next request and send the data proactively. Instead of just waiting for the clients to make the request.</p>
+
+<p>It makes the server smarter and pre-loads the required assets for your webpage saving the delay of one whole round trip.</p>
+
+<p>If you are interested to learn HTTP/2 in-depth grab this book - <a href="http://amzn.to/2AqSzt7">the practical guide on HTTP/2 for beginners</a>. It’s worth a read for building modern secured applications.</p>
+
+<h3 id="multiplexing">Multiplexing</h3>
+
+<p><a href="/assets/posts/specific/http2-multiplexing-89d62674f30ad4b4bfec4108561a249ba81b79fe4c58be2aeff35c57b84879fc.png">
+  <img src="/assets/posts/specific/http2-multiplexing-89d62674f30ad4b4bfec4108561a249ba81b79fe4c58be2aeff35c57b84879fc.png" alt="http2-multiplexing" class="zooming" data-rjs="/assets/posts/specific/http2-multiplexing-89d62674f30ad4b4bfec4108561a249ba81b79fe4c58be2aeff35c57b84879fc.png" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p>Don’t freak out. It is just a fancy name for a very simple concept.</p>
+
+<p>It basically allows your browser to download multiple resources with just one connection. The resource can be any message or any data.</p>
+
+<p>This overcomes the delays caused by ordered and blocking nature of TCP connections made by HTTP/1.</p>
+
+<p>HTTP/1 actually had attempted to overcome this issue using something called as <a href="https://brianbondy.com/blog/119/what-you-should-know-about-http-pipelining">pipelining</a>. But it failed to completely address the problem as a large or a slow response still blocked the requests behind it.</p>
+
+<p>English, please!</p>
+
+<p>In short, HTTP/2 will give you following benefits:</p>
+
+<ol>
+  <li>Faster page loads</li>
+  <li>Longer, uninterrupted connections</li>
+  <li>Smarter servers- enabling Server push and Prioritization</li>
+  <li>Low costs of HTTP requests</li>
+</ol>
+
+<h2 id="what-are-the-drawbacks-of-http2-is-it-worth-upgrading-to-http2">What are the drawbacks of HTTP/2? Is it worth upgrading to HTTP/2?</h2>
+<p>Older browsers are not expected to support HTTP/2. So, as a client-side user- you will have to update your browsers to the latest.</p>
+
+<p>HTTP/2 requires most browsers to connect via <a href="http://ngninja.com/posts/how-secure-socket-layer-works">HTTPS encryption</a> to the web server. So, if your website does not support HTTPS, the user will have to view it in some other client.</p>
+
+<p>Some experts say HTTP/2 is not actually solving the real problems. It is just focussing on improving the speed, while the real problem it should have focussed on was privacy and security. Because cookie security is still an issue.</p>
+
+<p>It can also create minor delays and complications in debugging, as HTTP/2 supports binary format instead of textual.</p>
+
+<h2 id="how-does-http2-affect-restful-apis">How does HTTP/2 affect RESTful APIs?</h2>
+<p>As a backend developer working on RESTful API’s, you wouldn’t have to make any changes to your APIs. HTTP/2 doesn’t change any semantics of the HTTP/1 protocol. Plus it is completely backward compatible.</p>
+
+<h3 id="how-does-http2-affect-seo">How does HTTP/2 affect SEO?</h3>
+<p>This is something people are really getting excited about.</p>
+
+<p>HTTP/2 is expected to increase SEO rankings. This is mainly because of the performance improvements that HTTP/2 brings to our websites. And as you might know, <a href="https://moz.com/blog/how-website-speed-actually-impacts-search-ranking">search engines like fast loading websites</a>!!!</p>
+
+<p>If you are new to the SEO land - <a href="http://amzn.to/2zIIFD6">this book</a> is a must read if you want to learn Search Engine Optimization in the year 2018 and beyond.</p>
+
+<h3 id="does-http2-decrease-or-eliminate-the-need-for-cdn">Does HTTP/2 decrease or eliminate the need for CDN?</h3>
+<p>After learning about the benefits of HTTP/2 one might think that it will completely eliminate the use of CDN. Due to its speed improvements.</p>
+
+<p>But, it does not.</p>
+
+<p>Although HTTP/2 will definitely speed things up for you, it does not eliminate the need for a CDN. <a href="https://www.incapsula.com/cdn-guide/what-is-cdn-how-it-works.html">The way CDN works</a>, in short, is that it caches your assets geographically around the globe. Thus, it ensures lower latency and faster delivery to the viewers.</p>
+
+<p>So, through multiplexing the requests will mitigate the cost of high latency in HTTP/2, a CDN is expected to give much faster throughputs.</p>
+
+<p>Plus, a CDN is a goodie package filled up with other benefits like offloading, reliability and security of its own. So, please don’t stop using CDN!</p>
+
+<h2 id="summary">Summary</h2>
+<p>All in all, HTTP/2 seems to be irresistible. The transition from HTTP/1 to HTTP/2 should be smooth for the users, while the backend engineers might have to tweak their web servers and applications to support it.</p>
+
+<p>Users can expect to see some drastic improvements in the performances of the web application and websites. Plus, they can now worry lesser about their security and privacy.</p>
+
+<p>If you want to understand HTTP in super simple language <a href="http://amzn.to/2zpdmze">this book</a> will do a justice to it.</p>
+
+<p>In my future post, I am planning to write about how you can start using HTTP/2 for your web applications.</p>
+
+<p>Till then, here’s something for you about <a href="http://ngninja.com/posts/how-secure-socket-layer-works">Web Security</a>.</p>
+
+            </div>
+
+            <br />
+            <!-- <a
+              href="/resources"
+              title="Our Recommended Resources"
+              class="banner-container button-box"
+            >
+              Our Recommended Resources
+            </a> -->
+
+            <a
+              href="https://gumroad.com/l/html2react/blog"
+              title="Our Courses"
+              target="_blank"
+              class="banner-container button-box"
+            >
+              HTML To React: The Ultimate Guide
+            </a>
+
+            <br />
+            <footer class="recommended reveal">
+  <h3>You might also like</h3>
+  <p>
+    If you have enjoyed learning from this article, below is a list of some
+    recommended articles for you-
+  </p>
+  <ul>
+       
+    <li>
+      <a href="/posts/javascript-tricks" title="5 JavaScript tricks every developer should know"
+        >5 JavaScript tricks every developer should know</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/reactjs-beginners-guide-setup-project" title="A comprehensive beginner's guide to set up ReactJS"
+        >A comprehensive beginner's guide to set up ReactJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angular2-form-validation" title="Angular 2 Form Validation: How to fire form validation on blur?"
+        >Angular 2 Form Validation: How to fire form validation on blur?</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angularjs-directive-life-cycle" title="What is Directive's life-cycle in AngularJS"
+        >What is Directive's life-cycle in AngularJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/curated-list-of-awesome-things-in-tech-world-4" title="Curated list of awesome things in the tech world #4"
+        >Curated list of awesome things in the tech world #4</a
+      >
+    </li>
+    
+  </ul>
+</footer>
+
+
+            <br />
+            <div class="article-share">
+              
+              <a
+                href=""
+                title="Share on Twitter"
+                onclick="window.open('https://twitter.com/home?status=HTTP2 tutorial - Pros, Cons and other most frequently asked questions. - https://ngninja.com//posts/http2-tutorial-benefits by @sleeplessyogi', 'newwindow', 'width=500, height=225'); return false;"
+              >
+                <span class="icon icon-social-twitter"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Facebook"
+                onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://ngninja.com//posts/http2-tutorial-benefits', 'newwindow', 'width=500, height=500'); return false;"
+              >
+                <span class="icon icon-social-facebook"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Google+"
+                onclick="window.open('https://plus.google.com/share?url=https://ngninja.com//posts/http2-tutorial-benefits', 'newwindow', 'width=550, height=400'); return false;"
+              >
+                <span class="icon icon-social-googleplus"></span>
+              </a>
+            </div>
+
+            
+
+            <!--<div id="disqus_thread">-->
+            <!--Comments-->
+            <!--</div>-->
+            <!--<script>-->
+
+            <!--/**-->
+            <!--*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.-->
+            <!--*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/-->
+            <!--/*-->
+            <!--var disqus_config = function () {-->
+            <!--this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable-->
+            <!--this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable-->
+            <!--};-->
+            <!--*/-->
+            <!--(function() { // DON'T EDIT BELOW THIS LINE-->
+            <!--var d = document, s = d.createElement('script');-->
+            <!--s.src = '//ng-ninja.disqus.com/embed.js';-->
+            <!--s.setAttribute('data-timestamp', +new Date());-->
+            <!--(d.head || d.body).appendChild(s);-->
+            <!--})();-->
+            <!--</script>-->
+            <!--<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
+
+            <div id="disqus_thread" class="article-comments"></div>
+            <script>
+              (function () {
+                // TODO: site.discus_identifier variable is not working
+
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "//ng-ninja.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript
+              >Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+              ></noscript
+            >
+            
+          </article>
+          <footer class="footer reveal">
+  <style>
+  .gumroad-follow-form-embed {
+    zoom: 1;
+  }
+  .gumroad-follow-form-embed:before,
+  .gumroad-follow-form-embed:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .gumroad-follow-form-embed:after {
+    clear: both;
+  }
+  .gumroad-follow-form-embed * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box !important;
+    float: left !important;
+  }
+  .gumroad-follow-form-embed input {
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-right: 0;
+    color: #aaa;
+    padding: 10px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02);
+    background-position: top right;
+    background-repeat: no-repeat;
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    -webkit-appearance: none;
+    -moz-appearance: caret;
+    width: 65% !important;
+    height: 40px !important;
+  }
+  .gumroad-follow-form-embed button {
+    /* border-radius: 4px; */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.05s ease-in-out;
+    transition: all 0.05s ease-in-out;
+    display: inline-block;
+    padding: 11px 15px 12px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    line-height: 100%;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    /* background: #0088ff; */
+    /* border: 1px solid #007ae6; */
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#26aeff, endColorstr=#007eec, GradientType=0)";
+    background: -webkit-linear-gradient(#26aeff, #007eec);
+    background: linear-gradient(to bottom, #26aeff, #007eec);
+    height: 40px !important;
+    width: 35% !important;
+
+    background-color: #21d4fd;
+    background-image: linear-gradient(135deg, #ce9ffc 10%, #3449ed 100%);
+    border-radius: unset;
+  }
+  .subscribe h2 {
+    margin-bottom: 16px;
+  }
+  .subscribe form {
+    margin-bottom: 32px;
+  }
+</style>
+<div class="subscribe">
+  <h2>Get weekly tutorial and newsletter in your inbox</h2>
+  <form
+    action="https://gumroad.com/follow_from_embed_form"
+    class="form gumroad-follow-form-embed"
+    method="post"
+  >
+    <input name="seller_id" type="hidden" value="1636741848551" />
+    <input name="email" placeholder="Your email address" type="email" />
+    <button data-custom-highlight-color="" type="submit">Subscribe</button>
+  </form>
+</div>
+
+  <p>
+    Know more about
+    <a href="/about" title="About me">Ninja Academy</a>
+  </p>
+  <i class="small">
+    <!-- <p> -->
+    Copyright @ 2021, Ninja Academy
+    <!-- </p> -->
+  </i>
+</footer>
+
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ["Cormorant Garamond:700", "Lato:300,400,700"]
+    }
+  });
+</script>
+
+
+<script>
+  window.ga = function() {
+    ga.q.push(arguments);
+  };
+  ga.q = [];
+  ga.l = +new Date();
+  ga("create", "UA-88588900-1", "auto");
+  ga("send", "pageview");
+</script>
+<script
+  src="https://www.google-analytics.com/analytics.js"
+  async
+  defer
+></script>
+
+
+<!-- Script pointing to jekyll-search.js -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<!-- <script
+  src="/assets/jekyll-search.js"
+  type="text/javascript"
+></script> -->
+<script type="text/javascript">
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("search-input"),
+    resultsContainer: document.getElementById("results-container"),
+    json: "https://ngninja.com//search.json",
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: "No results found",
+    limit: 10,
+    fuzzy: false,
+    exclude: ["Welcome"]
+  });
+</script>
+
+<script
+  data-ad-client="ca-pub-2179620018216283"
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+
+<script src="/assets/vendor-130c9c254effc51f3283620bc635851da7b99c20901216948f11ba72ee13317f.js" type="text/javascript"></script>  <script src="/assets/webfonts-8bd3408c53105d96a2f15ba1826509bf47de69c11e972ff3f164c42ecf4486d0.js" type="text/javascript"></script>   <script src="/assets/application-f9055599a910cf93e1b48423b9add89facdf648bad7991415831774961a8aa02.js" type="text/javascript"></script> 
+
+  </body>
+</html>

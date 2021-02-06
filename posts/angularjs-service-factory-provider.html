@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Ninja Academy | AngularJS: Service vs Factory vs Providers made super simple</title>
+  <meta name="description" content="Understand the difference between Service vs Factory vs Providers in AngularJS in a super simple terms. And more importantly learn when to use which design pattern in AngularJS." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:title" content="AngularJS: Service vs Factory vs Providers made super simple" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ngninja.com//posts/angularjs-service-factory-provider" />
+  <meta property="og:description" content="Understand the difference between Service vs Factory vs Providers in AngularJS in a super simple terms. And more importantly learn when to use which design pattern in AngularJS." />
+  <meta property="og:site_name" content="Ninja Academy" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://ngninja.com//posts/angularjs-service-factory-provider" />
+  <meta name="twitter:title" content="AngularJS: Service vs Factory vs Providers made super simple" />
+  <meta name="twitter:description" content="Understand the difference between Service vs Factory vs Providers in AngularJS in a super simple terms. And more importantly learn when to use which design pattern in AngularJS." />
+
+  
+  <meta
+    property="og:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  <meta
+    name="twitter:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  
+
+  <link
+    href="https://ngninja.com//feed.xml"
+    type="application/rss+xml"
+    rel="alternate"
+    title="Ninja Academy Last 10 blog posts"
+  />
+
+    
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="/assets/favicon-dark-209194b9ff10035bbcfba5f7425921015d49314ba7c6e6e41d2cb85e9b9bbb2a.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png"
+  />
+  <link rel="stylesheet" type="text/css" href="/assets/light-6ff58e5b26e9f5b7f2aa12b86a834d74c87d22e89335a1efcb79606403cc8481.css">  
+</head>
+
+  <body>
+    <main role="main">
+      <div class="grid grid-centered">
+        <div class="grid-cell">
+          <nav class="header-nav reveal">
+  <a href="/" class="header-logo" title="Ninja Academy"
+    ><img
+      src="/assets/logo-0a85d68f5106feb94b40117f598fec1ea476834afe17746b026cd1b441b7a9ad.png"
+      alt="HTML tutorial"
+      style="height: 60px;"
+  /></a>
+
+  <ul class="header-links">
+    
+    <li>
+      <a
+        href="https://twitter.com/sleeplessyogi"
+        target="_blank"
+        title="Twitter"
+      >
+        <span class="icon icon-social-twitter"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.facebook.com/ngrealninja"
+        target="_blank"
+        title="Facebook"
+      >
+        <span class="icon icon-social-facebook"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.instagram.com/sleeplessyogi"
+        target="_blank"
+        title="Instagram"
+      >
+        <span class="icon icon-social-instagram"></span>
+      </a>
+    </li>
+         
+    <li>
+      <a href="mailto:sleeplessyogi@gmail.com" target="_blank" title="Email">
+        <span class="icon icon-at"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a href="/feed.xml" target="_blank" title="RSS">
+        <span class="icon icon-social-rss"></span>
+      </a>
+    </li>
+    
+  </ul>
+</nav>
+
+          <div>
+            <div class="subnav" id="mysubnav">
+  <a href="/tag/the-how-series" target="_self" title="How To Programming">
+    Programming
+  </a>
+  <a href="/tag/personal-finance" target="_self" title="Passive Income">
+    Passive Income
+  </a>
+  <a href="/resources" target="_self" title="Resources">
+    Resources
+  </a>
+  <!-- <a
+    href="https://mx84n.weblium.site/"
+    title="Make $200K"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Make $200K
+  </a> -->
+  <a
+    href="https://gumroad.com/l/html2react/blog"
+    title="Our Courses"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Courses
+  </a>
+  <a href="javascript:void(0);" class="icon-container" onclick="toggleMenu()">
+    <span class="icon icon-android-menu"></span>
+  </a>
+</div>
+
+<script>
+  function toggleMenu() {
+    var x = document.getElementById("mysubnav");
+    if (x.className === "subnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "subnav";
+    }
+  }
+</script>
+
+          </div>
+          <article class="article reveal">
+            <header class="article-header">
+              <h1>AngularJS: Service vs Factory vs Providers made super simple</h1>
+              <p>Understand the difference between Service vs Factory vs Providers in AngularJS in a super simple terms. And more importantly learn when to use which design pattern in AngularJS.</p>
+              <div class="article-list-footer">
+                <span class="article-list-date">
+                  August 10, 2017
+                </span>
+                <span class="article-list-divider">-</span>
+                <span class="article-list-minutes">
+                    5 minute read 
+                </span>
+                <span class="article-list-divider">-</span>
+                <div class="article-list-tags">
+                  
+                  <a href="/tag/angularjs">angularjs</a>
+                  
+                  <a href="/tag/design-patterns">design-patterns</a>
+                  
+                  <a href="/tag/the-what-series">the-what-series</a>
+                  
+                </div>
+              </div>
+            </header>
+            <script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<!-- hz-post-top -->
+<ins
+  class="adsbygoogle"
+  style="display:inline-block;width:100%;height:90px"
+  data-ad-client="ca-pub-2179620018216283"
+  data-ad-slot="1244135380"
+></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            <div class="article-content">
+              <p><a href="/assets/posts/directive-460335d84a5bf126256a7e9043fca466228d7599e2e6ca7e967759388c4d7164.jpg">
+  <img src="/assets/posts/directive-460335d84a5bf126256a7e9043fca466228d7599e2e6ca7e967759388c4d7164.jpg" alt="Service vs Factory vs Providers" class="zooming" data-rjs="/assets/posts/directive-460335d84a5bf126256a7e9043fca466228d7599e2e6ca7e967759388c4d7164.jpg" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p>Let’s dive into the differences between Service vs Factory vs Providers in AngularJS. But just knowing that is not fun, isn’t it? So, let’s also learn when is the best time to use which of those design patterns.</p>
+
+<p>Simply put, they all are available for creating services for your AngularJS application. Services in AngularJS allow you to share certain code throughout your application. You just have to inject the service wherever you need, and voila! You have the access to that common area of your code base.</p>
+
+<h3 id="factory">Factory:</h3>
+<p>You can create a simple AngularJS Factory like this:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">app</span><span class="p">.</span><span class="nx">factory</span><span class="p">(</span><span class="s1">'ninjaFactory'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">_ninjaName</span> <span class="o">=</span> <span class="s1">''</span><span class="p">;</span>
+  <span class="kd">var</span> <span class="nx">service</span> <span class="o">=</span> <span class="p">{}</span>
+
+  <span class="nx">service</span><span class="p">.</span><span class="nx">getNinja</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">_ninjaName</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="k">return</span> <span class="nx">service</span><span class="p">;</span>
+<span class="p">});</span></code></pre></figure>
+
+<h4 id="things-to-notice-in-the-above-code-snippet">Things to notice in the above code snippet:</h4>
+<ol>
+  <li>To create Factory you have to use <code class="highlighter-rouge">factory</code> function available in your app module.</li>
+  <li><code class="highlighter-rouge">ninjaFactory</code> becomes the name of your factory which you can inject wherever you want (controllers, directives, other services, etc.)</li>
+  <li>It returns service object. Basically, factory has to return an object which is the main difference which differentiates it with other design patterns. Through that object, you can expose any functionality you want to the other part of your application. <code class="highlighter-rouge">getNinja</code> method in this case.</li>
+  <li>Under the hood AngularJS does something like this:</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">return</span> <span class="nx">ninjaFactory</span> <span class="o">=</span> <span class="nx">fn</span><span class="p">()</span></code></pre></figure>
+
+<h3 id="service">Service:</h3>
+<p>You can create a simple AngularJS Service like this:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">app</span><span class="p">.</span><span class="nx">service</span><span class="p">(</span><span class="s1">'ninjaService'</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">_ninjaName</span> <span class="o">=</span> <span class="s1">''</span><span class="p">;</span>
+
+    <span class="k">this</span><span class="p">.</span><span class="nx">getNinja</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nx">_ninjaName</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">});</span></code></pre></figure>
+
+<h4 id="things-to-notice-in-the-above-code-snippet-1">Things to notice in the above code snippet:</h4>
+<ol>
+  <li>To create a Service you have to use <code class="highlighter-rouge">service</code> method available in your app module.</li>
+  <li><code class="highlighter-rouge">ninjaService</code> becomes the name of the service which you can again inject it wherever you want in your application.</li>
+  <li>You don’t have to return any object when you create AngularJs services. Services are the <code class="highlighter-rouge">constructors</code> in the world of JavaScript. They are instantiated and made available to you using <code class="highlighter-rouge">new</code> keyword. You don’t have to do it yourself- Service providers does it for you. You just have to add the functionality you want to expose to the <code class="highlighter-rouge">this</code> variable in your function. Like I did for <code class="highlighter-rouge">this.getNinja</code>.</li>
+  <li>Under the hood AngularJS does something like:</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">return</span> <span class="nx">ninjaService</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">fn</span><span class="p">();</span></code></pre></figure>
+
+<p><em>One secret about services: They are factories under the hood!</em>
+(don’t tell anyone that I told you this :))</p>
+
+<h3 id="provider">Provider:</h3>
+<p>You can create a simple AngularJS Provider like this:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">app</span><span class="p">.</span><span class="nx">provider</span><span class="p">(</span><span class="s1">'ninjaProvider'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">_ninjaName</span><span class="p">;</span>
+
+  <span class="k">return</span> <span class="p">{</span>
+    <span class="na">setNinjaName</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">_ninjaName</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+    <span class="p">},</span>
+    <span class="na">$get</span><span class="p">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="p">{</span>
+          <span class="na">name</span><span class="p">:</span> <span class="nx">_ninjaName</span><span class="p">;</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">});</span></code></pre></figure>
+
+<h4 id="things-to-notice-in-the-above-code-snippet-2">Things to notice in the above code snippet:</h4>
+<ol>
+  <li>Use <code class="highlighter-rouge">provide</code> method of you app module to create a provider.</li>
+  <li><code class="highlighter-rouge">ninjaProvider</code> then becomes the name of your provider which you can inject anywhere in your app.</li>
+  <li><code class="highlighter-rouge">$get</code> is the main crux of providers which exposes functionality available to the controllers. So, if you want to expose any more functionality through your provider add it under this method. Like this:</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">$get</span><span class="p">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">{</span>
+      <span class="na">name</span><span class="p">:</span> <span class="nx">_ninjaName</span><span class="p">;</span>
+      <span class="nl">getNinjaAddress</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(){</span>
+          <span class="c1">// return address...</span>
+      <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<ol>
+  <li>Under the hood AngularJS returns us something like this:</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">return</span> <span class="nx">ninjaProvider</span> <span class="o">=</span> <span class="p">(</span><span class="k">new</span> <span class="nx">fn</span><span class="p">()).</span><span class="nx">$get</span><span class="p">();</span></code></pre></figure>
+
+<h4 id="common-things-between-service-factory-and-provider">Common things between Service, Factory, and Provider:</h4>
+<ul>
+  <li>They all do the same thing- provide common functionality throughout your application.</li>
+  <li>They are all Singletons. Meaning they are instantiated by AngularJS just once.</li>
+  <li>They all can be injected in other places of your application to provide some sort of functionality.</li>
+</ul>
+
+<p>Now, that we have understood the basics of all 3 design patterns. Let’s see when to use which design pattern?</p>
+
+<h4 id="when-to-use-">When to use-</h4>
+
+<h3 id="factory-1">Factory:</h3>
+<ul>
+  <li>It is recommended to use Factory in all the cases.</li>
+  <li>It lets you execute any of your complex logic before returning the final object. So, use this whenever your service needs to be a little complex.</li>
+  <li>Use it when you want to instantiate a new class instance of the service. Like this:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">app</span><span class="p">.</span><span class="nx">controller</span><span class="p">(</span><span class="s1">'myController'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$scope</span><span class="p">,</span> <span class="nx">ninjaFactory</span><span class="p">){</span>
+        <span class="nx">$scope</span><span class="p">.</span><span class="nx">ninjaFactoryInstance</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ninjaFactory</span><span class="p">();</span>
+<span class="p">});</span></code></pre></figure>
+
+<h3 id="service-1">Service:</h3>
+<ul>
+  <li>Use it when you just want access to the common data and functionality. In other cases, stick to a factory.</li>
+  <li>Use it when you want to create a simple service. For anything complex, opt for Factories. Becuase you don’t want to expose this complexity. This is called abstraction.</li>
+</ul>
+
+<h3 id="provider-1">Provider:</h3>
+<ul>
+  <li>Use it when you want to configure something and pass it to <code class="highlighter-rouge">.config</code> of your module. In the above example, this can be done as follows:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">app</span><span class="p">.</span><span class="nx">config</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">ninjaProvider</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">ninjaProvider</span><span class="p">.</span><span class="nx">setNinjaName</span><span class="p">(</span><span class="s1">'ngninja'</span><span class="p">);</span>
+<span class="p">});</span></code></pre></figure>
+
+<ul>
+  <li>Use it to create configurable factories. You can customize such factories during bootstrap.</li>
+</ul>
+
+<h3 id="summary">Summary:</h3>
+<p>Long and short, Service or Factory or Provider- they all are the same. The only thing that changes is how they are created and the way they expose data to the other part of the application.</p>
+
+<p>In most cases, you will just need a Factory. But to become a true AngularJS ninja, try and experiment with all of them. And do let me know what do you think of the above-mentioned use cases.</p>
+
+<h4 id="further-resources-we-recommend">Further Resources We Recommend</h4>
+
+<ul>
+  <li><a href="https://amzn.to/3csc4EM">Pro AngularJS (Expert’s Voice in Web Development)</a></li>
+  <li><a href="https://amzn.to/2Idk9iz">You Don’t Know JS: Scope &amp; Closures</a></li>
+</ul>
+
+
+            </div>
+
+            <br />
+            <!-- <a
+              href="/resources"
+              title="Our Recommended Resources"
+              class="banner-container button-box"
+            >
+              Our Recommended Resources
+            </a> -->
+
+            <a
+              href="https://gumroad.com/l/html2react/blog"
+              title="Our Courses"
+              target="_blank"
+              class="banner-container button-box"
+            >
+              HTML To React: The Ultimate Guide
+            </a>
+
+            <br />
+            <footer class="recommended reveal">
+  <h3>You might also like</h3>
+  <p>
+    If you have enjoyed learning from this article, below is a list of some
+    recommended articles for you-
+  </p>
+  <ul>
+       
+    <li>
+      <a href="/posts/javascript-tricks" title="5 JavaScript tricks every developer should know"
+        >5 JavaScript tricks every developer should know</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/reactjs-beginners-guide-setup-project" title="A comprehensive beginner's guide to set up ReactJS"
+        >A comprehensive beginner's guide to set up ReactJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angular2-form-validation" title="Angular 2 Form Validation: How to fire form validation on blur?"
+        >Angular 2 Form Validation: How to fire form validation on blur?</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angularjs-directive-life-cycle" title="What is Directive's life-cycle in AngularJS"
+        >What is Directive's life-cycle in AngularJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/curated-list-of-awesome-things-in-tech-world-4" title="Curated list of awesome things in the tech world #4"
+        >Curated list of awesome things in the tech world #4</a
+      >
+    </li>
+    
+  </ul>
+</footer>
+
+
+            <br />
+            <div class="article-share">
+              
+              <a
+                href=""
+                title="Share on Twitter"
+                onclick="window.open('https://twitter.com/home?status=AngularJS: Service vs Factory vs Providers made super simple - https://ngninja.com//posts/angularjs-service-factory-provider by @sleeplessyogi', 'newwindow', 'width=500, height=225'); return false;"
+              >
+                <span class="icon icon-social-twitter"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Facebook"
+                onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://ngninja.com//posts/angularjs-service-factory-provider', 'newwindow', 'width=500, height=500'); return false;"
+              >
+                <span class="icon icon-social-facebook"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Google+"
+                onclick="window.open('https://plus.google.com/share?url=https://ngninja.com//posts/angularjs-service-factory-provider', 'newwindow', 'width=550, height=400'); return false;"
+              >
+                <span class="icon icon-social-googleplus"></span>
+              </a>
+            </div>
+
+            
+
+            <!--<div id="disqus_thread">-->
+            <!--Comments-->
+            <!--</div>-->
+            <!--<script>-->
+
+            <!--/**-->
+            <!--*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.-->
+            <!--*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/-->
+            <!--/*-->
+            <!--var disqus_config = function () {-->
+            <!--this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable-->
+            <!--this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable-->
+            <!--};-->
+            <!--*/-->
+            <!--(function() { // DON'T EDIT BELOW THIS LINE-->
+            <!--var d = document, s = d.createElement('script');-->
+            <!--s.src = '//ng-ninja.disqus.com/embed.js';-->
+            <!--s.setAttribute('data-timestamp', +new Date());-->
+            <!--(d.head || d.body).appendChild(s);-->
+            <!--})();-->
+            <!--</script>-->
+            <!--<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
+
+            <div id="disqus_thread" class="article-comments"></div>
+            <script>
+              (function () {
+                // TODO: site.discus_identifier variable is not working
+
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "//ng-ninja.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript
+              >Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+              ></noscript
+            >
+            
+          </article>
+          <footer class="footer reveal">
+  <style>
+  .gumroad-follow-form-embed {
+    zoom: 1;
+  }
+  .gumroad-follow-form-embed:before,
+  .gumroad-follow-form-embed:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .gumroad-follow-form-embed:after {
+    clear: both;
+  }
+  .gumroad-follow-form-embed * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box !important;
+    float: left !important;
+  }
+  .gumroad-follow-form-embed input {
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-right: 0;
+    color: #aaa;
+    padding: 10px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02);
+    background-position: top right;
+    background-repeat: no-repeat;
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    -webkit-appearance: none;
+    -moz-appearance: caret;
+    width: 65% !important;
+    height: 40px !important;
+  }
+  .gumroad-follow-form-embed button {
+    /* border-radius: 4px; */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.05s ease-in-out;
+    transition: all 0.05s ease-in-out;
+    display: inline-block;
+    padding: 11px 15px 12px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    line-height: 100%;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    /* background: #0088ff; */
+    /* border: 1px solid #007ae6; */
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#26aeff, endColorstr=#007eec, GradientType=0)";
+    background: -webkit-linear-gradient(#26aeff, #007eec);
+    background: linear-gradient(to bottom, #26aeff, #007eec);
+    height: 40px !important;
+    width: 35% !important;
+
+    background-color: #21d4fd;
+    background-image: linear-gradient(135deg, #ce9ffc 10%, #3449ed 100%);
+    border-radius: unset;
+  }
+  .subscribe h2 {
+    margin-bottom: 16px;
+  }
+  .subscribe form {
+    margin-bottom: 32px;
+  }
+</style>
+<div class="subscribe">
+  <h2>Get weekly tutorial and newsletter in your inbox</h2>
+  <form
+    action="https://gumroad.com/follow_from_embed_form"
+    class="form gumroad-follow-form-embed"
+    method="post"
+  >
+    <input name="seller_id" type="hidden" value="1636741848551" />
+    <input name="email" placeholder="Your email address" type="email" />
+    <button data-custom-highlight-color="" type="submit">Subscribe</button>
+  </form>
+</div>
+
+  <p>
+    Know more about
+    <a href="/about" title="About me">Ninja Academy</a>
+  </p>
+  <i class="small">
+    <!-- <p> -->
+    Copyright @ 2021, Ninja Academy
+    <!-- </p> -->
+  </i>
+</footer>
+
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ["Cormorant Garamond:700", "Lato:300,400,700"]
+    }
+  });
+</script>
+
+
+<script>
+  window.ga = function() {
+    ga.q.push(arguments);
+  };
+  ga.q = [];
+  ga.l = +new Date();
+  ga("create", "UA-88588900-1", "auto");
+  ga("send", "pageview");
+</script>
+<script
+  src="https://www.google-analytics.com/analytics.js"
+  async
+  defer
+></script>
+
+
+<!-- Script pointing to jekyll-search.js -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<!-- <script
+  src="/assets/jekyll-search.js"
+  type="text/javascript"
+></script> -->
+<script type="text/javascript">
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("search-input"),
+    resultsContainer: document.getElementById("results-container"),
+    json: "https://ngninja.com//search.json",
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: "No results found",
+    limit: 10,
+    fuzzy: false,
+    exclude: ["Welcome"]
+  });
+</script>
+
+<script
+  data-ad-client="ca-pub-2179620018216283"
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+
+<script src="/assets/vendor-130c9c254effc51f3283620bc635851da7b99c20901216948f11ba72ee13317f.js" type="text/javascript"></script>  <script src="/assets/webfonts-8bd3408c53105d96a2f15ba1826509bf47de69c11e972ff3f164c42ecf4486d0.js" type="text/javascript"></script>   <script src="/assets/application-f9055599a910cf93e1b48423b9add89facdf648bad7991415831774961a8aa02.js" type="text/javascript"></script> 
+
+  </body>
+</html>

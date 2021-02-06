@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Ninja Academy | Everything you should know about $formatters and $parsers</title>
+  <meta name="description" content="Super simple explanation of how formatters and parsers work in AngularJS. Learn to sanitize and validate your data with a simple example." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:title" content="Everything you should know about $formatters and $parsers" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ngninja.com//posts/parsers-and-formatters-angular" />
+  <meta property="og:description" content="Super simple explanation of how formatters and parsers work in AngularJS. Learn to sanitize and validate your data with a simple example." />
+  <meta property="og:site_name" content="Ninja Academy" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://ngninja.com//posts/parsers-and-formatters-angular" />
+  <meta name="twitter:title" content="Everything you should know about $formatters and $parsers" />
+  <meta name="twitter:description" content="Super simple explanation of how formatters and parsers work in AngularJS. Learn to sanitize and validate your data with a simple example." />
+
+  
+  <meta
+    property="og:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  <meta
+    name="twitter:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  
+
+  <link
+    href="https://ngninja.com//feed.xml"
+    type="application/rss+xml"
+    rel="alternate"
+    title="Ninja Academy Last 10 blog posts"
+  />
+
+    
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="/assets/favicon-dark-209194b9ff10035bbcfba5f7425921015d49314ba7c6e6e41d2cb85e9b9bbb2a.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png"
+  />
+  <link rel="stylesheet" type="text/css" href="/assets/light-6ff58e5b26e9f5b7f2aa12b86a834d74c87d22e89335a1efcb79606403cc8481.css">  
+</head>
+
+  <body>
+    <main role="main">
+      <div class="grid grid-centered">
+        <div class="grid-cell">
+          <nav class="header-nav reveal">
+  <a href="/" class="header-logo" title="Ninja Academy"
+    ><img
+      src="/assets/logo-0a85d68f5106feb94b40117f598fec1ea476834afe17746b026cd1b441b7a9ad.png"
+      alt="HTML tutorial"
+      style="height: 60px;"
+  /></a>
+
+  <ul class="header-links">
+    
+    <li>
+      <a
+        href="https://twitter.com/sleeplessyogi"
+        target="_blank"
+        title="Twitter"
+      >
+        <span class="icon icon-social-twitter"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.facebook.com/ngrealninja"
+        target="_blank"
+        title="Facebook"
+      >
+        <span class="icon icon-social-facebook"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.instagram.com/sleeplessyogi"
+        target="_blank"
+        title="Instagram"
+      >
+        <span class="icon icon-social-instagram"></span>
+      </a>
+    </li>
+         
+    <li>
+      <a href="mailto:sleeplessyogi@gmail.com" target="_blank" title="Email">
+        <span class="icon icon-at"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a href="/feed.xml" target="_blank" title="RSS">
+        <span class="icon icon-social-rss"></span>
+      </a>
+    </li>
+    
+  </ul>
+</nav>
+
+          <div>
+            <div class="subnav" id="mysubnav">
+  <a href="/tag/the-how-series" target="_self" title="How To Programming">
+    Programming
+  </a>
+  <a href="/tag/personal-finance" target="_self" title="Passive Income">
+    Passive Income
+  </a>
+  <a href="/resources" target="_self" title="Resources">
+    Resources
+  </a>
+  <!-- <a
+    href="https://mx84n.weblium.site/"
+    title="Make $200K"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Make $200K
+  </a> -->
+  <a
+    href="https://gumroad.com/l/html2react/blog"
+    title="Our Courses"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Courses
+  </a>
+  <a href="javascript:void(0);" class="icon-container" onclick="toggleMenu()">
+    <span class="icon icon-android-menu"></span>
+  </a>
+</div>
+
+<script>
+  function toggleMenu() {
+    var x = document.getElementById("mysubnav");
+    if (x.className === "subnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "subnav";
+    }
+  }
+</script>
+
+          </div>
+          <article class="article reveal">
+            <header class="article-header">
+              <h1>Everything you should know about $formatters and $parsers</h1>
+              <p>Super simple explanation of how formatters and parsers work in AngularJS. Learn to sanitize and validate your data with a simple example.</p>
+              <div class="article-list-footer">
+                <span class="article-list-date">
+                  January 6, 2017
+                </span>
+                <span class="article-list-divider">-</span>
+                <span class="article-list-minutes">
+                    5 minute read 
+                </span>
+                <span class="article-list-divider">-</span>
+                <div class="article-list-tags">
+                  
+                  <a href="/tag/angularjs">angularjs</a>
+                  
+                  <a href="/tag/the-how-series">the-how-series</a>
+                  
+                  <a href="/tag/hands-on-training">hands-on-training</a>
+                  
+                </div>
+              </div>
+            </header>
+            <script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<!-- hz-post-top -->
+<ins
+  class="adsbygoogle"
+  style="display:inline-block;width:100%;height:90px"
+  data-ad-client="ca-pub-2179620018216283"
+  data-ad-slot="1244135380"
+></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            <div class="article-content">
+              <p><a href="/assets/posts/angularjs-45100df2a2d0c43c12d67c115bac43f59bba819c89bf10bba6a6d613a2250b29.jpg">
+  <img src="/assets/posts/angularjs-45100df2a2d0c43c12d67c115bac43f59bba819c89bf10bba6a6d613a2250b29.jpg" alt="AngularJS" class="zooming" data-rjs="/assets/posts/angularjs-45100df2a2d0c43c12d67c115bac43f59bba819c89bf10bba6a6d613a2250b29.jpg" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p>Ever came across a situation where you need to display the data in a certain format, but what you get from the database looks nothing like that?</p>
+
+<p>For example, suppose you have a JSON object of user information. In that object there is a field called “phoneNumber” and the object from database looks something like this:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">user</span><span class="p">:</span> <span class="p">{</span>
+	<span class="nl">name</span><span class="p">:</span> <span class="s2">"John Doe"</span><span class="p">,</span>
+	<span class="nx">company</span><span class="p">:</span> <span class="s2">"My Company"</span><span class="p">,</span>
+	<span class="nx">address</span><span class="p">:</span> <span class="s2">"2nd Street, NY, USA"</span><span class="p">,</span>
+	<span class="nx">phoneNumber</span><span class="p">:</span> <span class="s2">"9876543210"</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>As a front end developer, we are told to implement a form which is bound to the above object. And, the phone number is supposed to be displayed in a certain format to give a better user experience. The expected format is ###-###-####.</p>
+
+<p>So, in the above example user phone number which is- “9876543210” should be displayed as “987-654-3210” on the input control. And even if the user edits the number- that format should be honored but the bound object “user.phoneNumber” should only contain numbers (no dashes).</p>
+
+<p>AngularJS has just the right tools to do that. And they are called $formatters and $parsers.</p>
+
+<h3 id="formatters">$formatters:</h3>
+<p>$formatters are an array of actions which are executed whenever the model changes. So, when data is retrieved from an API on the page load and is stored in a model which is bound to an input control- these array of actions are fired.</p>
+
+<p>Basically, the actions are fired whenever the model is updated. It happens after the model value is changed and before it is displayed on the view. So, you get a chance in between to manipulate the data and choose how you want to display it on the view.</p>
+
+<h3 id="parsers">$parsers:</h3>
+<p>They are exactly opposite of $formatters. These are an array of actions which are fired when the user updates the value of model from the UI.</p>
+
+<p>So, in the above example, when a user tries to edit the phone number from UI- $parsers are executed.</p>
+
+<p>These actions give you a chance to validate user input and choose how to display the data on the view. Consequently, you can also decide what the model should get updated with.</p>
+
+<p>Allow me to show you a demo involving above concepts. For simplicity purpose, lets consider an example where an input control should accept only numbers.</p>
+
+<p>For your convenience, the <a href="http://codepen.io/sharduul/pen/PbdPYx">complete demo can be found here</a>.</p>
+
+<p>Our directive looks like this:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">return</span> <span class="p">{</span>
+	<span class="na">restrict</span><span class="p">:</span> <span class="s1">'A'</span><span class="p">,</span>
+	<span class="na">require</span><span class="p">:</span> <span class="s1">'ngModel'</span><span class="p">,</span>
+	<span class="na">link</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">scope</span><span class="p">,</span> <span class="nx">element</span><span class="p">,</span> <span class="nx">attrs</span><span class="p">,</span> <span class="nx">modelCtrl</span><span class="p">)</span> <span class="p">{</span>
+
+		<span class="c1">// function that strips off characters other than numbers</span>
+		<span class="kd">var</span> <span class="nx">getNumbers</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">inputValue</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">inputValue</span><span class="p">)</span> <span class="p">{</span>
+				<span class="k">return</span> <span class="s1">''</span><span class="p">;</span>
+			<span class="p">}</span>
+
+			<span class="c1">// retrieve numbers from the string</span>
+			<span class="kd">var</span> <span class="nx">thenum</span> <span class="o">=</span> <span class="nx">inputValue</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span> <span class="sr">/</span><span class="se">[^\d\.]</span><span class="sr">*/g</span><span class="p">,</span> <span class="s1">''</span><span class="p">);</span>
+		   
+			<span class="c1">// if the input does not match expected value.. change the rendered view to correct format</span>
+			<span class="k">if</span> <span class="p">(</span><span class="nx">thenum</span> <span class="o">!==</span> <span class="nx">inputValue</span><span class="p">)</span> <span class="p">{</span>
+				<span class="nx">modelCtrl</span><span class="p">.</span><span class="nx">$setViewValue</span><span class="p">(</span><span class="nx">thenum</span><span class="p">);</span> <span class="c1">// view value is updated</span>
+				<span class="nx">modelCtrl</span><span class="p">.</span><span class="nx">$render</span><span class="p">();</span> <span class="c1">// view is updated</span>
+			<span class="p">}</span>
+		
+			<span class="c1">// return only the numbers from string</span>
+			<span class="k">return</span> <span class="nx">thenum</span><span class="p">;</span>
+		<span class="p">};</span>
+
+		<span class="c1">// when user changes input value from DOM</span>
+		<span class="nx">modelCtrl</span><span class="p">.</span><span class="nx">$parsers</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">modelValue</span><span class="p">)</span> <span class="p">{</span>
+			<span class="kd">var</span> <span class="nx">value</span> <span class="o">=</span> <span class="nx">getNumbers</span><span class="p">(</span><span class="nx">modelValue</span><span class="p">);</span>
+			<span class="k">return</span> <span class="nx">value</span><span class="p">;</span>
+		<span class="p">});</span>
+
+		<span class="c1">// when model value is updated</span>
+		<span class="nx">modelCtrl</span><span class="p">.</span><span class="nx">$formatters</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">modelValue</span><span class="p">)</span> <span class="p">{</span>
+			<span class="kd">var</span> <span class="nx">value</span> <span class="o">=</span> <span class="nx">getNumbers</span><span class="p">(</span><span class="nx">modelValue</span><span class="p">);</span>
+			<span class="k">return</span> <span class="nx">value</span><span class="p">;</span>
+		<span class="p">});</span>
+	<span class="p">}</span>
+<span class="p">};</span></code></pre></figure>
+
+<p>Please note, in the above demo, we are requiring “ngModel” controller. Whenever we need to communicate to an AngularJS controller, we have to “require” it in the controller.</p>
+
+<p>In this case, $formatters and $parsers are provided by the “ngModel” controller. Therefore, we have to include that controller.</p>
+
+<p>Now all we need to focus on is the function “getNumbers”. Also, do follow the inline comments for better understanding.</p>
+
+<p>The “getNumbers” function receives a parameter which is the value of the object bound to that input control. In our case, it contains a value of “$scope.data”.</p>
+
+<p>We then strip off all the characters, except numbers. And store the value in a variable. Then we check if this new variable’s value is equal to the original value of the model object.</p>
+
+<p>Essentially, this is the step where validation is happening.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// if the input does not match expected value.. change the rendered view to correct format</span>
+<span class="k">if</span> <span class="p">(</span><span class="nx">thenum</span> <span class="o">!==</span> <span class="nx">inputValue</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nx">modelCtrl</span><span class="p">.</span><span class="nx">$setViewValue</span><span class="p">(</span><span class="nx">thenum</span><span class="p">);</span> <span class="c1">// view value is updated</span>
+	<span class="nx">modelCtrl</span><span class="p">.</span><span class="nx">$render</span><span class="p">();</span> <span class="c1">// view is updated</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>So, if the value after stripping off illegal characters is not equal to the original value of the model we update the view value using “$setViewValue” function and render the view with the update value using “$render” function.</p>
+
+<p>And then we finally return the validated value.</p>
+
+<p>Now, as we call the same “getNumbers” function from $formatters as well as the $parsers we are making sure that the same valid value is retained on the view as well on the modeled object (i.e. $scope.data).</p>
+
+<p>Which also means that, if there was any garbage value present in the database, it will get cleaned up when $formatter actions are executed.</p>
+
+<p>For example, try change value of “$scope.data” in “myController” to:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">$scope</span><span class="p">.</span><span class="nx">data</span> <span class="o">=</span> <span class="s2">"9876543210abcd"</span><span class="p">;</span></code></pre></figure>
+
+<p>When you run the code, you will see that value of “$scope.data” is cleaned up by the $formatters actions to become just “9876543210” (no illegal characters).</p>
+
+<p>That is the magic of $formatters and $parsers.</p>
+
+<h3 id="summary">Summary:</h3>
+<p>So, $formatters and $parsers are really cool tools for manipulating data to display it in a certain way on the UI. They also come really handy to validate user input and allow values only that are legal as per the preset rules. Plus, you can use them to cleanup garbage database values too!</p>
+
+<h4 id="further-resources-we-recommend">Further Resources We Recommend</h4>
+
+<ul>
+  <li><a href="https://amzn.to/3csc4EM">Pro AngularJS (Expert’s Voice in Web Development)</a></li>
+  <li><a href="https://amzn.to/2uSZayI">You Don’t Know JS: Up &amp; Going</a></li>
+</ul>
+
+            </div>
+
+            <br />
+            <!-- <a
+              href="/resources"
+              title="Our Recommended Resources"
+              class="banner-container button-box"
+            >
+              Our Recommended Resources
+            </a> -->
+
+            <a
+              href="https://gumroad.com/l/html2react/blog"
+              title="Our Courses"
+              target="_blank"
+              class="banner-container button-box"
+            >
+              HTML To React: The Ultimate Guide
+            </a>
+
+            <br />
+            <footer class="recommended reveal">
+  <h3>You might also like</h3>
+  <p>
+    If you have enjoyed learning from this article, below is a list of some
+    recommended articles for you-
+  </p>
+  <ul>
+       
+    <li>
+      <a href="/posts/javascript-tricks" title="5 JavaScript tricks every developer should know"
+        >5 JavaScript tricks every developer should know</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/reactjs-beginners-guide-setup-project" title="A comprehensive beginner's guide to set up ReactJS"
+        >A comprehensive beginner's guide to set up ReactJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angular2-form-validation" title="Angular 2 Form Validation: How to fire form validation on blur?"
+        >Angular 2 Form Validation: How to fire form validation on blur?</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angularjs-directive-life-cycle" title="What is Directive's life-cycle in AngularJS"
+        >What is Directive's life-cycle in AngularJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/curated-list-of-awesome-things-in-tech-world-4" title="Curated list of awesome things in the tech world #4"
+        >Curated list of awesome things in the tech world #4</a
+      >
+    </li>
+    
+  </ul>
+</footer>
+
+
+            <br />
+            <div class="article-share">
+              
+              <a
+                href=""
+                title="Share on Twitter"
+                onclick="window.open('https://twitter.com/home?status=Everything you should know about $formatters and $parsers - https://ngninja.com//posts/parsers-and-formatters-angular by @sleeplessyogi', 'newwindow', 'width=500, height=225'); return false;"
+              >
+                <span class="icon icon-social-twitter"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Facebook"
+                onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://ngninja.com//posts/parsers-and-formatters-angular', 'newwindow', 'width=500, height=500'); return false;"
+              >
+                <span class="icon icon-social-facebook"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Google+"
+                onclick="window.open('https://plus.google.com/share?url=https://ngninja.com//posts/parsers-and-formatters-angular', 'newwindow', 'width=550, height=400'); return false;"
+              >
+                <span class="icon icon-social-googleplus"></span>
+              </a>
+            </div>
+
+            
+
+            <!--<div id="disqus_thread">-->
+            <!--Comments-->
+            <!--</div>-->
+            <!--<script>-->
+
+            <!--/**-->
+            <!--*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.-->
+            <!--*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/-->
+            <!--/*-->
+            <!--var disqus_config = function () {-->
+            <!--this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable-->
+            <!--this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable-->
+            <!--};-->
+            <!--*/-->
+            <!--(function() { // DON'T EDIT BELOW THIS LINE-->
+            <!--var d = document, s = d.createElement('script');-->
+            <!--s.src = '//ng-ninja.disqus.com/embed.js';-->
+            <!--s.setAttribute('data-timestamp', +new Date());-->
+            <!--(d.head || d.body).appendChild(s);-->
+            <!--})();-->
+            <!--</script>-->
+            <!--<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
+
+            <div id="disqus_thread" class="article-comments"></div>
+            <script>
+              (function () {
+                // TODO: site.discus_identifier variable is not working
+
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "//ng-ninja.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript
+              >Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+              ></noscript
+            >
+            
+          </article>
+          <footer class="footer reveal">
+  <style>
+  .gumroad-follow-form-embed {
+    zoom: 1;
+  }
+  .gumroad-follow-form-embed:before,
+  .gumroad-follow-form-embed:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .gumroad-follow-form-embed:after {
+    clear: both;
+  }
+  .gumroad-follow-form-embed * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box !important;
+    float: left !important;
+  }
+  .gumroad-follow-form-embed input {
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-right: 0;
+    color: #aaa;
+    padding: 10px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02);
+    background-position: top right;
+    background-repeat: no-repeat;
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    -webkit-appearance: none;
+    -moz-appearance: caret;
+    width: 65% !important;
+    height: 40px !important;
+  }
+  .gumroad-follow-form-embed button {
+    /* border-radius: 4px; */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.05s ease-in-out;
+    transition: all 0.05s ease-in-out;
+    display: inline-block;
+    padding: 11px 15px 12px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    line-height: 100%;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    /* background: #0088ff; */
+    /* border: 1px solid #007ae6; */
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#26aeff, endColorstr=#007eec, GradientType=0)";
+    background: -webkit-linear-gradient(#26aeff, #007eec);
+    background: linear-gradient(to bottom, #26aeff, #007eec);
+    height: 40px !important;
+    width: 35% !important;
+
+    background-color: #21d4fd;
+    background-image: linear-gradient(135deg, #ce9ffc 10%, #3449ed 100%);
+    border-radius: unset;
+  }
+  .subscribe h2 {
+    margin-bottom: 16px;
+  }
+  .subscribe form {
+    margin-bottom: 32px;
+  }
+</style>
+<div class="subscribe">
+  <h2>Get weekly tutorial and newsletter in your inbox</h2>
+  <form
+    action="https://gumroad.com/follow_from_embed_form"
+    class="form gumroad-follow-form-embed"
+    method="post"
+  >
+    <input name="seller_id" type="hidden" value="1636741848551" />
+    <input name="email" placeholder="Your email address" type="email" />
+    <button data-custom-highlight-color="" type="submit">Subscribe</button>
+  </form>
+</div>
+
+  <p>
+    Know more about
+    <a href="/about" title="About me">Ninja Academy</a>
+  </p>
+  <i class="small">
+    <!-- <p> -->
+    Copyright @ 2021, Ninja Academy
+    <!-- </p> -->
+  </i>
+</footer>
+
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ["Cormorant Garamond:700", "Lato:300,400,700"]
+    }
+  });
+</script>
+
+
+<script>
+  window.ga = function() {
+    ga.q.push(arguments);
+  };
+  ga.q = [];
+  ga.l = +new Date();
+  ga("create", "UA-88588900-1", "auto");
+  ga("send", "pageview");
+</script>
+<script
+  src="https://www.google-analytics.com/analytics.js"
+  async
+  defer
+></script>
+
+
+<!-- Script pointing to jekyll-search.js -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<!-- <script
+  src="/assets/jekyll-search.js"
+  type="text/javascript"
+></script> -->
+<script type="text/javascript">
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("search-input"),
+    resultsContainer: document.getElementById("results-container"),
+    json: "https://ngninja.com//search.json",
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: "No results found",
+    limit: 10,
+    fuzzy: false,
+    exclude: ["Welcome"]
+  });
+</script>
+
+<script
+  data-ad-client="ca-pub-2179620018216283"
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+
+<script src="/assets/vendor-130c9c254effc51f3283620bc635851da7b99c20901216948f11ba72ee13317f.js" type="text/javascript"></script>  <script src="/assets/webfonts-8bd3408c53105d96a2f15ba1826509bf47de69c11e972ff3f164c42ecf4486d0.js" type="text/javascript"></script>   <script src="/assets/application-f9055599a910cf93e1b48423b9add89facdf648bad7991415831774961a8aa02.js" type="text/javascript"></script> 
+
+  </body>
+</html>

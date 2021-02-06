@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Ninja Academy | React Crash Course - Learn React JS in 5 Minutes</title>
+  <meta name="description" content="This article teaches you the fundamentals of React JS and how to create your first React JS application. You will learn the building blocks of ReactJS like Components, JSX, Virtual DOM, etc." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:title" content="React Crash Course - Learn React JS in 5 Minutes" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ngninja.com//posts/react-crash-course" />
+  <meta property="og:description" content="This article teaches you the fundamentals of React JS and how to create your first React JS application. You will learn the building blocks of ReactJS like Components, JSX, Virtual DOM, etc." />
+  <meta property="og:site_name" content="Ninja Academy" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://ngninja.com//posts/react-crash-course" />
+  <meta name="twitter:title" content="React Crash Course - Learn React JS in 5 Minutes" />
+  <meta name="twitter:description" content="This article teaches you the fundamentals of React JS and how to create your first React JS application. You will learn the building blocks of ReactJS like Components, JSX, Virtual DOM, etc." />
+
+  
+  <meta
+    property="og:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  <meta
+    name="twitter:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  
+
+  <link
+    href="https://ngninja.com//feed.xml"
+    type="application/rss+xml"
+    rel="alternate"
+    title="Ninja Academy Last 10 blog posts"
+  />
+
+    
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="/assets/favicon-dark-209194b9ff10035bbcfba5f7425921015d49314ba7c6e6e41d2cb85e9b9bbb2a.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png"
+  />
+  <link rel="stylesheet" type="text/css" href="/assets/light-6ff58e5b26e9f5b7f2aa12b86a834d74c87d22e89335a1efcb79606403cc8481.css">  
+</head>
+
+  <body>
+    <main role="main">
+      <div class="grid grid-centered">
+        <div class="grid-cell">
+          <nav class="header-nav reveal">
+  <a href="/" class="header-logo" title="Ninja Academy"
+    ><img
+      src="/assets/logo-0a85d68f5106feb94b40117f598fec1ea476834afe17746b026cd1b441b7a9ad.png"
+      alt="HTML tutorial"
+      style="height: 60px;"
+  /></a>
+
+  <ul class="header-links">
+    
+    <li>
+      <a
+        href="https://twitter.com/sleeplessyogi"
+        target="_blank"
+        title="Twitter"
+      >
+        <span class="icon icon-social-twitter"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.facebook.com/ngrealninja"
+        target="_blank"
+        title="Facebook"
+      >
+        <span class="icon icon-social-facebook"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.instagram.com/sleeplessyogi"
+        target="_blank"
+        title="Instagram"
+      >
+        <span class="icon icon-social-instagram"></span>
+      </a>
+    </li>
+         
+    <li>
+      <a href="mailto:sleeplessyogi@gmail.com" target="_blank" title="Email">
+        <span class="icon icon-at"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a href="/feed.xml" target="_blank" title="RSS">
+        <span class="icon icon-social-rss"></span>
+      </a>
+    </li>
+    
+  </ul>
+</nav>
+
+          <div>
+            <div class="subnav" id="mysubnav">
+  <a href="/tag/the-how-series" target="_self" title="How To Programming">
+    Programming
+  </a>
+  <a href="/tag/personal-finance" target="_self" title="Passive Income">
+    Passive Income
+  </a>
+  <a href="/resources" target="_self" title="Resources">
+    Resources
+  </a>
+  <!-- <a
+    href="https://mx84n.weblium.site/"
+    title="Make $200K"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Make $200K
+  </a> -->
+  <a
+    href="https://gumroad.com/l/html2react/blog"
+    title="Our Courses"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Courses
+  </a>
+  <a href="javascript:void(0);" class="icon-container" onclick="toggleMenu()">
+    <span class="icon icon-android-menu"></span>
+  </a>
+</div>
+
+<script>
+  function toggleMenu() {
+    var x = document.getElementById("mysubnav");
+    if (x.className === "subnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "subnav";
+    }
+  }
+</script>
+
+          </div>
+          <article class="article reveal">
+            <header class="article-header">
+              <h1>React Crash Course - Learn React JS in 5 Minutes</h1>
+              <p>This article teaches you the fundamentals of React JS and how to create your first React JS application. You will learn the building blocks of ReactJS like Components, JSX, Virtual DOM, etc.</p>
+              <div class="article-list-footer">
+                <span class="article-list-date">
+                  February 6, 2020
+                </span>
+                <span class="article-list-divider">-</span>
+                <span class="article-list-minutes">
+                    6 minute read 
+                </span>
+                <span class="article-list-divider">-</span>
+                <div class="article-list-tags">
+                  
+                  <a href="/tag/reactjs">reactjs</a>
+                  
+                  <a href="/tag/the-how-series">the-how-series</a>
+                  
+                </div>
+              </div>
+            </header>
+            <script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<!-- hz-post-top -->
+<ins
+  class="adsbygoogle"
+  style="display:inline-block;width:100%;height:90px"
+  data-ad-client="ca-pub-2179620018216283"
+  data-ad-slot="1244135380"
+></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            <div class="article-content">
+              <p><a href="/assets/posts/reactjs-102f9693a4201e678d5b02185717f4e2127d082c2f8afc0ed378cfc6cd814741.png">
+  <img src="/assets/posts/reactjs-102f9693a4201e678d5b02185717f4e2127d082c2f8afc0ed378cfc6cd814741.png" alt="ReactJS Getting Started" class="zooming" data-rjs="/assets/posts/reactjs-102f9693a4201e678d5b02185717f4e2127d082c2f8afc0ed378cfc6cd814741.png" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p>Let’s dive into the topic directly.</p>
+
+<h2 id="what-is-react">What is React?</h2>
+
+<p>React is a JavaScript library created by Facebook.</p>
+
+<p>React is a tool for building UI components (for the front end).</p>
+
+<h2 id="how-does-react-work">How does React Work?</h2>
+
+<p>React creates Virtual DOM (Document Object Model) in memory.</p>
+
+<p>Instead of manipulating the browser’s DOM directly, React creates a Virtual DOM in memory, where it does all the necessary manipulating, before making the changes in the browser DOM.</p>
+
+<p>React finds out what changes have been made, and changes only what needs to be changed.</p>
+
+<h2 id="why-you-should-use-react">Why you should use React?</h2>
+
+<p>React is fast, scalable, flexible, and has a robust developer community which is rapidly growing.</p>
+
+<p>React makes it simple to write your code because there no need of separate template files. Just one JSX file. More on this in the next sections.</p>
+
+<p>It implements the component-based approach. Everything in React is a component - which helps you write scalable applications.</p>
+
+<p>In the following sections, you will learn the various aspects of how React does this in the rest of this tutorial.</p>
+
+<h2 id="setting-up-a-react-environment">Setting up a React Environment</h2>
+
+<p>Let’s get your React environment setup.</p>
+
+<p>If you have <code class="highlighter-rouge">NPM</code> and <code class="highlighter-rouge">Node.js</code> installed, you can create a React application by first installing the <code class="highlighter-rouge">create-react-app</code>.</p>
+
+<p>Install <code class="highlighter-rouge">create-react-app</code> by running this command in your terminal
+(in the folder where you want to save react app)</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">C</span><span class="p">:</span><span class="err">\</span><span class="nx">Users</span><span class="err">\</span><span class="nx">the</span> <span class="nx">folder</span> <span class="nx">you</span> <span class="nx">wish</span><span class="o">&gt;</span><span class="nx">npm</span> <span class="nx">install</span> <span class="o">-</span><span class="nx">g</span> <span class="nx">create</span><span class="o">-</span><span class="nx">react</span><span class="o">-</span><span class="nx">app</span></code></pre></figure>
+
+<p>Then you are able to create a React application, let’s create one called <code class="highlighter-rouge">firstreact</code></p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">C</span><span class="p">:</span><span class="err">\</span><span class="nx">Users</span><span class="err">\</span><span class="nx">the</span> <span class="nx">folder</span> <span class="nx">you</span> <span class="nx">wish</span><span class="o">&gt;</span><span class="nx">npx</span> <span class="nx">create</span><span class="o">-</span><span class="nx">react</span><span class="o">-</span><span class="nx">app</span> <span class="nx">firstreact</span></code></pre></figure>
+
+<p>The <code class="highlighter-rouge">create-react-app</code> will set up everything you need to run a React application.
+ </p>
+<h2 id="running-the-react-app">Running the react app</h2>
+
+<p>Run this command to move to the <code class="highlighter-rouge">firstreact</code> directory:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">C</span><span class="p">:</span><span class="err">\</span><span class="nx">Users</span><span class="err">\</span><span class="nx">the</span> <span class="nx">folder</span> <span class="nx">you</span> <span class="nx">wish</span><span class="o">&gt;</span><span class="nx">cd</span> <span class="nx">firstreact</span></code></pre></figure>
+
+<p>Run this command to run the React application <code class="highlighter-rouge">firstreact</code></p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">C</span><span class="p">:</span><span class="err">\</span><span class="nx">Users</span><span class="err">\</span><span class="nx">the</span> <span class="nx">folder</span> <span class="nx">you</span> <span class="nx">wish</span><span class="err">\</span><span class="nx">firstreact</span><span class="o">&gt;</span><span class="nx">npm</span> <span class="nx">start</span></code></pre></figure>
+
+<p>A new default browser window will pop up with your newly created React App! 
+(If not, open your browser and type localhost:3000 in the address bar)</p>
+
+<h2 id="modifying-the-installed-react-application">Modifying the installed react application</h2>
+
+<p>Let’s learn about how to customize our react app.</p>
+
+<p>Look in the <code class="highlighter-rouge">firstreact</code> directory, and you will find an <code class="highlighter-rouge">src</code> folder. Inside the <code class="highlighter-rouge">src</code> folder there is a file called <code class="highlighter-rouge">App.js</code>, open it and it will code like this:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">/</span><span class="nx">firstreact</span><span class="o">/</span><span class="nx">src</span><span class="o">/</span><span class="nx">App</span><span class="p">.</span><span class="nx">js</span><span class="p">:</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">Component</span> <span class="p">}</span> <span class="k">from</span> <span class="s1">'react'</span>
+<span class="k">import</span> <span class="nx">logo</span> <span class="k">from</span> <span class="s1">'./logo.svg'</span>
+<span class="k">import</span> <span class="s1">'./App.css'</span>
+
+<span class="kd">class</span> <span class="nx">App</span> <span class="kd">extends</span> <span class="nx">Component</span> <span class="p">{</span>
+  <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="p">(</span>
+      <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">className</span><span class="o">=</span><span class="s2">"App"</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">header</span> <span class="nx">className</span><span class="o">=</span><span class="s2">"App-header"</span><span class="o">&gt;</span>
+          <span class="o">&lt;</span><span class="nx">img</span> <span class="nx">src</span><span class="o">=</span><span class="p">{</span><span class="nx">logo</span><span class="p">}</span> <span class="nx">className</span><span class="o">=</span><span class="s2">"App-logo"</span> <span class="nx">alt</span><span class="o">=</span><span class="s2">"logo"</span> <span class="o">/&gt;</span>
+          <span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>
+            <span class="nx">Edit</span> <span class="o">&lt;</span><span class="nx">code</span><span class="o">&gt;</span><span class="nx">src</span><span class="o">/</span><span class="nx">App</span><span class="p">.</span><span class="nx">js</span><span class="o">&lt;</span><span class="sr">/code&gt; and save to reload</span><span class="err">.
+</span>          <span class="o">&lt;</span><span class="sr">/p</span><span class="err">&gt;
+</span>          <span class="o">&lt;</span><span class="nx">a</span>
+            <span class="nx">className</span><span class="o">=</span><span class="s2">"App-link"</span>
+            <span class="nx">href</span><span class="o">=</span><span class="s2">"https://reactjs.org"</span>
+            <span class="nx">target</span><span class="o">=</span><span class="s2">"_blank"</span>
+            <span class="nx">rel</span><span class="o">=</span><span class="s2">"noopener noreferrer"</span>
+          <span class="o">&gt;</span>
+            <span class="nx">Learn</span> <span class="nx">React</span>
+          <span class="o">&lt;</span><span class="sr">/a</span><span class="err">&gt;
+</span>        <span class="o">&lt;</span><span class="sr">/header</span><span class="err">&gt;
+</span>      <span class="o">&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span>    <span class="p">)</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">App</span></code></pre></figure>
+
+<p>Now, try changing the HTML content and save the file.</p>
+
+<p>Changes are automatically reloaded into the browser.</p>
+
+<p>Replace all the content inside the <code class="highlighter-rouge">&lt;div className="App"&gt;</code> with a <code class="highlighter-rouge">&lt;h1&gt;</code> element. Like below.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">Component</span> <span class="p">}</span> <span class="k">from</span> <span class="s1">'react'</span>
+
+<span class="kd">class</span> <span class="nx">App</span> <span class="kd">extends</span> <span class="nx">Component</span> <span class="p">{</span>
+  <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="p">(</span>
+      <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">className</span><span class="o">=</span><span class="s2">"App"</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="nx">Hello</span> <span class="nx">World</span><span class="o">!&lt;</span><span class="sr">/h1</span><span class="err">&gt;
+</span>      <span class="o">&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span>    <span class="p">)</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">App</span></code></pre></figure>
+
+<p>As soon as you replace this code and save it open your browser to see the changes.</p>
+
+<h2 id="react-components">React Components</h2>
+
+<p>Components are like functions that return HTML elements via a render function.</p>
+
+<p>Components are of two types - Class Components and Function Components.</p>
+
+<h2 id="creating-a-class-component">Creating a Class Component</h2>
+
+<p>The initial character of the class component must start with an uppercase letter.</p>
+
+<p>The component has to include the extends <code class="highlighter-rouge">React.Component</code> statement, this statement creates an inheritance to <code class="highlighter-rouge">React.Component</code>, and gives your component access to <code class="highlighter-rouge">React.Component</code>’s functions.</p>
+
+<p>The component also requires a <code class="highlighter-rouge">render()</code> method, this method returns HTML.</p>
+
+<p>Create a Class component called <code class="highlighter-rouge">Ninja</code></p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">class</span> <span class="nx">Ninja</span> <span class="kd">extends</span> <span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="p">{</span>
+  <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="o">&lt;</span><span class="nx">h2</span><span class="o">&gt;</span><span class="nx">Hi</span><span class="p">,</span> <span class="nx">We</span> <span class="nx">learning</span> <span class="nx">React</span><span class="o">&lt;</span><span class="sr">/h2</span><span class="err">&gt;
+</span>  <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<h2 id="creating-a-function-component">Creating a Function Component</h2>
+
+<p>Here is the same example as above, but created using a Function component instead.</p>
+
+<p>A Function component also returns HTML and behaves pretty much the same way as a Class component.</p>
+
+<p>Create a Function component called <code class="highlighter-rouge">Ninja</code></p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">Ninja</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="o">&lt;</span><span class="nx">h2</span><span class="o">&gt;</span><span class="nx">Hi</span><span class="p">,</span> <span class="nx">We</span> <span class="nx">are</span> <span class="nx">learning</span> <span class="nx">react</span><span class="o">&lt;</span><span class="sr">/h2</span><span class="err">&gt;
+</span><span class="p">}</span></code></pre></figure>
+
+<p>As you can see - writing Function components is much simpler and easier. It involves writing lesser code. So, it is recommended to use Function components whenever you can.</p>
+
+<h2 id="react-jsx">React JSX</h2>
+
+<p>This another most important topic of React.</p>
+
+<p>JSX stands for JavaScript XML.</p>
+
+<p>JSX allows us to write HTML in React.</p>
+
+<p>JSX allows us to write HTML elements in JavaScript and place them in the DOM without any <code class="highlighter-rouge">createElement()</code>  and <code class="highlighter-rouge">appendChild()</code> methods.</p>
+
+<p>JSX converts HTML tags into react elements.</p>
+
+<p>Let us demonstrate with two examples, the first use JSX and the second does not have JSX anything to do:</p>
+
+<h3 id="example-1-using-jsx">Example 1 (Using JSX)</h3>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">myelement</span> <span class="o">=</span> <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="nx">We</span> <span class="nx">are</span> <span class="nx">learning</span> <span class="nx">React</span><span class="o">!&lt;</span><span class="sr">/h1&gt;</span><span class="err">;
+</span><span class="nx">ReactDOM</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="nx">myelement</span><span class="p">,</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">'root'</span><span class="p">));</span></code></pre></figure>
+
+<h3 id="example-2-without-using-jsx">Example 2 (Without Using JSX)</h3>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">myelement</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">'h1'</span><span class="p">,</span> <span class="p">{},</span> <span class="s1">'We are learning react'</span><span class="p">);</span>
+<span class="nx">ReactDOM</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="nx">myelement</span><span class="p">,</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">'root'</span><span class="p">));</span></code></pre></figure>
+
+<p>In both the examples the output is same i.e <strong>We are learning react</strong>.</p>
+
+<p>In example 1, we pass HTML directly within the JavaScript code. So as you can see - JSX lets you write your code in a much dev-friendly manner.</p>
+
+<p>Another reason why JSX is recommend is that it is type safe. So, a lot of errors and typos are handling during development time. It just makes the development experience a lot better.</p>
+
+<p>For more React examples please <a href="https://react.rocks/">check this out</a>.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Kudos! You just created your first ReactJS application. I am sure you have started like React at least a little.</p>
+
+<p>Remember it is a very fast growing JavasScript framework. It lets you write component-based UI for small and large applications.</p>
+
+<p>If you are interested to learn more about React and build beautiful applications using it I highly recommend you to checkout <a href="https://cutt.ly/web-development-bootcamp">our bootcamp</a>.</p>
+
+<blockquote>
+  <p>Author: B.K. Sai Kalyan<br />
+Gmail: saikalyan1729@gmail.com<br />
+To know more about the author: <a href="https://sites.google.com/view/sai-kalyan-bhagavathula/home?authuser=1">website</a></p>
+</blockquote>
+
+<hr />
+
+<p><br /></p>
+
+<h4 id="further-resources-we-recommend">Further Resources We Recommend</h4>
+
+<ul>
+  <li><a href="https://amzn.to/2PElkvt">The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React.Js</a></li>
+  <li><a href="https://amzn.to/3cAwBHk">You Don`t Know JS (ES6 &amp; Beyond)</a></li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="read-next">Read Next</h2>
+
+<p><a href="/posts/steps-after-you-type-url-in-browser">5 Common mistakes JavaScript developers make</a></p>
+
+
+            </div>
+
+            <br />
+            <!-- <a
+              href="/resources"
+              title="Our Recommended Resources"
+              class="banner-container button-box"
+            >
+              Our Recommended Resources
+            </a> -->
+
+            <a
+              href="https://gumroad.com/l/html2react/blog"
+              title="Our Courses"
+              target="_blank"
+              class="banner-container button-box"
+            >
+              HTML To React: The Ultimate Guide
+            </a>
+
+            <br />
+            <footer class="recommended reveal">
+  <h3>You might also like</h3>
+  <p>
+    If you have enjoyed learning from this article, below is a list of some
+    recommended articles for you-
+  </p>
+  <ul>
+       
+    <li>
+      <a href="/posts/javascript-tricks" title="5 JavaScript tricks every developer should know"
+        >5 JavaScript tricks every developer should know</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/reactjs-beginners-guide-setup-project" title="A comprehensive beginner's guide to set up ReactJS"
+        >A comprehensive beginner's guide to set up ReactJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angular2-form-validation" title="Angular 2 Form Validation: How to fire form validation on blur?"
+        >Angular 2 Form Validation: How to fire form validation on blur?</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angularjs-directive-life-cycle" title="What is Directive's life-cycle in AngularJS"
+        >What is Directive's life-cycle in AngularJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/curated-list-of-awesome-things-in-tech-world-4" title="Curated list of awesome things in the tech world #4"
+        >Curated list of awesome things in the tech world #4</a
+      >
+    </li>
+    
+  </ul>
+</footer>
+
+
+            <br />
+            <div class="article-share">
+              
+              <a
+                href=""
+                title="Share on Twitter"
+                onclick="window.open('https://twitter.com/home?status=React Crash Course - Learn React JS in 5 Minutes - https://ngninja.com//posts/react-crash-course by @sleeplessyogi', 'newwindow', 'width=500, height=225'); return false;"
+              >
+                <span class="icon icon-social-twitter"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Facebook"
+                onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://ngninja.com//posts/react-crash-course', 'newwindow', 'width=500, height=500'); return false;"
+              >
+                <span class="icon icon-social-facebook"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Google+"
+                onclick="window.open('https://plus.google.com/share?url=https://ngninja.com//posts/react-crash-course', 'newwindow', 'width=550, height=400'); return false;"
+              >
+                <span class="icon icon-social-googleplus"></span>
+              </a>
+            </div>
+
+            
+
+            <!--<div id="disqus_thread">-->
+            <!--Comments-->
+            <!--</div>-->
+            <!--<script>-->
+
+            <!--/**-->
+            <!--*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.-->
+            <!--*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/-->
+            <!--/*-->
+            <!--var disqus_config = function () {-->
+            <!--this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable-->
+            <!--this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable-->
+            <!--};-->
+            <!--*/-->
+            <!--(function() { // DON'T EDIT BELOW THIS LINE-->
+            <!--var d = document, s = d.createElement('script');-->
+            <!--s.src = '//ng-ninja.disqus.com/embed.js';-->
+            <!--s.setAttribute('data-timestamp', +new Date());-->
+            <!--(d.head || d.body).appendChild(s);-->
+            <!--})();-->
+            <!--</script>-->
+            <!--<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
+
+            <div id="disqus_thread" class="article-comments"></div>
+            <script>
+              (function () {
+                // TODO: site.discus_identifier variable is not working
+
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "//ng-ninja.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript
+              >Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+              ></noscript
+            >
+            
+          </article>
+          <footer class="footer reveal">
+  <style>
+  .gumroad-follow-form-embed {
+    zoom: 1;
+  }
+  .gumroad-follow-form-embed:before,
+  .gumroad-follow-form-embed:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .gumroad-follow-form-embed:after {
+    clear: both;
+  }
+  .gumroad-follow-form-embed * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box !important;
+    float: left !important;
+  }
+  .gumroad-follow-form-embed input {
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-right: 0;
+    color: #aaa;
+    padding: 10px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02);
+    background-position: top right;
+    background-repeat: no-repeat;
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    -webkit-appearance: none;
+    -moz-appearance: caret;
+    width: 65% !important;
+    height: 40px !important;
+  }
+  .gumroad-follow-form-embed button {
+    /* border-radius: 4px; */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.05s ease-in-out;
+    transition: all 0.05s ease-in-out;
+    display: inline-block;
+    padding: 11px 15px 12px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    line-height: 100%;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    /* background: #0088ff; */
+    /* border: 1px solid #007ae6; */
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#26aeff, endColorstr=#007eec, GradientType=0)";
+    background: -webkit-linear-gradient(#26aeff, #007eec);
+    background: linear-gradient(to bottom, #26aeff, #007eec);
+    height: 40px !important;
+    width: 35% !important;
+
+    background-color: #21d4fd;
+    background-image: linear-gradient(135deg, #ce9ffc 10%, #3449ed 100%);
+    border-radius: unset;
+  }
+  .subscribe h2 {
+    margin-bottom: 16px;
+  }
+  .subscribe form {
+    margin-bottom: 32px;
+  }
+</style>
+<div class="subscribe">
+  <h2>Get weekly tutorial and newsletter in your inbox</h2>
+  <form
+    action="https://gumroad.com/follow_from_embed_form"
+    class="form gumroad-follow-form-embed"
+    method="post"
+  >
+    <input name="seller_id" type="hidden" value="1636741848551" />
+    <input name="email" placeholder="Your email address" type="email" />
+    <button data-custom-highlight-color="" type="submit">Subscribe</button>
+  </form>
+</div>
+
+  <p>
+    Know more about
+    <a href="/about" title="About me">Ninja Academy</a>
+  </p>
+  <i class="small">
+    <!-- <p> -->
+    Copyright @ 2021, Ninja Academy
+    <!-- </p> -->
+  </i>
+</footer>
+
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ["Cormorant Garamond:700", "Lato:300,400,700"]
+    }
+  });
+</script>
+
+
+<script>
+  window.ga = function() {
+    ga.q.push(arguments);
+  };
+  ga.q = [];
+  ga.l = +new Date();
+  ga("create", "UA-88588900-1", "auto");
+  ga("send", "pageview");
+</script>
+<script
+  src="https://www.google-analytics.com/analytics.js"
+  async
+  defer
+></script>
+
+
+<!-- Script pointing to jekyll-search.js -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<!-- <script
+  src="/assets/jekyll-search.js"
+  type="text/javascript"
+></script> -->
+<script type="text/javascript">
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("search-input"),
+    resultsContainer: document.getElementById("results-container"),
+    json: "https://ngninja.com//search.json",
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: "No results found",
+    limit: 10,
+    fuzzy: false,
+    exclude: ["Welcome"]
+  });
+</script>
+
+<script
+  data-ad-client="ca-pub-2179620018216283"
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+
+<script src="/assets/vendor-130c9c254effc51f3283620bc635851da7b99c20901216948f11ba72ee13317f.js" type="text/javascript"></script>  <script src="/assets/webfonts-8bd3408c53105d96a2f15ba1826509bf47de69c11e972ff3f164c42ecf4486d0.js" type="text/javascript"></script>   <script src="/assets/application-f9055599a910cf93e1b48423b9add89facdf648bad7991415831774961a8aa02.js" type="text/javascript"></script> 
+
+  </body>
+</html>

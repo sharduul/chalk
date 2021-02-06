@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Ninja Academy | 5 Common mistakes JavaScript developers make</title>
+  <meta name="description" content="List of common mistakes you would want to avoid to become a JavaScript ninja. JavaScript Callback functions. JavaScript scopes. Strings in JavaScript." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:title" content="5 Common mistakes JavaScript developers make" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ngninja.com//posts/mistakes-by-javascript-developers" />
+  <meta property="og:description" content="List of common mistakes you would want to avoid to become a JavaScript ninja. JavaScript Callback functions. JavaScript scopes. Strings in JavaScript." />
+  <meta property="og:site_name" content="Ninja Academy" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://ngninja.com//posts/mistakes-by-javascript-developers" />
+  <meta name="twitter:title" content="5 Common mistakes JavaScript developers make" />
+  <meta name="twitter:description" content="List of common mistakes you would want to avoid to become a JavaScript ninja. JavaScript Callback functions. JavaScript scopes. Strings in JavaScript." />
+
+  
+  <meta
+    property="og:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  <meta
+    name="twitter:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  
+
+  <link
+    href="https://ngninja.com//feed.xml"
+    type="application/rss+xml"
+    rel="alternate"
+    title="Ninja Academy Last 10 blog posts"
+  />
+
+    
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="/assets/favicon-dark-209194b9ff10035bbcfba5f7425921015d49314ba7c6e6e41d2cb85e9b9bbb2a.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png"
+  />
+  <link rel="stylesheet" type="text/css" href="/assets/light-6ff58e5b26e9f5b7f2aa12b86a834d74c87d22e89335a1efcb79606403cc8481.css">  
+</head>
+
+  <body>
+    <main role="main">
+      <div class="grid grid-centered">
+        <div class="grid-cell">
+          <nav class="header-nav reveal">
+  <a href="/" class="header-logo" title="Ninja Academy"
+    ><img
+      src="/assets/logo-0a85d68f5106feb94b40117f598fec1ea476834afe17746b026cd1b441b7a9ad.png"
+      alt="HTML tutorial"
+      style="height: 60px;"
+  /></a>
+
+  <ul class="header-links">
+    
+    <li>
+      <a
+        href="https://twitter.com/sleeplessyogi"
+        target="_blank"
+        title="Twitter"
+      >
+        <span class="icon icon-social-twitter"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.facebook.com/ngrealninja"
+        target="_blank"
+        title="Facebook"
+      >
+        <span class="icon icon-social-facebook"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.instagram.com/sleeplessyogi"
+        target="_blank"
+        title="Instagram"
+      >
+        <span class="icon icon-social-instagram"></span>
+      </a>
+    </li>
+         
+    <li>
+      <a href="mailto:sleeplessyogi@gmail.com" target="_blank" title="Email">
+        <span class="icon icon-at"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a href="/feed.xml" target="_blank" title="RSS">
+        <span class="icon icon-social-rss"></span>
+      </a>
+    </li>
+    
+  </ul>
+</nav>
+
+          <div>
+            <div class="subnav" id="mysubnav">
+  <a href="/tag/the-how-series" target="_self" title="How To Programming">
+    Programming
+  </a>
+  <a href="/tag/personal-finance" target="_self" title="Passive Income">
+    Passive Income
+  </a>
+  <a href="/resources" target="_self" title="Resources">
+    Resources
+  </a>
+  <!-- <a
+    href="https://mx84n.weblium.site/"
+    title="Make $200K"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Make $200K
+  </a> -->
+  <a
+    href="https://gumroad.com/l/html2react/blog"
+    title="Our Courses"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Courses
+  </a>
+  <a href="javascript:void(0);" class="icon-container" onclick="toggleMenu()">
+    <span class="icon icon-android-menu"></span>
+  </a>
+</div>
+
+<script>
+  function toggleMenu() {
+    var x = document.getElementById("mysubnav");
+    if (x.className === "subnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "subnav";
+    }
+  }
+</script>
+
+          </div>
+          <article class="article reveal">
+            <header class="article-header">
+              <h1>5 Common mistakes JavaScript developers make</h1>
+              <p>List of common mistakes you would want to avoid to become a JavaScript ninja. JavaScript Callback functions. JavaScript scopes. Strings in JavaScript.</p>
+              <div class="article-list-footer">
+                <span class="article-list-date">
+                  January 19, 2017
+                </span>
+                <span class="article-list-divider">-</span>
+                <span class="article-list-minutes">
+                    5 minute read 
+                </span>
+                <span class="article-list-divider">-</span>
+                <div class="article-list-tags">
+                  
+                  <a href="/tag/javascript">javascript</a>
+                  
+                  <a href="/tag/listicles">listicles</a>
+                  
+                </div>
+              </div>
+            </header>
+            <script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<!-- hz-post-top -->
+<ins
+  class="adsbygoogle"
+  style="display:inline-block;width:100%;height:90px"
+  data-ad-client="ca-pub-2179620018216283"
+  data-ad-slot="1244135380"
+></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            <div class="article-content">
+              <p><a href="/assets/posts/mistakes-2ab501d2619591aae30024555e59d86d18f19bab693985c766398745da97bf60.jpg">
+  <img src="/assets/posts/mistakes-2ab501d2619591aae30024555e59d86d18f19bab693985c766398745da97bf60.jpg" alt="Mistakes" class="zooming" data-rjs="/assets/posts/mistakes-2ab501d2619591aae30024555e59d86d18f19bab693985c766398745da97bf60.jpg" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p>Let’s dive into the list of mistakes directly.</p>
+
+<h3 id="1-falling-in-the-callback-hell">1. Falling in the callback hell</h3>
+<p>One of the awesome features that JavaScript offers is callbacks. Callbacks are nothing special than normal functions. Just that, it lets you handle asynchrony.</p>
+
+<p>Simple callback example:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">results</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+<span class="nx">updateCustomer</span><span class="p">(</span><span class="nx">customerDetails</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">){</span>
+	<span class="nx">results</span> <span class="o">=</span> <span class="nx">data</span><span class="p">;</span>
+<span class="p">});</span>
+
+<span class="kd">function</span> <span class="nx">updateCustomer</span><span class="p">(</span><span class="nx">customerDetails</span><span class="p">,</span> <span class="nx">cb</span><span class="p">){</span>
+	<span class="c1">// update customer in database</span>
+	<span class="nx">cb</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>So, in the above function call to “updateCustomer” updates customer information in the database. In order to return this updated information we call the callback function at the end of “updateCustomer” and pass it the results as the parameter.</p>
+
+<p>This is a simple way we can handle asynchrony in JavaScript.</p>
+
+<p>But, if not handled properly this method of using callback functions can get real messy, real soon.</p>
+
+<p>What happens when there are multiple functions which depend on the results returned by the other function?</p>
+
+<p>Usage of such functions will look something like this:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">updateInfo</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">y</span><span class="p">){</span>
+	<span class="nx">updateOtherInfo</span><span class="p">(</span><span class="nx">y</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">z</span><span class="p">){</span>
+		<span class="nx">updateYetOtherInfo</span><span class="p">(</span><span class="nx">z</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">a</span><span class="p">){</span>
+			<span class="c1">// ...</span>
+		<span class="p">});</span>
+	<span class="p">});</span>
+<span class="p">});</span></code></pre></figure>
+
+<p>The above pyramid-like structure is called as callback hell in JavaScript. The long and short of it is, that it is not recommended for a simple reason that it makes it hard to follow and worse to maintain.</p>
+
+<h3 id="2-misunderstanding--operator">2. Misunderstanding “===” operator</h3>
+<p>This is a classic interview question- what is a difference between “==” and “===” operators. Understanding this difference will take you one step closer to understanding the weirdness of JavaScript.</p>
+
+<p>To make it real simple, keep this in mind.</p>
+
+<p><em>”===” behaves just like “==” operator. Except, “===” also compares the types.</em></p>
+
+<p>Let’s see an example:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="mi">1</span> <span class="o">==</span> <span class="s2">"1"</span> 	<span class="c1">// true</span>
+<span class="mi">1</span> <span class="o">===</span> <span class="s2">"1"</span> 	<span class="c1">// false</span></code></pre></figure>
+
+<p>In the above example, “==” operator just did a value comparison. Meaning, it implicitly converted necessary types of operands and compared their equality.</p>
+
+<p>But, as the data types of 1 and “1” are not same, “===” returned false. Because “===” operator does not do any type conversion for you. It strictly checks if the type of operands is same and whether their values are equal as well.</p>
+
+<h3 id="3-missing-semicolons">3. Missing semicolons:</h3>
+<p>JavaScript is a super intelligent language. Its parsers are trained such that they will insert semicolons even if you leave them out.</p>
+
+<p>But, my suggestion would be- don’t fall into this trap. It might backfire on you.</p>
+
+<p>Consider this classic example:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">foo</span><span class="p">(){</span>
+	<span class="k">return</span>
+	<span class="mi">10</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Above amazing “foo” function is expected to return 10 every time it is executed. But, JavaScript being an intelligent language interprets it completely differently.</p>
+
+<p>JavaScript’s interpretation of above function:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">foo</span><span class="p">(){</span>
+	<span class="k">return</span><span class="p">;</span>
+	<span class="mi">10</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>JavaScript, like above, might put semicolons in unexpected areas if not provided by us. So, to be on the safer side always put those semicolons yourself.</p>
+
+<h3 id="4-forgetting-that-variables-are-not-block-scoped">4. Forgetting that variables are not block scoped</h3>
+<p>Amongst many differences between JavaScript and other class-based languages like Java, C++ is that JavaScript support function scope. Not a block scope.</p>
+
+<p>To understand function scope, follow the below example:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">foo</span><span class="p">(){</span>
+ 
+  <span class="k">if</span><span class="p">(</span><span class="kc">true</span><span class="p">){</span>
+     <span class="kd">var</span> <span class="nx">y</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+  <span class="p">}</span>
+  
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">y</span><span class="p">);</span> <span class="c1">// displays 10</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>In the above “foo” function, I have written an if-block. In that if-block I have declared a variable called “y”. And outside the if-block, I am accessing the variable “y” to display its value.</p>
+
+<p>If you try to do something like this in Java or C++, your compiler will through an error. That is because they are block-scoped language. Therefore, in such languages you cannot access the variable outside the block of code it is declared in.</p>
+
+<p>But, JavaScript is different. JavaScript supports function scope. So, when you try to access “y” variable outside the if-block it successfully displays its value as 10.</p>
+
+<p>This is because JavaScript has a concept called Hoisting. In simple terms, JavaScript moves all the declared variables at the top of the function. So, you can access those variables from anywhere in that function.</p>
+
+<h3 id="5-confusing-addition-and-concatenation">5. Confusing Addition and Concatenation</h3>
+<p>There is a common operator used to add numbers and concatenate strings. That is “+”.</p>
+
+<p>When you use “+” operator with two same types, you are safe. Let’s checkout a code snippet:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">sum</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">+</span> <span class="mi">5</span><span class="p">;</span> 		<span class="c1">// 15</span>
+<span class="kd">var</span> <span class="nx">str</span> <span class="o">=</span> <span class="s2">"10"</span> <span class="o">+</span> <span class="s2">"5"</span> 	<span class="c1">// "105"</span></code></pre></figure>
+
+<p>Above code behaves as we expect. But, the problem occurs when you try to use “+” operator with mixed types.</p>
+
+<p>Like below:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">sum</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">+</span> <span class="s2">"5"</span><span class="p">;</span> 	<span class="c1">// "105"</span></code></pre></figure>
+
+<p>In the above use case, one would expect to add number 10 to string “5” and get 15 as a result. But they would be tricked by JavaScript.</p>
+
+<p>The answer you get is “105” because JavaScript implicitly does a type conversion of number 10 to a string “10”. Therefore, instead of adding two numbers JavaScript concatenates two strings.</p>
+
+<p>There is a simple trick to get around the above problem. Let’s see it in action:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">sum</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">+</span> <span class="o">+</span><span class="s2">"5"</span><span class="p">;</span> 	<span class="c1">// 15</span></code></pre></figure>
+
+<p>Yes, you read it right. Use “+” in front of the operand. This tells JavaScript to convert it to a number before adding the two operands.</p>
+
+<h3 id="summary">Summary:</h3>
+<p>Above mistakes may seem silly and trivial, but when you are working on a complex application it becomes tough to track them down.</p>
+
+<p>Someone has well said, to become a perfectionist you need to practice more. That is true in this case as well. To understand JavaScript at its core, we have to practice it thoroughly. Checkout my post on <a href="http://ngninja.com/posts/new-year-programming-challenge">this year’s programming challenges</a> if you need to practice your coding skills.</p>
+
+<p>In the next part I will cover more common mistakes committed by JavaScript developers. Stay tuned. And do let me know how many of you have commit these or some other silly mistakes?</p>
+
+<h4 id="further-resources-we-recommend">Further Resources We Recommend</h4>
+
+<ul>
+  <li><a href="https://amzn.to/2Idk9iz">You Don’t Know JS: Scope &amp; Closures</a></li>
+  <li><a href="https://amzn.to/3cAwBHk">You Don`t Know JS (ES6 &amp; Beyond)</a></li>
+</ul>
+
+            </div>
+
+            <br />
+            <!-- <a
+              href="/resources"
+              title="Our Recommended Resources"
+              class="banner-container button-box"
+            >
+              Our Recommended Resources
+            </a> -->
+
+            <a
+              href="https://gumroad.com/l/html2react/blog"
+              title="Our Courses"
+              target="_blank"
+              class="banner-container button-box"
+            >
+              HTML To React: The Ultimate Guide
+            </a>
+
+            <br />
+            <footer class="recommended reveal">
+  <h3>You might also like</h3>
+  <p>
+    If you have enjoyed learning from this article, below is a list of some
+    recommended articles for you-
+  </p>
+  <ul>
+       
+    <li>
+      <a href="/posts/javascript-tricks" title="5 JavaScript tricks every developer should know"
+        >5 JavaScript tricks every developer should know</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/reactjs-beginners-guide-setup-project" title="A comprehensive beginner's guide to set up ReactJS"
+        >A comprehensive beginner's guide to set up ReactJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angular2-form-validation" title="Angular 2 Form Validation: How to fire form validation on blur?"
+        >Angular 2 Form Validation: How to fire form validation on blur?</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angularjs-directive-life-cycle" title="What is Directive's life-cycle in AngularJS"
+        >What is Directive's life-cycle in AngularJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/curated-list-of-awesome-things-in-tech-world-4" title="Curated list of awesome things in the tech world #4"
+        >Curated list of awesome things in the tech world #4</a
+      >
+    </li>
+    
+  </ul>
+</footer>
+
+
+            <br />
+            <div class="article-share">
+              
+              <a
+                href=""
+                title="Share on Twitter"
+                onclick="window.open('https://twitter.com/home?status=5 Common mistakes JavaScript developers make - https://ngninja.com//posts/mistakes-by-javascript-developers by @sleeplessyogi', 'newwindow', 'width=500, height=225'); return false;"
+              >
+                <span class="icon icon-social-twitter"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Facebook"
+                onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://ngninja.com//posts/mistakes-by-javascript-developers', 'newwindow', 'width=500, height=500'); return false;"
+              >
+                <span class="icon icon-social-facebook"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Google+"
+                onclick="window.open('https://plus.google.com/share?url=https://ngninja.com//posts/mistakes-by-javascript-developers', 'newwindow', 'width=550, height=400'); return false;"
+              >
+                <span class="icon icon-social-googleplus"></span>
+              </a>
+            </div>
+
+            
+
+            <!--<div id="disqus_thread">-->
+            <!--Comments-->
+            <!--</div>-->
+            <!--<script>-->
+
+            <!--/**-->
+            <!--*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.-->
+            <!--*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/-->
+            <!--/*-->
+            <!--var disqus_config = function () {-->
+            <!--this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable-->
+            <!--this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable-->
+            <!--};-->
+            <!--*/-->
+            <!--(function() { // DON'T EDIT BELOW THIS LINE-->
+            <!--var d = document, s = d.createElement('script');-->
+            <!--s.src = '//ng-ninja.disqus.com/embed.js';-->
+            <!--s.setAttribute('data-timestamp', +new Date());-->
+            <!--(d.head || d.body).appendChild(s);-->
+            <!--})();-->
+            <!--</script>-->
+            <!--<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
+
+            <div id="disqus_thread" class="article-comments"></div>
+            <script>
+              (function () {
+                // TODO: site.discus_identifier variable is not working
+
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "//ng-ninja.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript
+              >Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+              ></noscript
+            >
+            
+          </article>
+          <footer class="footer reveal">
+  <style>
+  .gumroad-follow-form-embed {
+    zoom: 1;
+  }
+  .gumroad-follow-form-embed:before,
+  .gumroad-follow-form-embed:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .gumroad-follow-form-embed:after {
+    clear: both;
+  }
+  .gumroad-follow-form-embed * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box !important;
+    float: left !important;
+  }
+  .gumroad-follow-form-embed input {
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-right: 0;
+    color: #aaa;
+    padding: 10px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02);
+    background-position: top right;
+    background-repeat: no-repeat;
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    -webkit-appearance: none;
+    -moz-appearance: caret;
+    width: 65% !important;
+    height: 40px !important;
+  }
+  .gumroad-follow-form-embed button {
+    /* border-radius: 4px; */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.05s ease-in-out;
+    transition: all 0.05s ease-in-out;
+    display: inline-block;
+    padding: 11px 15px 12px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    line-height: 100%;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    /* background: #0088ff; */
+    /* border: 1px solid #007ae6; */
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#26aeff, endColorstr=#007eec, GradientType=0)";
+    background: -webkit-linear-gradient(#26aeff, #007eec);
+    background: linear-gradient(to bottom, #26aeff, #007eec);
+    height: 40px !important;
+    width: 35% !important;
+
+    background-color: #21d4fd;
+    background-image: linear-gradient(135deg, #ce9ffc 10%, #3449ed 100%);
+    border-radius: unset;
+  }
+  .subscribe h2 {
+    margin-bottom: 16px;
+  }
+  .subscribe form {
+    margin-bottom: 32px;
+  }
+</style>
+<div class="subscribe">
+  <h2>Get weekly tutorial and newsletter in your inbox</h2>
+  <form
+    action="https://gumroad.com/follow_from_embed_form"
+    class="form gumroad-follow-form-embed"
+    method="post"
+  >
+    <input name="seller_id" type="hidden" value="1636741848551" />
+    <input name="email" placeholder="Your email address" type="email" />
+    <button data-custom-highlight-color="" type="submit">Subscribe</button>
+  </form>
+</div>
+
+  <p>
+    Know more about
+    <a href="/about" title="About me">Ninja Academy</a>
+  </p>
+  <i class="small">
+    <!-- <p> -->
+    Copyright @ 2021, Ninja Academy
+    <!-- </p> -->
+  </i>
+</footer>
+
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ["Cormorant Garamond:700", "Lato:300,400,700"]
+    }
+  });
+</script>
+
+
+<script>
+  window.ga = function() {
+    ga.q.push(arguments);
+  };
+  ga.q = [];
+  ga.l = +new Date();
+  ga("create", "UA-88588900-1", "auto");
+  ga("send", "pageview");
+</script>
+<script
+  src="https://www.google-analytics.com/analytics.js"
+  async
+  defer
+></script>
+
+
+<!-- Script pointing to jekyll-search.js -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<!-- <script
+  src="/assets/jekyll-search.js"
+  type="text/javascript"
+></script> -->
+<script type="text/javascript">
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("search-input"),
+    resultsContainer: document.getElementById("results-container"),
+    json: "https://ngninja.com//search.json",
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: "No results found",
+    limit: 10,
+    fuzzy: false,
+    exclude: ["Welcome"]
+  });
+</script>
+
+<script
+  data-ad-client="ca-pub-2179620018216283"
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+
+<script src="/assets/vendor-130c9c254effc51f3283620bc635851da7b99c20901216948f11ba72ee13317f.js" type="text/javascript"></script>  <script src="/assets/webfonts-8bd3408c53105d96a2f15ba1826509bf47de69c11e972ff3f164c42ecf4486d0.js" type="text/javascript"></script>   <script src="/assets/application-f9055599a910cf93e1b48423b9add89facdf648bad7991415831774961a8aa02.js" type="text/javascript"></script> 
+
+  </body>
+</html>

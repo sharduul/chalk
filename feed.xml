@@ -1,20 +1,90 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Ninja Academy</title>
+    <description></description>
+    <link>https://ngninja.com/</link>
+    <atom:link href="https://ngninja.com//feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Make Money Online - FREE Training</title>
+        <description>How to make money online. Curated list of resources that will help you start side hustle and learn about personal finance.</description>
+        <pubDate>Sat, 24 Oct 2020 00:00:00 -0700</pubDate>
+        <link>https://ngninja.com//posts/make-money-online-resources</link>
+        <guid isPermaLink="true">https://ngninja.com//posts/make-money-online-resources</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Learn Web Development - FREE Training</title>
+        <description>Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript. Use this curated list to learn web development.</description>
+        <pubDate>Fri, 23 Oct 2020 00:00:00 -0700</pubDate>
+        <link>https://ngninja.com//posts/learn-web-development</link>
+        <guid isPermaLink="true">https://ngninja.com//posts/learn-web-development</guid>
+      </item>
+    
+      <item>
+        <title>Job Interview Question: How do you prioritize Money, Location, Family, Technology, Brand?</title>
+        <description>Let's learn how to address this job interview question. Our priorities are the areas of our lives that are meaningful and important to us. Your life missions are priorities that give you meaning and happiness.</description>
+        <pubDate>Sat, 12 Sep 2020 00:00:00 -0700</pubDate>
+        <link>https://ngninja.com//posts/job-interview-life-priorities</link>
+        <guid isPermaLink="true">https://ngninja.com//posts/job-interview-life-priorities</guid>
+      </item>
+    
+      <item>
+        <title>LeetCode Problem 80. Remove Duplicates from Sorted Array II</title>
+        <description>In this segment, I go through solving leetcode problems for my own practice. I walk through my thinking process so that we can all learn together.</description>
+        <pubDate>Wed, 09 Sep 2020 00:00:00 -0700</pubDate>
+        <link>https://ngninja.com//posts/leetcode-problem-80-remove-duplicate-sorted-array-ii</link>
+        <guid isPermaLink="true">https://ngninja.com//posts/leetcode-problem-80-remove-duplicate-sorted-array-ii</guid>
+      </item>
+    
+      <item>
+        <title>LeetCode Problem 26. Remove Duplicates from Sorted Array</title>
+        <description>In this segment, I go through solving leetcode problems for my own practice. I walk through my thinking process so that we can all learn together.</description>
+        <pubDate>Wed, 09 Sep 2020 00:00:00 -0700</pubDate>
+        <link>https://ngninja.com//posts/leetcode-problem-26-remove-duplicate-sorted-array</link>
+        <guid isPermaLink="true">https://ngninja.com//posts/leetcode-problem-26-remove-duplicate-sorted-array</guid>
+      </item>
+    
+      <item>
+        <title>FREE Project Ideas</title>
+        <description>Grab these interesting project ideas for FREE and upgrade your portfolio. Start here and become a idea machine yourself.</description>
+        <pubDate>Sat, 05 Sep 2020 00:00:00 -0700</pubDate>
+        <link>https://ngninja.com//posts/free-project-ideas</link>
+        <guid isPermaLink="true">https://ngninja.com//posts/free-project-ideas</guid>
+      </item>
+    
+      <item>
+        <title>LeetCode Problem 35. Search Insert Position</title>
+        <description>In this segment, I go through solving leetcode problems for my own practice. I walk through my thinking process so that we can all learn together.</description>
+        <pubDate>Tue, 14 Jul 2020 00:00:00 -0700</pubDate>
+        <link>https://ngninja.com//posts/leetcode-problem-35-search-insert-position</link>
+        <guid isPermaLink="true">https://ngninja.com//posts/leetcode-problem-35-search-insert-position</guid>
+      </item>
+    
+      <item>
+        <title>LeetCode Problem 7. Reverse Integer</title>
+        <description>In this segment, I go through solving leetcode problems for my own practice. I walk through my thinking process so that we can all learn together.</description>
+        <pubDate>Thu, 09 Jul 2020 00:00:00 -0700</pubDate>
+        <link>https://ngninja.com//posts/leetcode-problem-7-reverse-integer</link>
+        <guid isPermaLink="true">https://ngninja.com//posts/leetcode-problem-7-reverse-integer</guid>
+      </item>
+    
+      <item>
+        <title>7 HTML Tips and Tricks</title>
+        <description>This articles teaches you 7 HTML tips and tricks that will save your time and make you more efficient.</description>
+        <pubDate>Thu, 18 Jun 2020 00:00:00 -0700</pubDate>
+        <link>https://ngninja.com//posts/html-tips-and-tricks</link>
+        <guid isPermaLink="true">https://ngninja.com//posts/html-tips-and-tricks</guid>
+      </item>
+    
+      <item>
+        <title>How To Build Responsive Web Apps</title>
+        <description>This articles teaches you how to make your HTML responsive using media queries. Make a responsive website in easy steps.</description>
+        <pubDate>Sun, 14 Jun 2020 00:00:00 -0700</pubDate>
+        <link>https://ngninja.com//posts/how-to-make-responsive-webapps</link>
+        <guid isPermaLink="true">https://ngninja.com//posts/how-to-make-responsive-webapps</guid>
+      </item>
+    
   </channel>
 </rss>

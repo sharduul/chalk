@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Ninja Academy | Is JavaScript really an Object Oriented Language?</title>
+  <meta name="description" content="Let's analyse whether JavaScript is really an object oriented language or not. What is Object Oriented Language. How is JavaScript an Object oriented language." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:title" content="Is JavaScript really an Object Oriented Language?" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ngninja.com//posts/javascript-is-object-oriented" />
+  <meta property="og:description" content="Let's analyse whether JavaScript is really an object oriented language or not. What is Object Oriented Language. How is JavaScript an Object oriented language." />
+  <meta property="og:site_name" content="Ninja Academy" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://ngninja.com//posts/javascript-is-object-oriented" />
+  <meta name="twitter:title" content="Is JavaScript really an Object Oriented Language?" />
+  <meta name="twitter:description" content="Let's analyse whether JavaScript is really an object oriented language or not. What is Object Oriented Language. How is JavaScript an Object oriented language." />
+
+  
+  <meta
+    property="og:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  <meta
+    name="twitter:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  
+
+  <link
+    href="https://ngninja.com//feed.xml"
+    type="application/rss+xml"
+    rel="alternate"
+    title="Ninja Academy Last 10 blog posts"
+  />
+
+    
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="/assets/favicon-dark-209194b9ff10035bbcfba5f7425921015d49314ba7c6e6e41d2cb85e9b9bbb2a.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png"
+  />
+  <link rel="stylesheet" type="text/css" href="/assets/light-6ff58e5b26e9f5b7f2aa12b86a834d74c87d22e89335a1efcb79606403cc8481.css">  
+</head>
+
+  <body>
+    <main role="main">
+      <div class="grid grid-centered">
+        <div class="grid-cell">
+          <nav class="header-nav reveal">
+  <a href="/" class="header-logo" title="Ninja Academy"
+    ><img
+      src="/assets/logo-0a85d68f5106feb94b40117f598fec1ea476834afe17746b026cd1b441b7a9ad.png"
+      alt="HTML tutorial"
+      style="height: 60px;"
+  /></a>
+
+  <ul class="header-links">
+    
+    <li>
+      <a
+        href="https://twitter.com/sleeplessyogi"
+        target="_blank"
+        title="Twitter"
+      >
+        <span class="icon icon-social-twitter"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.facebook.com/ngrealninja"
+        target="_blank"
+        title="Facebook"
+      >
+        <span class="icon icon-social-facebook"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.instagram.com/sleeplessyogi"
+        target="_blank"
+        title="Instagram"
+      >
+        <span class="icon icon-social-instagram"></span>
+      </a>
+    </li>
+         
+    <li>
+      <a href="mailto:sleeplessyogi@gmail.com" target="_blank" title="Email">
+        <span class="icon icon-at"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a href="/feed.xml" target="_blank" title="RSS">
+        <span class="icon icon-social-rss"></span>
+      </a>
+    </li>
+    
+  </ul>
+</nav>
+
+          <div>
+            <div class="subnav" id="mysubnav">
+  <a href="/tag/the-how-series" target="_self" title="How To Programming">
+    Programming
+  </a>
+  <a href="/tag/personal-finance" target="_self" title="Passive Income">
+    Passive Income
+  </a>
+  <a href="/resources" target="_self" title="Resources">
+    Resources
+  </a>
+  <!-- <a
+    href="https://mx84n.weblium.site/"
+    title="Make $200K"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Make $200K
+  </a> -->
+  <a
+    href="https://gumroad.com/l/html2react/blog"
+    title="Our Courses"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Courses
+  </a>
+  <a href="javascript:void(0);" class="icon-container" onclick="toggleMenu()">
+    <span class="icon icon-android-menu"></span>
+  </a>
+</div>
+
+<script>
+  function toggleMenu() {
+    var x = document.getElementById("mysubnav");
+    if (x.className === "subnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "subnav";
+    }
+  }
+</script>
+
+          </div>
+          <article class="article reveal">
+            <header class="article-header">
+              <h1>Is JavaScript really an Object Oriented Language?</h1>
+              <p>Let's analyse whether JavaScript is really an object oriented language or not. What is Object Oriented Language. How is JavaScript an Object oriented language.</p>
+              <div class="article-list-footer">
+                <span class="article-list-date">
+                  December 21, 2016
+                </span>
+                <span class="article-list-divider">-</span>
+                <span class="article-list-minutes">
+                    5 minute read 
+                </span>
+                <span class="article-list-divider">-</span>
+                <div class="article-list-tags">
+                  
+                  <a href="/tag/javascript">javascript</a>
+                  
+                  <a href="/tag/object-oriented-programming">object-oriented-programming</a>
+                  
+                </div>
+              </div>
+            </header>
+            <script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<!-- hz-post-top -->
+<ins
+  class="adsbygoogle"
+  style="display:inline-block;width:100%;height:90px"
+  data-ad-client="ca-pub-2179620018216283"
+  data-ad-slot="1244135380"
+></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            <div class="article-content">
+              <p><a href="/assets/posts/analyse-dc8abed82f0c7fb17b6e7810cae6fdd83aeb2b6586bf6a904878e370644bfbfb.jpg">
+  <img src="/assets/posts/analyse-dc8abed82f0c7fb17b6e7810cae6fdd83aeb2b6586bf6a904878e370644bfbfb.jpg" alt="OOPs" class="zooming" data-rjs="/assets/posts/analyse-dc8abed82f0c7fb17b6e7810cae6fdd83aeb2b6586bf6a904878e370644bfbfb.jpg" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p>There have been a lot of debate over whether or not JavaScript is an Object Oriented Programming language.</p>
+
+<p>After reading a lot of material on this question I have a short answer for you- YES, JavaScript is an OOP language!</p>
+
+<p>Especially when JS-ninjas who are known for their contributions to the language itself, like <a href="http://javascript.crockford.com/javascript.html">Douglas Crockford say it</a>, you might want to believe it.</p>
+
+<p>Let’s go a little deeper into why JavaScript might be an OOP language.</p>
+
+<p>So, what makes any programming language Object Oriented? Well, there are various definitions on this but essentially, for any language to be Object Oriented language it has to support following important features at the least:</p>
+
+<p><em>1. Encapsulation - Object’s internal working is hidden from the rest of the application.</em></p>
+
+<p><em>2. Inheritance - Object can inherit properties and method from a parent object.</em></p>
+
+<p><em>3. Polymorphism - Object can having multiple forms.</em></p>
+
+<p>So, if we can prove that JavaScript supports all of the above features we can call it an Object Oriented Programming language. Let’s see each feature one by one in action using JavaScript.</p>
+
+<h3 id="encapsulation">Encapsulation.</h3>
+<p>Encapsulation simply means, private data of an Object should not be directly accessible to the outside world. There should be methods to get and to set the internal properties of that object.</p>
+
+<p>First, let’s see, what is NOT encapsulation?</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">Person</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(){</span>
+	<span class="k">return</span> <span class="p">{</span>
+		<span class="na">fullName</span><span class="p">:</span> <span class="s2">"John Doe"</span>
+	<span class="p">};</span>
+<span class="p">};</span>
+
+<span class="kd">var</span> <span class="nx">user</span> <span class="o">=</span> <span class="nx">Person</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">user</span><span class="p">.</span><span class="nx">fullName</span><span class="p">);</span> <span class="c1">// "John Doe"</span>
+<span class="nx">user</span><span class="p">.</span><span class="nx">fullName</span> <span class="o">=</span> <span class="s2">"Foo Joe"</span></code></pre></figure>
+
+<p>Although it is perfectly legal to write the above code, it is not a recommended way to write it that way due to various reasons like the security of the code, its lack of ability to validate the code, and much more.</p>
+
+<p>So, what is encapsulation?</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">Person</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(){</span>
+	<span class="kd">var</span> <span class="nx">fullName</span> <span class="o">=</span> <span class="s2">"John Doe"</span><span class="p">;</span>
+
+	<span class="k">return</span> <span class="p">{</span>
+		<span class="na">getName</span><span class="p">:</span> <span class="kd">function</span><span class="p">(){</span>
+			<span class="k">return</span> <span class="nx">fullName</span><span class="p">;</span>
+		<span class="p">},</span>
+		<span class="na">setName</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">name</span><span class="p">){</span>
+			<span class="nx">fullName</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+		<span class="p">}</span>
+	<span class="p">};</span>
+<span class="p">};</span>
+
+
+<span class="kd">var</span> <span class="nx">user</span> <span class="o">=</span> <span class="nx">Person</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">user</span><span class="p">.</span><span class="nx">getName</span><span class="p">());</span> <span class="c1">// "John Doe"</span>
+<span class="nx">user</span><span class="p">.</span><span class="nx">setName</span><span class="p">(</span><span class="s2">"Foo Joe"</span><span class="p">);</span></code></pre></figure>
+
+<p>The above code is encapsulated because the property “fullName” cannot be accessed from anywhere outside the “Person” function.</p>
+
+<p>Thus, by the definition of encapsulation we saw above, it is proved that JavaScript supports encapsulation.</p>
+
+<h3 id="inheritance">Inheritance.</h3>
+<p>This feature gives the ability to an object to inherit functionality and properties from parent objects.</p>
+
+<p>Developers coming from C++/Java background- please be advised that JavaScript supports prototypal inheritance and not the usual classical inheritance.</p>
+
+<p>I will cover what are prototypes and what is prototypal inheritance in future post. But, for now, it simply means that each object in JavaScript serves as a prototype which can be cloned to create another object having similar behavior as the original object in question.</p>
+
+<p>Now, let’s look at a very simple example demonstrating prototypal inheritance in JavaScript.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">animal</span> <span class="o">=</span> <span class="p">{</span> <span class="na">sleeps</span><span class="p">:</span> <span class="kc">true</span> <span class="p">};</span>
+
+<span class="kd">var</span> <span class="nx">tiger</span> <span class="o">=</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nx">animal</span><span class="p">);</span>
+<span class="nx">tiger</span><span class="p">.</span><span class="nx">eats</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">tiger</span><span class="p">.</span><span class="nx">sleeps</span><span class="p">);</span> <span class="c1">// true</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">tiger</span><span class="p">.</span><span class="nx">eats</span><span class="p">);</span> <span class="c1">// true</span></code></pre></figure>
+
+<p>In the above example, Object.create() is used to create a new object by specifying its prototype object. A “tiger” object was created using “animal” as its prototype. And due to prototypal inheritance, “tiger” object also got “sleeps” property from its parent “animal” object.</p>
+
+<p>Thus, by the definition of prototypal inheritance, it is proved that JavaScript supports inheritance.</p>
+
+<h3 id="polymorphism">Polymorphism.</h3>
+<p>JavaScript being a dynamic language by nature, it does not support all the classical types of polymorphism like function overloading or parametric based polymorphism. But, based on the kind of inheritance it exhibits, JavaScript supports subtype polymorphism which is very popular in even class-based languages like Java/C++.</p>
+
+<p>Continuing the same example we saw in inheritance, let’s see how polymorphism can be implemented in JavaScript.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">animal</span> <span class="o">=</span> <span class="p">{</span> 
+  <span class="na">sleeps</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+  <span class="na">getInfo</span><span class="p">:</span> <span class="kd">function</span><span class="p">(){</span>
+    <span class="k">return</span> <span class="s2">"I am animal"</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">};</span></code></pre></figure>
+
+<p>“animal” is a base object. Let’s inherit “lion” and “tiger” objects from “animal”.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">lion</span> <span class="o">=</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nx">animal</span><span class="p">);</span>
+
+<span class="kd">var</span> <span class="nx">tiger</span> <span class="o">=</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nx">animal</span><span class="p">);</span>
+<span class="nx">tiger</span><span class="p">.</span><span class="nx">getInfo</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
+  <span class="k">return</span> <span class="s2">"I am tiger"</span><span class="p">;</span>
+<span class="p">};</span></code></pre></figure>
+
+<p>We used Object.create() method to inherit “lion” and “tiger” objects from “animal”. Then for the “tiger” object we overrode the “getInfo” function to be more specific to that object. But, we did not do the same for the “lion” object.</p>
+
+<p>Now, let’s see what happens when “getInfo” function is called on both the objects.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">lion</span><span class="p">.</span><span class="nx">getInfo</span><span class="p">());</span> <span class="c1">// "I am animal"</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">tiger</span><span class="p">.</span><span class="nx">getInfo</span><span class="p">());</span> <span class="c1">// "I am tiger"</span></code></pre></figure>
+
+<p>As we did not override “getInfo” function for “lion” object it uses the “getInfo” function of its parent, that is, “animal” object. On the other hand, we wrote a specific “getInfo” function for the “tiger” object hence when the “getInfo” was executed on it, it executed the specific function to that object instead of the “getInfo” function of its parent Animal object.</p>
+
+<p>The “getInfo” function is resolved at runtime, and this is called late binding or dynamic Polymorphism.</p>
+
+<p>Thus, it is proved that JavaScript supports polymorphism.</p>
+
+<h3 id="summary">Summary:</h3>
+<p>Based on above examples, we can definitely say that, although different from class-based languages,
+ JavaScript is also an Object Oriented Programming language.</p>
+
+<h4 id="further-resources-we-recommend">Further Resources We Recommend</h4>
+
+<ul>
+  <li><a href="https://amzn.to/2uSZayI">You Don’t Know JS: Up &amp; Going</a></li>
+  <li><a href="https://amzn.to/3cAwBHk">You Don`t Know JS (ES6 &amp; Beyond)</a></li>
+</ul>
+
+            </div>
+
+            <br />
+            <!-- <a
+              href="/resources"
+              title="Our Recommended Resources"
+              class="banner-container button-box"
+            >
+              Our Recommended Resources
+            </a> -->
+
+            <a
+              href="https://gumroad.com/l/html2react/blog"
+              title="Our Courses"
+              target="_blank"
+              class="banner-container button-box"
+            >
+              HTML To React: The Ultimate Guide
+            </a>
+
+            <br />
+            <footer class="recommended reveal">
+  <h3>You might also like</h3>
+  <p>
+    If you have enjoyed learning from this article, below is a list of some
+    recommended articles for you-
+  </p>
+  <ul>
+       
+    <li>
+      <a href="/posts/javascript-tricks" title="5 JavaScript tricks every developer should know"
+        >5 JavaScript tricks every developer should know</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/reactjs-beginners-guide-setup-project" title="A comprehensive beginner's guide to set up ReactJS"
+        >A comprehensive beginner's guide to set up ReactJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angular2-form-validation" title="Angular 2 Form Validation: How to fire form validation on blur?"
+        >Angular 2 Form Validation: How to fire form validation on blur?</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angularjs-directive-life-cycle" title="What is Directive's life-cycle in AngularJS"
+        >What is Directive's life-cycle in AngularJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/curated-list-of-awesome-things-in-tech-world-4" title="Curated list of awesome things in the tech world #4"
+        >Curated list of awesome things in the tech world #4</a
+      >
+    </li>
+    
+  </ul>
+</footer>
+
+
+            <br />
+            <div class="article-share">
+              
+              <a
+                href=""
+                title="Share on Twitter"
+                onclick="window.open('https://twitter.com/home?status=Is JavaScript really an Object Oriented Language? - https://ngninja.com//posts/javascript-is-object-oriented by @sleeplessyogi', 'newwindow', 'width=500, height=225'); return false;"
+              >
+                <span class="icon icon-social-twitter"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Facebook"
+                onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://ngninja.com//posts/javascript-is-object-oriented', 'newwindow', 'width=500, height=500'); return false;"
+              >
+                <span class="icon icon-social-facebook"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Google+"
+                onclick="window.open('https://plus.google.com/share?url=https://ngninja.com//posts/javascript-is-object-oriented', 'newwindow', 'width=550, height=400'); return false;"
+              >
+                <span class="icon icon-social-googleplus"></span>
+              </a>
+            </div>
+
+            
+
+            <!--<div id="disqus_thread">-->
+            <!--Comments-->
+            <!--</div>-->
+            <!--<script>-->
+
+            <!--/**-->
+            <!--*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.-->
+            <!--*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/-->
+            <!--/*-->
+            <!--var disqus_config = function () {-->
+            <!--this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable-->
+            <!--this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable-->
+            <!--};-->
+            <!--*/-->
+            <!--(function() { // DON'T EDIT BELOW THIS LINE-->
+            <!--var d = document, s = d.createElement('script');-->
+            <!--s.src = '//ng-ninja.disqus.com/embed.js';-->
+            <!--s.setAttribute('data-timestamp', +new Date());-->
+            <!--(d.head || d.body).appendChild(s);-->
+            <!--})();-->
+            <!--</script>-->
+            <!--<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
+
+            <div id="disqus_thread" class="article-comments"></div>
+            <script>
+              (function () {
+                // TODO: site.discus_identifier variable is not working
+
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "//ng-ninja.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript
+              >Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+              ></noscript
+            >
+            
+          </article>
+          <footer class="footer reveal">
+  <style>
+  .gumroad-follow-form-embed {
+    zoom: 1;
+  }
+  .gumroad-follow-form-embed:before,
+  .gumroad-follow-form-embed:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .gumroad-follow-form-embed:after {
+    clear: both;
+  }
+  .gumroad-follow-form-embed * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box !important;
+    float: left !important;
+  }
+  .gumroad-follow-form-embed input {
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-right: 0;
+    color: #aaa;
+    padding: 10px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02);
+    background-position: top right;
+    background-repeat: no-repeat;
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    -webkit-appearance: none;
+    -moz-appearance: caret;
+    width: 65% !important;
+    height: 40px !important;
+  }
+  .gumroad-follow-form-embed button {
+    /* border-radius: 4px; */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.05s ease-in-out;
+    transition: all 0.05s ease-in-out;
+    display: inline-block;
+    padding: 11px 15px 12px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    line-height: 100%;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    /* background: #0088ff; */
+    /* border: 1px solid #007ae6; */
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#26aeff, endColorstr=#007eec, GradientType=0)";
+    background: -webkit-linear-gradient(#26aeff, #007eec);
+    background: linear-gradient(to bottom, #26aeff, #007eec);
+    height: 40px !important;
+    width: 35% !important;
+
+    background-color: #21d4fd;
+    background-image: linear-gradient(135deg, #ce9ffc 10%, #3449ed 100%);
+    border-radius: unset;
+  }
+  .subscribe h2 {
+    margin-bottom: 16px;
+  }
+  .subscribe form {
+    margin-bottom: 32px;
+  }
+</style>
+<div class="subscribe">
+  <h2>Get weekly tutorial and newsletter in your inbox</h2>
+  <form
+    action="https://gumroad.com/follow_from_embed_form"
+    class="form gumroad-follow-form-embed"
+    method="post"
+  >
+    <input name="seller_id" type="hidden" value="1636741848551" />
+    <input name="email" placeholder="Your email address" type="email" />
+    <button data-custom-highlight-color="" type="submit">Subscribe</button>
+  </form>
+</div>
+
+  <p>
+    Know more about
+    <a href="/about" title="About me">Ninja Academy</a>
+  </p>
+  <i class="small">
+    <!-- <p> -->
+    Copyright @ 2021, Ninja Academy
+    <!-- </p> -->
+  </i>
+</footer>
+
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ["Cormorant Garamond:700", "Lato:300,400,700"]
+    }
+  });
+</script>
+
+
+<script>
+  window.ga = function() {
+    ga.q.push(arguments);
+  };
+  ga.q = [];
+  ga.l = +new Date();
+  ga("create", "UA-88588900-1", "auto");
+  ga("send", "pageview");
+</script>
+<script
+  src="https://www.google-analytics.com/analytics.js"
+  async
+  defer
+></script>
+
+
+<!-- Script pointing to jekyll-search.js -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<!-- <script
+  src="/assets/jekyll-search.js"
+  type="text/javascript"
+></script> -->
+<script type="text/javascript">
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("search-input"),
+    resultsContainer: document.getElementById("results-container"),
+    json: "https://ngninja.com//search.json",
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: "No results found",
+    limit: 10,
+    fuzzy: false,
+    exclude: ["Welcome"]
+  });
+</script>
+
+<script
+  data-ad-client="ca-pub-2179620018216283"
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+
+<script src="/assets/vendor-130c9c254effc51f3283620bc635851da7b99c20901216948f11ba72ee13317f.js" type="text/javascript"></script>  <script src="/assets/webfonts-8bd3408c53105d96a2f15ba1826509bf47de69c11e972ff3f164c42ecf4486d0.js" type="text/javascript"></script>   <script src="/assets/application-f9055599a910cf93e1b48423b9add89facdf648bad7991415831774961a8aa02.js" type="text/javascript"></script> 
+
+  </body>
+</html>

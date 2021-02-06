@@ -1,4 +1,0 @@
----
-slug: listicles
-name: Listicles
----

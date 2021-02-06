@@ -1,13 +1,563 @@
----
----
 [
-  {% for post in site.posts %}
+  
     {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+      "title"    : "Make Money Online - FREE Training",
+      "category" : "",
+      "tags"     : "reactjs, javascript, web, listicles",
+      "url"      : "/posts/make-money-online-resources",
+      "date"     : "2020-10-24 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Learn Web Development - FREE Training",
+      "category" : "",
+      "tags"     : "reactjs, javascript, web, listicles",
+      "url"      : "/posts/learn-web-development",
+      "date"     : "2020-10-23 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Job Interview Question: How do you prioritize Money, Location, Family, Technology, Brand?",
+      "category" : "",
+      "tags"     : "interview-questions, the-how-series",
+      "url"      : "/posts/job-interview-life-priorities",
+      "date"     : "2020-09-12 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "LeetCode Problem 80. Remove Duplicates from Sorted Array II",
+      "category" : "",
+      "tags"     : "algorithms, leetcode, programming, problem-solving",
+      "url"      : "/posts/leetcode-problem-80-remove-duplicate-sorted-array-ii",
+      "date"     : "2020-09-09 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "LeetCode Problem 26. Remove Duplicates from Sorted Array",
+      "category" : "",
+      "tags"     : "algorithms, leetcode, programming, problem-solving",
+      "url"      : "/posts/leetcode-problem-26-remove-duplicate-sorted-array",
+      "date"     : "2020-09-09 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "FREE Project Ideas",
+      "category" : "",
+      "tags"     : "web, programming, programming-challenge, listicles",
+      "url"      : "/posts/free-project-ideas",
+      "date"     : "2020-09-05 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "LeetCode Problem 35. Search Insert Position",
+      "category" : "",
+      "tags"     : "algorithms, leetcode, programming, problem-solving",
+      "url"      : "/posts/leetcode-problem-35-search-insert-position",
+      "date"     : "2020-07-14 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "LeetCode Problem 7. Reverse Integer",
+      "category" : "",
+      "tags"     : "algorithms, leetcode, programming, problem-solving",
+      "url"      : "/posts/leetcode-problem-7-reverse-integer",
+      "date"     : "2020-07-09 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "7 HTML Tips and Tricks",
+      "category" : "",
+      "tags"     : "programming, html, productivity",
+      "url"      : "/posts/html-tips-and-tricks",
+      "date"     : "2020-06-18 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "How To Build Responsive Web Apps",
+      "category" : "",
+      "tags"     : "programming, html, the-how-series",
+      "url"      : "/posts/how-to-make-responsive-webapps",
+      "date"     : "2020-06-14 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Ask NgNinja #2 - Choosing programming language + Starting Instagram page related to tech",
+      "category" : "",
+      "tags"     : "ask-ngninja, programming, passive-income",
+      "url"      : "/posts/ask-ngninja-2",
+      "date"     : "2020-06-11 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Ask NgNinja #1 - Learn vanilla JavaScript as backend developer + Earn extra cash as a student",
+      "category" : "",
+      "tags"     : "ask-ngninja, programming",
+      "url"      : "/posts/ask-ngninja-1",
+      "date"     : "2020-05-11 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "How to improve web performance by using Preload, Preconnect, Prefetch",
+      "category" : "",
+      "tags"     : "programming, the-how-series, web, web-performance",
+      "url"      : "/posts/improve-web-performance-preload-prefetch-preconnect",
+      "date"     : "2020-05-07 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Must Have Best VSCode Extensions To Increase Your Productivity",
+      "category" : "",
+      "tags"     : "programming, vscode, listicles, web",
+      "url"      : "/posts/vscode-must-have-extensions",
+      "date"     : "2020-03-10 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Most Frequently Asked JavaScript Interview Questions",
+      "category" : "",
+      "tags"     : "javascript, listicles",
+      "url"      : "/posts/frequently-asked-javascript-interview-questions",
+      "date"     : "2020-03-03 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "8 Important Evaluation Metrics in Machine Learning",
+      "category" : "",
+      "tags"     : "machine-learning, listicles",
+      "url"      : "/posts/important-evaluation-metrics-for-machine-learning",
+      "date"     : "2020-02-24 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "React Crash Course - Learn React JS in 5 Minutes",
+      "category" : "",
+      "tags"     : "reactjs, the-how-series",
+      "url"      : "/posts/react-crash-course",
+      "date"     : "2020-02-06 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "How To Become A Millionaire By Drinking Coffee Every Day",
+      "category" : "",
+      "tags"     : "personal-finance, acorns, frugality",
+      "url"      : "/posts/become-millionaire-drinking-coffee",
+      "date"     : "2020-02-03 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "How To Save For A House - A Step By Step Plan",
+      "category" : "",
+      "tags"     : "home-buying, personal-finance, saving, frugality",
+      "url"      : "/posts/how-to-save-money-for-home",
+      "date"     : "2020-01-27 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "Best Of Quora Questions",
+      "category" : "",
+      "tags"     : "quora, listicles, curated-list",
+      "url"      : "/posts/best-of-quora",
+      "date"     : "2020-01-21 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "How To Get TikTok Famous",
+      "category" : "",
+      "tags"     : "tiktok, the-how-series, passive-income",
+      "url"      : "/posts/how-to-get-tiktok-famous",
+      "date"     : "2020-01-17 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "My Journey Of Creating The Passive Income Empire",
+      "category" : "",
+      "tags"     : "personal-finance, passive-income",
+      "url"      : "/posts/passive-income-my-journey",
+      "date"     : "2020-01-13 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "How much I spend per month as a Tech Entrepreneur",
+      "category" : "",
+      "tags"     : "personal-finance, frugality",
+      "url"      : "/posts/how-much-i-spend-per-month",
+      "date"     : "2019-11-01 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "How To Instantly Improve Your English?",
+      "category" : "",
+      "tags"     : "life-hack, productivity",
+      "url"      : "/posts/best-way-to-improve-english",
+      "date"     : "2019-10-17 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "6 Apps to conquer your day like a boss",
+      "category" : "",
+      "tags"     : "productivity, curated-list, listicles",
+      "url"      : "/posts/productivity-apps",
+      "date"     : "2019-10-14 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "How to make passive income? More importantly - WHY?",
+      "category" : "",
+      "tags"     : "personal-finance, passive-income",
+      "url"      : "/posts/how-to-make-passive-income",
+      "date"     : "2019-10-09 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "6 Money Mistakes To Avoid At Any Cost",
+      "category" : "",
+      "tags"     : "personal-finance",
+      "url"      : "/posts/6-money-mistakes-to-avoid",
+      "date"     : "2019-05-03 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "M1 Finance Review 2021 | Top ZERO FEE Investing Platform - [UPDATED]",
+      "category" : "",
+      "tags"     : "personal-finance, m1-finance",
+      "url"      : "/posts/m1-finance-review-2019",
+      "date"     : "2019-04-25 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "How To Build Wealth Even If Your Pockets Are Empty?",
+      "category" : "",
+      "tags"     : "personal-finance, passive-income",
+      "url"      : "/posts/build-wealth-with-no-money",
+      "date"     : "2019-04-21 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Acorns Review 2021 | Is it really for you? - [UPDATED]",
+      "category" : "",
+      "tags"     : "personal-finance, acorns",
+      "url"      : "/posts/acorns-review-2019",
+      "date"     : "2019-04-16 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "HTTP2 tutorial - Pros, Cons and other most frequently asked questions.",
+      "category" : "",
+      "tags"     : "web, http2, the-what-series",
+      "url"      : "/posts/http2-tutorial-benefits",
+      "date"     : "2017-11-17 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "AngularJS: How to customize Kendo multi-select dropdown widget?",
+      "category" : "",
+      "tags"     : "angularjs, kendo, the-how-series",
+      "url"      : "/posts/kendo-multi-select-widget",
+      "date"     : "2017-11-06 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "Super powerful JavaScript tips &amp; tricks - Part 2",
+      "category" : "",
+      "tags"     : "javascript, listicles",
+      "url"      : "/posts/javascript-tips-tricks-part-2",
+      "date"     : "2017-10-30 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "How SSL certificate works? In plain english.",
+      "category" : "",
+      "tags"     : "web, security, the-what-series",
+      "url"      : "/posts/how-secure-socket-layer-works",
+      "date"     : "2017-10-26 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "How to use Angular 2 built-in Pipes in your TypeScript? Simple Trick.",
+      "category" : "",
+      "tags"     : "angularjs, angular2, the-how-series",
+      "url"      : "/posts/angular2-builtin-pipes-in-typescript",
+      "date"     : "2017-10-11 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Prototypal vs Classical inheritance -  which one better?",
+      "category" : "",
+      "tags"     : "javascript, interview",
+      "url"      : "/posts/prototypal-vs-classical-inheritance",
+      "date"     : "2017-10-04 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "AngularJS: How to focus any input control you want?",
+      "category" : "",
+      "tags"     : "angularjs, the-how-series",
+      "url"      : "/posts/angularjs-focus-input-directive",
+      "date"     : "2017-09-28 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "JavaScript Quiz: How well do you know JavaScript?",
+      "category" : "",
+      "tags"     : "javascript, listicles",
+      "url"      : "/posts/javascript-quiz",
+      "date"     : "2017-09-22 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "AngularJS: When to use $http vs $resource?",
+      "category" : "",
+      "tags"     : "angularjs, the-what-series",
+      "url"      : "/posts/angularjs-http-vs-resource",
+      "date"     : "2017-09-18 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Tech stack of some really cool Startups",
+      "category" : "",
+      "tags"     : "tech, listicles",
+      "url"      : "/posts/startups-tech-stack",
+      "date"     : "2017-09-11 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "How to create Gmail like multi-select checkbox dropdown in AngularJS?",
+      "category" : "",
+      "tags"     : "angularjs, the-how-series",
+      "url"      : "/posts/angular-gmail-multi-select-control",
+      "date"     : "2017-09-05 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Angular 2 Authentication: How to Restrict Access to Pages?",
+      "category" : "",
+      "tags"     : "angularjs, angular2, the-how-series",
+      "url"      : "/posts/angular2-authguard",
+      "date"     : "2017-08-28 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "5 Practices to write a secure JavaScript web application",
+      "category" : "",
+      "tags"     : "javascript, the-how-series, security",
+      "url"      : "/posts/secure-coding-javascript",
+      "date"     : "2017-08-16 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "AngularJS: Service vs Factory vs Providers made super simple",
+      "category" : "",
+      "tags"     : "angularjs, design-patterns, the-what-series",
+      "url"      : "/posts/angularjs-service-factory-provider",
+      "date"     : "2017-08-10 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Which famous companies are using your favorite technologies?",
+      "category" : "",
+      "tags"     : "tech, listicles",
+      "url"      : "/posts/famous-companies-tech-stack",
+      "date"     : "2017-06-26 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "5 JavaScript tricks every developer should know",
+      "category" : "",
+      "tags"     : "javascript, listicles",
+      "url"      : "/posts/javascript-tricks",
+      "date"     : "2017-06-06 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "A comprehensive beginner&#39;s guide to set up ReactJS",
+      "category" : "",
+      "tags"     : "reactjs, the-how-series",
+      "url"      : "/posts/reactjs-beginners-guide-setup-project",
+      "date"     : "2017-04-05 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Angular 2 Form Validation: How to fire form validation on blur?",
+      "category" : "",
+      "tags"     : "angularjs, angular2, the-how-series",
+      "url"      : "/posts/angular2-form-validation",
+      "date"     : "2017-03-28 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "What is Directive&#39;s life-cycle in AngularJS",
+      "category" : "",
+      "tags"     : "angularjs, the-what-series",
+      "url"      : "/posts/angularjs-directive-life-cycle",
+      "date"     : "2017-03-20 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Curated list of awesome things in the tech world #4",
+      "category" : "",
+      "tags"     : "curated-list, tech",
+      "url"      : "/posts/curated-list-of-awesome-things-in-tech-world-4",
+      "date"     : "2017-03-17 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Quickstart: Steps to setup a simple Angular 2 app",
+      "category" : "",
+      "tags"     : "angularjs, angular2, the-how-series",
+      "url"      : "/posts/setup-simple-angular2-project-3",
+      "date"     : "2017-03-16 00:00:00 -0700"
+    } ,
+  
+    {
+      "title"    : "Curated list of awesome things in the tech world #3",
+      "category" : "",
+      "tags"     : "curated-list, tech",
+      "url"      : "/posts/curated-list-of-awesome-things-in-tech-world-3",
+      "date"     : "2017-03-10 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "OOP - Abstraction explained with a Chinese restaurant analogy",
+      "category" : "",
+      "tags"     : "interview-questions, object-oriented-programming, the-what-series",
+      "url"      : "/posts/what-is-abstraction",
+      "date"     : "2017-03-09 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "Curated list of awesome things in the tech world #2",
+      "category" : "",
+      "tags"     : "curated-list, tech",
+      "url"      : "/posts/curated-list-of-awesome-things-in-tech-world-2",
+      "date"     : "2017-02-14 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "How to $watch controller variables in AngularJS?",
+      "category" : "",
+      "tags"     : "angularjs, the-how-series",
+      "url"      : "/posts/watch-controller-properties-in-angularjs",
+      "date"     : "2017-02-05 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "Curated list of awesome things around the world - 1",
+      "category" : "",
+      "tags"     : "curated-list, tech",
+      "url"      : "/posts/curated-list-of-awesome-things-1",
+      "date"     : "2017-02-03 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "3 Advanced lodash functions you should have up your sleeve",
+      "category" : "",
+      "tags"     : "javascript, lodash, listicles",
+      "url"      : "/posts/advanced-lodash-functions-javascript",
+      "date"     : "2017-01-24 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "5 Common mistakes JavaScript developers make",
+      "category" : "",
+      "tags"     : "javascript, listicles",
+      "url"      : "/posts/mistakes-by-javascript-developers",
+      "date"     : "2017-01-19 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "Prototypal inheritance in JavaScript super simplified!",
+      "category" : "",
+      "tags"     : "javascript, the-what-series",
+      "url"      : "/posts/prototypal-inheritance-in-javascript",
+      "date"     : "2017-01-14 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "What happens when you enter URL and hit enter in browser?",
+      "category" : "",
+      "tags"     : "web, the-what-series, interview-questions",
+      "url"      : "/posts/steps-after-you-type-url-in-browser",
+      "date"     : "2017-01-09 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "Everything you should know about $formatters and $parsers",
+      "category" : "",
+      "tags"     : "angularjs, the-how-series, hands-on-training",
+      "url"      : "/posts/parsers-and-formatters-angular",
+      "date"     : "2017-01-06 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "5 New year Programming Challenges - Year 2017",
+      "category" : "",
+      "tags"     : "listicles, programming-challenges",
+      "url"      : "/posts/new-year-programming-challenge",
+      "date"     : "2016-12-30 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "Steps on how to setup a simple AngularJS app?",
+      "category" : "",
+      "tags"     : "angularjs, the-how-series",
+      "url"      : "/posts/setup-simple-angularjs-project",
+      "date"     : "2016-12-29 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "2 JavaScript Design Patterns that every developer should know",
+      "category" : "",
+      "tags"     : "javascript, design-patterns, listicles",
+      "url"      : "/posts/javascript-design-patterns-you-should-know",
+      "date"     : "2016-12-24 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "Is JavaScript really an Object Oriented Language?",
+      "category" : "",
+      "tags"     : "javascript, object-oriented-programming",
+      "url"      : "/posts/javascript-is-object-oriented",
+      "date"     : "2016-12-21 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "Super simplified explanation of &#39;this&#39; keyword in JavaScript",
+      "category" : "",
+      "tags"     : "javascript, the-what-series",
+      "url"      : "/posts/what-is-this-in-javascript",
+      "date"     : "2016-12-18 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "5 Very powerful Lodash functions you should know",
+      "category" : "",
+      "tags"     : "javascript, lodash, listicles",
+      "url"      : "/posts/powerful-lodash-functions-javascript",
+      "date"     : "2016-12-15 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "Why should you use AngularJS?",
+      "category" : "",
+      "tags"     : "angularjs, the-what-series",
+      "url"      : "/posts/why-should-you-use-angularjs",
+      "date"     : "2016-12-10 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "JavaScript closures made super easy",
+      "category" : "",
+      "tags"     : "javascript, the-what-series",
+      "url"      : "/posts/javascript-closures-made-super-easy",
+      "date"     : "2016-12-07 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "What is JavaScript?",
+      "category" : "",
+      "tags"     : "javascript, the-what-series",
+      "url"      : "/posts/what-is-javascript",
+      "date"     : "2016-12-03 00:00:00 -0800"
+    } 
+  
 ]

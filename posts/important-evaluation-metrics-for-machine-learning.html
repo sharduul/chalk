@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Ninja Academy | 8 Important Evaluation Metrics in Machine Learning</title>
+  <meta name="description" content="This article gives you an introduction to the most important metrics to evaluate your machine learning algorithms. Evaluation metrics are used to measure the quality of the statistical or machine learning model." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:title" content="8 Important Evaluation Metrics in Machine Learning" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ngninja.com//posts/important-evaluation-metrics-for-machine-learning" />
+  <meta property="og:description" content="This article gives you an introduction to the most important metrics to evaluate your machine learning algorithms. Evaluation metrics are used to measure the quality of the statistical or machine learning model." />
+  <meta property="og:site_name" content="Ninja Academy" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://ngninja.com//posts/important-evaluation-metrics-for-machine-learning" />
+  <meta name="twitter:title" content="8 Important Evaluation Metrics in Machine Learning" />
+  <meta name="twitter:description" content="This article gives you an introduction to the most important metrics to evaluate your machine learning algorithms. Evaluation metrics are used to measure the quality of the statistical or machine learning model." />
+
+  
+  <meta
+    property="og:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  <meta
+    name="twitter:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  
+
+  <link
+    href="https://ngninja.com//feed.xml"
+    type="application/rss+xml"
+    rel="alternate"
+    title="Ninja Academy Last 10 blog posts"
+  />
+
+    
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="/assets/favicon-dark-209194b9ff10035bbcfba5f7425921015d49314ba7c6e6e41d2cb85e9b9bbb2a.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png"
+  />
+  <link rel="stylesheet" type="text/css" href="/assets/light-6ff58e5b26e9f5b7f2aa12b86a834d74c87d22e89335a1efcb79606403cc8481.css">  
+</head>
+
+  <body>
+    <main role="main">
+      <div class="grid grid-centered">
+        <div class="grid-cell">
+          <nav class="header-nav reveal">
+  <a href="/" class="header-logo" title="Ninja Academy"
+    ><img
+      src="/assets/logo-0a85d68f5106feb94b40117f598fec1ea476834afe17746b026cd1b441b7a9ad.png"
+      alt="HTML tutorial"
+      style="height: 60px;"
+  /></a>
+
+  <ul class="header-links">
+    
+    <li>
+      <a
+        href="https://twitter.com/sleeplessyogi"
+        target="_blank"
+        title="Twitter"
+      >
+        <span class="icon icon-social-twitter"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.facebook.com/ngrealninja"
+        target="_blank"
+        title="Facebook"
+      >
+        <span class="icon icon-social-facebook"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.instagram.com/sleeplessyogi"
+        target="_blank"
+        title="Instagram"
+      >
+        <span class="icon icon-social-instagram"></span>
+      </a>
+    </li>
+         
+    <li>
+      <a href="mailto:sleeplessyogi@gmail.com" target="_blank" title="Email">
+        <span class="icon icon-at"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a href="/feed.xml" target="_blank" title="RSS">
+        <span class="icon icon-social-rss"></span>
+      </a>
+    </li>
+    
+  </ul>
+</nav>
+
+          <div>
+            <div class="subnav" id="mysubnav">
+  <a href="/tag/the-how-series" target="_self" title="How To Programming">
+    Programming
+  </a>
+  <a href="/tag/personal-finance" target="_self" title="Passive Income">
+    Passive Income
+  </a>
+  <a href="/resources" target="_self" title="Resources">
+    Resources
+  </a>
+  <!-- <a
+    href="https://mx84n.weblium.site/"
+    title="Make $200K"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Make $200K
+  </a> -->
+  <a
+    href="https://gumroad.com/l/html2react/blog"
+    title="Our Courses"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Courses
+  </a>
+  <a href="javascript:void(0);" class="icon-container" onclick="toggleMenu()">
+    <span class="icon icon-android-menu"></span>
+  </a>
+</div>
+
+<script>
+  function toggleMenu() {
+    var x = document.getElementById("mysubnav");
+    if (x.className === "subnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "subnav";
+    }
+  }
+</script>
+
+          </div>
+          <article class="article reveal">
+            <header class="article-header">
+              <h1>8 Important Evaluation Metrics in Machine Learning</h1>
+              <p>This article gives you an introduction to the most important metrics to evaluate your machine learning algorithms. Evaluation metrics are used to measure the quality of the statistical or machine learning model.</p>
+              <div class="article-list-footer">
+                <span class="article-list-date">
+                  February 24, 2020
+                </span>
+                <span class="article-list-divider">-</span>
+                <span class="article-list-minutes">
+                    5 minute read 
+                </span>
+                <span class="article-list-divider">-</span>
+                <div class="article-list-tags">
+                  
+                  <a href="/tag/machine-learning">machine-learning</a>
+                  
+                  <a href="/tag/listicles">listicles</a>
+                  
+                </div>
+              </div>
+            </header>
+            <script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<!-- hz-post-top -->
+<ins
+  class="adsbygoogle"
+  style="display:inline-block;width:100%;height:90px"
+  data-ad-client="ca-pub-2179620018216283"
+  data-ad-slot="1244135380"
+></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            <div class="article-content">
+              <p><a href="/assets/posts/python-2bbd418d58fd9c217cdba3d3b0f08b561394dc5424f16880f4bf88589adc902d.jpg">
+  <img src="/assets/posts/python-2bbd418d58fd9c217cdba3d3b0f08b561394dc5424f16880f4bf88589adc902d.jpg" alt="Evaluation Metrics for Machine Learning" class="zooming" data-rjs="/assets/posts/python-2bbd418d58fd9c217cdba3d3b0f08b561394dc5424f16880f4bf88589adc902d.jpg" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p>There are different kinds of metrics to evaluate machine learning models. Evaluation metrics are used to measure the quality of the statistical or machine learning model. Let’s dive into the topic to learn about the most important metrics to evaluate your machine learning algorithm.</p>
+
+<h2 id="confusion-matrix">Confusion Matrix</h2>
+
+<p>A confusion matrix is one of the important concepts in the field of machine
+learning, and so important when it comes to statistical classification problems.
+A confusion matrix is also known as <strong>ERROR MATRIX</strong>.</p>
+
+<p>A confusion matrix is usually used to describe the <em>performance</em> of a
+classification model based on the true values known for a data set.</p>
+
+<p>In simple words, it is a summary of the prediction result made by the
+classification model.</p>
+
+<p>This is a simple table to denote scores give to the predicted values.</p>
+
+<p><strong>1 0</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>True Positive</th>
+      <th>True Negative</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>False Negative</td>
+      <td>False Positive</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<blockquote>
+  <p>The confusion matrix in itself is not a performance measure but all the
+performance metrics are dependent on the confusion matrix.</p>
+</blockquote>
+
+<h3 id="terms-associated-with-confusion-matrix">Terms Associated with Confusion Matrix</h3>
+
+<ol>
+  <li>
+    <p><strong>True Positive (TP):</strong> True positive means their actual class value is 1
+and the predicted class value is also 1.</p>
+
+    <p>Ex: The case where the women are actually pregnant and the model also
+classifies that she is pregnant.</p>
+  </li>
+  <li>
+    <p><strong>False Positive (FP):</strong> False-positive means their actual class value is 0
+and the predicted class value is also 1.</p>
+
+    <p>Ex: The case where the women are not pregnant and the model classifies that
+she is pregnant.</p>
+  </li>
+  <li>
+    <p><strong>True Negative (TN):</strong> True negative means their actual class value is 0
+and the predicted class value is also 0.</p>
+
+    <p>Ex: The case where the women are actually not pregnant and the model also
+classifies that she is not pregnant.</p>
+  </li>
+  <li>
+    <p><strong>False Negative (FN):</strong> False-negative means their actual class value is 1
+and the predicted class value is also 0.</p>
+
+    <p>Ex: The case where the women are actually pregnant and the model also
+classifies that she is not pregnant.</p>
+  </li>
+</ol>
+
+<h2 id="classification-accuracy">Classification Accuracy</h2>
+
+<p>Classification accuracy is the most common and simplest metrics that anyone can
+easily understand. It is defined as the number of correct predictions made to
+be the developed model.</p>
+
+<p>It can be easily calculated with the help of a confusion matrix.</p>
+
+<blockquote>
+  <p>In simple terms, accuracy means the ratio of several correct predictions to
+the total number of predictions.</p>
+</blockquote>
+
+<p><a href="/assets/posts/specific/evaluation-metrics-machine-learning/952f631f3d9e2d5c41cc71ae668d147f-c0c52c5edb544e55ba1ff9f21dee8fc99f81c6151ada14298370d53648e35d42.png">
+  <img src="/assets/posts/specific/evaluation-metrics-machine-learning/952f631f3d9e2d5c41cc71ae668d147f-c0c52c5edb544e55ba1ff9f21dee8fc99f81c6151ada14298370d53648e35d42.png" alt="AngularJS multi-select component" class="zooming" data-rjs="/assets/posts/specific/evaluation-metrics-machine-learning/952f631f3d9e2d5c41cc71ae668d147f-c0c52c5edb544e55ba1ff9f21dee8fc99f81c6151ada14298370d53648e35d42.png" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p><br /></p>
+
+<h2 id="precision">Precision</h2>
+
+<p>Sometimes your classification model may classify based on the most frequent
+classes. There will also be low accuracy in your classification model since your
+model doesn’t learn anything and just classify based on the top class.</p>
+
+<p>Therefore, we need a class-specific performance metrics to analyze. Precision is
+one of them.</p>
+
+<blockquote>
+  <p>Precision can be defined as the division of the total number of correctly
+classified positive examples by the total number of predicted positive
+examples.</p>
+</blockquote>
+
+<p><a href="/assets/posts/specific/evaluation-metrics-machine-learning/760735bd38ab835065a0d220d08bd941-1d20ff0b5aa2bd66c48b5b573e8f40b5767a6ca967d89172f8e22f509a3a2404.png">
+  <img src="/assets/posts/specific/evaluation-metrics-machine-learning/760735bd38ab835065a0d220d08bd941-1d20ff0b5aa2bd66c48b5b573e8f40b5767a6ca967d89172f8e22f509a3a2404.png" alt="AngularJS multi-select component" class="zooming" data-rjs="/assets/posts/specific/evaluation-metrics-machine-learning/760735bd38ab835065a0d220d08bd941-1d20ff0b5aa2bd66c48b5b573e8f40b5767a6ca967d89172f8e22f509a3a2404.png" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p><br /></p>
+
+<h2 id="recall">Recall</h2>
+
+<p>A recall is also known as sensitivity. In simple words recall refers to the
+percentage of total relevant results correctly classified by the classification
+model.</p>
+
+<blockquote>
+  <p>Recall is defined as the number of positive samples returned by the custom
+trained model.</p>
+</blockquote>
+
+<p><a href="/assets/posts/specific/evaluation-metrics-machine-learning/3296948e14ff940a339d6061596cd049-dc19dd5710a90d33fd935422e4e87765c1898e18505d4e986ed309a03481dbfb.png">
+  <img src="/assets/posts/specific/evaluation-metrics-machine-learning/3296948e14ff940a339d6061596cd049-dc19dd5710a90d33fd935422e4e87765c1898e18505d4e986ed309a03481dbfb.png" alt="AngularJS multi-select component" class="zooming" data-rjs="/assets/posts/specific/evaluation-metrics-machine-learning/3296948e14ff940a339d6061596cd049-dc19dd5710a90d33fd935422e4e87765c1898e18505d4e986ed309a03481dbfb.png" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p><br /></p>
+
+<h3 id="the-relation-between-recall-and-precision">The relation between recall and precision</h3>
+
+<p><strong>High recall, low precision:</strong> This means that most of the positive examples
+are correctly recognized but there are a lot of false positives.</p>
+
+<p><strong>Low recall, high precision:</strong> This means that we miss a lot of positive
+examples but those we predict as positive are indeed positive.</p>
+
+<h2 id="f1-score">F1 Score</h2>
+
+<p>Based on the classification model we train the priority is given either to
+recall or precision, but in some classification models, we need both of these
+metrics to be combined as a single one. F1-Score is a metric that combines both
+precision and recall.</p>
+
+<blockquote>
+  <p>F1-Score can be defined as the harmonic mean of precision and recall. In
+simple terms, it’s a mathematical average of precision and recall.</p>
+</blockquote>
+
+<p>F1-Score has an equal and relative contribution of both precision and recall.</p>
+
+<p><a href="/assets/posts/specific/evaluation-metrics-machine-learning/86b61e08923d5497a7b830b27827fd5a-4b9cb0f7592f9d5f7f80457f37029207ee2758ff4bb67d9bff08a145af267116.png">
+  <img src="/assets/posts/specific/evaluation-metrics-machine-learning/86b61e08923d5497a7b830b27827fd5a-4b9cb0f7592f9d5f7f80457f37029207ee2758ff4bb67d9bff08a145af267116.png" alt="AngularJS multi-select component" class="zooming" data-rjs="/assets/posts/specific/evaluation-metrics-machine-learning/86b61e08923d5497a7b830b27827fd5a-4b9cb0f7592f9d5f7f80457f37029207ee2758ff4bb67d9bff08a145af267116.png" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p><br /></p>
+
+<h2 id="mean-absolute-error">Mean Absolute Error</h2>
+
+<p>Absolute error is the total amount of error in any type of measurement made.
+This is the same for machine learning models too. In many situations, the
+predicted values may be wrong and the errors must be calculated accurately and
+more precisely to increase the accuracy of the model.</p>
+
+<p><em>Absolute error is also called Absolute Accuracy Error.</em></p>
+
+<p><a href="/assets/posts/specific/evaluation-metrics-machine-learning/3b4c59aab7f14f7ced3a097bdfda0734-72dfba39755163e7b78fb3a521e66319d859cc7b8e013a9ae18250b079b006d8.png">
+  <img src="/assets/posts/specific/evaluation-metrics-machine-learning/3b4c59aab7f14f7ced3a097bdfda0734-72dfba39755163e7b78fb3a521e66319d859cc7b8e013a9ae18250b079b006d8.png" alt="AngularJS multi-select component" class="zooming" data-rjs="/assets/posts/specific/evaluation-metrics-machine-learning/3b4c59aab7f14f7ced3a097bdfda0734-72dfba39755163e7b78fb3a521e66319d859cc7b8e013a9ae18250b079b006d8.png" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p>Mean absolute error is defined as the average of all absolute errors that are
+calculated based on values predicted by the machine learning model.</p>
+
+<p><a href="/assets/posts/specific/evaluation-metrics-machine-learning/dd12e3a127fc1af84040b3faac10eb80-970047b1535cd53a667c46dfd2a8860b8c2b3143fe0c92acd0a44dd4d42fda41.png">
+  <img src="/assets/posts/specific/evaluation-metrics-machine-learning/dd12e3a127fc1af84040b3faac10eb80-970047b1535cd53a667c46dfd2a8860b8c2b3143fe0c92acd0a44dd4d42fda41.png" alt="AngularJS multi-select component" class="zooming" data-rjs="/assets/posts/specific/evaluation-metrics-machine-learning/dd12e3a127fc1af84040b3faac10eb80-970047b1535cd53a667c46dfd2a8860b8c2b3143fe0c92acd0a44dd4d42fda41.png" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p><br /></p>
+
+<h2 id="root-mean-squared-error">Root Mean Squared Error</h2>
+
+<p>RMSE is one of the most popular metrics used for evaluating regression-based
+machine learning models.</p>
+
+<p>This is an essential evaluation metric since it’s very important to find the
+average squared error between the predicted values.</p>
+
+<blockquote>
+  <p>RMSE is a quadratic equation scoring rule that measures the average magnitude
+of the error. It’s the square root of the average of squared differences between
+prediction and actual observation.</p>
+</blockquote>
+
+<p><a href="/assets/posts/specific/evaluation-metrics-machine-learning/2ed0d79f5cae17deda2565dcba70f9c7-12c49e2d228553b31f7049b379808613525d329b74277fc81b16d87dde456969.png">
+  <img src="/assets/posts/specific/evaluation-metrics-machine-learning/2ed0d79f5cae17deda2565dcba70f9c7-12c49e2d228553b31f7049b379808613525d329b74277fc81b16d87dde456969.png" alt="AngularJS multi-select component" class="zooming" data-rjs="/assets/posts/specific/evaluation-metrics-machine-learning/2ed0d79f5cae17deda2565dcba70f9c7-12c49e2d228553b31f7049b379808613525d329b74277fc81b16d87dde456969.png" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p><br /></p>
+
+<h3 id="correlation-between-mae-and-rmse">Correlation between MAE and RMSE</h3>
+
+<ul>
+  <li>
+    <p>Both of these metrics express the average error of the machine learning
+models.</p>
+  </li>
+  <li>
+    <p>These two metrics can range from 0 to ∞ and have the same direction for the
+errors.</p>
+  </li>
+  <li>
+    <p>Both of these metrics are negatively oriented scores, this means that lower
+score defines better results.</p>
+  </li>
+</ul>
+
+<h2 id="roc-curve">ROC Curve</h2>
+
+<p><em>ROC Curve stands for “receiver operating characteristic cure”.</em></p>
+
+<p>ROC Curve is defined as a plot in a graph that shows the performance of a binary
+classifier as a function of its cut-off threshold.</p>
+
+<blockquote>
+  <p>In simple words, ROC Curve is the once which tells how much a machine learning
+model is capable of differentiating between the classes.</p>
+</blockquote>
+
+<p>ROC is a probability curve. It is a representation of the performance of the
+machine-learning model in a graphical manner.</p>
+
+<p><a href="/assets/posts/specific/evaluation-metrics-machine-learning/f33c77a47ba80863e9b94dbbc93a05de-c53a02f459012b6a7fa3c5bfeac880774d6782c53aeae18a58e7f4290d19fcb1.png">
+  <img src="/assets/posts/specific/evaluation-metrics-machine-learning/f33c77a47ba80863e9b94dbbc93a05de-c53a02f459012b6a7fa3c5bfeac880774d6782c53aeae18a58e7f4290d19fcb1.png" alt="AngularJS multi-select component" class="zooming" data-rjs="/assets/posts/specific/evaluation-metrics-machine-learning/f33c77a47ba80863e9b94dbbc93a05de-c53a02f459012b6a7fa3c5bfeac880774d6782c53aeae18a58e7f4290d19fcb1.png" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p><br /></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>So, these are the 8 most important and needed metrics that are so helpful for
+model evaluation and are to be learned by a data scientist or a machine learning
+engineer.</p>
+
+<blockquote>
+  <p>Author: B. Vetrichelvan<br />
+Email: vetrichelvaninovator@gmail.com<br />
+Follow My Journey On <a href="https://www.instagram.com/pythonhub.py">Instagram</a></p>
+</blockquote>
+
+<p><br /></p>
+
+<h4 id="further-resources-we-recommend">Further Resources We Recommend</h4>
+
+<ul>
+  <li><a href="https://amzn.to/3cAwBHk">You Don`t Know JS (ES6 &amp; Beyond)</a></li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="read-next">Read Next</h2>
+
+<p><a href="/posts/steps-after-you-type-url-in-browser">5 Common mistakes JavaScript developers make</a></p>
+
+
+            </div>
+
+            <br />
+            <!-- <a
+              href="/resources"
+              title="Our Recommended Resources"
+              class="banner-container button-box"
+            >
+              Our Recommended Resources
+            </a> -->
+
+            <a
+              href="https://gumroad.com/l/html2react/blog"
+              title="Our Courses"
+              target="_blank"
+              class="banner-container button-box"
+            >
+              HTML To React: The Ultimate Guide
+            </a>
+
+            <br />
+            <footer class="recommended reveal">
+  <h3>You might also like</h3>
+  <p>
+    If you have enjoyed learning from this article, below is a list of some
+    recommended articles for you-
+  </p>
+  <ul>
+       
+    <li>
+      <a href="/posts/javascript-tricks" title="5 JavaScript tricks every developer should know"
+        >5 JavaScript tricks every developer should know</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/reactjs-beginners-guide-setup-project" title="A comprehensive beginner's guide to set up ReactJS"
+        >A comprehensive beginner's guide to set up ReactJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angular2-form-validation" title="Angular 2 Form Validation: How to fire form validation on blur?"
+        >Angular 2 Form Validation: How to fire form validation on blur?</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angularjs-directive-life-cycle" title="What is Directive's life-cycle in AngularJS"
+        >What is Directive's life-cycle in AngularJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/curated-list-of-awesome-things-in-tech-world-4" title="Curated list of awesome things in the tech world #4"
+        >Curated list of awesome things in the tech world #4</a
+      >
+    </li>
+    
+  </ul>
+</footer>
+
+
+            <br />
+            <div class="article-share">
+              
+              <a
+                href=""
+                title="Share on Twitter"
+                onclick="window.open('https://twitter.com/home?status=8 Important Evaluation Metrics in Machine Learning - https://ngninja.com//posts/important-evaluation-metrics-for-machine-learning by @sleeplessyogi', 'newwindow', 'width=500, height=225'); return false;"
+              >
+                <span class="icon icon-social-twitter"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Facebook"
+                onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://ngninja.com//posts/important-evaluation-metrics-for-machine-learning', 'newwindow', 'width=500, height=500'); return false;"
+              >
+                <span class="icon icon-social-facebook"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Google+"
+                onclick="window.open('https://plus.google.com/share?url=https://ngninja.com//posts/important-evaluation-metrics-for-machine-learning', 'newwindow', 'width=550, height=400'); return false;"
+              >
+                <span class="icon icon-social-googleplus"></span>
+              </a>
+            </div>
+
+            
+
+            <!--<div id="disqus_thread">-->
+            <!--Comments-->
+            <!--</div>-->
+            <!--<script>-->
+
+            <!--/**-->
+            <!--*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.-->
+            <!--*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/-->
+            <!--/*-->
+            <!--var disqus_config = function () {-->
+            <!--this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable-->
+            <!--this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable-->
+            <!--};-->
+            <!--*/-->
+            <!--(function() { // DON'T EDIT BELOW THIS LINE-->
+            <!--var d = document, s = d.createElement('script');-->
+            <!--s.src = '//ng-ninja.disqus.com/embed.js';-->
+            <!--s.setAttribute('data-timestamp', +new Date());-->
+            <!--(d.head || d.body).appendChild(s);-->
+            <!--})();-->
+            <!--</script>-->
+            <!--<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
+
+            <div id="disqus_thread" class="article-comments"></div>
+            <script>
+              (function () {
+                // TODO: site.discus_identifier variable is not working
+
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "//ng-ninja.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript
+              >Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+              ></noscript
+            >
+            
+          </article>
+          <footer class="footer reveal">
+  <style>
+  .gumroad-follow-form-embed {
+    zoom: 1;
+  }
+  .gumroad-follow-form-embed:before,
+  .gumroad-follow-form-embed:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .gumroad-follow-form-embed:after {
+    clear: both;
+  }
+  .gumroad-follow-form-embed * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box !important;
+    float: left !important;
+  }
+  .gumroad-follow-form-embed input {
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-right: 0;
+    color: #aaa;
+    padding: 10px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02);
+    background-position: top right;
+    background-repeat: no-repeat;
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    -webkit-appearance: none;
+    -moz-appearance: caret;
+    width: 65% !important;
+    height: 40px !important;
+  }
+  .gumroad-follow-form-embed button {
+    /* border-radius: 4px; */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.05s ease-in-out;
+    transition: all 0.05s ease-in-out;
+    display: inline-block;
+    padding: 11px 15px 12px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    line-height: 100%;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    /* background: #0088ff; */
+    /* border: 1px solid #007ae6; */
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#26aeff, endColorstr=#007eec, GradientType=0)";
+    background: -webkit-linear-gradient(#26aeff, #007eec);
+    background: linear-gradient(to bottom, #26aeff, #007eec);
+    height: 40px !important;
+    width: 35% !important;
+
+    background-color: #21d4fd;
+    background-image: linear-gradient(135deg, #ce9ffc 10%, #3449ed 100%);
+    border-radius: unset;
+  }
+  .subscribe h2 {
+    margin-bottom: 16px;
+  }
+  .subscribe form {
+    margin-bottom: 32px;
+  }
+</style>
+<div class="subscribe">
+  <h2>Get weekly tutorial and newsletter in your inbox</h2>
+  <form
+    action="https://gumroad.com/follow_from_embed_form"
+    class="form gumroad-follow-form-embed"
+    method="post"
+  >
+    <input name="seller_id" type="hidden" value="1636741848551" />
+    <input name="email" placeholder="Your email address" type="email" />
+    <button data-custom-highlight-color="" type="submit">Subscribe</button>
+  </form>
+</div>
+
+  <p>
+    Know more about
+    <a href="/about" title="About me">Ninja Academy</a>
+  </p>
+  <i class="small">
+    <!-- <p> -->
+    Copyright @ 2021, Ninja Academy
+    <!-- </p> -->
+  </i>
+</footer>
+
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ["Cormorant Garamond:700", "Lato:300,400,700"]
+    }
+  });
+</script>
+
+
+<script>
+  window.ga = function() {
+    ga.q.push(arguments);
+  };
+  ga.q = [];
+  ga.l = +new Date();
+  ga("create", "UA-88588900-1", "auto");
+  ga("send", "pageview");
+</script>
+<script
+  src="https://www.google-analytics.com/analytics.js"
+  async
+  defer
+></script>
+
+
+<!-- Script pointing to jekyll-search.js -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<!-- <script
+  src="/assets/jekyll-search.js"
+  type="text/javascript"
+></script> -->
+<script type="text/javascript">
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("search-input"),
+    resultsContainer: document.getElementById("results-container"),
+    json: "https://ngninja.com//search.json",
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: "No results found",
+    limit: 10,
+    fuzzy: false,
+    exclude: ["Welcome"]
+  });
+</script>
+
+<script
+  data-ad-client="ca-pub-2179620018216283"
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+
+<script src="/assets/vendor-130c9c254effc51f3283620bc635851da7b99c20901216948f11ba72ee13317f.js" type="text/javascript"></script>  <script src="/assets/webfonts-8bd3408c53105d96a2f15ba1826509bf47de69c11e972ff3f164c42ecf4486d0.js" type="text/javascript"></script>   <script src="/assets/application-f9055599a910cf93e1b48423b9add89facdf648bad7991415831774961a8aa02.js" type="text/javascript"></script> 
+
+  </body>
+</html>

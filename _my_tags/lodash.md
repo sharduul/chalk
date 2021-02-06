@@ -1,4 +1,0 @@
----
-slug: lodash
-name: Lodash
----

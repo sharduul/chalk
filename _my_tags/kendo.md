@@ -1,4 +1,0 @@
----
-slug: kendo
-name: Kendo
----

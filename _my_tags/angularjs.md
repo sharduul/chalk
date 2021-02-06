@@ -1,4 +1,0 @@
----
-slug: angularjs
-name: AngularJS
----

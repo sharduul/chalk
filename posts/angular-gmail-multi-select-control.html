@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Ninja Academy | How to create Gmail like multi-select checkbox dropdown in AngularJS?</title>
+  <meta name="description" content="AngularJS multi-select checkbox dropdown using Angular-Bootstrap. Super simple Gmail like multi-select component in AngularJS." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:title" content="How to create Gmail like multi-select checkbox dropdown in AngularJS?" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ngninja.com//posts/angular-gmail-multi-select-control" />
+  <meta property="og:description" content="AngularJS multi-select checkbox dropdown using Angular-Bootstrap. Super simple Gmail like multi-select component in AngularJS." />
+  <meta property="og:site_name" content="Ninja Academy" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://ngninja.com//posts/angular-gmail-multi-select-control" />
+  <meta name="twitter:title" content="How to create Gmail like multi-select checkbox dropdown in AngularJS?" />
+  <meta name="twitter:description" content="AngularJS multi-select checkbox dropdown using Angular-Bootstrap. Super simple Gmail like multi-select component in AngularJS." />
+
+  
+  <meta
+    property="og:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  <meta
+    name="twitter:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  
+
+  <link
+    href="https://ngninja.com//feed.xml"
+    type="application/rss+xml"
+    rel="alternate"
+    title="Ninja Academy Last 10 blog posts"
+  />
+
+    
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="/assets/favicon-dark-209194b9ff10035bbcfba5f7425921015d49314ba7c6e6e41d2cb85e9b9bbb2a.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png"
+  />
+  <link rel="stylesheet" type="text/css" href="/assets/light-6ff58e5b26e9f5b7f2aa12b86a834d74c87d22e89335a1efcb79606403cc8481.css">  
+</head>
+
+  <body>
+    <main role="main">
+      <div class="grid grid-centered">
+        <div class="grid-cell">
+          <nav class="header-nav reveal">
+  <a href="/" class="header-logo" title="Ninja Academy"
+    ><img
+      src="/assets/logo-0a85d68f5106feb94b40117f598fec1ea476834afe17746b026cd1b441b7a9ad.png"
+      alt="HTML tutorial"
+      style="height: 60px;"
+  /></a>
+
+  <ul class="header-links">
+    
+    <li>
+      <a
+        href="https://twitter.com/sleeplessyogi"
+        target="_blank"
+        title="Twitter"
+      >
+        <span class="icon icon-social-twitter"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.facebook.com/ngrealninja"
+        target="_blank"
+        title="Facebook"
+      >
+        <span class="icon icon-social-facebook"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.instagram.com/sleeplessyogi"
+        target="_blank"
+        title="Instagram"
+      >
+        <span class="icon icon-social-instagram"></span>
+      </a>
+    </li>
+         
+    <li>
+      <a href="mailto:sleeplessyogi@gmail.com" target="_blank" title="Email">
+        <span class="icon icon-at"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a href="/feed.xml" target="_blank" title="RSS">
+        <span class="icon icon-social-rss"></span>
+      </a>
+    </li>
+    
+  </ul>
+</nav>
+
+          <div>
+            <div class="subnav" id="mysubnav">
+  <a href="/tag/the-how-series" target="_self" title="How To Programming">
+    Programming
+  </a>
+  <a href="/tag/personal-finance" target="_self" title="Passive Income">
+    Passive Income
+  </a>
+  <a href="/resources" target="_self" title="Resources">
+    Resources
+  </a>
+  <!-- <a
+    href="https://mx84n.weblium.site/"
+    title="Make $200K"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Make $200K
+  </a> -->
+  <a
+    href="https://gumroad.com/l/html2react/blog"
+    title="Our Courses"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Courses
+  </a>
+  <a href="javascript:void(0);" class="icon-container" onclick="toggleMenu()">
+    <span class="icon icon-android-menu"></span>
+  </a>
+</div>
+
+<script>
+  function toggleMenu() {
+    var x = document.getElementById("mysubnav");
+    if (x.className === "subnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "subnav";
+    }
+  }
+</script>
+
+          </div>
+          <article class="article reveal">
+            <header class="article-header">
+              <h1>How to create Gmail like multi-select checkbox dropdown in AngularJS?</h1>
+              <p>AngularJS multi-select checkbox dropdown using Angular-Bootstrap. Super simple Gmail like multi-select component in AngularJS.</p>
+              <div class="article-list-footer">
+                <span class="article-list-date">
+                  September 5, 2017
+                </span>
+                <span class="article-list-divider">-</span>
+                <span class="article-list-minutes">
+                    6 minute read 
+                </span>
+                <span class="article-list-divider">-</span>
+                <div class="article-list-tags">
+                  
+                  <a href="/tag/angularjs">angularjs</a>
+                  
+                  <a href="/tag/the-how-series">the-how-series</a>
+                  
+                </div>
+              </div>
+            </header>
+            <script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<!-- hz-post-top -->
+<ins
+  class="adsbygoogle"
+  style="display:inline-block;width:100%;height:90px"
+  data-ad-client="ca-pub-2179620018216283"
+  data-ad-slot="1244135380"
+></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            <div class="article-content">
+              <p><a href="/assets/posts/puzzle-6166672a0510a338fee8b97bdf51ba519cf15bf1828dfe63078c04a7cad395c7.jpg">
+  <img src="/assets/posts/puzzle-6166672a0510a338fee8b97bdf51ba519cf15bf1828dfe63078c04a7cad395c7.jpg" alt="AngularJS multi-select component" class="zooming" data-rjs="/assets/posts/puzzle-6166672a0510a338fee8b97bdf51ba519cf15bf1828dfe63078c04a7cad395c7.jpg" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p>Multi-select dropdowns in AngularJS is a popular control. Let’s do ahead a step and create something more advanced, yet so simple.</p>
+
+<p>Ever had an Aha! moment while using the Gmail multi-select checkbox tool? The one with dropdown options. Remember? The control which lets you select/un-select all the emails in a list and performs some action on them.</p>
+
+<p>Well, below is an image for you if you are still wondering what am I talking about.</p>
+
+<p><a href="/assets/posts/specific/gmail-multiselect-5b3ff46915f0103d0742af81c901298010be39f35a5fd926b2667ff580410a8f.png">
+  <img src="/assets/posts/specific/gmail-multiselect-5b3ff46915f0103d0742af81c901298010be39f35a5fd926b2667ff580410a8f.png" alt="AngularJS multi-select component" class="zooming" data-rjs="/assets/posts/specific/gmail-multiselect-5b3ff46915f0103d0742af81c901298010be39f35a5fd926b2667ff580410a8f.png" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p>That tool has always come handy to me. It’s one of those moments when you realize how UX plays such an important part in any web app’s life.</p>
+
+<p>So, let’s see how can we build a simple control like it, using AngularJS and <a href="https://angular-ui.github.io/bootstrap/">Bootstrap Angular UI</a>. For <a href="https://codepen.io/sharduul/pen/wqqGXy">full demo please visit this codepen</a>.</p>
+
+<p>If you use Kendo widgets- check out <a href="http://ngninja.com/posts/kendo-multi-select-widget">how to customize your Kendo multi-select control with ease</a> in AngularJS.</p>
+
+<p>Our aim is to build a reusable component which lets us perform an action on a batch of items together. Let’s call it <code class="highlighter-rouge">multi-checker</code>.</p>
+
+<p>As we need to be able to plop it anywhere in the app, we have to make sure that the interface of our component is simple enough and that we don’t tightly couple our <code class="highlighter-rouge">multi-checker</code> component with any of the views.</p>
+
+<p>Let’s dive in.</p>
+
+<h4 id="controller">Controller</h4>
+
+<p>First, let’s mock a list in the controller as <code class="highlighter-rouge">$scope.items = []</code>. The collection contains objects which have two properties- <code class="highlighter-rouge">title</code> and <code class="highlighter-rouge">selected</code>.</p>
+
+<p>The <code class="highlighter-rouge">selected</code> flag keeps track of whether or not a certain item is selected.</p>
+
+<p>That’s it for the controller.</p>
+
+<p>Now, let’s move on to our <code class="highlighter-rouge">multiChecker</code> directive.</p>
+
+<h4 id="directive">Directive</h4>
+
+<p>In our directive, we are two-way binding the <code class="highlighter-rouge">items</code> to our isolate scope. This is done for a specific reason.</p>
+
+<p>Two-way binding the items allow our view to update the state of our <code class="highlighter-rouge">multi-checker</code> control. Plus, it also allows our <code class="highlighter-rouge">multi-checker</code> control to update the selected state of each item.</p>
+
+<p>Our new <code class="highlighter-rouge">multi-checker</code> directive template will look something like this:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">&lt;</span><span class="nx">div</span> <span class="kd">class</span><span class="o">=</span><span class="s2">"btn-group"</span> <span class="nx">dropdown</span> <span class="nx">is</span><span class="o">-</span><span class="nx">open</span><span class="o">=</span><span class="s2">"status.isopen"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nx">button</span> <span class="nx">type</span><span class="o">=</span><span class="s2">"button"</span> <span class="kd">class</span><span class="o">=</span><span class="s2">"btn btn-default"</span><span class="o">&gt;</span>
+          <span class="o">&lt;</span><span class="nx">i</span> <span class="kd">class</span><span class="o">=</span><span class="s2">"fa fa-square"</span> <span class="nx">ng</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">"option == 'all'"</span> <span class="nx">ng</span><span class="o">-</span><span class="nx">click</span><span class="o">=</span><span class="s2">"selectNone()"</span><span class="o">&gt;&lt;</span><span class="sr">/i</span><span class="err">&gt;
+</span>          <span class="o">&lt;</span><span class="nx">i</span> <span class="kd">class</span><span class="o">=</span><span class="s2">"fa fa-minus-square-o"</span> <span class="nx">ng</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">"option == 'some'"</span> <span class="nx">ng</span><span class="o">-</span><span class="nx">click</span><span class="o">=</span><span class="s2">"selectNone()"</span><span class="o">&gt;&lt;</span><span class="sr">/i</span><span class="err">&gt;
+</span>          <span class="o">&lt;</span><span class="nx">i</span> <span class="kd">class</span><span class="o">=</span><span class="s2">"fa fa-square-o"</span> <span class="nx">ng</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">"option == 'none'"</span> <span class="nx">ng</span><span class="o">-</span><span class="nx">click</span><span class="o">=</span><span class="s2">"selectAll()"</span><span class="o">&gt;&lt;</span><span class="sr">/i</span><span class="err">&gt;
+</span>          
+          <span class="o">&lt;</span><span class="nx">i</span> <span class="kd">class</span><span class="o">=</span><span class="s2">"fa fa-chevron-down dropdown-toggle"</span><span class="o">&gt;&lt;</span><span class="sr">/i</span><span class="err">&gt;
+</span>    <span class="o">&lt;</span><span class="sr">/button</span><span class="err">&gt;
+</span>
+     <span class="o">&lt;</span><span class="nx">ul</span> <span class="kd">class</span><span class="o">=</span><span class="s2">"dropdown-menu"</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">li</span> <span class="nx">role</span><span class="o">=</span><span class="s2">"menuitem"</span><span class="o">&gt;&lt;</span><span class="nx">a</span> <span class="nx">href</span> <span class="nx">ng</span><span class="o">-</span><span class="nx">click</span><span class="o">=</span><span class="s2">"selectAll()"</span><span class="o">&gt;</span><span class="nx">All</span><span class="o">&lt;</span><span class="sr">/a&gt;&lt;/</span><span class="nx">li</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">li</span> <span class="nx">role</span><span class="o">=</span><span class="s2">"menuitem"</span><span class="o">&gt;&lt;</span><span class="nx">a</span> <span class="nx">href</span> <span class="nx">ng</span><span class="o">-</span><span class="nx">click</span><span class="o">=</span><span class="s2">"selectNone()"</span><span class="o">&gt;</span><span class="nx">None</span><span class="o">&lt;</span><span class="sr">/a&gt;&lt;/</span><span class="nx">li</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="sr">/ul&gt;     </span><span class="err"> 
+</span><span class="o">&lt;</span><span class="sr">/div&gt;</span></code></pre></figure>
+
+<p>I am using <a href="https://angular-ui.github.io/bootstrap/">angular bootstrap’s</a> dropdown control. Two options under the dropdown are ‘All’ and ‘None’ which selects all the items and un-selects them, respectively.</p>
+
+<p>I have used three <a href="http://fontawesome.io/icons/">font-awesome icons</a> to show three different states of our control.</p>
+
+<ol>
+  <li>All the items are checked - <code class="highlighter-rouge">fa-square</code></li>
+  <li>Some of the items are checked - <code class="highlighter-rouge">fa-minus-square-o</code></li>
+  <li>None of the items are checked - <code class="highlighter-rouge">fa-square-o</code></li>
+</ol>
+
+<p>In fact, those icons are button themselves. So, you can click those items to toggle between the states.</p>
+
+<p>Now let’s go to the core logic of this directive.</p>
+
+<p>Just a side note: I am using <a href="https://lodash.com/">lodash library</a> to do all the utility tasks. If you are not familiar with <code class="highlighter-rouge">lodash</code>, please visit my post on <a href="http://ngninja.com/posts/powerful-lodash-functions-javascript">5 very powerful lodash function you should know</a> to see its awesomeness.</p>
+
+<p>The below function unselects all of the <code class="highlighter-rouge">items</code>. I am traversing through each item and setting its <code class="highlighter-rouge">selected</code> property to null. Which changes the state of our <code class="highlighter-rouge">multi-checker</code> control as well as the list.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">selectNone</span><span class="p">(){</span>
+    <span class="nx">_</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">$scope</span><span class="p">.</span><span class="nx">items</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">item</span><span class="p">){</span>
+      <span class="nx">item</span><span class="p">.</span><span class="nx">selected</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+    <span class="p">});</span>
+
+    <span class="nx">$scope</span><span class="p">.</span><span class="nx">option</span> <span class="o">=</span> <span class="s1">'none'</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>The below function selects all of the items. Similar to our <code class="highlighter-rouge">selectNone()</code> method, I am traversing each item and setting its <code class="highlighter-rouge">selected</code> property to <code class="highlighter-rouge">true</code>.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">selectAll</span><span class="p">(){</span>
+    <span class="nx">_</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">$scope</span><span class="p">.</span><span class="nx">items</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">item</span><span class="p">){</span>
+          <span class="nx">item</span><span class="p">.</span><span class="nx">selected</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+    <span class="p">});</span>
+
+    <span class="nx">$scope</span><span class="p">.</span><span class="nx">option</span> <span class="o">=</span> <span class="s1">'all'</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>The above two functions took care of the behavior of our directive.</p>
+
+<p>But, what if the user checks or unchecks the items themselves by clicking on the checkbox? Our <code class="highlighter-rouge">multi-checker</code> control needs to keep track of these updates as well.</p>
+
+<h4 id="watch">Watch</h4>
+
+<p>To do this we keep a watch on our collection.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">$scope</span><span class="p">.</span><span class="nx">$watch</span><span class="p">(</span><span class="s1">'items'</span><span class="p">,</span> <span class="nx">onItemsChanged</span><span class="p">,</span> <span class="kc">true</span><span class="p">);</span></code></pre></figure>
+
+<p>The <code class="highlighter-rouge">true</code> flag in our collection keeps a deep watch on the collection. Which means, it will get fired not only when an item is added or removed from the collection, but also when a property of some item is changed.</p>
+
+<p>By the way, if you haven’t checked out our post on <a href="http://localhost:4000/posts/watch-controller-properties-in-angularjs">watching the variables in AngularJS</a>, this is a good time for that.</p>
+
+<p>So, whenever the <code class="highlighter-rouge">selected</code> state of any of our item changes, this watcher will be fired.</p>
+
+<p>Now, let’s see the logic in our watcher function <code class="highlighter-rouge">onItemsChanged()</code>.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">onItemsChanged</span><span class="p">(){</span>
+        
+    <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="nx">$scope</span><span class="p">.</span><span class="nx">items</span> <span class="o">||</span> <span class="o">!</span><span class="nx">$scope</span><span class="p">.</span><span class="nx">items</span><span class="p">.</span><span class="nx">length</span><span class="p">){</span>
+      <span class="k">return</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="kd">var</span> <span class="nx">filter</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="nx">$scope</span><span class="p">.</span><span class="nx">items</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">item</span><span class="p">){</span>
+      <span class="k">return</span> <span class="nx">item</span><span class="p">.</span><span class="nx">selected</span><span class="p">;</span>
+    <span class="p">});</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="nx">filter</span> <span class="o">||</span> <span class="o">!</span><span class="nx">filter</span><span class="p">.</span><span class="nx">length</span><span class="p">){</span>
+      <span class="nx">$scope</span><span class="p">.</span><span class="nx">option</span> <span class="o">=</span> <span class="s1">'none'</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">filter</span><span class="p">.</span><span class="nx">length</span> <span class="o">==</span> <span class="nx">$scope</span><span class="p">.</span><span class="nx">items</span><span class="p">.</span><span class="nx">length</span><span class="p">){</span>
+      <span class="nx">$scope</span><span class="p">.</span><span class="nx">option</span> <span class="o">=</span> <span class="s1">'all'</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">else</span> <span class="p">{</span>
+      <span class="nx">$scope</span><span class="p">.</span><span class="nx">option</span> <span class="o">=</span> <span class="s1">'some'</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Firstly, we don’t care when there are no items. So we just return.</p>
+
+<p>But, if we have items we first filter the <code class="highlighter-rouge">selected</code> items and then check the length of this filtered collection.</p>
+
+<p>If there are no such filtered items, it means none of the items is selected. So we set the state of our <code class="highlighter-rouge">multi-checker</code> control to <code class="highlighter-rouge">none</code>.</p>
+
+<p>If the length of the filtered collection matches the length of our items-collection, it means all of the items are checked. So, we set the state of our <code class="highlighter-rouge">multi-checker</code> control to <code class="highlighter-rouge">all</code>.</p>
+
+<p>And if the length is somewhere in between zero to all, it means only some of items are checked. So, we set the state of our <code class="highlighter-rouge">multi-checker</code> control to <code class="highlighter-rouge">some</code>.</p>
+
+<p>That’s it. This is how we keep track of all the three state. And in our directive, we also know which items are actually selected and which are not.</p>
+
+<p>So, you can leverage this directive to perform any task you desire. Just like Google does. You can mark items are as <code class="highlighter-rouge">read</code> and <code class="highlighter-rouge">un-read</code>. You can move the selected items to a certain folder. And lots more.</p>
+
+<h3 id="summary">Summary:</h3>
+<p>This was a super simple implementation of Gmail-like multi-checker/multi-select control in AngularJS and UI-Bootstrap.</p>
+
+<p>We learned how to create a wrapper component. You can leverage that component to perform any task you that might like. You can select all, some or none of of the items using the dropdown or the list itself.</p>
+
+<p>If you want to get started with Kendo UI or want to learn how to customize them, <a href="http://ngninja.com/posts/kendo-multi-select-widget">here is something interesting for you</a>.</p>
+
+<p>Please let me know if you need more clarification on any part of the implementation. Also, do suggest how we can improve this control to do some awesome things.</p>
+
+<h4 id="further-resources-we-recommend">Further Resources We Recommend</h4>
+
+<ul>
+  <li><a href="https://amzn.to/3csc4EM">Pro AngularJS (Expert’s Voice in Web Development)</a></li>
+  <li><a href="https://amzn.to/2uSZayI">You Don’t Know JS: Up &amp; Going</a></li>
+</ul>
+
+            </div>
+
+            <br />
+            <!-- <a
+              href="/resources"
+              title="Our Recommended Resources"
+              class="banner-container button-box"
+            >
+              Our Recommended Resources
+            </a> -->
+
+            <a
+              href="https://gumroad.com/l/html2react/blog"
+              title="Our Courses"
+              target="_blank"
+              class="banner-container button-box"
+            >
+              HTML To React: The Ultimate Guide
+            </a>
+
+            <br />
+            <footer class="recommended reveal">
+  <h3>You might also like</h3>
+  <p>
+    If you have enjoyed learning from this article, below is a list of some
+    recommended articles for you-
+  </p>
+  <ul>
+       
+    <li>
+      <a href="/posts/javascript-tricks" title="5 JavaScript tricks every developer should know"
+        >5 JavaScript tricks every developer should know</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/reactjs-beginners-guide-setup-project" title="A comprehensive beginner's guide to set up ReactJS"
+        >A comprehensive beginner's guide to set up ReactJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angular2-form-validation" title="Angular 2 Form Validation: How to fire form validation on blur?"
+        >Angular 2 Form Validation: How to fire form validation on blur?</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angularjs-directive-life-cycle" title="What is Directive's life-cycle in AngularJS"
+        >What is Directive's life-cycle in AngularJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/curated-list-of-awesome-things-in-tech-world-4" title="Curated list of awesome things in the tech world #4"
+        >Curated list of awesome things in the tech world #4</a
+      >
+    </li>
+    
+  </ul>
+</footer>
+
+
+            <br />
+            <div class="article-share">
+              
+              <a
+                href=""
+                title="Share on Twitter"
+                onclick="window.open('https://twitter.com/home?status=How to create Gmail like multi-select checkbox dropdown in AngularJS? - https://ngninja.com//posts/angular-gmail-multi-select-control by @sleeplessyogi', 'newwindow', 'width=500, height=225'); return false;"
+              >
+                <span class="icon icon-social-twitter"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Facebook"
+                onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://ngninja.com//posts/angular-gmail-multi-select-control', 'newwindow', 'width=500, height=500'); return false;"
+              >
+                <span class="icon icon-social-facebook"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Google+"
+                onclick="window.open('https://plus.google.com/share?url=https://ngninja.com//posts/angular-gmail-multi-select-control', 'newwindow', 'width=550, height=400'); return false;"
+              >
+                <span class="icon icon-social-googleplus"></span>
+              </a>
+            </div>
+
+            
+
+            <!--<div id="disqus_thread">-->
+            <!--Comments-->
+            <!--</div>-->
+            <!--<script>-->
+
+            <!--/**-->
+            <!--*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.-->
+            <!--*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/-->
+            <!--/*-->
+            <!--var disqus_config = function () {-->
+            <!--this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable-->
+            <!--this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable-->
+            <!--};-->
+            <!--*/-->
+            <!--(function() { // DON'T EDIT BELOW THIS LINE-->
+            <!--var d = document, s = d.createElement('script');-->
+            <!--s.src = '//ng-ninja.disqus.com/embed.js';-->
+            <!--s.setAttribute('data-timestamp', +new Date());-->
+            <!--(d.head || d.body).appendChild(s);-->
+            <!--})();-->
+            <!--</script>-->
+            <!--<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
+
+            <div id="disqus_thread" class="article-comments"></div>
+            <script>
+              (function () {
+                // TODO: site.discus_identifier variable is not working
+
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "//ng-ninja.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript
+              >Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+              ></noscript
+            >
+            
+          </article>
+          <footer class="footer reveal">
+  <style>
+  .gumroad-follow-form-embed {
+    zoom: 1;
+  }
+  .gumroad-follow-form-embed:before,
+  .gumroad-follow-form-embed:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .gumroad-follow-form-embed:after {
+    clear: both;
+  }
+  .gumroad-follow-form-embed * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box !important;
+    float: left !important;
+  }
+  .gumroad-follow-form-embed input {
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-right: 0;
+    color: #aaa;
+    padding: 10px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02);
+    background-position: top right;
+    background-repeat: no-repeat;
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    -webkit-appearance: none;
+    -moz-appearance: caret;
+    width: 65% !important;
+    height: 40px !important;
+  }
+  .gumroad-follow-form-embed button {
+    /* border-radius: 4px; */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.05s ease-in-out;
+    transition: all 0.05s ease-in-out;
+    display: inline-block;
+    padding: 11px 15px 12px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    line-height: 100%;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    /* background: #0088ff; */
+    /* border: 1px solid #007ae6; */
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#26aeff, endColorstr=#007eec, GradientType=0)";
+    background: -webkit-linear-gradient(#26aeff, #007eec);
+    background: linear-gradient(to bottom, #26aeff, #007eec);
+    height: 40px !important;
+    width: 35% !important;
+
+    background-color: #21d4fd;
+    background-image: linear-gradient(135deg, #ce9ffc 10%, #3449ed 100%);
+    border-radius: unset;
+  }
+  .subscribe h2 {
+    margin-bottom: 16px;
+  }
+  .subscribe form {
+    margin-bottom: 32px;
+  }
+</style>
+<div class="subscribe">
+  <h2>Get weekly tutorial and newsletter in your inbox</h2>
+  <form
+    action="https://gumroad.com/follow_from_embed_form"
+    class="form gumroad-follow-form-embed"
+    method="post"
+  >
+    <input name="seller_id" type="hidden" value="1636741848551" />
+    <input name="email" placeholder="Your email address" type="email" />
+    <button data-custom-highlight-color="" type="submit">Subscribe</button>
+  </form>
+</div>
+
+  <p>
+    Know more about
+    <a href="/about" title="About me">Ninja Academy</a>
+  </p>
+  <i class="small">
+    <!-- <p> -->
+    Copyright @ 2021, Ninja Academy
+    <!-- </p> -->
+  </i>
+</footer>
+
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ["Cormorant Garamond:700", "Lato:300,400,700"]
+    }
+  });
+</script>
+
+
+<script>
+  window.ga = function() {
+    ga.q.push(arguments);
+  };
+  ga.q = [];
+  ga.l = +new Date();
+  ga("create", "UA-88588900-1", "auto");
+  ga("send", "pageview");
+</script>
+<script
+  src="https://www.google-analytics.com/analytics.js"
+  async
+  defer
+></script>
+
+
+<!-- Script pointing to jekyll-search.js -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<!-- <script
+  src="/assets/jekyll-search.js"
+  type="text/javascript"
+></script> -->
+<script type="text/javascript">
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("search-input"),
+    resultsContainer: document.getElementById("results-container"),
+    json: "https://ngninja.com//search.json",
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: "No results found",
+    limit: 10,
+    fuzzy: false,
+    exclude: ["Welcome"]
+  });
+</script>
+
+<script
+  data-ad-client="ca-pub-2179620018216283"
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+
+<script src="/assets/vendor-130c9c254effc51f3283620bc635851da7b99c20901216948f11ba72ee13317f.js" type="text/javascript"></script>  <script src="/assets/webfonts-8bd3408c53105d96a2f15ba1826509bf47de69c11e972ff3f164c42ecf4486d0.js" type="text/javascript"></script>   <script src="/assets/application-f9055599a910cf93e1b48423b9add89facdf648bad7991415831774961a8aa02.js" type="text/javascript"></script> 
+
+  </body>
+</html>

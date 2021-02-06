@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Ninja Academy | 5 Very powerful Lodash functions you should know</title>
+  <meta name="description" content="Lets see in action how you can streamline your JavaScript code using some of the best Lodash functions. Super important Lodash functions with examples." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:title" content="5 Very powerful Lodash functions you should know" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ngninja.com//posts/powerful-lodash-functions-javascript" />
+  <meta property="og:description" content="Lets see in action how you can streamline your JavaScript code using some of the best Lodash functions. Super important Lodash functions with examples." />
+  <meta property="og:site_name" content="Ninja Academy" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://ngninja.com//posts/powerful-lodash-functions-javascript" />
+  <meta name="twitter:title" content="5 Very powerful Lodash functions you should know" />
+  <meta name="twitter:description" content="Lets see in action how you can streamline your JavaScript code using some of the best Lodash functions. Super important Lodash functions with examples." />
+
+  
+  <meta
+    property="og:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  <meta
+    name="twitter:image"
+    content="https://ngninja.com//assets/og-image-3152b48ed541c1a541e840b64a2e9f39ddae1c07b92cc09fc2ef82e37df9e978.jpg"
+  />
+  
+
+  <link
+    href="https://ngninja.com//feed.xml"
+    type="application/rss+xml"
+    rel="alternate"
+    title="Ninja Academy Last 10 blog posts"
+  />
+
+    
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="/assets/favicon-dark-209194b9ff10035bbcfba5f7425921015d49314ba7c6e6e41d2cb85e9b9bbb2a.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png"
+  />
+  <link rel="stylesheet" type="text/css" href="/assets/light-6ff58e5b26e9f5b7f2aa12b86a834d74c87d22e89335a1efcb79606403cc8481.css">  
+</head>
+
+  <body>
+    <main role="main">
+      <div class="grid grid-centered">
+        <div class="grid-cell">
+          <nav class="header-nav reveal">
+  <a href="/" class="header-logo" title="Ninja Academy"
+    ><img
+      src="/assets/logo-0a85d68f5106feb94b40117f598fec1ea476834afe17746b026cd1b441b7a9ad.png"
+      alt="HTML tutorial"
+      style="height: 60px;"
+  /></a>
+
+  <ul class="header-links">
+    
+    <li>
+      <a
+        href="https://twitter.com/sleeplessyogi"
+        target="_blank"
+        title="Twitter"
+      >
+        <span class="icon icon-social-twitter"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.facebook.com/ngrealninja"
+        target="_blank"
+        title="Facebook"
+      >
+        <span class="icon icon-social-facebook"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a
+        href="https://www.instagram.com/sleeplessyogi"
+        target="_blank"
+        title="Instagram"
+      >
+        <span class="icon icon-social-instagram"></span>
+      </a>
+    </li>
+         
+    <li>
+      <a href="mailto:sleeplessyogi@gmail.com" target="_blank" title="Email">
+        <span class="icon icon-at"></span>
+      </a>
+    </li>
+     
+    <li>
+      <a href="/feed.xml" target="_blank" title="RSS">
+        <span class="icon icon-social-rss"></span>
+      </a>
+    </li>
+    
+  </ul>
+</nav>
+
+          <div>
+            <div class="subnav" id="mysubnav">
+  <a href="/tag/the-how-series" target="_self" title="How To Programming">
+    Programming
+  </a>
+  <a href="/tag/personal-finance" target="_self" title="Passive Income">
+    Passive Income
+  </a>
+  <a href="/resources" target="_self" title="Resources">
+    Resources
+  </a>
+  <!-- <a
+    href="https://mx84n.weblium.site/"
+    title="Make $200K"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Make $200K
+  </a> -->
+  <a
+    href="https://gumroad.com/l/html2react/blog"
+    title="Our Courses"
+    target="_blank"
+    class="ng-button button-box last"
+  >
+    Courses
+  </a>
+  <a href="javascript:void(0);" class="icon-container" onclick="toggleMenu()">
+    <span class="icon icon-android-menu"></span>
+  </a>
+</div>
+
+<script>
+  function toggleMenu() {
+    var x = document.getElementById("mysubnav");
+    if (x.className === "subnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "subnav";
+    }
+  }
+</script>
+
+          </div>
+          <article class="article reveal">
+            <header class="article-header">
+              <h1>5 Very powerful Lodash functions you should know</h1>
+              <p>Lets see in action how you can streamline your JavaScript code using some of the best Lodash functions. Super important Lodash functions with examples.</p>
+              <div class="article-list-footer">
+                <span class="article-list-date">
+                  December 15, 2016
+                </span>
+                <span class="article-list-divider">-</span>
+                <span class="article-list-minutes">
+                    5 minute read 
+                </span>
+                <span class="article-list-divider">-</span>
+                <div class="article-list-tags">
+                  
+                  <a href="/tag/javascript">javascript</a>
+                  
+                  <a href="/tag/lodash">lodash</a>
+                  
+                  <a href="/tag/listicles">listicles</a>
+                  
+                </div>
+              </div>
+            </header>
+            <script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<!-- hz-post-top -->
+<ins
+  class="adsbygoogle"
+  style="display:inline-block;width:100%;height:90px"
+  data-ad-client="ca-pub-2179620018216283"
+  data-ad-slot="1244135380"
+></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            <div class="article-content">
+              <p><a href="/assets/posts/tools-0fcdebc834435a02e3250a4f2fa24c75a2daeb291ff5f24f59182f241eae9759.jpg">
+  <img src="/assets/posts/tools-0fcdebc834435a02e3250a4f2fa24c75a2daeb291ff5f24f59182f241eae9759.jpg" alt="Lodash" class="zooming" data-rjs="/assets/posts/tools-0fcdebc834435a02e3250a4f2fa24c75a2daeb291ff5f24f59182f241eae9759.jpg" data-zooming-width="" data-zooming-height="" />
+</a></p>
+
+<p>JavaScript, being an awesome programming language, can also sometimes be frustrating.</p>
+
+<p>For example, if you search a  solution on how to clone a JavaScript object using vanilla JavaScript, you might end up with couple of conditional statements and a loop through each property. And if the object is nested- then God help you!</p>
+
+<p>But, the good news is you don’t have to use vanilla JavaScript in such cases. There are various utility libraries available which makes writing such utility functions, a piece of cake. Lodash is one such toolkit available which helps us write clean and well performing JavaScript functions for manipulating JavaScript objects and collections.</p>
+
+<p>This post is targeting 5 very powerful Lodash functions that I use very often and you should start using it too. It will make your code base a lot cleaner and save you a ton of time.</p>
+
+<h3 id="1-generate-a-random-number">1. Generate a random number:</h3>
+<p>Often when working on projects, we come across use cases where we need to generate a random number.</p>
+
+<p>Example: shuffle in a music app or shuffle in a poker game.</p>
+
+<p>Lodash has a very simple utility function to generate random numbers.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">_</span><span class="p">.</span><span class="nx">random</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">);</span></code></pre></figure>
+
+<p>The above single line of code will generate a random number between 0 and 5.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">_</span><span class="p">.</span><span class="nx">random</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span> <span class="mf">5.2</span><span class="p">);</span></code></pre></figure>
+
+<p>If you need a floating point number, lodash has a provision for that as well. The above line of code will generate a floating point number between 1.2 and 5.2.</p>
+
+<h3 id="2-filter-a-collection">2. Filter a collection:</h3>
+<p>I have lost the count of number of times I have used this utility function by lodash. Many times we need to filter a collection based on some specific properties of the object.</p>
+
+<p>For example: filter library members who are active. Using lodash, this can be simply written like:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">_</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="nx">members</span><span class="p">,</span> <span class="p">{</span> <span class="na">active</span><span class="p">:</span> <span class="kc">true</span> <span class="p">});</span></code></pre></figure>
+
+<p>You can also provide a function as the second parameter instead of an object. This comes very handy when you have multiple clauses or a complex filter logic.</p>
+
+<p>For example: filter library members who are active and older than 50 years. Below is the code to do that using lodash.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">_</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="nx">memberList</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">member</span><span class="p">)</span> <span class="p">{</span> 
+	<span class="k">return</span> <span class="nx">member</span><span class="p">.</span><span class="nx">active</span> <span class="o">&amp;&amp;</span> <span class="nx">member</span><span class="p">.</span><span class="nx">age</span> <span class="o">&gt;</span> <span class="mi">50</span><span class="p">;</span> 
+<span class="p">});</span></code></pre></figure>
+
+<h3 id="3-deep-clone-javascript-object">3. Deep clone JavaScript object</h3>
+<p>If you have ever searched for solutions to clone a JavaScript object using vanilla JavaScript you might know how messy and unintuitive they are. But, lodash makes it super easy, pretty looking and of course optimally performant.</p>
+
+<p>The documentation on <a href="https://lodash.com/docs/4.16.4#clone">Lodash web page</a> says that this function is loosely based on an algorithm called as <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm">The structured clone algorithm</a>.</p>
+
+<p>Allow me to demonstrate the utility function with an example:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">objectArray</span><span class="o">=</span>
+<span class="p">[{</span>
+    <span class="s1">'a'</span><span class="p">:</span><span class="mi">1</span>
+<span class="p">},</span>
+<span class="p">{</span>
+    <span class="s1">'b'</span><span class="p">:{</span>
+        <span class="s1">'c'</span><span class="p">:</span> <span class="mi">3</span> 
+    <span class="p">}</span>
+<span class="p">}];</span>
+
+
+<span class="kd">var</span> <span class="nx">clonedObjectArray</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">clone</span><span class="p">(</span><span class="nx">objectArray</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">clonedObjectArray</span> <span class="o">===</span> <span class="nx">objectArray</span><span class="p">);</span> <span class="c1">// true</span></code></pre></figure>
+
+<p>The above snippet clones original “objectArray” object to “clonedObjectArray”.</p>
+
+<p>Please notice that both the objects now reference to the same object. Meaning, if you change properties of any of one of them, it will be reflected on the other object as well.</p>
+
+<p>If you don’t want to clone object with its reference, lodash provides another utility which clones the object by values instead of the reference.</p>
+
+<p>Continuing the above example:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">deepClonedObjectArray</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">cloneDeep</span><span class="p">(</span><span class="nx">objectArray</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">clonedObjectArray</span> <span class="o">===</span> <span class="nx">objectArray</span><span class="p">);</span> <span class="c1">// false</span>
+
+<span class="nx">objectArray</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">a</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">objectArray</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">a</span><span class="p">);</span>          <span class="c1">// 2</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">clonedObjectArray</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">a</span><span class="p">);</span>    <span class="c1">// 1</span></code></pre></figure>
+
+<p>In the above code snippet you can see that “cloneDeep” function copies values of all the properties of original object to the new object. And if you change the value of any property of one of the object, it will not affect that property in the other deep cloned object. This can be handy in use cases where you want to manipulate the object but also have its original copy for reference.</p>
+
+<h3 id="4-select-properties-of-object">4. Select properties of object</h3>
+<p>Sometimes we would like to compose a new object by selecting only some specific properties of the original object. Instead of iterating through each property and picking matched property, lodash provides a simple utility method just for this purpose.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">member</span> <span class="o">=</span> <span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="s1">'foo'</span><span class="p">,</span> <span class="na">age</span><span class="p">:</span> <span class="mi">50</span><span class="p">,</span> <span class="na">address</span><span class="p">:</span> <span class="s1">'skyline road'</span> <span class="p">};</span>
+ 
+<span class="kd">var</span> <span class="nx">pickedMember</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">pick</span><span class="p">(</span><span class="nx">member</span><span class="p">,</span> <span class="p">[</span><span class="s1">'name'</span><span class="p">,</span> <span class="s1">'age'</span><span class="p">]);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">pickedMember</span><span class="p">);</span> <span class="c1">// { name: 'foo', age: 50 }</span></code></pre></figure>
+
+<p>You just have to specify the properties of an object you are interested in, and the “pick” function takes care of the rest for you.</p>
+
+<h3 id="5-remove-properties-from-object">5. Remove properties from object</h3>
+<p>This is just the opposite of the “pick” function. Instead of picking specific properties, “omit” function deletes the specified properties from the object.</p>
+
+<p>This one can be useful when you want to streamline the response object returned from your API before it reaches the controller.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">member</span> <span class="o">=</span> <span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="s1">'foo'</span><span class="p">,</span> <span class="na">age</span><span class="p">:</span> <span class="mi">50</span><span class="p">,</span> <span class="na">address</span><span class="p">:</span> <span class="s1">'skyline road'</span> <span class="p">};</span>
+ 
+<span class="kd">var</span> <span class="nx">omittedMember</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">omit</span><span class="p">(</span><span class="nx">member</span><span class="p">,</span> <span class="p">[</span><span class="nx">address</span><span class="s1">']);
+console.log(omittedMember); // { name: '</span><span class="nx">foo</span><span class="s1">', age: 50 }</span></code></pre></figure>
+
+<p>The above code snippet removes the address property of the member object.</p>
+
+<h3 id="conclusion">Conclusion:</h3>
+<p>In the above examples of my favorite utility functions, I have only covered the basic usage of those methods. Lodash provides a lot of customization to almost all their functions which you can make use of to suit your own needs.</p>
+
+<p>I am totally in love with Lodash- not only because it saves me a lot of time or makes my code look prettier. But because it forces me to think of the problem in a more functional and an abstract manner. By doing this, I can break a bigger problem into multiple smaller ones and tackle each one of them individually.</p>
+
+<h4 id="further-resources-we-recommend">Further Resources We Recommend</h4>
+
+<ul>
+  <li><a href="https://amzn.to/2Idk9iz">You Don’t Know JS: Scope &amp; Closures</a></li>
+  <li><a href="https://amzn.to/3cAwBHk">You Don`t Know JS (ES6 &amp; Beyond)</a></li>
+</ul>
+
+            </div>
+
+            <br />
+            <!-- <a
+              href="/resources"
+              title="Our Recommended Resources"
+              class="banner-container button-box"
+            >
+              Our Recommended Resources
+            </a> -->
+
+            <a
+              href="https://gumroad.com/l/html2react/blog"
+              title="Our Courses"
+              target="_blank"
+              class="banner-container button-box"
+            >
+              HTML To React: The Ultimate Guide
+            </a>
+
+            <br />
+            <footer class="recommended reveal">
+  <h3>You might also like</h3>
+  <p>
+    If you have enjoyed learning from this article, below is a list of some
+    recommended articles for you-
+  </p>
+  <ul>
+       
+    <li>
+      <a href="/posts/javascript-tricks" title="5 JavaScript tricks every developer should know"
+        >5 JavaScript tricks every developer should know</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/reactjs-beginners-guide-setup-project" title="A comprehensive beginner's guide to set up ReactJS"
+        >A comprehensive beginner's guide to set up ReactJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angular2-form-validation" title="Angular 2 Form Validation: How to fire form validation on blur?"
+        >Angular 2 Form Validation: How to fire form validation on blur?</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/angularjs-directive-life-cycle" title="What is Directive's life-cycle in AngularJS"
+        >What is Directive's life-cycle in AngularJS</a
+      >
+    </li>
+     
+    <li>
+      <a href="/posts/curated-list-of-awesome-things-in-tech-world-4" title="Curated list of awesome things in the tech world #4"
+        >Curated list of awesome things in the tech world #4</a
+      >
+    </li>
+    
+  </ul>
+</footer>
+
+
+            <br />
+            <div class="article-share">
+              
+              <a
+                href=""
+                title="Share on Twitter"
+                onclick="window.open('https://twitter.com/home?status=5 Very powerful Lodash functions you should know - https://ngninja.com//posts/powerful-lodash-functions-javascript by @sleeplessyogi', 'newwindow', 'width=500, height=225'); return false;"
+              >
+                <span class="icon icon-social-twitter"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Facebook"
+                onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://ngninja.com//posts/powerful-lodash-functions-javascript', 'newwindow', 'width=500, height=500'); return false;"
+              >
+                <span class="icon icon-social-facebook"></span>
+              </a>
+              <a
+                href=""
+                title="Share on Google+"
+                onclick="window.open('https://plus.google.com/share?url=https://ngninja.com//posts/powerful-lodash-functions-javascript', 'newwindow', 'width=550, height=400'); return false;"
+              >
+                <span class="icon icon-social-googleplus"></span>
+              </a>
+            </div>
+
+            
+
+            <!--<div id="disqus_thread">-->
+            <!--Comments-->
+            <!--</div>-->
+            <!--<script>-->
+
+            <!--/**-->
+            <!--*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.-->
+            <!--*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/-->
+            <!--/*-->
+            <!--var disqus_config = function () {-->
+            <!--this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable-->
+            <!--this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable-->
+            <!--};-->
+            <!--*/-->
+            <!--(function() { // DON'T EDIT BELOW THIS LINE-->
+            <!--var d = document, s = d.createElement('script');-->
+            <!--s.src = '//ng-ninja.disqus.com/embed.js';-->
+            <!--s.setAttribute('data-timestamp', +new Date());-->
+            <!--(d.head || d.body).appendChild(s);-->
+            <!--})();-->
+            <!--</script>-->
+            <!--<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
+
+            <div id="disqus_thread" class="article-comments"></div>
+            <script>
+              (function () {
+                // TODO: site.discus_identifier variable is not working
+
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "//ng-ninja.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript
+              >Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+              ></noscript
+            >
+            
+          </article>
+          <footer class="footer reveal">
+  <style>
+  .gumroad-follow-form-embed {
+    zoom: 1;
+  }
+  .gumroad-follow-form-embed:before,
+  .gumroad-follow-form-embed:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .gumroad-follow-form-embed:after {
+    clear: both;
+  }
+  .gumroad-follow-form-embed * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box !important;
+    float: left !important;
+  }
+  .gumroad-follow-form-embed input {
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-right: 0;
+    color: #aaa;
+    padding: 10px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02);
+    background-position: top right;
+    background-repeat: no-repeat;
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    -webkit-appearance: none;
+    -moz-appearance: caret;
+    width: 65% !important;
+    height: 40px !important;
+  }
+  .gumroad-follow-form-embed button {
+    /* border-radius: 4px; */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.05s ease-in-out;
+    transition: all 0.05s ease-in-out;
+    display: inline-block;
+    padding: 11px 15px 12px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    line-height: 100%;
+    font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
+    /* background: #0088ff; */
+    /* border: 1px solid #007ae6; */
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#26aeff, endColorstr=#007eec, GradientType=0)";
+    background: -webkit-linear-gradient(#26aeff, #007eec);
+    background: linear-gradient(to bottom, #26aeff, #007eec);
+    height: 40px !important;
+    width: 35% !important;
+
+    background-color: #21d4fd;
+    background-image: linear-gradient(135deg, #ce9ffc 10%, #3449ed 100%);
+    border-radius: unset;
+  }
+  .subscribe h2 {
+    margin-bottom: 16px;
+  }
+  .subscribe form {
+    margin-bottom: 32px;
+  }
+</style>
+<div class="subscribe">
+  <h2>Get weekly tutorial and newsletter in your inbox</h2>
+  <form
+    action="https://gumroad.com/follow_from_embed_form"
+    class="form gumroad-follow-form-embed"
+    method="post"
+  >
+    <input name="seller_id" type="hidden" value="1636741848551" />
+    <input name="email" placeholder="Your email address" type="email" />
+    <button data-custom-highlight-color="" type="submit">Subscribe</button>
+  </form>
+</div>
+
+  <p>
+    Know more about
+    <a href="/about" title="About me">Ninja Academy</a>
+  </p>
+  <i class="small">
+    <!-- <p> -->
+    Copyright @ 2021, Ninja Academy
+    <!-- </p> -->
+  </i>
+</footer>
+
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ["Cormorant Garamond:700", "Lato:300,400,700"]
+    }
+  });
+</script>
+
+
+<script>
+  window.ga = function() {
+    ga.q.push(arguments);
+  };
+  ga.q = [];
+  ga.l = +new Date();
+  ga("create", "UA-88588900-1", "auto");
+  ga("send", "pageview");
+</script>
+<script
+  src="https://www.google-analytics.com/analytics.js"
+  async
+  defer
+></script>
+
+
+<!-- Script pointing to jekyll-search.js -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<!-- <script
+  src="/assets/jekyll-search.js"
+  type="text/javascript"
+></script> -->
+<script type="text/javascript">
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("search-input"),
+    resultsContainer: document.getElementById("results-container"),
+    json: "https://ngninja.com//search.json",
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: "No results found",
+    limit: 10,
+    fuzzy: false,
+    exclude: ["Welcome"]
+  });
+</script>
+
+<script
+  data-ad-client="ca-pub-2179620018216283"
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+
+<script src="/assets/vendor-130c9c254effc51f3283620bc635851da7b99c20901216948f11ba72ee13317f.js" type="text/javascript"></script>  <script src="/assets/webfonts-8bd3408c53105d96a2f15ba1826509bf47de69c11e972ff3f164c42ecf4486d0.js" type="text/javascript"></script>   <script src="/assets/application-f9055599a910cf93e1b48423b9add89facdf648bad7991415831774961a8aa02.js" type="text/javascript"></script> 
+
+  </body>
+</html>

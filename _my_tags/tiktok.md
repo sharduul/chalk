@@ -1,4 +1,0 @@
----
-slug: tiktok
-name: TikTok
----

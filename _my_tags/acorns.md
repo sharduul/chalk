@@ -1,4 +1,0 @@
----
-slug: acorns
-name: Acorns
----
